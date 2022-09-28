@@ -9,7 +9,7 @@ import other.GameLoader;
 import other.context.Context;
 import other.model.Model;
 import other.trial.Trial;
-import random.RandomAI;
+import ai.RandomAI;
 import search.mcts.MCTS;
 
 

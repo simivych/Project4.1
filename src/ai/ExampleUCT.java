@@ -1,4 +1,4 @@
-package mcts;
+package ai;
 
 import java.util.ArrayList;
 import java.util.List;

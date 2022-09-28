@@ -1,4 +1,4 @@
-package random;
+package ai;
 
 import java.util.concurrent.ThreadLocalRandom;
 

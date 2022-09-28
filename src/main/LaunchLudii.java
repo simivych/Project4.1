@@ -2,10 +2,7 @@ package main;
 
 import app.StartDesktopApp;
 import manager.ai.AIRegistry;
-import mcts.ExampleDUCT;
-import mcts.ExampleUCT;
-import mcts.OurAI;
-import random.RandomAI;
+import ai.OurAI;
 
 /**
  * The main method of this launches the Ludii application with its GUI, and registers

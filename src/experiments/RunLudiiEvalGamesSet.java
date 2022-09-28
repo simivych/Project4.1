@@ -3,7 +3,7 @@ package experiments;
 import java.util.Arrays;
 
 import other.AI;
-import random.RandomAI;
+import ai.RandomAI;
 import search.mcts.MCTS;
 import supplementary.experiments.EvalGamesSet;
 

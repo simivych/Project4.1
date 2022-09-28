@@ -8,7 +8,7 @@ import game.Game;
 import game.types.state.GameType;
 import main.FileHandling;
 import main.collections.FastArrayList;
-import mcts.ExampleUCT;
+import ai.ExampleUCT;
 import other.AI;
 import other.GameLoader;
 import other.context.Context;
@@ -16,7 +16,7 @@ import other.model.Model;
 import other.move.Move;
 import other.state.container.ContainerState;
 import other.trial.Trial;
-import random.RandomAI;
+import ai.RandomAI;
 
 /**
  * A simple tutorial that demonstrates a variety of useful methods provided
