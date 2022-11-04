@@ -1,6 +1,7 @@
 package main;
 
 import app.StartDesktopApp;
+import kilothon.Kilothon;
 import manager.ai.AIRegistry;
 import ai.OurAI;
 
@@ -23,7 +24,10 @@ public class LaunchLudii
 		AIRegistry.registerAI("Our AI", () -> {return new OurAI();}, (game) -> {return true;});
 
 		// Run Ludii
-		StartDesktopApp.main(new String[0]);
+		// StartDesktopApp.main(new String[0]);
+
+		// Run Kilothon
+		Kilothon.main(new String[]{"Login", "Alpha-Beta"});
 	}
 
 }

@@ -36,7 +36,6 @@ public class Tutorial
 		
 		// one of the games is "Amazons.lud". Let's load it
 		Game game = GameLoader.loadGameFromName("Tic-Tac-Four.lud");
-		
 		// the game's "stateFlags" contain properties of the game that may be
 		// important for some AI algorithms to know about
 		final long gameFlags = game.gameFlags();
