@@ -11,6 +11,7 @@ public class OurAI extends AI{
 
     String friendlyName;
     int player;
+    AI selectedAI;
 
     public  OurAI() {
         this.friendlyName = "Our AI" ;
@@ -41,6 +42,24 @@ public class OurAI extends AI{
     @Override
     public void initAI(Game game, int playerID)
     {
-        this.player = playerID ;
+        this.player = playerID;
+        this.selectedAI = selectAI(game, playerID);
+    }
+
+    public int getClusterIdFromModel(Game game){
+        return 0;
+    }
+    public AI selectAI(Game game, int playerID){
+        int clusterid = getClusterIdFromModel(game);
+        AI foundAI = new ExampleUCT();
+        switch (clusterid){
+            case 0:
+                foundAI = new ExampleUCT();
+                break;
+            case 1:
+                foundAI = new ExampleDUCT();
+                break;
+        }
+        return foundAI;
     }
 }
