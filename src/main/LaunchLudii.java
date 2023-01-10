@@ -27,7 +27,7 @@ public class LaunchLudii
 		// StartDesktopApp.main(new String[0]);
 
 		// Run Kilothon
-		Kilothon.main(new String[]{"Login", "Alpha-Beta"});
+		Kilothon.main(new String[]{"Our AI", "Our AI"});
 	}
 
 }

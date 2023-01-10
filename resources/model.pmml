@@ -1,0 +1,1673 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PMML xmlns="http://www.dmg.org/PMML-4_4" xmlns:data="http://jpmml.org/jpmml-model/InlineTable" version="4.4">
+	<Header>
+		<Application name="SkLearn2PMML package" version="0.88.0"/>
+		<Timestamp>2022-12-02T15:35:10Z</Timestamp>
+	</Header>
+	<MiningBuildTask>
+		<Extension name="repr">PMMLPipeline(steps=[('classifier', KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=5, n_init=10, n_jobs=None, precompute_distances='auto',
+       random_state=None, tol=0.0001, verbose=0))])</Extension>
+	</MiningBuildTask>
+	<DataDictionary>
+		<DataField name="Discrete" optype="continuous" dataType="double"/>
+		<DataField name="Realtime" optype="continuous" dataType="double"/>
+		<DataField name="Alternating" optype="continuous" dataType="double"/>
+		<DataField name="Simultaneous" optype="continuous" dataType="double"/>
+		<DataField name="Stochastic" optype="continuous" dataType="double"/>
+		<DataField name="HiddenInformation" optype="continuous" dataType="double"/>
+		<DataField name="Match" optype="continuous" dataType="double"/>
+		<DataField name="AsymmetricPlayRules" optype="continuous" dataType="double"/>
+		<DataField name="AsymmetricEndRules" optype="continuous" dataType="double"/>
+		<DataField name="AsymmetricSetup" optype="continuous" dataType="double"/>
+		<DataField name="AsymmetricPiecesType" optype="continuous" dataType="double"/>
+		<DataField name="Simulation" optype="continuous" dataType="double"/>
+		<DataField name="Solitaire" optype="continuous" dataType="double"/>
+		<DataField name="TwoPlayer" optype="continuous" dataType="double"/>
+		<DataField name="Multiplayer" optype="continuous" dataType="double"/>
+		<DataField name="Team" optype="continuous" dataType="double"/>
+		<DataField name="Coalition" optype="continuous" dataType="double"/>
+		<DataField name="DeductionPuzzle" optype="continuous" dataType="double"/>
+		<DataField name="PlanningPuzzle" optype="continuous" dataType="double"/>
+		<DataField name="SquareShape" optype="continuous" dataType="double"/>
+		<DataField name="HexShape" optype="continuous" dataType="double"/>
+		<DataField name="TriangleShape" optype="continuous" dataType="double"/>
+		<DataField name="DiamondShape" optype="continuous" dataType="double"/>
+		<DataField name="RectangleShape" optype="continuous" dataType="double"/>
+		<DataField name="SpiralShape" optype="continuous" dataType="double"/>
+		<DataField name="CircleShape" optype="continuous" dataType="double"/>
+		<DataField name="PrismShape" optype="continuous" dataType="double"/>
+		<DataField name="StarShape" optype="continuous" dataType="double"/>
+		<DataField name="ParallelogramShape" optype="continuous" dataType="double"/>
+		<DataField name="SquarePyramidalShape" optype="continuous" dataType="double"/>
+		<DataField name="RectanglePyramidalShape" optype="continuous" dataType="double"/>
+		<DataField name="RegularShape" optype="continuous" dataType="double"/>
+		<DataField name="PolygonShape" optype="continuous" dataType="double"/>
+		<DataField name="TargetShape" optype="continuous" dataType="double"/>
+		<DataField name="SquareTiling" optype="continuous" dataType="double"/>
+		<DataField name="HexTiling" optype="continuous" dataType="double"/>
+		<DataField name="TriangleTiling" optype="continuous" dataType="double"/>
+		<DataField name="BrickTiling" optype="continuous" dataType="double"/>
+		<DataField name="SemiRegularTiling" optype="continuous" dataType="double"/>
+		<DataField name="CelticTiling" optype="continuous" dataType="double"/>
+		<DataField name="MorrisTiling" optype="continuous" dataType="double"/>
+		<DataField name="QuadHexTiling" optype="continuous" dataType="double"/>
+		<DataField name="CircleTiling" optype="continuous" dataType="double"/>
+		<DataField name="ConcentricTiling" optype="continuous" dataType="double"/>
+		<DataField name="SpiralTiling" optype="continuous" dataType="double"/>
+		<DataField name="AlquerqueTiling" optype="continuous" dataType="double"/>
+		<DataField name="MancalaStores" optype="continuous" dataType="double"/>
+		<DataField name="MancalaTwoRows" optype="continuous" dataType="double"/>
+		<DataField name="MancalaThreeRows" optype="continuous" dataType="double"/>
+		<DataField name="MancalaFourRows" optype="continuous" dataType="double"/>
+		<DataField name="MancalaSixRows" optype="continuous" dataType="double"/>
+		<DataField name="MancalaCircular" optype="continuous" dataType="double"/>
+		<DataField name="TrackLoop" optype="continuous" dataType="double"/>
+		<DataField name="TrackOwned" optype="continuous" dataType="double"/>
+		<DataField name="Hints" optype="continuous" dataType="double"/>
+		<DataField name="Region" optype="continuous" dataType="double"/>
+		<DataField name="Boardless" optype="continuous" dataType="double"/>
+		<DataField name="Vertex" optype="continuous" dataType="double"/>
+		<DataField name="Cell" optype="continuous" dataType="double"/>
+		<DataField name="Edge" optype="continuous" dataType="double"/>
+		<DataField name="NumPlayableSitesOnBoard" optype="continuous" dataType="double"/>
+		<DataField name="NumColumns" optype="continuous" dataType="double"/>
+		<DataField name="NumRows" optype="continuous" dataType="double"/>
+		<DataField name="NumCorners" optype="continuous" dataType="double"/>
+		<DataField name="NumDirections" optype="continuous" dataType="double"/>
+		<DataField name="NumOrthogonalDirections" optype="continuous" dataType="double"/>
+		<DataField name="NumDiagonalDirections" optype="continuous" dataType="double"/>
+		<DataField name="NumAdjacentDirections" optype="continuous" dataType="double"/>
+		<DataField name="NumOffDiagonalDirections" optype="continuous" dataType="double"/>
+		<DataField name="NumOuterSites" optype="continuous" dataType="double"/>
+		<DataField name="NumInnerSites" optype="continuous" dataType="double"/>
+		<DataField name="NumLayers" optype="continuous" dataType="double"/>
+		<DataField name="NumEdges" optype="continuous" dataType="double"/>
+		<DataField name="NumCells" optype="continuous" dataType="double"/>
+		<DataField name="NumVertices" optype="continuous" dataType="double"/>
+		<DataField name="NumPerimeterSites" optype="continuous" dataType="double"/>
+		<DataField name="NumTopSites" optype="continuous" dataType="double"/>
+		<DataField name="NumBottomSites" optype="continuous" dataType="double"/>
+		<DataField name="NumRightSites" optype="continuous" dataType="double"/>
+		<DataField name="NumLeftSites" optype="continuous" dataType="double"/>
+		<DataField name="NumCentreSites" optype="continuous" dataType="double"/>
+		<DataField name="NumConvexCorners" optype="continuous" dataType="double"/>
+		<DataField name="NumConcaveCorners" optype="continuous" dataType="double"/>
+		<DataField name="NumPhasesBoard" optype="continuous" dataType="double"/>
+		<DataField name="Hand" optype="continuous" dataType="double"/>
+		<DataField name="NumContainers" optype="continuous" dataType="double"/>
+		<DataField name="NumPlayableSites" optype="continuous" dataType="double"/>
+		<DataField name="Piece" optype="continuous" dataType="double"/>
+		<DataField name="PieceValue" optype="continuous" dataType="double"/>
+		<DataField name="PieceRotation" optype="continuous" dataType="double"/>
+		<DataField name="PieceDirection" optype="continuous" dataType="double"/>
+		<DataField name="Dice" optype="continuous" dataType="double"/>
+		<DataField name="BiasedDice" optype="continuous" dataType="double"/>
+		<DataField name="Card" optype="continuous" dataType="double"/>
+		<DataField name="Domino" optype="continuous" dataType="double"/>
+		<DataField name="LargePiece" optype="continuous" dataType="double"/>
+		<DataField name="Tile" optype="continuous" dataType="double"/>
+		<DataField name="NumComponentsType" optype="continuous" dataType="double"/>
+		<DataField name="NumComponentsTypePerPlayer" optype="continuous" dataType="double"/>
+		<DataField name="NumDice" optype="continuous" dataType="double"/>
+		<DataField name="SwapOption" optype="continuous" dataType="double"/>
+		<DataField name="TurnKo" optype="continuous" dataType="double"/>
+		<DataField name="SituationalTurnKo" optype="continuous" dataType="double"/>
+		<DataField name="PositionalSuperko" optype="continuous" dataType="double"/>
+		<DataField name="SituationalSuperko" optype="continuous" dataType="double"/>
+		<DataField name="AutoMove" optype="continuous" dataType="double"/>
+		<DataField name="PiecesPlacedOnBoard" optype="continuous" dataType="double"/>
+		<DataField name="PiecesPlacedOutsideBoard" optype="continuous" dataType="double"/>
+		<DataField name="InitialRandomPlacement" optype="continuous" dataType="double"/>
+		<DataField name="InitialScore" optype="continuous" dataType="double"/>
+		<DataField name="InitialAmount" optype="continuous" dataType="double"/>
+		<DataField name="InitialPot" optype="continuous" dataType="double"/>
+		<DataField name="InitialCost" optype="continuous" dataType="double"/>
+		<DataField name="NumStartComponentsBoard" optype="continuous" dataType="double"/>
+		<DataField name="NumStartComponentsHand" optype="continuous" dataType="double"/>
+		<DataField name="NumStartComponents" optype="continuous" dataType="double"/>
+		<DataField name="BetDecisionFrequency" optype="continuous" dataType="double"/>
+		<DataField name="VoteDecisionFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SwapPlayersDecisionFrequency" optype="continuous" dataType="double"/>
+		<DataField name="ChooseTrumpSuitDecisionFrequency" optype="continuous" dataType="double"/>
+		<DataField name="PassDecisionFrequency" optype="continuous" dataType="double"/>
+		<DataField name="ProposeDecisionFrequency" optype="continuous" dataType="double"/>
+		<DataField name="AddDecisionFrequency" optype="continuous" dataType="double"/>
+		<DataField name="PromotionDecisionFrequency" optype="continuous" dataType="double"/>
+		<DataField name="RemoveDecisionFrequency" optype="continuous" dataType="double"/>
+		<DataField name="RotationDecisionFrequency" optype="continuous" dataType="double"/>
+		<DataField name="StepDecisionFrequency" optype="continuous" dataType="double"/>
+		<DataField name="StepDecisionToEmptyFrequency" optype="continuous" dataType="double"/>
+		<DataField name="StepDecisionToFriendFrequency" optype="continuous" dataType="double"/>
+		<DataField name="StepDecisionToEnemyFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SlideDecisionFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SlideDecisionToEmptyFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SlideDecisionToEnemyFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SlideDecisionToFriendFrequency" optype="continuous" dataType="double"/>
+		<DataField name="LeapDecisionFrequency" optype="continuous" dataType="double"/>
+		<DataField name="LeapDecisionToEmptyFrequency" optype="continuous" dataType="double"/>
+		<DataField name="LeapDecisionToFriendFrequency" optype="continuous" dataType="double"/>
+		<DataField name="LeapDecisionToEnemyFrequency" optype="continuous" dataType="double"/>
+		<DataField name="HopDecisionFrequency" optype="continuous" dataType="double"/>
+		<DataField name="HopDecisionMoreThanOneFrequency" optype="continuous" dataType="double"/>
+		<DataField name="HopDecisionEnemyToEmptyFrequency" optype="continuous" dataType="double"/>
+		<DataField name="HopDecisionFriendToEmptyFrequency" optype="continuous" dataType="double"/>
+		<DataField name="HopDecisionEnemyToFriendFrequency" optype="continuous" dataType="double"/>
+		<DataField name="HopDecisionFriendToFriendFrequency" optype="continuous" dataType="double"/>
+		<DataField name="HopDecisionEnemyToEnemyFrequency" optype="continuous" dataType="double"/>
+		<DataField name="HopDecisionFriendToEnemyFrequency" optype="continuous" dataType="double"/>
+		<DataField name="FromToDecisionFrequency" optype="continuous" dataType="double"/>
+		<DataField name="FromToDecisionWithinBoardFrequency" optype="continuous" dataType="double"/>
+		<DataField name="FromToDecisionBetweenContainersFrequency" optype="continuous" dataType="double"/>
+		<DataField name="FromToDecisionEmptyFrequency" optype="continuous" dataType="double"/>
+		<DataField name="FromToDecisionEnemyFrequency" optype="continuous" dataType="double"/>
+		<DataField name="FromToDecisionFriendFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SwapPiecesDecisionFrequency" optype="continuous" dataType="double"/>
+		<DataField name="ShootDecisionFrequency" optype="continuous" dataType="double"/>
+		<DataField name="BetEffectFrequency" optype="continuous" dataType="double"/>
+		<DataField name="VoteEffectFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SwapPlayersEffectFrequency" optype="continuous" dataType="double"/>
+		<DataField name="TakeControlFrequency" optype="continuous" dataType="double"/>
+		<DataField name="PassEffectFrequency" optype="continuous" dataType="double"/>
+		<DataField name="RollFrequency" optype="continuous" dataType="double"/>
+		<DataField name="ProposeEffectFrequency" optype="continuous" dataType="double"/>
+		<DataField name="AddEffectFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SowFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SowCaptureFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SowRemoveFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SowBacktrackingFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SowSkip" optype="continuous" dataType="double"/>
+		<DataField name="SowOriginFirst" optype="continuous" dataType="double"/>
+		<DataField name="SowCW" optype="continuous" dataType="double"/>
+		<DataField name="SowCCW" optype="continuous" dataType="double"/>
+		<DataField name="PromotionEffectFrequency" optype="continuous" dataType="double"/>
+		<DataField name="RemoveEffectFrequency" optype="continuous" dataType="double"/>
+		<DataField name="PushEffectFrequency" optype="continuous" dataType="double"/>
+		<DataField name="FlipFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SetNextPlayerFrequency" optype="continuous" dataType="double"/>
+		<DataField name="MoveAgainFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SetValueFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SetCountFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SetCostFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SetPhaseFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SetTrumpSuitFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SetRotationFrequency" optype="continuous" dataType="double"/>
+		<DataField name="StepEffectFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SlideEffectFrequency" optype="continuous" dataType="double"/>
+		<DataField name="LeapEffectFrequency" optype="continuous" dataType="double"/>
+		<DataField name="HopEffectFrequency" optype="continuous" dataType="double"/>
+		<DataField name="FromToEffectFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SwapPiecesEffectFrequency" optype="continuous" dataType="double"/>
+		<DataField name="ShootEffectFrequency" optype="continuous" dataType="double"/>
+		<DataField name="Priority" optype="continuous" dataType="double"/>
+		<DataField name="ByDieMove" optype="continuous" dataType="double"/>
+		<DataField name="MaxMovesInTurn" optype="continuous" dataType="double"/>
+		<DataField name="MaxDistance" optype="continuous" dataType="double"/>
+		<DataField name="ReplacementCaptureFrequency" optype="continuous" dataType="double"/>
+		<DataField name="HopCaptureFrequency" optype="continuous" dataType="double"/>
+		<DataField name="HopCaptureMoreThanOneFrequency" optype="continuous" dataType="double"/>
+		<DataField name="DirectionCaptureFrequency" optype="continuous" dataType="double"/>
+		<DataField name="EncloseCaptureFrequency" optype="continuous" dataType="double"/>
+		<DataField name="CustodialCaptureFrequency" optype="continuous" dataType="double"/>
+		<DataField name="InterveneCaptureFrequency" optype="continuous" dataType="double"/>
+		<DataField name="SurroundCaptureFrequency" optype="continuous" dataType="double"/>
+		<DataField name="CaptureSequenceFrequency" optype="continuous" dataType="double"/>
+		<DataField name="MaxCapture" optype="continuous" dataType="double"/>
+		<DataField name="Line" optype="continuous" dataType="double"/>
+		<DataField name="Connection" optype="continuous" dataType="double"/>
+		<DataField name="Group" optype="continuous" dataType="double"/>
+		<DataField name="Contains" optype="continuous" dataType="double"/>
+		<DataField name="Loop" optype="continuous" dataType="double"/>
+		<DataField name="Pattern" optype="continuous" dataType="double"/>
+		<DataField name="PathExtent" optype="continuous" dataType="double"/>
+		<DataField name="Territory" optype="continuous" dataType="double"/>
+		<DataField name="Fill" optype="continuous" dataType="double"/>
+		<DataField name="Distance" optype="continuous" dataType="double"/>
+		<DataField name="NoMovesMover" optype="continuous" dataType="double"/>
+		<DataField name="NoMovesNext" optype="continuous" dataType="double"/>
+		<DataField name="CanMove" optype="continuous" dataType="double"/>
+		<DataField name="CanNotMove" optype="continuous" dataType="double"/>
+		<DataField name="NoPieceMover" optype="continuous" dataType="double"/>
+		<DataField name="NoPieceNext" optype="continuous" dataType="double"/>
+		<DataField name="NoTargetPiece" optype="continuous" dataType="double"/>
+		<DataField name="Threat" optype="continuous" dataType="double"/>
+		<DataField name="IsEmpty" optype="continuous" dataType="double"/>
+		<DataField name="IsEnemy" optype="continuous" dataType="double"/>
+		<DataField name="IsFriend" optype="continuous" dataType="double"/>
+		<DataField name="LineOfSight" optype="continuous" dataType="double"/>
+		<DataField name="CountPiecesMoverComparison" optype="continuous" dataType="double"/>
+		<DataField name="CountPiecesNextComparison" optype="continuous" dataType="double"/>
+		<DataField name="ProgressCheck" optype="continuous" dataType="double"/>
+		<DataField name="AllDirections" optype="continuous" dataType="double"/>
+		<DataField name="AdjacentDirection" optype="continuous" dataType="double"/>
+		<DataField name="OrthogonalDirection" optype="continuous" dataType="double"/>
+		<DataField name="DiagonalDirection" optype="continuous" dataType="double"/>
+		<DataField name="OffDiagonalDirection" optype="continuous" dataType="double"/>
+		<DataField name="RotationalDirection" optype="continuous" dataType="double"/>
+		<DataField name="SameLayerDirection" optype="continuous" dataType="double"/>
+		<DataField name="ForwardDirection" optype="continuous" dataType="double"/>
+		<DataField name="BackwardDirection" optype="continuous" dataType="double"/>
+		<DataField name="ForwardsDirection" optype="continuous" dataType="double"/>
+		<DataField name="BackwardsDirection" optype="continuous" dataType="double"/>
+		<DataField name="RightwardDirection" optype="continuous" dataType="double"/>
+		<DataField name="LeftwardDirection" optype="continuous" dataType="double"/>
+		<DataField name="RightwardsDirection" optype="continuous" dataType="double"/>
+		<DataField name="LeftwardsDirection" optype="continuous" dataType="double"/>
+		<DataField name="ForwardLeftDirection" optype="continuous" dataType="double"/>
+		<DataField name="ForwardRightDirection" optype="continuous" dataType="double"/>
+		<DataField name="BackwardLeftDirection" optype="continuous" dataType="double"/>
+		<DataField name="BackwardRightDirection" optype="continuous" dataType="double"/>
+		<DataField name="SameDirection" optype="continuous" dataType="double"/>
+		<DataField name="OppositeDirection" optype="continuous" dataType="double"/>
+		<DataField name="HidePieceType" optype="continuous" dataType="double"/>
+		<DataField name="HidePieceOwner" optype="continuous" dataType="double"/>
+		<DataField name="HidePieceCount" optype="continuous" dataType="double"/>
+		<DataField name="HidePieceRotation" optype="continuous" dataType="double"/>
+		<DataField name="HidePieceValue" optype="continuous" dataType="double"/>
+		<DataField name="HidePieceState" optype="continuous" dataType="double"/>
+		<DataField name="InvisiblePiece" optype="continuous" dataType="double"/>
+		<DataField name="NumPlayPhase" optype="continuous" dataType="double"/>
+		<DataField name="Scoring" optype="continuous" dataType="double"/>
+		<DataField name="PieceCount" optype="continuous" dataType="double"/>
+		<DataField name="SumDice" optype="continuous" dataType="double"/>
+		<DataField name="LineEndFrequency" optype="continuous" dataType="double"/>
+		<DataField name="LineWinFrequency" optype="continuous" dataType="double"/>
+		<DataField name="LineLossFrequency" optype="continuous" dataType="double"/>
+		<DataField name="LineDrawFrequency" optype="continuous" dataType="double"/>
+		<DataField name="ConnectionEndFrequency" optype="continuous" dataType="double"/>
+		<DataField name="ConnectionWinFrequency" optype="continuous" dataType="double"/>
+		<DataField name="ConnectionLossFrequency" optype="continuous" dataType="double"/>
+		<DataField name="ConnectionDrawFrequency" optype="continuous" dataType="double"/>
+		<DataField name="GroupEndFrequency" optype="continuous" dataType="double"/>
+		<DataField name="GroupWinFrequency" optype="continuous" dataType="double"/>
+		<DataField name="GroupLossFrequency" optype="continuous" dataType="double"/>
+		<DataField name="GroupDrawFrequency" optype="continuous" dataType="double"/>
+		<DataField name="LoopEndFrequency" optype="continuous" dataType="double"/>
+		<DataField name="LoopWinFrequency" optype="continuous" dataType="double"/>
+		<DataField name="LoopLossFrequency" optype="continuous" dataType="double"/>
+		<DataField name="LoopDrawFrequency" optype="continuous" dataType="double"/>
+		<DataField name="PatternEndFrequency" optype="continuous" dataType="double"/>
+		<DataField name="PatternWinFrequency" optype="continuous" dataType="double"/>
+		<DataField name="PatternLossFrequency" optype="continuous" dataType="double"/>
+		<DataField name="PatternDrawFrequency" optype="continuous" dataType="double"/>
+		<DataField name="PathExtentEndFrequency" optype="continuous" dataType="double"/>
+		<DataField name="PathExtentWinFrequency" optype="continuous" dataType="double"/>
+		<DataField name="PathExtentLossFrequency" optype="continuous" dataType="double"/>
+		<DataField name="PathExtentDrawFrequency" optype="continuous" dataType="double"/>
+		<DataField name="TerritoryEndFrequency" optype="continuous" dataType="double"/>
+		<DataField name="TerritoryWinFrequency" optype="continuous" dataType="double"/>
+		<DataField name="TerritoryLossFrequency" optype="continuous" dataType="double"/>
+		<DataField name="TerritoryDrawFrequency" optype="continuous" dataType="double"/>
+		<DataField name="CheckmateFrequency" optype="continuous" dataType="double"/>
+		<DataField name="CheckmateWinFrequency" optype="continuous" dataType="double"/>
+		<DataField name="CheckmateLossFrequency" optype="continuous" dataType="double"/>
+		<DataField name="CheckmateDrawFrequency" optype="continuous" dataType="double"/>
+		<DataField name="NoTargetPieceEndFrequency" optype="continuous" dataType="double"/>
+		<DataField name="NoTargetPieceWinFrequency" optype="continuous" dataType="double"/>
+		<DataField name="NoTargetPieceLossFrequency" optype="continuous" dataType="double"/>
+		<DataField name="NoTargetPieceDrawFrequency" optype="continuous" dataType="double"/>
+		<DataField name="EliminatePiecesEndFrequency" optype="continuous" dataType="double"/>
+		<DataField name="EliminatePiecesWinFrequency" optype="continuous" dataType="double"/>
+		<DataField name="EliminatePiecesLossFrequency" optype="continuous" dataType="double"/>
+		<DataField name="EliminatePiecesDrawFrequency" optype="continuous" dataType="double"/>
+		<DataField name="NoOwnPiecesEndFrequency" optype="continuous" dataType="double"/>
+		<DataField name="NoOwnPiecesWinFrequency" optype="continuous" dataType="double"/>
+		<DataField name="NoOwnPiecesLossFrequency" optype="continuous" dataType="double"/>
+		<DataField name="NoOwnPiecesDrawFrequency" optype="continuous" dataType="double"/>
+		<DataField name="FillEndFrequency" optype="continuous" dataType="double"/>
+		<DataField name="FillWinFrequency" optype="continuous" dataType="double"/>
+		<DataField name="FillLossFrequency" optype="continuous" dataType="double"/>
+		<DataField name="FillDrawFrequency" optype="continuous" dataType="double"/>
+		<DataField name="ReachEndFrequency" optype="continuous" dataType="double"/>
+		<DataField name="ReachWinFrequency" optype="continuous" dataType="double"/>
+		<DataField name="ReachLossFrequency" optype="continuous" dataType="double"/>
+		<DataField name="ReachDrawFrequency" optype="continuous" dataType="double"/>
+		<DataField name="ScoringEndFrequency" optype="continuous" dataType="double"/>
+		<DataField name="ScoringWinFrequency" optype="continuous" dataType="double"/>
+		<DataField name="ScoringLossFrequency" optype="continuous" dataType="double"/>
+		<DataField name="ScoringDrawFrequency" optype="continuous" dataType="double"/>
+		<DataField name="NoMovesEndFrequency" optype="continuous" dataType="double"/>
+		<DataField name="NoMovesWinFrequency" optype="continuous" dataType="double"/>
+		<DataField name="NoMovesLossFrequency" optype="continuous" dataType="double"/>
+		<DataField name="NoMovesDrawFrequency" optype="continuous" dataType="double"/>
+		<DataField name="NoProgressEndFrequency" optype="continuous" dataType="double"/>
+		<DataField name="NoProgressWinFrequency" optype="continuous" dataType="double"/>
+		<DataField name="NoProgressLossFrequency" optype="continuous" dataType="double"/>
+		<DataField name="NoProgressDrawFrequency" optype="continuous" dataType="double"/>
+		<DataField name="DrawFrequency" optype="continuous" dataType="double"/>
+		<DataField name="Misere" optype="continuous" dataType="double"/>
+		<DataField name="PositionalRepetition" optype="continuous" dataType="double"/>
+		<DataField name="SituationalRepetition" optype="continuous" dataType="double"/>
+		<DataField name="DurationActions" optype="continuous" dataType="double"/>
+		<DataField name="DurationMoves" optype="continuous" dataType="double"/>
+		<DataField name="DurationTurns" optype="continuous" dataType="double"/>
+		<DataField name="DecisionMoves" optype="continuous" dataType="double"/>
+		<DataField name="GameTreeComplexity" optype="continuous" dataType="double"/>
+		<DataField name="StateTreeComplexity" optype="continuous" dataType="double"/>
+		<DataField name="BoardCoverageDefault" optype="continuous" dataType="double"/>
+		<DataField name="BoardCoverageFull" optype="continuous" dataType="double"/>
+		<DataField name="BoardCoverageUsed" optype="continuous" dataType="double"/>
+		<DataField name="AdvantageP1" optype="continuous" dataType="double"/>
+		<DataField name="Balance" optype="continuous" dataType="double"/>
+		<DataField name="Completion" optype="continuous" dataType="double"/>
+		<DataField name="Drawishness" optype="continuous" dataType="double"/>
+		<DataField name="Timeouts" optype="continuous" dataType="double"/>
+		<DataField name="Narrowness" optype="continuous" dataType="double"/>
+		<DataField name="Variance" optype="continuous" dataType="double"/>
+		<DataField name="DecisivenessMoves" optype="continuous" dataType="double"/>
+		<DataField name="DecisivenessThreshold" optype="continuous" dataType="double"/>
+		<DataField name="LeadChange" optype="continuous" dataType="double"/>
+		<DataField name="Stability" optype="continuous" dataType="double"/>
+		<DataField name="DramaAverage" optype="continuous" dataType="double"/>
+		<DataField name="DramaMedian" optype="continuous" dataType="double"/>
+		<DataField name="DramaMaximum" optype="continuous" dataType="double"/>
+		<DataField name="DramaMinimum" optype="continuous" dataType="double"/>
+		<DataField name="DramaVariance" optype="continuous" dataType="double"/>
+		<DataField name="DramaChangeAverage" optype="continuous" dataType="double"/>
+		<DataField name="DramaChangeSign" optype="continuous" dataType="double"/>
+		<DataField name="DramaChangeLineBestFit" optype="continuous" dataType="double"/>
+		<DataField name="DramaChangeNumTimes" optype="continuous" dataType="double"/>
+		<DataField name="DramaMaxIncrease" optype="continuous" dataType="double"/>
+		<DataField name="DramaMaxDecrease" optype="continuous" dataType="double"/>
+		<DataField name="MoveEvaluationAverage" optype="continuous" dataType="double"/>
+		<DataField name="MoveEvaluationMedian" optype="continuous" dataType="double"/>
+		<DataField name="MoveEvaluationMaximum" optype="continuous" dataType="double"/>
+		<DataField name="MoveEvaluationMinimum" optype="continuous" dataType="double"/>
+		<DataField name="MoveEvaluationVariance" optype="continuous" dataType="double"/>
+		<DataField name="MoveEvaluationChangeAverage" optype="continuous" dataType="double"/>
+		<DataField name="MoveEvaluationChangeSign" optype="continuous" dataType="double"/>
+		<DataField name="MoveEvaluationChangeLineBestFit" optype="continuous" dataType="double"/>
+		<DataField name="MoveEvaluationChangeNumTimes" optype="continuous" dataType="double"/>
+		<DataField name="MoveEvaluationMaxIncrease" optype="continuous" dataType="double"/>
+		<DataField name="MoveEvaluationMaxDecrease" optype="continuous" dataType="double"/>
+		<DataField name="StateEvaluationDifferenceAverage" optype="continuous" dataType="double"/>
+		<DataField name="StateEvaluationDifferenceMedian" optype="continuous" dataType="double"/>
+		<DataField name="StateEvaluationDifferenceMaximum" optype="continuous" dataType="double"/>
+		<DataField name="StateEvaluationDifferenceMinimum" optype="continuous" dataType="double"/>
+		<DataField name="StateEvaluationDifferenceVariance" optype="continuous" dataType="double"/>
+		<DataField name="StateEvaluationDifferenceChangeAverage" optype="continuous" dataType="double"/>
+		<DataField name="StateEvaluationDifferenceChangeSign" optype="continuous" dataType="double"/>
+		<DataField name="StateEvaluationDifferenceChangeLineBestFit" optype="continuous" dataType="double"/>
+		<DataField name="StateEvaluationDifferenceChangeNumTimes" optype="continuous" dataType="double"/>
+		<DataField name="StateEvaluationDifferenceMaxIncrease" optype="continuous" dataType="double"/>
+		<DataField name="StateEvaluationDifferenceMaxDecrease" optype="continuous" dataType="double"/>
+		<DataField name="BoardSitesOccupiedAverage" optype="continuous" dataType="double"/>
+		<DataField name="BoardSitesOccupiedMedian" optype="continuous" dataType="double"/>
+		<DataField name="BoardSitesOccupiedMaximum" optype="continuous" dataType="double"/>
+		<DataField name="BoardSitesOccupiedMinimum" optype="continuous" dataType="double"/>
+		<DataField name="BoardSitesOccupiedVariance" optype="continuous" dataType="double"/>
+		<DataField name="BoardSitesOccupiedChangeAverage" optype="continuous" dataType="double"/>
+		<DataField name="BoardSitesOccupiedChangeSign" optype="continuous" dataType="double"/>
+		<DataField name="BoardSitesOccupiedChangeLineBestFit" optype="continuous" dataType="double"/>
+		<DataField name="BoardSitesOccupiedChangeNumTimes" optype="continuous" dataType="double"/>
+		<DataField name="BoardSitesOccupiedMaxIncrease" optype="continuous" dataType="double"/>
+		<DataField name="BoardSitesOccupiedMaxDecrease" optype="continuous" dataType="double"/>
+		<DataField name="BranchingFactorAverage" optype="continuous" dataType="double"/>
+		<DataField name="BranchingFactorMedian" optype="continuous" dataType="double"/>
+		<DataField name="BranchingFactorMaximum" optype="continuous" dataType="double"/>
+		<DataField name="BranchingFactorMinimum" optype="continuous" dataType="double"/>
+		<DataField name="BranchingFactorVariance" optype="continuous" dataType="double"/>
+		<DataField name="BranchingFactorChangeAverage" optype="continuous" dataType="double"/>
+		<DataField name="BranchingFactorChangeSign" optype="continuous" dataType="double"/>
+		<DataField name="BranchingFactorChangeLineBestFit" optype="continuous" dataType="double"/>
+		<DataField name="BranchingFactorChangeNumTimesn" optype="continuous" dataType="double"/>
+		<DataField name="BranchingFactorChangeMaxIncrease" optype="continuous" dataType="double"/>
+		<DataField name="BranchingFactorChangeMaxDecrease" optype="continuous" dataType="double"/>
+		<DataField name="DecisionFactorAverage" optype="continuous" dataType="double"/>
+		<DataField name="DecisionFactorMedian" optype="continuous" dataType="double"/>
+		<DataField name="DecisionFactorMaximum" optype="continuous" dataType="double"/>
+		<DataField name="DecisionFactorMinimum" optype="continuous" dataType="double"/>
+		<DataField name="DecisionFactorVariance" optype="continuous" dataType="double"/>
+		<DataField name="DecisionFactorChangeAverage" optype="continuous" dataType="double"/>
+		<DataField name="DecisionFactorChangeSign" optype="continuous" dataType="double"/>
+		<DataField name="DecisionFactorChangeLineBestFit" optype="continuous" dataType="double"/>
+		<DataField name="DecisionFactorChangeNumTimes" optype="continuous" dataType="double"/>
+		<DataField name="DecisionFactorMaxIncrease" optype="continuous" dataType="double"/>
+		<DataField name="DecisionFactorMaxDecrease" optype="continuous" dataType="double"/>
+		<DataField name="MoveDistanceAverage" optype="continuous" dataType="double"/>
+		<DataField name="MoveDistanceMedian" optype="continuous" dataType="double"/>
+		<DataField name="MoveDistanceMaximum" optype="continuous" dataType="double"/>
+		<DataField name="MoveDistanceMinimum" optype="continuous" dataType="double"/>
+		<DataField name="MoveDistanceVariance" optype="continuous" dataType="double"/>
+		<DataField name="MoveDistanceChangeAverage" optype="continuous" dataType="double"/>
+		<DataField name="MoveDistanceChangeSign" optype="continuous" dataType="double"/>
+		<DataField name="MoveDistanceChangeLineBestFit" optype="continuous" dataType="double"/>
+		<DataField name="MoveDistanceChangeNumTimes" optype="continuous" dataType="double"/>
+		<DataField name="MoveDistanceMaxIncrease" optype="continuous" dataType="double"/>
+		<DataField name="MoveDistanceMaxDecrease" optype="continuous" dataType="double"/>
+		<DataField name="PieceNumberAverage" optype="continuous" dataType="double"/>
+		<DataField name="PieceNumberMedian" optype="continuous" dataType="double"/>
+		<DataField name="PieceNumberMaximum" optype="continuous" dataType="double"/>
+		<DataField name="PieceNumberMinimum" optype="continuous" dataType="double"/>
+		<DataField name="PieceNumberVariance" optype="continuous" dataType="double"/>
+		<DataField name="PieceNumberChangeAverage" optype="continuous" dataType="double"/>
+		<DataField name="PieceNumberChangeSign" optype="continuous" dataType="double"/>
+		<DataField name="PieceNumberChangeLineBestFit" optype="continuous" dataType="double"/>
+		<DataField name="PieceNumberChangeNumTimes" optype="continuous" dataType="double"/>
+		<DataField name="PieceNumberMaxIncrease" optype="continuous" dataType="double"/>
+		<DataField name="PieceNumberMaxDecrease" optype="continuous" dataType="double"/>
+		<DataField name="ScoreDifferenceAverage" optype="continuous" dataType="double"/>
+		<DataField name="ScoreDifferenceMedian" optype="continuous" dataType="double"/>
+		<DataField name="ScoreDifferenceMaximum" optype="continuous" dataType="double"/>
+		<DataField name="ScoreDifferenceMinimum" optype="continuous" dataType="double"/>
+		<DataField name="ScoreDifferenceVariance" optype="continuous" dataType="double"/>
+		<DataField name="ScoreDifferenceChangeAverage" optype="continuous" dataType="double"/>
+		<DataField name="ScoreDifferenceChangeSign" optype="continuous" dataType="double"/>
+		<DataField name="ScoreDifferenceChangeLineBestFit" optype="continuous" dataType="double"/>
+		<DataField name="ScoreDifferenceChangeNumTimes" optype="continuous" dataType="double"/>
+		<DataField name="ScoreDifferenceMaxIncrease" optype="continuous" dataType="double"/>
+		<DataField name="ScoreDifferenceMaxDecrease" optype="continuous" dataType="double"/>
+		<DataField name="Addition" optype="continuous" dataType="double"/>
+		<DataField name="Subtraction" optype="continuous" dataType="double"/>
+		<DataField name="Multiplication" optype="continuous" dataType="double"/>
+		<DataField name="Division" optype="continuous" dataType="double"/>
+		<DataField name="Modulo" optype="continuous" dataType="double"/>
+		<DataField name="Absolute" optype="continuous" dataType="double"/>
+		<DataField name="Roots" optype="continuous" dataType="double"/>
+		<DataField name="Cosine" optype="continuous" dataType="double"/>
+		<DataField name="Sine" optype="continuous" dataType="double"/>
+		<DataField name="Tangent" optype="continuous" dataType="double"/>
+		<DataField name="Exponentiation" optype="continuous" dataType="double"/>
+		<DataField name="Exponential" optype="continuous" dataType="double"/>
+		<DataField name="Logarithm" optype="continuous" dataType="double"/>
+		<DataField name="Minimum" optype="continuous" dataType="double"/>
+		<DataField name="Maximum" optype="continuous" dataType="double"/>
+		<DataField name="Equal" optype="continuous" dataType="double"/>
+		<DataField name="NotEqual" optype="continuous" dataType="double"/>
+		<DataField name="LesserThan" optype="continuous" dataType="double"/>
+		<DataField name="LesserThanOrEqual" optype="continuous" dataType="double"/>
+		<DataField name="GreaterThan" optype="continuous" dataType="double"/>
+		<DataField name="GreaterThanOrEqual" optype="continuous" dataType="double"/>
+		<DataField name="Even" optype="continuous" dataType="double"/>
+		<DataField name="Odd" optype="continuous" dataType="double"/>
+		<DataField name="Conjunction" optype="continuous" dataType="double"/>
+		<DataField name="Disjunction" optype="continuous" dataType="double"/>
+		<DataField name="ExclusiveDisjunction" optype="continuous" dataType="double"/>
+		<DataField name="Negation" optype="continuous" dataType="double"/>
+		<DataField name="Union" optype="continuous" dataType="double"/>
+		<DataField name="Intersection" optype="continuous" dataType="double"/>
+		<DataField name="Complement" optype="continuous" dataType="double"/>
+		<DataField name="ConditionalStatement" optype="continuous" dataType="double"/>
+		<DataField name="ControlFlowStatement" optype="continuous" dataType="double"/>
+		<DataField name="Float" optype="continuous" dataType="double"/>
+		<DataField name="GraphStyle" optype="continuous" dataType="double"/>
+		<DataField name="ChessStyle" optype="continuous" dataType="double"/>
+		<DataField name="GoStyle" optype="continuous" dataType="double"/>
+		<DataField name="MancalaStyle" optype="continuous" dataType="double"/>
+		<DataField name="PenAndPaperStyle" optype="continuous" dataType="double"/>
+		<DataField name="ShibumiStyle" optype="continuous" dataType="double"/>
+		<DataField name="BackgammonStyle" optype="continuous" dataType="double"/>
+		<DataField name="JanggiStyle" optype="continuous" dataType="double"/>
+		<DataField name="XiangqiStyle" optype="continuous" dataType="double"/>
+		<DataField name="ShogiStyle" optype="continuous" dataType="double"/>
+		<DataField name="TableStyle" optype="continuous" dataType="double"/>
+		<DataField name="SurakartaStyle" optype="continuous" dataType="double"/>
+		<DataField name="TaflStyle" optype="continuous" dataType="double"/>
+		<DataField name="NoBoard" optype="continuous" dataType="double"/>
+		<DataField name="AnimalComponent" optype="continuous" dataType="double"/>
+		<DataField name="KingComponent" optype="continuous" dataType="double"/>
+		<DataField name="QueenComponent" optype="continuous" dataType="double"/>
+		<DataField name="KnightComponent" optype="continuous" dataType="double"/>
+		<DataField name="RookComponent" optype="continuous" dataType="double"/>
+		<DataField name="BishopComponent" optype="continuous" dataType="double"/>
+		<DataField name="PawnComponent" optype="continuous" dataType="double"/>
+		<DataField name="FairyChessComponent" optype="continuous" dataType="double"/>
+		<DataField name="PloyComponent" optype="continuous" dataType="double"/>
+		<DataField name="ShogiComponent" optype="continuous" dataType="double"/>
+		<DataField name="XiangqiComponent" optype="continuous" dataType="double"/>
+		<DataField name="StrategoComponent" optype="continuous" dataType="double"/>
+		<DataField name="JanggiComponent" optype="continuous" dataType="double"/>
+		<DataField name="HandComponent" optype="continuous" dataType="double"/>
+		<DataField name="CheckersComponent" optype="continuous" dataType="double"/>
+		<DataField name="BallComponent" optype="continuous" dataType="double"/>
+		<DataField name="TaflComponent" optype="continuous" dataType="double"/>
+		<DataField name="DiscComponent" optype="continuous" dataType="double"/>
+		<DataField name="MarkerComponent" optype="continuous" dataType="double"/>
+		<DataField name="Stack" optype="continuous" dataType="double"/>
+		<DataField name="Symbols" optype="continuous" dataType="double"/>
+		<DataField name="ShowPieceValue" optype="continuous" dataType="double"/>
+		<DataField name="ShowPieceState" optype="continuous" dataType="double"/>
+		<DataField name="StackState" optype="continuous" dataType="double"/>
+		<DataField name="SiteState" optype="continuous" dataType="double"/>
+		<DataField name="SetSiteState" optype="continuous" dataType="double"/>
+		<DataField name="VisitedSites" optype="continuous" dataType="double"/>
+		<DataField name="SetVar" optype="continuous" dataType="double"/>
+		<DataField name="RememberValues" optype="continuous" dataType="double"/>
+		<DataField name="ForgetValues" optype="continuous" dataType="double"/>
+		<DataField name="SetPending" optype="continuous" dataType="double"/>
+		<DataField name="SetInternalCounter" optype="continuous" dataType="double"/>
+		<DataField name="PlayerValue" optype="continuous" dataType="double"/>
+		<DataField name="SetInvisible" optype="continuous" dataType="double"/>
+		<DataField name="SetHiddenCount" optype="continuous" dataType="double"/>
+		<DataField name="SetHiddenRotation" optype="continuous" dataType="double"/>
+		<DataField name="SetHiddenState" optype="continuous" dataType="double"/>
+		<DataField name="SetHiddenValue" optype="continuous" dataType="double"/>
+		<DataField name="SetHiddenWhat" optype="continuous" dataType="double"/>
+		<DataField name="SetHiddenWho" optype="continuous" dataType="double"/>
+		<DataField name="CopyContext" optype="continuous" dataType="double"/>
+		<DataField name="Then" optype="continuous" dataType="double"/>
+		<DataField name="ForEachPiece" optype="continuous" dataType="double"/>
+		<DataField name="DoLudeme" optype="continuous" dataType="double"/>
+		<DataField name="Trigger" optype="continuous" dataType="double"/>
+		<DataField name="PlayoutsPerSecond" optype="continuous" dataType="double"/>
+		<DataField name="MovesPerSecond" optype="continuous" dataType="double"/>
+	</DataDictionary>
+	<ClusteringModel functionName="clustering" algorithmName="sklearn.cluster.k_means_.KMeans" modelClass="centerBased" numberOfClusters="5">
+		<MiningSchema>
+			<MiningField name="Discrete"/>
+			<MiningField name="Realtime"/>
+			<MiningField name="Alternating"/>
+			<MiningField name="Simultaneous"/>
+			<MiningField name="Stochastic"/>
+			<MiningField name="HiddenInformation"/>
+			<MiningField name="Match"/>
+			<MiningField name="AsymmetricPlayRules"/>
+			<MiningField name="AsymmetricEndRules"/>
+			<MiningField name="AsymmetricSetup"/>
+			<MiningField name="AsymmetricPiecesType"/>
+			<MiningField name="Simulation"/>
+			<MiningField name="Solitaire"/>
+			<MiningField name="TwoPlayer"/>
+			<MiningField name="Multiplayer"/>
+			<MiningField name="Team"/>
+			<MiningField name="Coalition"/>
+			<MiningField name="DeductionPuzzle"/>
+			<MiningField name="PlanningPuzzle"/>
+			<MiningField name="SquareShape"/>
+			<MiningField name="HexShape"/>
+			<MiningField name="TriangleShape"/>
+			<MiningField name="DiamondShape"/>
+			<MiningField name="RectangleShape"/>
+			<MiningField name="SpiralShape"/>
+			<MiningField name="CircleShape"/>
+			<MiningField name="PrismShape"/>
+			<MiningField name="StarShape"/>
+			<MiningField name="ParallelogramShape"/>
+			<MiningField name="SquarePyramidalShape"/>
+			<MiningField name="RectanglePyramidalShape"/>
+			<MiningField name="RegularShape"/>
+			<MiningField name="PolygonShape"/>
+			<MiningField name="TargetShape"/>
+			<MiningField name="SquareTiling"/>
+			<MiningField name="HexTiling"/>
+			<MiningField name="TriangleTiling"/>
+			<MiningField name="BrickTiling"/>
+			<MiningField name="SemiRegularTiling"/>
+			<MiningField name="CelticTiling"/>
+			<MiningField name="MorrisTiling"/>
+			<MiningField name="QuadHexTiling"/>
+			<MiningField name="CircleTiling"/>
+			<MiningField name="ConcentricTiling"/>
+			<MiningField name="SpiralTiling"/>
+			<MiningField name="AlquerqueTiling"/>
+			<MiningField name="MancalaStores"/>
+			<MiningField name="MancalaTwoRows"/>
+			<MiningField name="MancalaThreeRows"/>
+			<MiningField name="MancalaFourRows"/>
+			<MiningField name="MancalaSixRows"/>
+			<MiningField name="MancalaCircular"/>
+			<MiningField name="TrackLoop"/>
+			<MiningField name="TrackOwned"/>
+			<MiningField name="Hints"/>
+			<MiningField name="Region"/>
+			<MiningField name="Boardless"/>
+			<MiningField name="Vertex"/>
+			<MiningField name="Cell"/>
+			<MiningField name="Edge"/>
+			<MiningField name="NumPlayableSitesOnBoard"/>
+			<MiningField name="NumColumns"/>
+			<MiningField name="NumRows"/>
+			<MiningField name="NumCorners"/>
+			<MiningField name="NumDirections"/>
+			<MiningField name="NumOrthogonalDirections"/>
+			<MiningField name="NumDiagonalDirections"/>
+			<MiningField name="NumAdjacentDirections"/>
+			<MiningField name="NumOffDiagonalDirections"/>
+			<MiningField name="NumOuterSites"/>
+			<MiningField name="NumInnerSites"/>
+			<MiningField name="NumLayers"/>
+			<MiningField name="NumEdges"/>
+			<MiningField name="NumCells"/>
+			<MiningField name="NumVertices"/>
+			<MiningField name="NumPerimeterSites"/>
+			<MiningField name="NumTopSites"/>
+			<MiningField name="NumBottomSites"/>
+			<MiningField name="NumRightSites"/>
+			<MiningField name="NumLeftSites"/>
+			<MiningField name="NumCentreSites"/>
+			<MiningField name="NumConvexCorners"/>
+			<MiningField name="NumConcaveCorners"/>
+			<MiningField name="NumPhasesBoard"/>
+			<MiningField name="Hand"/>
+			<MiningField name="NumContainers"/>
+			<MiningField name="NumPlayableSites"/>
+			<MiningField name="Piece"/>
+			<MiningField name="PieceValue"/>
+			<MiningField name="PieceRotation"/>
+			<MiningField name="PieceDirection"/>
+			<MiningField name="Dice"/>
+			<MiningField name="BiasedDice"/>
+			<MiningField name="Card"/>
+			<MiningField name="Domino"/>
+			<MiningField name="LargePiece"/>
+			<MiningField name="Tile"/>
+			<MiningField name="NumComponentsType"/>
+			<MiningField name="NumComponentsTypePerPlayer"/>
+			<MiningField name="NumDice"/>
+			<MiningField name="SwapOption"/>
+			<MiningField name="TurnKo"/>
+			<MiningField name="SituationalTurnKo"/>
+			<MiningField name="PositionalSuperko"/>
+			<MiningField name="SituationalSuperko"/>
+			<MiningField name="AutoMove"/>
+			<MiningField name="PiecesPlacedOnBoard"/>
+			<MiningField name="PiecesPlacedOutsideBoard"/>
+			<MiningField name="InitialRandomPlacement"/>
+			<MiningField name="InitialScore"/>
+			<MiningField name="InitialAmount"/>
+			<MiningField name="InitialPot"/>
+			<MiningField name="InitialCost"/>
+			<MiningField name="NumStartComponentsBoard"/>
+			<MiningField name="NumStartComponentsHand"/>
+			<MiningField name="NumStartComponents"/>
+			<MiningField name="BetDecisionFrequency"/>
+			<MiningField name="VoteDecisionFrequency"/>
+			<MiningField name="SwapPlayersDecisionFrequency"/>
+			<MiningField name="ChooseTrumpSuitDecisionFrequency"/>
+			<MiningField name="PassDecisionFrequency"/>
+			<MiningField name="ProposeDecisionFrequency"/>
+			<MiningField name="AddDecisionFrequency"/>
+			<MiningField name="PromotionDecisionFrequency"/>
+			<MiningField name="RemoveDecisionFrequency"/>
+			<MiningField name="RotationDecisionFrequency"/>
+			<MiningField name="StepDecisionFrequency"/>
+			<MiningField name="StepDecisionToEmptyFrequency"/>
+			<MiningField name="StepDecisionToFriendFrequency"/>
+			<MiningField name="StepDecisionToEnemyFrequency"/>
+			<MiningField name="SlideDecisionFrequency"/>
+			<MiningField name="SlideDecisionToEmptyFrequency"/>
+			<MiningField name="SlideDecisionToEnemyFrequency"/>
+			<MiningField name="SlideDecisionToFriendFrequency"/>
+			<MiningField name="LeapDecisionFrequency"/>
+			<MiningField name="LeapDecisionToEmptyFrequency"/>
+			<MiningField name="LeapDecisionToFriendFrequency"/>
+			<MiningField name="LeapDecisionToEnemyFrequency"/>
+			<MiningField name="HopDecisionFrequency"/>
+			<MiningField name="HopDecisionMoreThanOneFrequency"/>
+			<MiningField name="HopDecisionEnemyToEmptyFrequency"/>
+			<MiningField name="HopDecisionFriendToEmptyFrequency"/>
+			<MiningField name="HopDecisionEnemyToFriendFrequency"/>
+			<MiningField name="HopDecisionFriendToFriendFrequency"/>
+			<MiningField name="HopDecisionEnemyToEnemyFrequency"/>
+			<MiningField name="HopDecisionFriendToEnemyFrequency"/>
+			<MiningField name="FromToDecisionFrequency"/>
+			<MiningField name="FromToDecisionWithinBoardFrequency"/>
+			<MiningField name="FromToDecisionBetweenContainersFrequency"/>
+			<MiningField name="FromToDecisionEmptyFrequency"/>
+			<MiningField name="FromToDecisionEnemyFrequency"/>
+			<MiningField name="FromToDecisionFriendFrequency"/>
+			<MiningField name="SwapPiecesDecisionFrequency"/>
+			<MiningField name="ShootDecisionFrequency"/>
+			<MiningField name="BetEffectFrequency"/>
+			<MiningField name="VoteEffectFrequency"/>
+			<MiningField name="SwapPlayersEffectFrequency"/>
+			<MiningField name="TakeControlFrequency"/>
+			<MiningField name="PassEffectFrequency"/>
+			<MiningField name="RollFrequency"/>
+			<MiningField name="ProposeEffectFrequency"/>
+			<MiningField name="AddEffectFrequency"/>
+			<MiningField name="SowFrequency"/>
+			<MiningField name="SowCaptureFrequency"/>
+			<MiningField name="SowRemoveFrequency"/>
+			<MiningField name="SowBacktrackingFrequency"/>
+			<MiningField name="SowSkip"/>
+			<MiningField name="SowOriginFirst"/>
+			<MiningField name="SowCW"/>
+			<MiningField name="SowCCW"/>
+			<MiningField name="PromotionEffectFrequency"/>
+			<MiningField name="RemoveEffectFrequency"/>
+			<MiningField name="PushEffectFrequency"/>
+			<MiningField name="FlipFrequency"/>
+			<MiningField name="SetNextPlayerFrequency"/>
+			<MiningField name="MoveAgainFrequency"/>
+			<MiningField name="SetValueFrequency"/>
+			<MiningField name="SetCountFrequency"/>
+			<MiningField name="SetCostFrequency"/>
+			<MiningField name="SetPhaseFrequency"/>
+			<MiningField name="SetTrumpSuitFrequency"/>
+			<MiningField name="SetRotationFrequency"/>
+			<MiningField name="StepEffectFrequency"/>
+			<MiningField name="SlideEffectFrequency"/>
+			<MiningField name="LeapEffectFrequency"/>
+			<MiningField name="HopEffectFrequency"/>
+			<MiningField name="FromToEffectFrequency"/>
+			<MiningField name="SwapPiecesEffectFrequency"/>
+			<MiningField name="ShootEffectFrequency"/>
+			<MiningField name="Priority"/>
+			<MiningField name="ByDieMove"/>
+			<MiningField name="MaxMovesInTurn"/>
+			<MiningField name="MaxDistance"/>
+			<MiningField name="ReplacementCaptureFrequency"/>
+			<MiningField name="HopCaptureFrequency"/>
+			<MiningField name="HopCaptureMoreThanOneFrequency"/>
+			<MiningField name="DirectionCaptureFrequency"/>
+			<MiningField name="EncloseCaptureFrequency"/>
+			<MiningField name="CustodialCaptureFrequency"/>
+			<MiningField name="InterveneCaptureFrequency"/>
+			<MiningField name="SurroundCaptureFrequency"/>
+			<MiningField name="CaptureSequenceFrequency"/>
+			<MiningField name="MaxCapture"/>
+			<MiningField name="Line"/>
+			<MiningField name="Connection"/>
+			<MiningField name="Group"/>
+			<MiningField name="Contains"/>
+			<MiningField name="Loop"/>
+			<MiningField name="Pattern"/>
+			<MiningField name="PathExtent"/>
+			<MiningField name="Territory"/>
+			<MiningField name="Fill"/>
+			<MiningField name="Distance"/>
+			<MiningField name="NoMovesMover"/>
+			<MiningField name="NoMovesNext"/>
+			<MiningField name="CanMove"/>
+			<MiningField name="CanNotMove"/>
+			<MiningField name="NoPieceMover"/>
+			<MiningField name="NoPieceNext"/>
+			<MiningField name="NoTargetPiece"/>
+			<MiningField name="Threat"/>
+			<MiningField name="IsEmpty"/>
+			<MiningField name="IsEnemy"/>
+			<MiningField name="IsFriend"/>
+			<MiningField name="LineOfSight"/>
+			<MiningField name="CountPiecesMoverComparison"/>
+			<MiningField name="CountPiecesNextComparison"/>
+			<MiningField name="ProgressCheck"/>
+			<MiningField name="AllDirections"/>
+			<MiningField name="AdjacentDirection"/>
+			<MiningField name="OrthogonalDirection"/>
+			<MiningField name="DiagonalDirection"/>
+			<MiningField name="OffDiagonalDirection"/>
+			<MiningField name="RotationalDirection"/>
+			<MiningField name="SameLayerDirection"/>
+			<MiningField name="ForwardDirection"/>
+			<MiningField name="BackwardDirection"/>
+			<MiningField name="ForwardsDirection"/>
+			<MiningField name="BackwardsDirection"/>
+			<MiningField name="RightwardDirection"/>
+			<MiningField name="LeftwardDirection"/>
+			<MiningField name="RightwardsDirection"/>
+			<MiningField name="LeftwardsDirection"/>
+			<MiningField name="ForwardLeftDirection"/>
+			<MiningField name="ForwardRightDirection"/>
+			<MiningField name="BackwardLeftDirection"/>
+			<MiningField name="BackwardRightDirection"/>
+			<MiningField name="SameDirection"/>
+			<MiningField name="OppositeDirection"/>
+			<MiningField name="HidePieceType"/>
+			<MiningField name="HidePieceOwner"/>
+			<MiningField name="HidePieceCount"/>
+			<MiningField name="HidePieceRotation"/>
+			<MiningField name="HidePieceValue"/>
+			<MiningField name="HidePieceState"/>
+			<MiningField name="InvisiblePiece"/>
+			<MiningField name="NumPlayPhase"/>
+			<MiningField name="Scoring"/>
+			<MiningField name="PieceCount"/>
+			<MiningField name="SumDice"/>
+			<MiningField name="LineEndFrequency"/>
+			<MiningField name="LineWinFrequency"/>
+			<MiningField name="LineLossFrequency"/>
+			<MiningField name="LineDrawFrequency"/>
+			<MiningField name="ConnectionEndFrequency"/>
+			<MiningField name="ConnectionWinFrequency"/>
+			<MiningField name="ConnectionLossFrequency"/>
+			<MiningField name="ConnectionDrawFrequency"/>
+			<MiningField name="GroupEndFrequency"/>
+			<MiningField name="GroupWinFrequency"/>
+			<MiningField name="GroupLossFrequency"/>
+			<MiningField name="GroupDrawFrequency"/>
+			<MiningField name="LoopEndFrequency"/>
+			<MiningField name="LoopWinFrequency"/>
+			<MiningField name="LoopLossFrequency"/>
+			<MiningField name="LoopDrawFrequency"/>
+			<MiningField name="PatternEndFrequency"/>
+			<MiningField name="PatternWinFrequency"/>
+			<MiningField name="PatternLossFrequency"/>
+			<MiningField name="PatternDrawFrequency"/>
+			<MiningField name="PathExtentEndFrequency"/>
+			<MiningField name="PathExtentWinFrequency"/>
+			<MiningField name="PathExtentLossFrequency"/>
+			<MiningField name="PathExtentDrawFrequency"/>
+			<MiningField name="TerritoryEndFrequency"/>
+			<MiningField name="TerritoryWinFrequency"/>
+			<MiningField name="TerritoryLossFrequency"/>
+			<MiningField name="TerritoryDrawFrequency"/>
+			<MiningField name="CheckmateFrequency"/>
+			<MiningField name="CheckmateWinFrequency"/>
+			<MiningField name="CheckmateLossFrequency"/>
+			<MiningField name="CheckmateDrawFrequency"/>
+			<MiningField name="NoTargetPieceEndFrequency"/>
+			<MiningField name="NoTargetPieceWinFrequency"/>
+			<MiningField name="NoTargetPieceLossFrequency"/>
+			<MiningField name="NoTargetPieceDrawFrequency"/>
+			<MiningField name="EliminatePiecesEndFrequency"/>
+			<MiningField name="EliminatePiecesWinFrequency"/>
+			<MiningField name="EliminatePiecesLossFrequency"/>
+			<MiningField name="EliminatePiecesDrawFrequency"/>
+			<MiningField name="NoOwnPiecesEndFrequency"/>
+			<MiningField name="NoOwnPiecesWinFrequency"/>
+			<MiningField name="NoOwnPiecesLossFrequency"/>
+			<MiningField name="NoOwnPiecesDrawFrequency"/>
+			<MiningField name="FillEndFrequency"/>
+			<MiningField name="FillWinFrequency"/>
+			<MiningField name="FillLossFrequency"/>
+			<MiningField name="FillDrawFrequency"/>
+			<MiningField name="ReachEndFrequency"/>
+			<MiningField name="ReachWinFrequency"/>
+			<MiningField name="ReachLossFrequency"/>
+			<MiningField name="ReachDrawFrequency"/>
+			<MiningField name="ScoringEndFrequency"/>
+			<MiningField name="ScoringWinFrequency"/>
+			<MiningField name="ScoringLossFrequency"/>
+			<MiningField name="ScoringDrawFrequency"/>
+			<MiningField name="NoMovesEndFrequency"/>
+			<MiningField name="NoMovesWinFrequency"/>
+			<MiningField name="NoMovesLossFrequency"/>
+			<MiningField name="NoMovesDrawFrequency"/>
+			<MiningField name="NoProgressEndFrequency"/>
+			<MiningField name="NoProgressWinFrequency"/>
+			<MiningField name="NoProgressLossFrequency"/>
+			<MiningField name="NoProgressDrawFrequency"/>
+			<MiningField name="DrawFrequency"/>
+			<MiningField name="Misere"/>
+			<MiningField name="PositionalRepetition"/>
+			<MiningField name="SituationalRepetition"/>
+			<MiningField name="DurationActions"/>
+			<MiningField name="DurationMoves"/>
+			<MiningField name="DurationTurns"/>
+			<MiningField name="DecisionMoves"/>
+			<MiningField name="GameTreeComplexity"/>
+			<MiningField name="StateTreeComplexity"/>
+			<MiningField name="BoardCoverageDefault"/>
+			<MiningField name="BoardCoverageFull"/>
+			<MiningField name="BoardCoverageUsed"/>
+			<MiningField name="AdvantageP1"/>
+			<MiningField name="Balance"/>
+			<MiningField name="Completion"/>
+			<MiningField name="Drawishness"/>
+			<MiningField name="Timeouts"/>
+			<MiningField name="Narrowness"/>
+			<MiningField name="Variance"/>
+			<MiningField name="DecisivenessMoves"/>
+			<MiningField name="DecisivenessThreshold"/>
+			<MiningField name="LeadChange"/>
+			<MiningField name="Stability"/>
+			<MiningField name="DramaAverage"/>
+			<MiningField name="DramaMedian"/>
+			<MiningField name="DramaMaximum"/>
+			<MiningField name="DramaMinimum"/>
+			<MiningField name="DramaVariance"/>
+			<MiningField name="DramaChangeAverage"/>
+			<MiningField name="DramaChangeSign"/>
+			<MiningField name="DramaChangeLineBestFit"/>
+			<MiningField name="DramaChangeNumTimes"/>
+			<MiningField name="DramaMaxIncrease"/>
+			<MiningField name="DramaMaxDecrease"/>
+			<MiningField name="MoveEvaluationAverage"/>
+			<MiningField name="MoveEvaluationMedian"/>
+			<MiningField name="MoveEvaluationMaximum"/>
+			<MiningField name="MoveEvaluationMinimum"/>
+			<MiningField name="MoveEvaluationVariance"/>
+			<MiningField name="MoveEvaluationChangeAverage"/>
+			<MiningField name="MoveEvaluationChangeSign"/>
+			<MiningField name="MoveEvaluationChangeLineBestFit"/>
+			<MiningField name="MoveEvaluationChangeNumTimes"/>
+			<MiningField name="MoveEvaluationMaxIncrease"/>
+			<MiningField name="MoveEvaluationMaxDecrease"/>
+			<MiningField name="StateEvaluationDifferenceAverage"/>
+			<MiningField name="StateEvaluationDifferenceMedian"/>
+			<MiningField name="StateEvaluationDifferenceMaximum"/>
+			<MiningField name="StateEvaluationDifferenceMinimum"/>
+			<MiningField name="StateEvaluationDifferenceVariance"/>
+			<MiningField name="StateEvaluationDifferenceChangeAverage"/>
+			<MiningField name="StateEvaluationDifferenceChangeSign"/>
+			<MiningField name="StateEvaluationDifferenceChangeLineBestFit"/>
+			<MiningField name="StateEvaluationDifferenceChangeNumTimes"/>
+			<MiningField name="StateEvaluationDifferenceMaxIncrease"/>
+			<MiningField name="StateEvaluationDifferenceMaxDecrease"/>
+			<MiningField name="BoardSitesOccupiedAverage"/>
+			<MiningField name="BoardSitesOccupiedMedian"/>
+			<MiningField name="BoardSitesOccupiedMaximum"/>
+			<MiningField name="BoardSitesOccupiedMinimum"/>
+			<MiningField name="BoardSitesOccupiedVariance"/>
+			<MiningField name="BoardSitesOccupiedChangeAverage"/>
+			<MiningField name="BoardSitesOccupiedChangeSign"/>
+			<MiningField name="BoardSitesOccupiedChangeLineBestFit"/>
+			<MiningField name="BoardSitesOccupiedChangeNumTimes"/>
+			<MiningField name="BoardSitesOccupiedMaxIncrease"/>
+			<MiningField name="BoardSitesOccupiedMaxDecrease"/>
+			<MiningField name="BranchingFactorAverage"/>
+			<MiningField name="BranchingFactorMedian"/>
+			<MiningField name="BranchingFactorMaximum"/>
+			<MiningField name="BranchingFactorMinimum"/>
+			<MiningField name="BranchingFactorVariance"/>
+			<MiningField name="BranchingFactorChangeAverage"/>
+			<MiningField name="BranchingFactorChangeSign"/>
+			<MiningField name="BranchingFactorChangeLineBestFit"/>
+			<MiningField name="BranchingFactorChangeNumTimesn"/>
+			<MiningField name="BranchingFactorChangeMaxIncrease"/>
+			<MiningField name="BranchingFactorChangeMaxDecrease"/>
+			<MiningField name="DecisionFactorAverage"/>
+			<MiningField name="DecisionFactorMedian"/>
+			<MiningField name="DecisionFactorMaximum"/>
+			<MiningField name="DecisionFactorMinimum"/>
+			<MiningField name="DecisionFactorVariance"/>
+			<MiningField name="DecisionFactorChangeAverage"/>
+			<MiningField name="DecisionFactorChangeSign"/>
+			<MiningField name="DecisionFactorChangeLineBestFit"/>
+			<MiningField name="DecisionFactorChangeNumTimes"/>
+			<MiningField name="DecisionFactorMaxIncrease"/>
+			<MiningField name="DecisionFactorMaxDecrease"/>
+			<MiningField name="MoveDistanceAverage"/>
+			<MiningField name="MoveDistanceMedian"/>
+			<MiningField name="MoveDistanceMaximum"/>
+			<MiningField name="MoveDistanceMinimum"/>
+			<MiningField name="MoveDistanceVariance"/>
+			<MiningField name="MoveDistanceChangeAverage"/>
+			<MiningField name="MoveDistanceChangeSign"/>
+			<MiningField name="MoveDistanceChangeLineBestFit"/>
+			<MiningField name="MoveDistanceChangeNumTimes"/>
+			<MiningField name="MoveDistanceMaxIncrease"/>
+			<MiningField name="MoveDistanceMaxDecrease"/>
+			<MiningField name="PieceNumberAverage"/>
+			<MiningField name="PieceNumberMedian"/>
+			<MiningField name="PieceNumberMaximum"/>
+			<MiningField name="PieceNumberMinimum"/>
+			<MiningField name="PieceNumberVariance"/>
+			<MiningField name="PieceNumberChangeAverage"/>
+			<MiningField name="PieceNumberChangeSign"/>
+			<MiningField name="PieceNumberChangeLineBestFit"/>
+			<MiningField name="PieceNumberChangeNumTimes"/>
+			<MiningField name="PieceNumberMaxIncrease"/>
+			<MiningField name="PieceNumberMaxDecrease"/>
+			<MiningField name="ScoreDifferenceAverage"/>
+			<MiningField name="ScoreDifferenceMedian"/>
+			<MiningField name="ScoreDifferenceMaximum"/>
+			<MiningField name="ScoreDifferenceMinimum"/>
+			<MiningField name="ScoreDifferenceVariance"/>
+			<MiningField name="ScoreDifferenceChangeAverage"/>
+			<MiningField name="ScoreDifferenceChangeSign"/>
+			<MiningField name="ScoreDifferenceChangeLineBestFit"/>
+			<MiningField name="ScoreDifferenceChangeNumTimes"/>
+			<MiningField name="ScoreDifferenceMaxIncrease"/>
+			<MiningField name="ScoreDifferenceMaxDecrease"/>
+			<MiningField name="Addition"/>
+			<MiningField name="Subtraction"/>
+			<MiningField name="Multiplication"/>
+			<MiningField name="Division"/>
+			<MiningField name="Modulo"/>
+			<MiningField name="Absolute"/>
+			<MiningField name="Roots"/>
+			<MiningField name="Cosine"/>
+			<MiningField name="Sine"/>
+			<MiningField name="Tangent"/>
+			<MiningField name="Exponentiation"/>
+			<MiningField name="Exponential"/>
+			<MiningField name="Logarithm"/>
+			<MiningField name="Minimum"/>
+			<MiningField name="Maximum"/>
+			<MiningField name="Equal"/>
+			<MiningField name="NotEqual"/>
+			<MiningField name="LesserThan"/>
+			<MiningField name="LesserThanOrEqual"/>
+			<MiningField name="GreaterThan"/>
+			<MiningField name="GreaterThanOrEqual"/>
+			<MiningField name="Even"/>
+			<MiningField name="Odd"/>
+			<MiningField name="Conjunction"/>
+			<MiningField name="Disjunction"/>
+			<MiningField name="ExclusiveDisjunction"/>
+			<MiningField name="Negation"/>
+			<MiningField name="Union"/>
+			<MiningField name="Intersection"/>
+			<MiningField name="Complement"/>
+			<MiningField name="ConditionalStatement"/>
+			<MiningField name="ControlFlowStatement"/>
+			<MiningField name="Float"/>
+			<MiningField name="GraphStyle"/>
+			<MiningField name="ChessStyle"/>
+			<MiningField name="GoStyle"/>
+			<MiningField name="MancalaStyle"/>
+			<MiningField name="PenAndPaperStyle"/>
+			<MiningField name="ShibumiStyle"/>
+			<MiningField name="BackgammonStyle"/>
+			<MiningField name="JanggiStyle"/>
+			<MiningField name="XiangqiStyle"/>
+			<MiningField name="ShogiStyle"/>
+			<MiningField name="TableStyle"/>
+			<MiningField name="SurakartaStyle"/>
+			<MiningField name="TaflStyle"/>
+			<MiningField name="NoBoard"/>
+			<MiningField name="AnimalComponent"/>
+			<MiningField name="KingComponent"/>
+			<MiningField name="QueenComponent"/>
+			<MiningField name="KnightComponent"/>
+			<MiningField name="RookComponent"/>
+			<MiningField name="BishopComponent"/>
+			<MiningField name="PawnComponent"/>
+			<MiningField name="FairyChessComponent"/>
+			<MiningField name="PloyComponent"/>
+			<MiningField name="ShogiComponent"/>
+			<MiningField name="XiangqiComponent"/>
+			<MiningField name="StrategoComponent"/>
+			<MiningField name="JanggiComponent"/>
+			<MiningField name="HandComponent"/>
+			<MiningField name="CheckersComponent"/>
+			<MiningField name="BallComponent"/>
+			<MiningField name="TaflComponent"/>
+			<MiningField name="DiscComponent"/>
+			<MiningField name="MarkerComponent"/>
+			<MiningField name="Stack"/>
+			<MiningField name="Symbols"/>
+			<MiningField name="ShowPieceValue"/>
+			<MiningField name="ShowPieceState"/>
+			<MiningField name="StackState"/>
+			<MiningField name="SiteState"/>
+			<MiningField name="SetSiteState"/>
+			<MiningField name="VisitedSites"/>
+			<MiningField name="SetVar"/>
+			<MiningField name="RememberValues"/>
+			<MiningField name="ForgetValues"/>
+			<MiningField name="SetPending"/>
+			<MiningField name="SetInternalCounter"/>
+			<MiningField name="PlayerValue"/>
+			<MiningField name="SetInvisible"/>
+			<MiningField name="SetHiddenCount"/>
+			<MiningField name="SetHiddenRotation"/>
+			<MiningField name="SetHiddenState"/>
+			<MiningField name="SetHiddenValue"/>
+			<MiningField name="SetHiddenWhat"/>
+			<MiningField name="SetHiddenWho"/>
+			<MiningField name="CopyContext"/>
+			<MiningField name="Then"/>
+			<MiningField name="ForEachPiece"/>
+			<MiningField name="DoLudeme"/>
+			<MiningField name="Trigger"/>
+			<MiningField name="PlayoutsPerSecond"/>
+			<MiningField name="MovesPerSecond"/>
+		</MiningSchema>
+		<Output>
+			<OutputField name="cluster" optype="categorical" dataType="string">
+				<Value value="0"/>
+				<Value value="1"/>
+				<Value value="2"/>
+				<Value value="3"/>
+				<Value value="4"/>
+			</OutputField>
+			<OutputField name="affinity(0)" optype="continuous" dataType="double" feature="affinity" value="0"/>
+			<OutputField name="affinity(1)" optype="continuous" dataType="double" feature="affinity" value="1"/>
+			<OutputField name="affinity(2)" optype="continuous" dataType="double" feature="affinity" value="2"/>
+			<OutputField name="affinity(3)" optype="continuous" dataType="double" feature="affinity" value="3"/>
+			<OutputField name="affinity(4)" optype="continuous" dataType="double" feature="affinity" value="4"/>
+		</Output>
+		<ComparisonMeasure kind="distance">
+			<squaredEuclidean/>
+		</ComparisonMeasure>
+		<ClusteringField field="Discrete"/>
+		<ClusteringField field="Realtime"/>
+		<ClusteringField field="Alternating"/>
+		<ClusteringField field="Simultaneous"/>
+		<ClusteringField field="Stochastic"/>
+		<ClusteringField field="HiddenInformation"/>
+		<ClusteringField field="Match"/>
+		<ClusteringField field="AsymmetricPlayRules"/>
+		<ClusteringField field="AsymmetricEndRules"/>
+		<ClusteringField field="AsymmetricSetup"/>
+		<ClusteringField field="AsymmetricPiecesType"/>
+		<ClusteringField field="Simulation"/>
+		<ClusteringField field="Solitaire"/>
+		<ClusteringField field="TwoPlayer"/>
+		<ClusteringField field="Multiplayer"/>
+		<ClusteringField field="Team"/>
+		<ClusteringField field="Coalition"/>
+		<ClusteringField field="DeductionPuzzle"/>
+		<ClusteringField field="PlanningPuzzle"/>
+		<ClusteringField field="SquareShape"/>
+		<ClusteringField field="HexShape"/>
+		<ClusteringField field="TriangleShape"/>
+		<ClusteringField field="DiamondShape"/>
+		<ClusteringField field="RectangleShape"/>
+		<ClusteringField field="SpiralShape"/>
+		<ClusteringField field="CircleShape"/>
+		<ClusteringField field="PrismShape"/>
+		<ClusteringField field="StarShape"/>
+		<ClusteringField field="ParallelogramShape"/>
+		<ClusteringField field="SquarePyramidalShape"/>
+		<ClusteringField field="RectanglePyramidalShape"/>
+		<ClusteringField field="RegularShape"/>
+		<ClusteringField field="PolygonShape"/>
+		<ClusteringField field="TargetShape"/>
+		<ClusteringField field="SquareTiling"/>
+		<ClusteringField field="HexTiling"/>
+		<ClusteringField field="TriangleTiling"/>
+		<ClusteringField field="BrickTiling"/>
+		<ClusteringField field="SemiRegularTiling"/>
+		<ClusteringField field="CelticTiling"/>
+		<ClusteringField field="MorrisTiling"/>
+		<ClusteringField field="QuadHexTiling"/>
+		<ClusteringField field="CircleTiling"/>
+		<ClusteringField field="ConcentricTiling"/>
+		<ClusteringField field="SpiralTiling"/>
+		<ClusteringField field="AlquerqueTiling"/>
+		<ClusteringField field="MancalaStores"/>
+		<ClusteringField field="MancalaTwoRows"/>
+		<ClusteringField field="MancalaThreeRows"/>
+		<ClusteringField field="MancalaFourRows"/>
+		<ClusteringField field="MancalaSixRows"/>
+		<ClusteringField field="MancalaCircular"/>
+		<ClusteringField field="TrackLoop"/>
+		<ClusteringField field="TrackOwned"/>
+		<ClusteringField field="Hints"/>
+		<ClusteringField field="Region"/>
+		<ClusteringField field="Boardless"/>
+		<ClusteringField field="Vertex"/>
+		<ClusteringField field="Cell"/>
+		<ClusteringField field="Edge"/>
+		<ClusteringField field="NumPlayableSitesOnBoard"/>
+		<ClusteringField field="NumColumns"/>
+		<ClusteringField field="NumRows"/>
+		<ClusteringField field="NumCorners"/>
+		<ClusteringField field="NumDirections"/>
+		<ClusteringField field="NumOrthogonalDirections"/>
+		<ClusteringField field="NumDiagonalDirections"/>
+		<ClusteringField field="NumAdjacentDirections"/>
+		<ClusteringField field="NumOffDiagonalDirections"/>
+		<ClusteringField field="NumOuterSites"/>
+		<ClusteringField field="NumInnerSites"/>
+		<ClusteringField field="NumLayers"/>
+		<ClusteringField field="NumEdges"/>
+		<ClusteringField field="NumCells"/>
+		<ClusteringField field="NumVertices"/>
+		<ClusteringField field="NumPerimeterSites"/>
+		<ClusteringField field="NumTopSites"/>
+		<ClusteringField field="NumBottomSites"/>
+		<ClusteringField field="NumRightSites"/>
+		<ClusteringField field="NumLeftSites"/>
+		<ClusteringField field="NumCentreSites"/>
+		<ClusteringField field="NumConvexCorners"/>
+		<ClusteringField field="NumConcaveCorners"/>
+		<ClusteringField field="NumPhasesBoard"/>
+		<ClusteringField field="Hand"/>
+		<ClusteringField field="NumContainers"/>
+		<ClusteringField field="NumPlayableSites"/>
+		<ClusteringField field="Piece"/>
+		<ClusteringField field="PieceValue"/>
+		<ClusteringField field="PieceRotation"/>
+		<ClusteringField field="PieceDirection"/>
+		<ClusteringField field="Dice"/>
+		<ClusteringField field="BiasedDice"/>
+		<ClusteringField field="Card"/>
+		<ClusteringField field="Domino"/>
+		<ClusteringField field="LargePiece"/>
+		<ClusteringField field="Tile"/>
+		<ClusteringField field="NumComponentsType"/>
+		<ClusteringField field="NumComponentsTypePerPlayer"/>
+		<ClusteringField field="NumDice"/>
+		<ClusteringField field="SwapOption"/>
+		<ClusteringField field="TurnKo"/>
+		<ClusteringField field="SituationalTurnKo"/>
+		<ClusteringField field="PositionalSuperko"/>
+		<ClusteringField field="SituationalSuperko"/>
+		<ClusteringField field="AutoMove"/>
+		<ClusteringField field="PiecesPlacedOnBoard"/>
+		<ClusteringField field="PiecesPlacedOutsideBoard"/>
+		<ClusteringField field="InitialRandomPlacement"/>
+		<ClusteringField field="InitialScore"/>
+		<ClusteringField field="InitialAmount"/>
+		<ClusteringField field="InitialPot"/>
+		<ClusteringField field="InitialCost"/>
+		<ClusteringField field="NumStartComponentsBoard"/>
+		<ClusteringField field="NumStartComponentsHand"/>
+		<ClusteringField field="NumStartComponents"/>
+		<ClusteringField field="BetDecisionFrequency"/>
+		<ClusteringField field="VoteDecisionFrequency"/>
+		<ClusteringField field="SwapPlayersDecisionFrequency"/>
+		<ClusteringField field="ChooseTrumpSuitDecisionFrequency"/>
+		<ClusteringField field="PassDecisionFrequency"/>
+		<ClusteringField field="ProposeDecisionFrequency"/>
+		<ClusteringField field="AddDecisionFrequency"/>
+		<ClusteringField field="PromotionDecisionFrequency"/>
+		<ClusteringField field="RemoveDecisionFrequency"/>
+		<ClusteringField field="RotationDecisionFrequency"/>
+		<ClusteringField field="StepDecisionFrequency"/>
+		<ClusteringField field="StepDecisionToEmptyFrequency"/>
+		<ClusteringField field="StepDecisionToFriendFrequency"/>
+		<ClusteringField field="StepDecisionToEnemyFrequency"/>
+		<ClusteringField field="SlideDecisionFrequency"/>
+		<ClusteringField field="SlideDecisionToEmptyFrequency"/>
+		<ClusteringField field="SlideDecisionToEnemyFrequency"/>
+		<ClusteringField field="SlideDecisionToFriendFrequency"/>
+		<ClusteringField field="LeapDecisionFrequency"/>
+		<ClusteringField field="LeapDecisionToEmptyFrequency"/>
+		<ClusteringField field="LeapDecisionToFriendFrequency"/>
+		<ClusteringField field="LeapDecisionToEnemyFrequency"/>
+		<ClusteringField field="HopDecisionFrequency"/>
+		<ClusteringField field="HopDecisionMoreThanOneFrequency"/>
+		<ClusteringField field="HopDecisionEnemyToEmptyFrequency"/>
+		<ClusteringField field="HopDecisionFriendToEmptyFrequency"/>
+		<ClusteringField field="HopDecisionEnemyToFriendFrequency"/>
+		<ClusteringField field="HopDecisionFriendToFriendFrequency"/>
+		<ClusteringField field="HopDecisionEnemyToEnemyFrequency"/>
+		<ClusteringField field="HopDecisionFriendToEnemyFrequency"/>
+		<ClusteringField field="FromToDecisionFrequency"/>
+		<ClusteringField field="FromToDecisionWithinBoardFrequency"/>
+		<ClusteringField field="FromToDecisionBetweenContainersFrequency"/>
+		<ClusteringField field="FromToDecisionEmptyFrequency"/>
+		<ClusteringField field="FromToDecisionEnemyFrequency"/>
+		<ClusteringField field="FromToDecisionFriendFrequency"/>
+		<ClusteringField field="SwapPiecesDecisionFrequency"/>
+		<ClusteringField field="ShootDecisionFrequency"/>
+		<ClusteringField field="BetEffectFrequency"/>
+		<ClusteringField field="VoteEffectFrequency"/>
+		<ClusteringField field="SwapPlayersEffectFrequency"/>
+		<ClusteringField field="TakeControlFrequency"/>
+		<ClusteringField field="PassEffectFrequency"/>
+		<ClusteringField field="RollFrequency"/>
+		<ClusteringField field="ProposeEffectFrequency"/>
+		<ClusteringField field="AddEffectFrequency"/>
+		<ClusteringField field="SowFrequency"/>
+		<ClusteringField field="SowCaptureFrequency"/>
+		<ClusteringField field="SowRemoveFrequency"/>
+		<ClusteringField field="SowBacktrackingFrequency"/>
+		<ClusteringField field="SowSkip"/>
+		<ClusteringField field="SowOriginFirst"/>
+		<ClusteringField field="SowCW"/>
+		<ClusteringField field="SowCCW"/>
+		<ClusteringField field="PromotionEffectFrequency"/>
+		<ClusteringField field="RemoveEffectFrequency"/>
+		<ClusteringField field="PushEffectFrequency"/>
+		<ClusteringField field="FlipFrequency"/>
+		<ClusteringField field="SetNextPlayerFrequency"/>
+		<ClusteringField field="MoveAgainFrequency"/>
+		<ClusteringField field="SetValueFrequency"/>
+		<ClusteringField field="SetCountFrequency"/>
+		<ClusteringField field="SetCostFrequency"/>
+		<ClusteringField field="SetPhaseFrequency"/>
+		<ClusteringField field="SetTrumpSuitFrequency"/>
+		<ClusteringField field="SetRotationFrequency"/>
+		<ClusteringField field="StepEffectFrequency"/>
+		<ClusteringField field="SlideEffectFrequency"/>
+		<ClusteringField field="LeapEffectFrequency"/>
+		<ClusteringField field="HopEffectFrequency"/>
+		<ClusteringField field="FromToEffectFrequency"/>
+		<ClusteringField field="SwapPiecesEffectFrequency"/>
+		<ClusteringField field="ShootEffectFrequency"/>
+		<ClusteringField field="Priority"/>
+		<ClusteringField field="ByDieMove"/>
+		<ClusteringField field="MaxMovesInTurn"/>
+		<ClusteringField field="MaxDistance"/>
+		<ClusteringField field="ReplacementCaptureFrequency"/>
+		<ClusteringField field="HopCaptureFrequency"/>
+		<ClusteringField field="HopCaptureMoreThanOneFrequency"/>
+		<ClusteringField field="DirectionCaptureFrequency"/>
+		<ClusteringField field="EncloseCaptureFrequency"/>
+		<ClusteringField field="CustodialCaptureFrequency"/>
+		<ClusteringField field="InterveneCaptureFrequency"/>
+		<ClusteringField field="SurroundCaptureFrequency"/>
+		<ClusteringField field="CaptureSequenceFrequency"/>
+		<ClusteringField field="MaxCapture"/>
+		<ClusteringField field="Line"/>
+		<ClusteringField field="Connection"/>
+		<ClusteringField field="Group"/>
+		<ClusteringField field="Contains"/>
+		<ClusteringField field="Loop"/>
+		<ClusteringField field="Pattern"/>
+		<ClusteringField field="PathExtent"/>
+		<ClusteringField field="Territory"/>
+		<ClusteringField field="Fill"/>
+		<ClusteringField field="Distance"/>
+		<ClusteringField field="NoMovesMover"/>
+		<ClusteringField field="NoMovesNext"/>
+		<ClusteringField field="CanMove"/>
+		<ClusteringField field="CanNotMove"/>
+		<ClusteringField field="NoPieceMover"/>
+		<ClusteringField field="NoPieceNext"/>
+		<ClusteringField field="NoTargetPiece"/>
+		<ClusteringField field="Threat"/>
+		<ClusteringField field="IsEmpty"/>
+		<ClusteringField field="IsEnemy"/>
+		<ClusteringField field="IsFriend"/>
+		<ClusteringField field="LineOfSight"/>
+		<ClusteringField field="CountPiecesMoverComparison"/>
+		<ClusteringField field="CountPiecesNextComparison"/>
+		<ClusteringField field="ProgressCheck"/>
+		<ClusteringField field="AllDirections"/>
+		<ClusteringField field="AdjacentDirection"/>
+		<ClusteringField field="OrthogonalDirection"/>
+		<ClusteringField field="DiagonalDirection"/>
+		<ClusteringField field="OffDiagonalDirection"/>
+		<ClusteringField field="RotationalDirection"/>
+		<ClusteringField field="SameLayerDirection"/>
+		<ClusteringField field="ForwardDirection"/>
+		<ClusteringField field="BackwardDirection"/>
+		<ClusteringField field="ForwardsDirection"/>
+		<ClusteringField field="BackwardsDirection"/>
+		<ClusteringField field="RightwardDirection"/>
+		<ClusteringField field="LeftwardDirection"/>
+		<ClusteringField field="RightwardsDirection"/>
+		<ClusteringField field="LeftwardsDirection"/>
+		<ClusteringField field="ForwardLeftDirection"/>
+		<ClusteringField field="ForwardRightDirection"/>
+		<ClusteringField field="BackwardLeftDirection"/>
+		<ClusteringField field="BackwardRightDirection"/>
+		<ClusteringField field="SameDirection"/>
+		<ClusteringField field="OppositeDirection"/>
+		<ClusteringField field="HidePieceType"/>
+		<ClusteringField field="HidePieceOwner"/>
+		<ClusteringField field="HidePieceCount"/>
+		<ClusteringField field="HidePieceRotation"/>
+		<ClusteringField field="HidePieceValue"/>
+		<ClusteringField field="HidePieceState"/>
+		<ClusteringField field="InvisiblePiece"/>
+		<ClusteringField field="NumPlayPhase"/>
+		<ClusteringField field="Scoring"/>
+		<ClusteringField field="PieceCount"/>
+		<ClusteringField field="SumDice"/>
+		<ClusteringField field="LineEndFrequency"/>
+		<ClusteringField field="LineWinFrequency"/>
+		<ClusteringField field="LineLossFrequency"/>
+		<ClusteringField field="LineDrawFrequency"/>
+		<ClusteringField field="ConnectionEndFrequency"/>
+		<ClusteringField field="ConnectionWinFrequency"/>
+		<ClusteringField field="ConnectionLossFrequency"/>
+		<ClusteringField field="ConnectionDrawFrequency"/>
+		<ClusteringField field="GroupEndFrequency"/>
+		<ClusteringField field="GroupWinFrequency"/>
+		<ClusteringField field="GroupLossFrequency"/>
+		<ClusteringField field="GroupDrawFrequency"/>
+		<ClusteringField field="LoopEndFrequency"/>
+		<ClusteringField field="LoopWinFrequency"/>
+		<ClusteringField field="LoopLossFrequency"/>
+		<ClusteringField field="LoopDrawFrequency"/>
+		<ClusteringField field="PatternEndFrequency"/>
+		<ClusteringField field="PatternWinFrequency"/>
+		<ClusteringField field="PatternLossFrequency"/>
+		<ClusteringField field="PatternDrawFrequency"/>
+		<ClusteringField field="PathExtentEndFrequency"/>
+		<ClusteringField field="PathExtentWinFrequency"/>
+		<ClusteringField field="PathExtentLossFrequency"/>
+		<ClusteringField field="PathExtentDrawFrequency"/>
+		<ClusteringField field="TerritoryEndFrequency"/>
+		<ClusteringField field="TerritoryWinFrequency"/>
+		<ClusteringField field="TerritoryLossFrequency"/>
+		<ClusteringField field="TerritoryDrawFrequency"/>
+		<ClusteringField field="CheckmateFrequency"/>
+		<ClusteringField field="CheckmateWinFrequency"/>
+		<ClusteringField field="CheckmateLossFrequency"/>
+		<ClusteringField field="CheckmateDrawFrequency"/>
+		<ClusteringField field="NoTargetPieceEndFrequency"/>
+		<ClusteringField field="NoTargetPieceWinFrequency"/>
+		<ClusteringField field="NoTargetPieceLossFrequency"/>
+		<ClusteringField field="NoTargetPieceDrawFrequency"/>
+		<ClusteringField field="EliminatePiecesEndFrequency"/>
+		<ClusteringField field="EliminatePiecesWinFrequency"/>
+		<ClusteringField field="EliminatePiecesLossFrequency"/>
+		<ClusteringField field="EliminatePiecesDrawFrequency"/>
+		<ClusteringField field="NoOwnPiecesEndFrequency"/>
+		<ClusteringField field="NoOwnPiecesWinFrequency"/>
+		<ClusteringField field="NoOwnPiecesLossFrequency"/>
+		<ClusteringField field="NoOwnPiecesDrawFrequency"/>
+		<ClusteringField field="FillEndFrequency"/>
+		<ClusteringField field="FillWinFrequency"/>
+		<ClusteringField field="FillLossFrequency"/>
+		<ClusteringField field="FillDrawFrequency"/>
+		<ClusteringField field="ReachEndFrequency"/>
+		<ClusteringField field="ReachWinFrequency"/>
+		<ClusteringField field="ReachLossFrequency"/>
+		<ClusteringField field="ReachDrawFrequency"/>
+		<ClusteringField field="ScoringEndFrequency"/>
+		<ClusteringField field="ScoringWinFrequency"/>
+		<ClusteringField field="ScoringLossFrequency"/>
+		<ClusteringField field="ScoringDrawFrequency"/>
+		<ClusteringField field="NoMovesEndFrequency"/>
+		<ClusteringField field="NoMovesWinFrequency"/>
+		<ClusteringField field="NoMovesLossFrequency"/>
+		<ClusteringField field="NoMovesDrawFrequency"/>
+		<ClusteringField field="NoProgressEndFrequency"/>
+		<ClusteringField field="NoProgressWinFrequency"/>
+		<ClusteringField field="NoProgressLossFrequency"/>
+		<ClusteringField field="NoProgressDrawFrequency"/>
+		<ClusteringField field="DrawFrequency"/>
+		<ClusteringField field="Misere"/>
+		<ClusteringField field="PositionalRepetition"/>
+		<ClusteringField field="SituationalRepetition"/>
+		<ClusteringField field="DurationActions"/>
+		<ClusteringField field="DurationMoves"/>
+		<ClusteringField field="DurationTurns"/>
+		<ClusteringField field="DecisionMoves"/>
+		<ClusteringField field="GameTreeComplexity"/>
+		<ClusteringField field="StateTreeComplexity"/>
+		<ClusteringField field="BoardCoverageDefault"/>
+		<ClusteringField field="BoardCoverageFull"/>
+		<ClusteringField field="BoardCoverageUsed"/>
+		<ClusteringField field="AdvantageP1"/>
+		<ClusteringField field="Balance"/>
+		<ClusteringField field="Completion"/>
+		<ClusteringField field="Drawishness"/>
+		<ClusteringField field="Timeouts"/>
+		<ClusteringField field="Narrowness"/>
+		<ClusteringField field="Variance"/>
+		<ClusteringField field="DecisivenessMoves"/>
+		<ClusteringField field="DecisivenessThreshold"/>
+		<ClusteringField field="LeadChange"/>
+		<ClusteringField field="Stability"/>
+		<ClusteringField field="DramaAverage"/>
+		<ClusteringField field="DramaMedian"/>
+		<ClusteringField field="DramaMaximum"/>
+		<ClusteringField field="DramaMinimum"/>
+		<ClusteringField field="DramaVariance"/>
+		<ClusteringField field="DramaChangeAverage"/>
+		<ClusteringField field="DramaChangeSign"/>
+		<ClusteringField field="DramaChangeLineBestFit"/>
+		<ClusteringField field="DramaChangeNumTimes"/>
+		<ClusteringField field="DramaMaxIncrease"/>
+		<ClusteringField field="DramaMaxDecrease"/>
+		<ClusteringField field="MoveEvaluationAverage"/>
+		<ClusteringField field="MoveEvaluationMedian"/>
+		<ClusteringField field="MoveEvaluationMaximum"/>
+		<ClusteringField field="MoveEvaluationMinimum"/>
+		<ClusteringField field="MoveEvaluationVariance"/>
+		<ClusteringField field="MoveEvaluationChangeAverage"/>
+		<ClusteringField field="MoveEvaluationChangeSign"/>
+		<ClusteringField field="MoveEvaluationChangeLineBestFit"/>
+		<ClusteringField field="MoveEvaluationChangeNumTimes"/>
+		<ClusteringField field="MoveEvaluationMaxIncrease"/>
+		<ClusteringField field="MoveEvaluationMaxDecrease"/>
+		<ClusteringField field="StateEvaluationDifferenceAverage"/>
+		<ClusteringField field="StateEvaluationDifferenceMedian"/>
+		<ClusteringField field="StateEvaluationDifferenceMaximum"/>
+		<ClusteringField field="StateEvaluationDifferenceMinimum"/>
+		<ClusteringField field="StateEvaluationDifferenceVariance"/>
+		<ClusteringField field="StateEvaluationDifferenceChangeAverage"/>
+		<ClusteringField field="StateEvaluationDifferenceChangeSign"/>
+		<ClusteringField field="StateEvaluationDifferenceChangeLineBestFit"/>
+		<ClusteringField field="StateEvaluationDifferenceChangeNumTimes"/>
+		<ClusteringField field="StateEvaluationDifferenceMaxIncrease"/>
+		<ClusteringField field="StateEvaluationDifferenceMaxDecrease"/>
+		<ClusteringField field="BoardSitesOccupiedAverage"/>
+		<ClusteringField field="BoardSitesOccupiedMedian"/>
+		<ClusteringField field="BoardSitesOccupiedMaximum"/>
+		<ClusteringField field="BoardSitesOccupiedMinimum"/>
+		<ClusteringField field="BoardSitesOccupiedVariance"/>
+		<ClusteringField field="BoardSitesOccupiedChangeAverage"/>
+		<ClusteringField field="BoardSitesOccupiedChangeSign"/>
+		<ClusteringField field="BoardSitesOccupiedChangeLineBestFit"/>
+		<ClusteringField field="BoardSitesOccupiedChangeNumTimes"/>
+		<ClusteringField field="BoardSitesOccupiedMaxIncrease"/>
+		<ClusteringField field="BoardSitesOccupiedMaxDecrease"/>
+		<ClusteringField field="BranchingFactorAverage"/>
+		<ClusteringField field="BranchingFactorMedian"/>
+		<ClusteringField field="BranchingFactorMaximum"/>
+		<ClusteringField field="BranchingFactorMinimum"/>
+		<ClusteringField field="BranchingFactorVariance"/>
+		<ClusteringField field="BranchingFactorChangeAverage"/>
+		<ClusteringField field="BranchingFactorChangeSign"/>
+		<ClusteringField field="BranchingFactorChangeLineBestFit"/>
+		<ClusteringField field="BranchingFactorChangeNumTimesn"/>
+		<ClusteringField field="BranchingFactorChangeMaxIncrease"/>
+		<ClusteringField field="BranchingFactorChangeMaxDecrease"/>
+		<ClusteringField field="DecisionFactorAverage"/>
+		<ClusteringField field="DecisionFactorMedian"/>
+		<ClusteringField field="DecisionFactorMaximum"/>
+		<ClusteringField field="DecisionFactorMinimum"/>
+		<ClusteringField field="DecisionFactorVariance"/>
+		<ClusteringField field="DecisionFactorChangeAverage"/>
+		<ClusteringField field="DecisionFactorChangeSign"/>
+		<ClusteringField field="DecisionFactorChangeLineBestFit"/>
+		<ClusteringField field="DecisionFactorChangeNumTimes"/>
+		<ClusteringField field="DecisionFactorMaxIncrease"/>
+		<ClusteringField field="DecisionFactorMaxDecrease"/>
+		<ClusteringField field="MoveDistanceAverage"/>
+		<ClusteringField field="MoveDistanceMedian"/>
+		<ClusteringField field="MoveDistanceMaximum"/>
+		<ClusteringField field="MoveDistanceMinimum"/>
+		<ClusteringField field="MoveDistanceVariance"/>
+		<ClusteringField field="MoveDistanceChangeAverage"/>
+		<ClusteringField field="MoveDistanceChangeSign"/>
+		<ClusteringField field="MoveDistanceChangeLineBestFit"/>
+		<ClusteringField field="MoveDistanceChangeNumTimes"/>
+		<ClusteringField field="MoveDistanceMaxIncrease"/>
+		<ClusteringField field="MoveDistanceMaxDecrease"/>
+		<ClusteringField field="PieceNumberAverage"/>
+		<ClusteringField field="PieceNumberMedian"/>
+		<ClusteringField field="PieceNumberMaximum"/>
+		<ClusteringField field="PieceNumberMinimum"/>
+		<ClusteringField field="PieceNumberVariance"/>
+		<ClusteringField field="PieceNumberChangeAverage"/>
+		<ClusteringField field="PieceNumberChangeSign"/>
+		<ClusteringField field="PieceNumberChangeLineBestFit"/>
+		<ClusteringField field="PieceNumberChangeNumTimes"/>
+		<ClusteringField field="PieceNumberMaxIncrease"/>
+		<ClusteringField field="PieceNumberMaxDecrease"/>
+		<ClusteringField field="ScoreDifferenceAverage"/>
+		<ClusteringField field="ScoreDifferenceMedian"/>
+		<ClusteringField field="ScoreDifferenceMaximum"/>
+		<ClusteringField field="ScoreDifferenceMinimum"/>
+		<ClusteringField field="ScoreDifferenceVariance"/>
+		<ClusteringField field="ScoreDifferenceChangeAverage"/>
+		<ClusteringField field="ScoreDifferenceChangeSign"/>
+		<ClusteringField field="ScoreDifferenceChangeLineBestFit"/>
+		<ClusteringField field="ScoreDifferenceChangeNumTimes"/>
+		<ClusteringField field="ScoreDifferenceMaxIncrease"/>
+		<ClusteringField field="ScoreDifferenceMaxDecrease"/>
+		<ClusteringField field="Addition"/>
+		<ClusteringField field="Subtraction"/>
+		<ClusteringField field="Multiplication"/>
+		<ClusteringField field="Division"/>
+		<ClusteringField field="Modulo"/>
+		<ClusteringField field="Absolute"/>
+		<ClusteringField field="Roots"/>
+		<ClusteringField field="Cosine"/>
+		<ClusteringField field="Sine"/>
+		<ClusteringField field="Tangent"/>
+		<ClusteringField field="Exponentiation"/>
+		<ClusteringField field="Exponential"/>
+		<ClusteringField field="Logarithm"/>
+		<ClusteringField field="Minimum"/>
+		<ClusteringField field="Maximum"/>
+		<ClusteringField field="Equal"/>
+		<ClusteringField field="NotEqual"/>
+		<ClusteringField field="LesserThan"/>
+		<ClusteringField field="LesserThanOrEqual"/>
+		<ClusteringField field="GreaterThan"/>
+		<ClusteringField field="GreaterThanOrEqual"/>
+		<ClusteringField field="Even"/>
+		<ClusteringField field="Odd"/>
+		<ClusteringField field="Conjunction"/>
+		<ClusteringField field="Disjunction"/>
+		<ClusteringField field="ExclusiveDisjunction"/>
+		<ClusteringField field="Negation"/>
+		<ClusteringField field="Union"/>
+		<ClusteringField field="Intersection"/>
+		<ClusteringField field="Complement"/>
+		<ClusteringField field="ConditionalStatement"/>
+		<ClusteringField field="ControlFlowStatement"/>
+		<ClusteringField field="Float"/>
+		<ClusteringField field="GraphStyle"/>
+		<ClusteringField field="ChessStyle"/>
+		<ClusteringField field="GoStyle"/>
+		<ClusteringField field="MancalaStyle"/>
+		<ClusteringField field="PenAndPaperStyle"/>
+		<ClusteringField field="ShibumiStyle"/>
+		<ClusteringField field="BackgammonStyle"/>
+		<ClusteringField field="JanggiStyle"/>
+		<ClusteringField field="XiangqiStyle"/>
+		<ClusteringField field="ShogiStyle"/>
+		<ClusteringField field="TableStyle"/>
+		<ClusteringField field="SurakartaStyle"/>
+		<ClusteringField field="TaflStyle"/>
+		<ClusteringField field="NoBoard"/>
+		<ClusteringField field="AnimalComponent"/>
+		<ClusteringField field="KingComponent"/>
+		<ClusteringField field="QueenComponent"/>
+		<ClusteringField field="KnightComponent"/>
+		<ClusteringField field="RookComponent"/>
+		<ClusteringField field="BishopComponent"/>
+		<ClusteringField field="PawnComponent"/>
+		<ClusteringField field="FairyChessComponent"/>
+		<ClusteringField field="PloyComponent"/>
+		<ClusteringField field="ShogiComponent"/>
+		<ClusteringField field="XiangqiComponent"/>
+		<ClusteringField field="StrategoComponent"/>
+		<ClusteringField field="JanggiComponent"/>
+		<ClusteringField field="HandComponent"/>
+		<ClusteringField field="CheckersComponent"/>
+		<ClusteringField field="BallComponent"/>
+		<ClusteringField field="TaflComponent"/>
+		<ClusteringField field="DiscComponent"/>
+		<ClusteringField field="MarkerComponent"/>
+		<ClusteringField field="Stack"/>
+		<ClusteringField field="Symbols"/>
+		<ClusteringField field="ShowPieceValue"/>
+		<ClusteringField field="ShowPieceState"/>
+		<ClusteringField field="StackState"/>
+		<ClusteringField field="SiteState"/>
+		<ClusteringField field="SetSiteState"/>
+		<ClusteringField field="VisitedSites"/>
+		<ClusteringField field="SetVar"/>
+		<ClusteringField field="RememberValues"/>
+		<ClusteringField field="ForgetValues"/>
+		<ClusteringField field="SetPending"/>
+		<ClusteringField field="SetInternalCounter"/>
+		<ClusteringField field="PlayerValue"/>
+		<ClusteringField field="SetInvisible"/>
+		<ClusteringField field="SetHiddenCount"/>
+		<ClusteringField field="SetHiddenRotation"/>
+		<ClusteringField field="SetHiddenState"/>
+		<ClusteringField field="SetHiddenValue"/>
+		<ClusteringField field="SetHiddenWhat"/>
+		<ClusteringField field="SetHiddenWho"/>
+		<ClusteringField field="CopyContext"/>
+		<ClusteringField field="Then"/>
+		<ClusteringField field="ForEachPiece"/>
+		<ClusteringField field="DoLudeme"/>
+		<ClusteringField field="Trigger"/>
+		<ClusteringField field="PlayoutsPerSecond"/>
+		<ClusteringField field="MovesPerSecond"/>
+		<Cluster id="0" size="104">
+			<Array type="real">0.0 0.0 0.0 0.0 2.366085513192136 0.0 0.0 0.0 0.0 0.0 -0.4467372289397256 0.0 -0.16366341767699438 -0.7013381252619769 0.9597652669071403 0.7496180801332987 0.0 -0.10633218075125027 -0.12301385521570973 -0.5260327261626242 -0.24333213169614412 -0.07066652533375727 -0.07066652533375731 1.3480808455997393 0.41224758662813843 0.25329776193570874 0.0 -0.03526728079293 0.0 -0.06116084024154976 0.0 0.2069204011510138 0.17658161078773743 0.0 0.43766449162295434 -0.2545875386086582 -0.10633218075125016 0.0 -0.07066652533375718 0.0 -0.11215443081840891 0.0 0.25329776193570874 0.11708076485690547 0.41224758662813843 -0.16366341767699452 -0.2545875386086577 -0.36797007298437956 -0.07066652533375742 -0.2404551094452856 -0.035267280792930004 -0.07066652533375749 -0.06081303192631487 1.6987642646446477 -0.07066652533375724 0.4861789845738481 -0.07905694150420936 -0.27714839521051415 -0.2521110387177967 0.39975134316677 -0.13121072720819504 0.9398922291502322 0.466677925704235 0.24631121083336877 -0.4680555937352969 -0.6139557033115588 -0.19526943614508085 -0.2857359606849802 -0.08001509646124143 0.5548604291417817 -0.207943944242189 -0.024929982747211945 -0.14560259769049014 -0.18385967400229591 -0.10894729166481473 0.5548604291417817 0.5485537174206311 0.541348294687303 -0.19858701168998769 -0.1952193291607455 0.02034937861511207 0.21449161170606781 0.2413698545070011 -0.594622632902729 0.39450264340777585 1.2833996681564377 -0.10524733864652815 0.1554767763681185 0.27094371314605714 -0.035267280792930004 -0.3205303823780168 2.5540877991919806 0.0 0.0 0.0 -0.06116084024154988 -0.11770260949577925 0.7456374002737826 -0.10821707886295034 2.3953982222786245 -0.15961737689352432 0.0 0.0 -0.09365858115816954 0.0 -0.03526728079293 0.1371244514773585 0.13661519910592249 -0.07905694150420932 -0.15123380755942123 0.0 0.0 -0.049906512850595004 -0.24334674145457674 0.007710638914943786 -0.23265790132855108 0.0 0.0 0.25444477767157586 0.0 1.3009184447932598 -0.04733958023233527 -0.4239617526496301 -0.14294051440953126 0.2929036186030194 -0.03526728079293001 -0.8029123968567667 -0.792359250656574 -0.0644928792331788 -0.10456359357204342 -0.16952653461930106 -0.1741996473733944 -0.0203380475357388 -0.038456591957954075 -0.14945038612326786 -0.14464191620432337 0.0 -0.1647121347899714 -0.2617398303673235 -0.2546215604400473 -0.22959642008071124 -0.1129997529814691 0.0 0.0 -0.07905694150420933 -0.04150882646440393 -0.09071854153364517 2.044379479200451 -0.008534461992533883 1.6391500943398107 1.4532420874313516 0.8328239925545995 0.9539262320282956 -0.03526728079292998 0.0 0.0 0.0 0.0 0.0 2.406009224264879 0.0 0.010915078228655232 -0.4610439925837786 -0.39735497922624197 -0.12218801016644715 -0.1629000643559253 -0.20675133370703352 -0.4746223364451619 -0.2461829819586653 -0.45883146774112393 -0.088495410209757 -0.2561538863035215 -0.04759447791333619 -0.06104377956714243 0.8226382875619048 0.8384718720331062 0.018754010207497146 -0.0352672807929298 0.0 0.0 0.0 -0.03526728079293 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.5856742260168887 1.389904670087534 -0.1063321807512501 0.6312948595372773 -0.04979196598326534 -0.1988933217872813 -0.23051426989384183 -0.04973369655488861 -0.08112405443494027 -0.12133566620942825 0.0 -0.04462662850942804 -0.07089787137946547 -0.035267280792930004 0.1687022312182902 -0.17149858514250854 -0.2132007163556106 0.4299792500938215 -0.0706665253337573 -0.049906512850595004 -0.03526728079293 -0.08665671776277226 -0.1121544308184086 -0.15424786982263322 -0.24433176017141453 -0.4327997622669037 0.5647118285189905 -0.24333213169614318 1.7709733123960274 0.02384231354057292 -0.08000283525087729 -0.22258408896936208 -0.42972255924476116 0.972109986750147 0.035081258758061985 -0.27896288886405995 0.10738484838964255 -0.14171817261969383 -0.1177026094957793 -0.18983159915049988 -0.8859950143096499 -0.46393926961197046 -0.2863376456420426 0.0 -0.035267280792930004 -0.04990651285059502 -0.27343437080986566 -0.13779456365238793 -0.19331615043916658 -0.06116084024154964 -0.200129157262412 -0.200129157262412 0.0 0.0 -0.2734343708098659 -0.2734343708098659 -0.11215443081840895 -0.11215443081840895 -0.09365858115816927 -0.08665671776277217 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.07520154519837799 -0.06906815774214198 0.5132759707545248 2.0616136262860136 -0.24333213169614343 -0.21949278651776538 -0.061160840241549795 0.0 -0.14240377090178108 -0.11770260949577914 -0.035267280792930004 0.0 -0.07066652533375728 -0.06116084024154961 0.0 0.0 -0.061160840241549656 -0.04990651285059501 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.04990651285059504 -0.04990651285059504 0.0 0.0 -0.061160840241549635 -0.061160840241549635 0.0 0.0 -0.10633218075125052 -0.035267280792930004 0.0 0.0 -0.05021851371752207 -0.05021851371752207 0.0 0.0 1.1764204494611274 1.2246286279734975 -0.06116084024154974 0.0 -0.035267280792930004 -0.035267280792930004 0.0 0.0 -0.15547677636811844 -0.0866567177627722 -0.035267280792930004 0.0 -0.06271428051110767 -0.0535053480867095 -0.035267280792930004 0.0 -0.2913857587071788 -0.24618298195866484 -0.08665671776277219 0.0 -0.035267280792930004 0.0 0.0 -0.035267280792930004 0.12552253445523634 -0.22060324317394397 0.16409311029971943 -0.5046105411259957 1.1270176429201961 0.4250526614776276 0.009954212676342642 -0.9054500033633501 -0.33757190554596517 0.10695553962451974 -0.08676780528548773 0.1102502146943425 0.015667726663301806 0.18566024548116217 0.3739703386361143 -0.2962987403184392 0.3739703386361143 0.0 0.891823378544423 -0.2582985050417622 -0.035267280792930004 0.0 0.19682637602535524 -0.12517994238011357 -0.4599600710643966 -0.5157301364710422 -0.09270976248049564 0.0 0.5257120180544103 -0.11397436536650822 -0.06952911639592205 -0.0032181591207188316 0.0 0.17754914971171376 0.032746026303786174 -0.7403496157854359 -0.5641823779307586 -0.20485460013743292 -0.2153258256881735 -0.4090520235994034 0.07222059775078364 -0.4796522192477948 0.05044688594013458 -0.0611608402415496 0.14413413368179756 0.061202600947522154 -0.48450787211294827 -0.559959052316704 -0.2993022898905441 0.0 0.46753357909178495 -0.13000803471160888 -0.14683968086381763 -0.031381222617517086 0.0 0.05305890564711257 0.012594606939575575 -0.7151903148289852 -0.6685009610938248 -0.7257084381765236 0.0 -0.5204563142714641 -0.1205693440018987 -0.2708642279118191 -0.12525897088035634 0.0 -0.3915267552596106 0.21309748206712836 -0.2881492817790971 -0.27773728916752566 -0.3218129753443045 0.0 -0.07838017003597844 0.08547138296130483 0.27751869135687585 0.08392565356862694 -0.04990651285059504 -0.2407817798976967 0.3117189422205627 -0.2880813456619709 -0.2804873827216817 -0.3224082246707017 0.0 -0.07620536348379556 0.0787957083125468 0.3158092679214353 0.07620063027493562 -0.04990651285059504 -0.24647641499548387 0.30517481153728765 1.4256309665513027 1.3552004706702543 1.445656309795371 0.0 0.4402338930753425 0.2241767028349954 0.04039221520676913 0.17723705666573172 -0.03526728079293 1.4185667449738988 -1.437538892989964 -0.3948438026343001 -0.36901284205258666 -0.44326105657611137 0.0 -0.154064496341792 -0.07825091663077642 -0.36171276371108285 -0.07869355826610389 0.0 -0.17988188401532995 0.19003583267754265 -0.035408726064594276 -0.03536644593951736 -0.036127219695863674 0.0 -0.03526864603533807 -0.03694363207239642 -0.03660869940875057 -0.035876491344281836 0.0 -0.0395205343435068 0.03605934046912034 -0.2174650553442048 -0.3272174991527477 -0.18820886555016855 0.1535515547219165 -0.11215443081840885 -0.035267280792930004 0.0 0.0 0.0 0.0 -0.049906512850594824 0.0 0.0 -0.05183459625096603 -0.14240377090178108 0.6636275813105083 1.203649775499919 0.012158818620330724 -0.2519964665433082 -0.33737686105684067 -0.32194458914459556 -0.14687955630690655 -0.12811768579763463 0.5421920116261902 0.2639702552103495 0.0 0.7928541703812215 0.2999815567043752 0.12112243617181617 0.2916598932824276 0.7913675671030661 0.5344280874701712 0.0 -0.12304323359269308 -0.2518098294836221 -0.1377945636523873 -0.48441983515037557 -0.15547677636811844 -0.06116084024154976 1.1031543826112766 -0.035267280792930004 -0.049906512850595025 -0.07066652533375738 0.7167197952560227 -0.049906512850595046 -0.0936585811581694 -0.0706665253337573 -0.39296961732996055 -0.1735749868434409 -0.17149858514250846 -0.2034629055765845 -0.1898315991504999 -0.15961737689352423 0.12223946018273989 -0.1230138552157092 -0.04990651285059502 -0.07066652533375738 -0.07905694150420932 -0.035267280792930004 -0.06116084024154959 0.0 -0.06650576235154651 -0.24900858829537423 -0.10018802899712503 0.5834301835632979 -0.3753409990350446 1.158041203711975 1.2598810549804067 -0.07905694150420933 -0.049906512850594914 1.6895993622572687 1.9922690085601267 0.8426223648611787 -0.10018802899712473 -0.005134816756546467 0.0077991067851327775 0.007799106785132749 -0.10490157042048621 -0.11215443081840895 0.6650443129248497 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0761862960007125 0.5794694488660699 0.6157976862096455 1.5343293866268335 0.03454165223967803 -0.23347796029033607 -0.5846453755963041</Array>
+		</Cluster>
+		<Cluster id="1" size="184">
+			<Array type="real">0.0 0.0 0.0 0.0 -0.3165462134230336 0.0 0.0 0.0 0.0 0.0 -0.3709396905870311 0.0 0.484170943961107 -0.20836153444417535 -0.09253437541245435 -0.09146363947018939 0.0 0.35887111003546907 0.3254741585915639 0.3299767993219175 0.7029594915666373 0.1612080109176344 0.23849952300143196 -0.1750605615181085 -0.06116084024154974 -0.12811768579763427 0.0 -0.035267280792930046 0.0 0.20641783581523057 0.0 0.5712979682138335 0.6599193215302627 0.0 0.2710282343635559 0.7228467614067245 0.35887111003546884 0.0 0.16120801091763404 0.0 -0.063086867335355 0.0 -0.12811768579763427 -0.13887657166431389 -0.06116084024154974 -0.02727723627949926 -0.25458753860865846 -0.36797007298437856 -0.0706665253337575 -0.2404551094452856 -0.03526728079293005 -0.07066652533375758 -0.5270462766947309 -0.46477100231419793 0.23849952300143165 -0.49696432068714586 0.2668171775767063 -0.5252928885966716 0.2594915348612317 0.23985080590006255 0.6407988364672034 0.34609414447995057 0.4537031899701871 0.18896344422025055 1.005818700643153 0.8529101578568424 0.772779810212477 0.6713033183561133 0.18798293758847853 0.5827198239661475 0.596661847727854 0.08413869177183804 0.6310785940676079 0.6466391972948453 0.6044737928463303 0.5827198239661475 0.25449481394075846 0.2796004279355447 0.24955991367734712 0.25546977836731816 -0.21216927193640292 0.2725444024785244 -0.12127310799159903 0.20277949579767363 -0.4055282796584358 -0.47203839042481216 0.6360827535288796 -0.5247341202423992 0.013350353522041851 -0.03526728079293005 -0.28313517110058173 -0.37552043036114063 0.0 0.0 0.0 0.2064178358152309 0.3972463070482542 -0.1732516453259054 -4.3821184277328246E-4 -0.35444267681407243 0.5037923458201877 0.0 0.0 0.2575610981849658 0.0 0.11902707267613871 -0.9189086648182173 -0.16694304588675743 0.26681717757670675 0.43689766628277094 0.0 0.0 0.0592639840100819 -0.36904571082413107 0.03124385614558289 -0.3443170652331081 0.0 0.0 0.02803205177737684 0.0 -0.1621272152787239 0.15977108328413198 1.420506049012161 -0.14294051440953126 -0.15570857040296307 -0.03526728079293006 -0.6926838915173229 -0.6955062799767302 0.17039869868461727 -0.045702315587781005 -0.24601076449920523 -0.23957672563143323 -0.18297508329338502 -0.038456591957954075 -0.14945038612326733 -0.14464191620432407 0.0 -0.16471213478997213 -0.12687442994174433 -0.1625148922231426 -0.1980347537274027 0.010315988685106088 0.0 0.0 -0.07905694150420924 -0.04150882646440379 0.3061750776760518 -0.27660540646743104 0.3596514796233145 0.019412787420480478 -0.20020680527448037 -0.18462714565517724 -0.14152400589292888 0.1190270726761385 0.0 0.0 0.0 0.0 0.0 -0.3502752115174557 0.0 0.4630104297044013 -0.46104399258377937 -0.39735497922624197 -0.12218801016644693 -0.16290006435592602 -0.20675133370703294 -0.47462233644516283 -0.24618298195866636 -0.45883146774112304 0.040560396346138484 0.1693927617107824 0.1606313629575101 0.20602275603910516 -0.2196293962702458 -0.23814124602388081 0.10384164911188323 -0.03526728079292992 0.0 0.0 0.0 0.11902707267613871 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.14258206535044335 -0.2132007163556107 -0.10633218075125035 -0.09365858115816966 -0.06363751471757294 -0.19236305324829917 -0.1989557686583749 -0.04973369655488864 0.27379368371792484 -0.005515257554974102 0.0 -0.04462662850942817 -0.07089787137946522 0.11902707267613856 0.3233491173655581 0.578807724855964 0.6396021490668293 -0.371694746393654 0.23849952300143162 0.1684344808707587 0.11902707267613871 0.29246642244935656 -0.014019303852300848 0.24161220037219433 -0.11439731258447744 0.014483456611293861 -0.21635309170319014 -0.14870296936986505 -0.22026252220192263 -0.14892132559131274 -0.0712797846783518 -0.22258408896936258 -0.7293434095003926 -0.39710301755028155 -0.0632421910814279 -0.16673643932104731 0.08034549807570389 -0.04749577834065738 0.0695515419747781 0.34406977346028095 0.02398661246616423 0.3248938078085776 -0.16311857682067174 0.0 -0.03526728079293005 0.1684344808707582 -0.27343437080986605 -0.13779456365238815 -0.13498800159976282 0.028032051777376985 -0.17188512297134576 -0.17188512297134576 0.0 0.0 -0.25207231059034546 -0.25207231059034546 -0.11215443081840877 -0.11215443081840877 -0.03512196793431356 -0.08665671776277244 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.2402625638965127 0.38592985333874164 -0.631654168663334 -0.2968693672861463 0.442729295169372 0.3255315313557386 0.2064178358152311 0.0 0.4806127267935116 0.39724630704825414 0.11902707267613906 0.0 0.1612080109176343 0.11722494379630398 0.0 0.0 0.20641783581523093 0.16843448087075863 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.16843448087075832 0.16843448087075832 0.0 0.0 -0.061160840241549774 -0.061160840241549774 0.0 0.0 -0.10633218075125025 -0.03526728079293005 0.0 0.0 -0.1436410886802799 -0.1436410886802799 0.0 0.0 -0.1559533595984106 -0.196747750735186 0.1172249437963038 0.0 -0.03526728079293005 -0.03526728079293005 0.0 0.0 -0.083875629356485 0.039717662307937135 -0.03526728079293005 0.0 0.3869260262026202 0.35915027768006935 0.11902707267613902 0.0 0.2144922946038961 0.15185743724080777 0.16609204237864675 0.0 -0.03526728079293005 0.0 0.0 -0.03526728079293005 -0.3966271854269766 0.5207884075906765 -0.5204330340494623 -0.5210609753257048 -0.3735395928796057 -0.707826907519692 -0.6971096784593215 0.4728680630370846 0.06969663278616187 0.2998102150263086 -0.866334959124068 -0.8282306581722843 -0.7191553580958931 -0.2118005583874278 -0.5504982501501593 0.28248457410314864 -0.5504982501501593 0.0 -0.38159218123244676 0.3217893936002783 -0.03526728079293005 0.0 -0.12714373372219115 0.28966757365265633 -0.0912042695236271 -0.09254471908038416 0.06620592958111193 0.0 0.22252219027767642 0.43347662322965924 0.04938266003773819 0.39281616745544684 0.0 0.17448645942316998 -0.26775547561111124 0.4443711992403734 0.30229217453384677 0.30069281491263616 0.10426193270208883 -0.20925330912465373 -0.16946835414000416 0.042960503162861374 -0.18421175780863805 0.0280320517773771 -0.11038946139397592 0.09201849927176785 -0.06481761454167528 -5.060568090388854E-4 0.12081804101471798 0.0 0.31509237424727193 0.557454629380147 0.15528374803687656 0.49405965358760995 0.0 0.16143177243552417 -0.22659399722851387 -0.22272297901807936 -0.17708489486342072 0.13782215689642138 0.0 0.7628987989352439 0.7977524513262143 1.4521266301757303 0.83382848443948 0.0 -0.3516267462312125 0.3219103416066383 0.6444572008109399 0.6165625996879919 0.6823026456139232 0.0 0.2364909355848139 -0.2397801416884134 -1.1440758260652486 -0.2503309064332812 0.05926398401008155 0.2843569150034581 -0.3476550671363411 0.6426658005570508 0.6252437277584151 0.6823663580899207 0.0 0.23119263328258893 -0.23390806354857138 -1.13087548738235 -0.2355622344155162 0.05926398401008155 0.24831880216869046 -0.360212806885469 -0.5815014265470702 -0.5986958814505998 -0.46845878256773826 0.0 -0.07435435334014248 -0.010997394210461194 0.03174262459485075 0.024600514992192436 -0.035267280792930046 -0.3715510094915963 0.37989431590680783 0.447482908202237 0.4716808854023619 0.6337743866140149 0.0 0.3857877556226237 0.6009757180658436 1.4486462487019156 0.5994790707588877 0.0 0.22519789904547172 0.07807071589473427 0.12062566023889112 0.12058457615418676 0.12148025054760822 0.0 0.11903254346866757 0.12386373762318634 0.2105192085496912 0.1220613297858395 0.0 0.12662682756956353 -0.12234510163985696 -0.044215768828538296 -0.32811708382561944 0.07211933603505387 0.19693159036084462 0.23131851356296976 -0.03526728079293005 0.0 0.0 0.0 0.0 0.1684344808707579 0.0 0.0 0.044348429699181166 0.36379713347564413 -0.31134022776368686 -0.31822477339949673 -0.03659253050175856 -0.01955651087180886 0.12506263717934565 -0.2553234298752218 0.19331941602159003 0.2599310740702015 -0.33323212769535415 -0.3559856598938533 0.0 -0.24410376163646047 -0.21411430423946906 0.17076783388989739 -0.15312690986332864 -0.26963935250084403 -0.6998423692090555 0.0 -0.5424402905200111 -0.18295557923419425 0.46505665232680726 -0.48441983515037634 0.34573125271331573 0.20641783581523057 -0.16366341767699383 -0.03526728079293005 -0.04990651285059493 -0.07066652533375738 -0.1063321807512506 -0.04990651285059496 -0.09365858115816965 -0.07066652533375756 -0.44902611072792065 -0.19353924757140784 -0.13887657166431366 -0.20346290557658447 -0.18983159915049974 -0.15961737689352481 -0.19973484687857432 -0.12301385521570948 0.059263984010081636 -0.07066652533375738 -0.009882117688026057 -0.03526728079293005 0.02803205177737677 0.0 -0.16504265465355758 0.5158981124523844 -0.10018802899712508 0.5486726407127195 -0.11007928931184342 -0.08972509178597853 0.012398874286382575 0.12846752994434066 0.05926398401008125 -0.14782809899727015 -0.16305312064615304 -0.05196736551544666 0.0641829560762832 0.04387934319230494 -0.030416516462018 -0.03041651646201803 -0.1124213962570804 -0.014019303852301204 -0.19973484687857293 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.28617338137287474 -0.07792865001991915 -0.8202093240220044 -0.06958794784480093 0.16672838518423208 0.19627464864464825 -0.19136216873150694</Array>
+		</Cluster>
+		<Cluster id="2" size="323">
+			<Array type="real">0.0 0.0 0.0 0.0 -0.4140051715692895 0.0 0.0 0.0 0.0 0.0 0.6507478296595133 0.0 -0.14423999865443982 0.2824429107149707 -0.237550933894661 -0.13303802104754742 0.0 -0.1063321807512512 -0.097465312014305 0.13510659972236425 -0.17594913685080554 -0.026636685632770787 -0.07066652533375722 -0.18323799076018893 -0.0611608402415494 -0.0298707345548665 0.0 -0.03526728079292981 0.0 -0.061160840241549566 0.0 -0.08614228290303726 -0.10961232352221878 0.0 -0.1022891151244701 -0.18984280853347832 -0.10633218075125099 0.0 -0.02663668563277086 0.0 0.1394117770080227 0.0 -0.0298707345548665 0.07008610909848692 -0.0611608402415494 0.16653470570641582 -0.25458753860865924 -0.36797007298437795 -0.07066652533375703 -0.2404551094452868 -0.03526728079292982 -0.07066652533375711 -0.5120344322811364 -0.4647710023141958 -0.07066652533375713 -0.45013622408542214 -0.07905694150420925 0.16298855872125456 -8.641391487950909E-4 -0.1372933405633651 -0.19797157274338514 -0.42206342980031775 -0.15842820403083197 0.0034041783942895653 -0.41348724268216674 -0.09876481773386665 -0.5184949893287021 -0.08340361274808145 -0.03326427792826629 -0.3264508689622128 -0.16397468859270478 -0.024929982747211737 -0.18576348749420396 -0.18733756883443375 -0.18808231239838932 -0.3264508689622128 -0.41982525547552635 -0.41487531621036916 0.07600290966032634 0.07290270886573774 -0.2891878749658924 -0.10414389168171549 0.19480674549095622 0.29922261032512565 -0.013901082948393243 -0.19115271770911518 -0.20380255079107681 0.1554767763681185 -0.03149526125014222 -0.03526728079292982 0.07356651913402473 -0.39152921850077743 0.0 0.0 0.0 -0.06116084024154973 -0.11770260949577961 -0.22726399872567238 -0.023735658002260532 -0.3588527350040797 -0.1397269762125201 0.0 0.0 -0.060312646690091155 0.0 -0.03526728079292981 0.06703150649288242 0.3231369310860947 -0.07905694150420918 -0.1093544766047143 0.0 0.0 0.012283491553010385 -0.30359931891105496 0.08109877483261346 -0.25911878027620133 0.0 0.0 -0.06116084024154956 0.0 -0.22009375895013877 -0.04733958023233485 -0.41932903513420733 0.11152015365697175 0.07479610436788887 -0.035267280792929824 1.0221179914796743 1.0246542436355452 -0.03756805741944922 0.02838341548219445 0.10009756082226763 0.1101808290856945 -0.07606095349191935 0.057387236296389886 -0.05948197342436183 -0.05333790398666051 0.0 -0.11760494910548339 0.24316610432089786 0.3047223981924326 0.3191661750901208 0.0673666736214703 0.0 0.0 -0.039650849918519644 0.04470016554758026 -0.0907185415336445 -0.3441964058553907 -0.11323051706652358 -0.3180178947263781 -0.20076146524799912 -0.24623259338995707 -0.14152400589292818 -0.03526728079292979 0.0 0.0 0.0 0.0 0.0 -0.3694105558439703 0.0 -0.17754796875376344 -0.4610439925837791 -0.39735497922623986 -0.1221880101664468 -0.16290006435592502 -0.20675133370703266 -0.47462233644516105 -0.24618298195866742 -0.45883146774112316 0.03753520494964914 0.08727563351729738 -0.047594477913335806 -0.06104377956714295 -0.44830126790240477 -0.44911992330403694 -0.02036121237219603 0.05262795461979031 0.0 0.0 0.0 -0.03526728079292981 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.0055660213308076235 -0.21320071635561025 0.15867526663189677 -0.09365858115816982 0.035047008318699634 0.29308053154890745 0.3189749280883964 0.07421560910048375 -0.08112405443494085 0.11508617932051055 0.0 0.06659453542273781 0.10579806193468219 -0.03526728079292982 -0.026760899647414974 -0.1714985851425083 -0.16765629088026276 -0.22480173530514466 -0.07066652533375721 -0.04990651285059456 -0.03526728079292981 -0.08665671776277199 0.11145997613841906 0.0025393493439804134 -0.209949763433869 0.14474488526705043 0.10391679854290292 -0.21637893375800807 -0.2674318546089651 0.19467839527575453 0.06845106257318753 -0.2225840889693621 0.742268679701855 0.03270139415781318 -0.1309022075722002 0.023698279016699453 -0.04787262015937597 0.05588770528336362 -0.0910348356021398 -0.054657395421041186 0.6281751524772415 -0.04862281660721023 -0.07575892740861626 0.0 0.052627954619790446 -0.049906512850594616 -0.06655968236819187 -0.0691105861042941 0.2220236090983828 0.04045830608341941 0.15383942109745077 0.15383942109745077 0.0 0.0 -0.05439058304809328 -0.05439058304809328 -0.028299028209598127 -0.028299028209598127 0.10641702565030396 0.12931435901441563 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.04724710608491257 -0.3787224999212061 -0.24402156955161858 -0.3157954653827104 -0.027706548191064023 0.017062070008786272 -0.06116084024154961 0.0 -0.14240377090178 -0.11770260949577943 -0.03526728079292982 0.0 -0.026636685632770808 -0.010351267079065113 0.0 0.0 -0.0611608402415497 -0.049906512850594574 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.049906512850594616 -0.049906512850594616 0.0 0.0 -0.06116084024154965 -0.06116084024154965 0.0 0.0 0.12922999470043625 -0.03526728079292982 0.0 0.0 0.21819734443560987 0.21819734443560987 0.0 0.0 -0.1638172371246787 -0.16405797997319843 -0.010351267079065125 0.0 0.052627954619790245 0.052627954619790245 0.0 0.0 0.19122351442505406 0.05732400008868649 0.052627954619790314 0.0 -0.22194749904801017 -0.2157407005635527 -0.03526728079292982 0.0 0.05442809321568595 0.08726919948689588 -0.014666358837042915 0.0 0.052627954619790314 0.0 0.0 0.052627954619790314 -0.15845362898947563 -0.12027287293695713 0.25050724283637604 0.5935705345124835 -0.47360962732887235 0.09409024655703792 0.34549635038366194 0.4020609149151258 0.06310344011310315 -0.15334177401851617 0.2509997828354771 0.2581081381342304 0.2805966613243464 0.006803191310432099 -0.14551677835618418 0.24789764927868368 -0.14551677835618418 0.0 -0.4185528368279195 -0.05747543400454293 0.05262795461979043 0.0 -0.28005269872027183 -0.18249735859460214 0.495604468974164 0.46330055690304256 0.3784317752071788 0.0 -0.22076164006525148 -0.12769241935706638 -0.018204775978232512 -0.15096800729667226 0.0 3.80613086614819E-4 0.027478684791307755 0.08563881832165698 0.15569506287550688 0.3613243188067587 -0.260573274927669 0.5275454488692092 0.09019873414558155 0.07402365209919576 0.09852831380219897 -0.06116084024154961 0.4035173169744549 -0.39246023858318385 0.49884314877387187 0.4473067628826202 0.37680194317968163 0.0 -0.2308880838058484 -0.1489561812704827 0.007433441222289061 -0.1636098076954481 0.0 -0.052264546957932145 0.0113035351805817 -0.090166664625707 -0.10673687084418666 -0.3214248964226394 0.0 -0.37400078795199676 -0.22019149337983682 -0.3881692184692711 -0.2599451450481577 0.0 -0.3775734187689768 0.2682450520566577 -0.1735631822784636 -0.1628929007542691 -0.1963710919611959 0.0 -0.07268001647510394 0.06418136975122184 0.32931629268551266 0.06942637539693228 -0.049906512850594636 -0.08390218918193992 0.09431994028299964 -0.1777852391354834 -0.17344685426272294 -0.19620402652695038 0.0 -0.07098517829976679 0.06543645178235033 0.3465937263190491 0.06753672689234078 -0.049906512850594636 -0.06140122164649079 0.08809631644763397 0.03456257817409998 0.08088664244073954 -0.13776756683720556 0.0 -0.07005630938135231 -0.003724478118118964 0.044703621053576906 0.012906658586213463 -0.03526728079292981 -0.22769828418049518 0.2337738977250095 -0.4343117748534191 -0.4299475228692397 -0.44347142305931064 0.0 -0.1449362435797084 -0.1157641722658349 -0.4220804327605013 -0.12388222902382177 0.0 -0.16721541911720644 0.2165811292137126 -0.035818966842643844 -0.035799988957763845 -0.036504157792503024 0.0 -0.03526901398969911 -0.037695972772354265 -0.12102494041416369 -0.036633052755469485 0.0 -0.039815389970659226 0.036243545132513315 -0.42340363153767097 0.14712542208676985 -0.29922784716114775 -0.14333382850355775 -0.08420262994880445 0.05262795461979039 0.0 0.0 0.0 0.0 -0.049906512850595205 0.0 0.0 -0.12811768579763394 -0.09804036704112458 -0.24901336787396414 -0.35391724839107985 -0.4047777872132263 -0.16091775856522256 -0.39762047376595766 0.3437138585453484 -0.08228037064287831 -0.05443247236555774 -0.4080408313252215 0.08811505901878132 0.0 -0.26818173219414304 -0.34178896630973227 -0.16291686718117207 -0.12082696870742517 -0.5001667480686839 0.543079683308637 0.0 0.14679878893721615 0.10120143495307293 -0.1377945636523871 -0.48441983515037423 -0.053506102605420665 -0.061160840241549566 -0.16366341767699344 -0.03526728079292982 -0.0499065128505946 -0.07066652533375686 -0.10633218075125121 0.07447349595661555 0.13976296011838302 0.061422993769202176 0.5906304461596841 -0.16035407238612626 -0.13433170910543196 -0.1559239236718394 -0.17293482368431862 -0.1596173768935238 -0.15312416922690372 -0.1230138552157099 -0.049906512850594595 -0.07066652533375686 -0.07905694150420918 0.052627954619790245 -0.010351267079065096 0.0 0.258109377450093 -0.13017140878151 0.14950659435484268 -0.26779141815881785 0.6477199756765922 -0.18992342945194468 -0.24292182732123097 -2.4475833283017133E-4 0.012283491553010041 -0.2958392668477877 -0.4478861773068416 -0.2647561513229022 0.05587111059785521 -0.3436815376416488 -0.22985553272707587 -0.21637893375800804 -0.10931917708455381 -0.056250829079201745 -0.17809175201556923 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.7739909381726227 -0.5285717773539013 0.7553405314382196 -0.5366936978839058 -0.012717833100341533 0.02935304193147882 0.6147260622187375</Array>
+		</Cluster>
+		<Cluster id="3" size="154">
+			<Array type="real">0.0 0.0 0.0 0.0 -0.2777701880254847 0.0 0.0 0.0 0.0 0.0 -0.5174133119983211 0.0 -0.12292468816865154 0.10185868150138476 -0.035406640252798334 -0.13303802104754794 0.0 -0.10633218075125031 -0.06942827434523002 -0.6180815426692728 -0.24333213169614393 -0.07066652533375747 -0.07066652533375749 -0.33677339693806024 -0.06116084024154973 0.07794572492583418 0.0 -0.03526728079293003 0.0 -0.06116084024154982 0.0 -0.9000381051435506 -0.9278639331138295 0.0 -0.7186749553687508 -0.25458753860865757 -0.10633218075125014 0.0 -0.0706665253337574 0.0 -0.11215443081840892 0.0 0.07794572492583418 -0.015590780467500653 -0.06116084024154973 -0.163663417676994 1.0762109586638704 1.555509853979427 0.2987266752745201 1.0164693262914317 0.14908441426102234 0.2987266752745204 1.8816236553685861 0.5036250307975537 -0.07066652533375739 1.0191380027542634 -0.0790569415042093 0.7470701985061448 -0.3129870613648734 -0.21320071635561094 -0.28172904533503806 -0.1557033352335026 -0.563661221635365 -0.3541388580407235 -0.21343771465202427 -0.4504991014156786 0.04858805176715107 -0.7255725402536211 -0.0800150964612412 -0.4719932888498663 -0.2508016287489358 -0.024929982747211952 -0.29563060041384337 -0.29717608623516195 -0.2774539792930177 -0.4719932888498663 0.10066574361873337 0.07197798772772891 -0.49117124737971934 -0.4932483728978253 0.7153312992329263 -0.2245145168090922 -0.38305206356817795 -0.2785153218143604 0.3237061018305161 0.18166103474287326 -0.28387346888941384 0.1554767763681185 -0.14240377090178055 -0.03526728079293004 -0.320530382378017 -0.3915292185007747 0.0 0.0 0.0 -0.061160840241549976 -0.11770260949577942 -0.5719203249958964 -0.5468567174508109 -0.3588527350040807 -0.15961737689352476 0.0 0.0 -0.09365858115816977 0.0 -0.03526728079293003 0.7131652213944151 -0.5007299439312851 -0.07905694150420925 -0.15123380755942134 0.0 0.0 -0.049906512850595004 1.1691801587584263 -0.20196745557606968 1.0459645795015198 0.0 0.0 -0.061160840241549816 0.0 -0.17105161267725283 -0.04733958023233527 -0.4212944304437805 -0.14294051440953126 -0.12080733110351179 -0.035267280792930046 -0.8029123968567664 -0.792359250656574 -0.06449287923317863 -0.10456359357204346 -0.2845999909675642 -0.2794510541036071 -0.18297508329338494 -0.038456591957954075 -0.14945038612326747 -0.14464191620432384 0.0 -0.16471213478997193 -0.26173983036732396 -0.2546215604400467 -0.22959642008071088 -0.11299975298146928 0.0 0.0 -0.07905694150420926 -0.04150882646440383 -0.09071854153364524 -0.23923624800018128 -0.14198273414983642 -0.371546059035031 -0.26178217881537635 0.23430742147463138 -0.1415240058929287 -0.03526728079293001 0.0 0.0 0.0 0.0 0.0 -0.36941055584396953 0.0 -0.16206547999362042 1.9489586959223404 1.6797278667291142 0.5165220429763435 0.6886229993227767 0.8739942743070089 2.0063580586090883 1.0406826055525389 1.939605749996571 -0.0884954102097572 -0.25234484274595764 -0.04759447791333621 -0.06104377956714256 0.7951478202487287 0.808916408529072 -0.0754843057540212 -0.03526728079292988 0.0 0.0 0.0 -0.03526728079293003 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.16365199270301545 -0.21320071635561114 -0.10633218075125009 -0.09365858115816961 -0.18554453743797256 -0.19889332178728122 -0.23051426989384147 -0.04973369655488872 -0.08112405443494054 -0.12133566620942836 0.0 -0.04462662850942814 -0.07089787137946531 -0.03526728079293004 -0.3525644281229375 -0.1714985851425084 -0.2132007163556109 0.22312215257227513 -0.07066652533375747 -0.049906512850595004 -0.03526728079293003 -0.08665671776277249 -0.11215443081840842 -0.2034629055765839 0.5659200387701815 -0.11214997418798825 -0.3667111757193063 -0.21506627801426756 -0.32987183419814053 -0.2760492864619462 -0.14687955630690658 -0.22258408896936244 -0.61731260365237 -0.6024196350160201 -0.29442843376705885 -0.3679700729843787 -0.13711855663332811 -0.19331615043916625 -0.11770260949577944 -0.1898315991504995 -0.9245748805139719 -0.48832523840319697 -0.2863376456420426 0.0 -0.03526728079293004 -0.04990651285059504 -0.27343437080986593 -0.1377945636523881 -0.19331615043916658 -0.06116084024154969 -0.200129157262412 -0.200129157262412 0.0 0.0 -0.2734343708098662 -0.2734343708098662 -0.11215443081840899 -0.11215443081840899 -0.09365858115816904 -0.08665671776277237 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.5291048624993729 0.48021483794846076 1.0924561732459668 -0.315795465382713 -0.24333213169614315 -0.21949278651776558 -0.061160840241549864 0.0 -0.14240377090178064 -0.11770260949577928 -0.03526728079293004 0.0 -0.07066652533375745 -0.061160840241549656 0.0 0.0 -0.06116084024154972 -0.04990651285059501 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.04990651285059505 -0.04990651285059505 0.0 0.0 -0.061160840241549684 -0.061160840241549684 0.0 0.0 -0.10633218075125053 -0.03526728079293004 0.0 0.0 -0.20012915726241268 -0.20012915726241268 0.0 0.0 -0.20999660302360257 -0.1967477507351863 -0.0611608402415498 0.0 -0.03526728079293004 -0.03526728079293004 0.0 0.0 -0.15547677636811844 -0.0866567177627724 -0.03526728079293004 0.0 0.1131166097270508 0.1256406034692079 -0.03526728079293004 0.0 -0.14632358445901614 -0.19023230424078644 -0.08665671776277238 0.0 -0.03526728079293004 0.0 0.0 -0.03526728079293004 0.5241043552599853 -0.23341890572774615 0.023741653927467583 -0.26847678325932084 0.7572834017196234 0.17860611782935287 -0.1633836471692637 -0.9377611498543504 -0.3282550989909576 -0.13576371977995008 0.4914738050929616 0.513330116319194 0.1425749292193038 0.11005806856433076 0.45012993837320947 -0.4054049867533934 0.45012993837320947 0.0 0.9014701406468596 -0.05422102328304282 -0.03526728079293004 0.0 0.7043493137378918 0.037879805241390355 -0.7028674343854818 -0.6438566546866984 -0.9644438683483799 0.0 -0.36277598404578854 -0.14130247883944982 -0.01147304023553745 -0.12501212584357327 0.0 -0.5117248232964058 0.45311414850332804 -0.1708127583387568 -0.2562022664079466 -1.06623111238968 0.7174178891914621 -0.6752427767723613 -0.03600442517507775 0.11539303189329005 -0.030464695649960287 0.15197542120627583 -0.9850976204329093 0.842265367640103 -0.7208929212810412 -0.6849795612560392 -0.8098900996151894 0.0 -0.4239620826218016 -0.17764530096947798 -0.11541312236408037 -0.19077534887687583 0.0 -0.21047371383882438 0.4877283142194966 1.0697721914147906 1.0346139487456156 1.121402656975043 0.0 0.335093182090544 -0.37982678943560977 -0.624902598416796 -0.3326510590858026 0.0 1.618408851054889 -1.1685432032806569 -0.2360122880045084 -0.22981504943030515 -0.26921733356320326 0.0 -0.07473403706838894 0.07575052680536681 0.36694486458743486 0.07936205656660841 0.08053096391800597 -0.20824476190710509 0.20107662553420041 -0.22338293472768833 -0.21296358114323322 -0.26927687011105295 0.0 -0.07320528188119478 0.0709539214166584 0.28330040869836853 0.07144172252511069 0.08053096391800597 -0.23415647336628423 0.23511566749204793 -0.4567038004747861 -0.4302550742540511 -0.39180638991475497 0.0 -0.058683376579814144 -0.12422168723337071 -0.15452936716889135 -0.17382698918340952 0.14908441426102223 -0.30100224934170583 0.28980829132314884 0.6657193377195836 0.6163980348309331 0.49467634111319303 0.0 -0.020148809617769364 -0.3924496960831993 -0.47828399842555397 -0.3716333881837422 0.0 0.2709925665011629 -0.715103672054386 -0.035840574024228036 -0.03589091932863214 -0.03473372929559796 0.0 -0.03526883366422763 -0.034355292632252836 0.040150726548038224 -0.03551031541334749 0.0 -0.030775618242138276 0.03640728261108444 1.2140673928017782 0.4668120111305448 0.7517894423048028 0.008137669023175144 0.005097928673564019 -0.03526728079293004 0.0 0.0 0.0 0.0 -0.049906512850594796 0.0 0.0 0.28400913564930264 -0.09587981165830145 0.35967232013224226 0.35172211796786607 1.0051114188805474 0.6072491757179858 1.0051063959269824 -0.06053322806813417 0.07893794336280259 -0.07660183311676749 0.6400947893848211 0.04043137929584136 0.0 -0.021898490489814414 0.5411480076312787 0.06180585708008238 0.2882312895212704 0.6445816473984648 -0.8141275983857463 0.0 0.7126449966418059 -0.2518098294836218 -0.13779456365238754 2.047774757681134 -0.15547677636811844 -0.06116084024154982 -0.163663417676994 -0.03526728079293004 -0.04990651285059504 -0.07066652533375738 -0.10633218075125031 -0.04990651285059507 -0.0936585811581696 0.021681774818311628 -0.49027522851132554 -0.21949278651776535 -0.17149858514250832 -0.20346290557658409 -0.18983159915049957 -0.15961737689352468 -0.26547829177591065 -0.1230138552157093 -0.04990651285059503 -0.07066652533375738 -0.07905694150420925 -0.03526728079293004 -0.06116084024154964 0.0 -0.23755093389466053 -0.11053669441738542 -0.10018802899712526 -0.38729833462074015 -0.7728015412913105 -0.21949278651776535 -0.38941649610564627 -0.07905694150420926 -0.049906512850594914 -0.2517557322317156 -0.33997860785127476 -0.10803867357848575 -0.1001880289971245 0.7122542515857333 0.5481117713963635 0.5481117713963634 0.2617875991892705 -0.11215443081840881 0.232008901646358 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.9720100131386913 0.7267436982918272 -1.2311072252245174 -0.21169548656999307 -0.15547677636811844 -0.06567660388856644 -0.44658018275576467</Array>
+		</Cluster>
+		<Cluster id="4" size="40">
+			<Array type="real">0.0 0.0 0.0 0.0 -0.2832027682334662 0.0 0.0 0.0 0.0 0.0 -0.3949081013634234 0.0 -0.16366341767699438 0.10905975632064265 -0.015192210888612046 0.05820413420830225 0.0 -0.10633218075125032 -0.12301385521570941 1.138419957660616 -0.24333213169614357 -0.07066652533375734 -0.07066652533375742 0.07649273802404113 -0.06116084024154973 -0.12811768579763452 0.0 0.674486745164785 0.0 -0.06116084024154971 0.0 0.9947819424684131 0.9626545878428256 0.0 1.2082256265077296 -0.15002479953724496 -0.10633218075125041 0.0 -0.07066652533375728 0.0 -0.11215443081840885 0.0 -0.12811768579763452 -0.17149858514250899 -0.06116084024154973 -0.16366341767699444 -0.25458753860865796 -0.3679700729843794 -0.07066652533375731 -0.24045510944528561 -0.03526728079292991 -0.0706665253337573 -0.5270462766947299 -0.4647710023141988 -0.07066652533375742 0.7331392141547668 -0.07905694150420953 -1.0554197608307372 0.6738057501858874 -0.21320071635561055 0.07675051743489929 -0.02813282411182248 0.14900617015125037 -0.17369512865701378 0.7508232068220698 0.2048455461199083 0.9526964465255827 1.121856686260018 -0.08001509646124129 0.330116622928945 0.08569163655105672 -0.02492998274721193 0.11382319439326989 0.1603736451930952 0.08964600413050805 0.330116622928945 0.40561001561162857 0.37933539095647295 0.6456364343829533 0.6427261368940707 0.5042368548109829 -0.1060396267921412 -0.16801935005884572 -0.7307054245123076 -0.29429403367062007 -0.3212993295115494 0.08628086711031303 0.1554767763681185 0.036713472185615305 0.6744867451647852 2.775793111393622 -0.244248367616138 0.0 0.0 0.0 -0.061160840241549726 -0.11770260949577899 2.8953503687313358 2.580443980074305 -0.31828019965600807 -0.15961737689352454 0.0 0.0 -0.0936585811581694 0.0 -0.0352672807929299 0.5834907670241488 -0.2687819409810767 -0.07905694150420953 -0.1512338075594208 0.0 0.0 -0.049906512850595 0.28053268655973634 -0.04106730225401697 0.25418956317601143 0.0 0.0 -0.061160840241549705 0.0 -0.20079695385055332 -0.04733958023233526 -0.42396175264963015 0.6789674434452736 -0.18416030253639537 0.674486745164785 0.11152807950748503 0.035963037270857694 -0.06449287923317877 0.6554697502247497 1.8598406682918514 1.7411483845073135 2.213210576869266 -0.038456591957954075 2.131743702063829 2.0289967487500506 0.0 2.7697290534559547 0.3082779912100144 -0.07075579633913169 -0.18541008718608018 0.13740896928561222 0.0 0.0 1.1937598167135623 0.09771869563495082 -0.09071854153364495 -0.34255624408803054 -0.17123725329761497 -0.35264224021733914 -0.22846790274210663 -0.22981289168158378 -0.14152400589292857 -0.035267280792929886 0.0 0.0 0.0 0.0 0.0 -0.2391371316690625 0.0 -0.10057523437268329 -0.4610439925837797 -0.3973549792262422 -0.12218801016644742 -0.16290006435592522 -0.20675133370703394 -0.4746223364451607 -0.24618298195866534 -0.4588314677411235 0.08112079269227732 0.1535703044393198 -0.04759447791333609 -0.06104377956714244 -0.5698506944634851 -0.5722619277330395 -0.0714006453956889 -0.0352672807929299 0.0 0.0 0.0 -0.0352672807929299 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.1918696928789917 -0.09061030445113433 -0.10633218075125035 -0.09365858115816945 0.8535335562200186 -0.1988933217872817 -0.1737089676700021 -0.04973369655488851 -0.08112405443494024 -0.1213356662094284 0.0 -0.0446266285094281 -0.0708978713794653 -0.03526728079292991 -0.3525644281229372 -0.17149858514250899 -0.2132007163556105 1.5481035083526689 -0.0706665253337574 -0.049906512850595 -0.0352672807929299 -0.08665671776277221 -0.11215443081840887 0.05245528034396319 0.6780424047975793 0.32161793357432356 0.09968334597068432 3.8919622619622123 -0.1618042224706066 0.11380979354132878 0.5486383426757974 4.2569207015390464 0.8550922732073573 1.3544397521682245 2.3902876023522843 2.71761230985339 0.26568795386397404 0.879921788205863 1.1743510356510682 0.08305132462834366 0.6803475535857498 1.9844119970271819 3.208976606590844 0.0 -0.03526728079292991 -0.04990651285059492 3.5589192325721553 2.0806979111510535 0.07499333422209073 -0.06116084024154978 0.8392513046488255 0.8392513046488255 0.0 0.0 3.3623882785525647 3.3623882785525647 1.467821113335926 1.467821113335926 -0.09365858115816943 -0.0866567177627723 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.35480152754717775 -0.3863430544665147 -0.6643904409780675 -0.22873541413850607 -0.24333213169614376 -0.2194927865177654 -0.06116084024154972 0.0 -0.1424037709017809 -0.11770260949577906 -0.03526728079292991 0.0 -0.07066652533375739 -0.06116084024154975 0.0 0.0 -0.06116084024154972 -0.04990651285059498 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.04990651285059501 -0.04990651285059501 0.0 0.0 1.169701069619639 1.169701069619639 0.0 0.0 0.13143839009529537 0.6744867451647852 0.0 0.0 -0.20012915726241198 -0.20012915726241198 0.0 0.0 -0.209996603023603 -0.196747750735186 -0.06116084024154969 0.0 -0.03526728079292991 -0.03526728079292991 0.0 0.0 -0.15547677636811844 -0.08665671776277233 -0.03526728079292991 0.0 -0.2600754838396532 -0.2545875386086576 -0.03526728079292991 0.0 -0.10522263508870379 -0.03077287274483317 -0.08665671776277231 0.0 -0.03526728079292991 0.0 0.0 -0.03526728079292991 0.759837749719554 0.047807993352877484 -0.1469014836762055 -0.050578557214026106 -0.30310710028623056 0.7034545601576587 1.0199675802079777 0.5427154577737351 1.3113042958050416 0.10371375420755596 0.2917397097085841 -0.5373336938755771 0.4526470402281203 0.012906596526733887 1.0020167927261487 -0.9700166349713739 1.0020167927261487 0.0 -0.6542626346512 -0.13579002822629319 -0.03526728079292991 0.0 -0.3772067182685255 0.3208259318581358 0.31946935999383325 0.5043001861462065 0.5937704147194748 0.0 0.7888844598844269 -0.12252828706332346 0.1447902373868502 -0.09822381316280794 0.0 0.7028016164197158 -0.8198443320063642 -0.15310285380675048 -0.19452872728484913 0.336730920094899 -0.5776874219865784 0.3658556742865838 0.0020431335904606317 0.00747329200493316 0.037885126774979794 -0.06116084024154976 0.6672662789375836 -0.6560170979688817 0.3051608149683618 0.48339059790359884 0.29782415739028084 0.0 0.831663067650078 -0.3395148324068551 0.051793412508019214 -0.13544893738075325 0.0 0.3518207070788655 -0.9594436471199911 -0.5065065980558396 -0.5686704553881347 -0.4690341732056817 0.0 -0.4262004463325383 -0.11580153332638038 -0.4351940631936019 -0.1301740803884573 0.0 -0.5465161236632539 0.29797151250794673 0.0948550146112768 0.08607710716820384 0.3203048678761328 0.0 -0.009452685846838345 0.07085896712553084 0.46923341027512755 0.06715357120299244 -0.04990651285059493 0.7972433297046255 -0.7470344670381869 0.08838892087932085 0.07363918296059795 0.320439601062866 0.0 -0.010306518028824308 0.06953630511419384 0.4914722318480327 0.06505493821921454 -0.04990651285059493 0.8958894762678891 -0.7530486734828188 0.4474828621552041 0.23380222909921786 1.017131697725867 0.0 -0.010942398544531667 -0.023942757350578065 -0.0170795090813123 -0.008966076022535043 -0.0352672807929299 1.018383411452268 -1.0133988771209796 -0.08777935916014862 -0.11160487044413483 -0.086355603408437 0.0 -0.12612290144085253 -0.11530889889592624 -0.4736266699005789 -0.12186293012423739 0.0 -0.261274308827361 0.15103806093125907 -0.035590982083329704 -0.03547134061734035 -0.03638244934723561 0.0 -0.03526892268989196 -0.03705689290749414 -0.05050964423141306 -0.03567662417792884 0.0 -0.039734613281568396 0.03619851732590608 -0.4863734571139202 -0.6251599428082857 -0.32053038237801595 -0.17902871850985833 -0.11215443081840884 -0.03526728079292991 0.0 0.0 0.0 0.0 -0.04990651285059496 0.0 0.0 -0.12811768579763455 -0.1424037709017809 0.33277784937877236 -0.16190383208044618 -0.46438561904809217 -0.2933476630771328 -0.35698259093597906 -0.5308927704894482 -0.14687955630690655 -0.1281176857976345 0.9537333309901483 0.08402146009917041 0.0 1.311333136390062 0.8814998256408545 -0.02284921721062008 -0.18794462950742602 0.7399924952064557 0.5787846820070796 0.0 -1.1139457140058773 1.6485674774005867 -0.13779456365238765 -0.484419835150375 -0.15547677636811844 -0.06116084024154971 -0.16366341767699444 0.6744867451647848 0.9544620582676289 1.3514972970081096 -0.10633218075125031 -0.049906512850594935 -0.09365858115816945 -0.0706665253337574 0.2054598914354355 3.481481867232799 2.829726654851394 3.507350790271362 3.4940878718638877 3.0526823330886543 2.859526789010808 2.3526399810004444 0.4522777727085175 1.3514972970081096 1.1937598167135632 -0.03526728079292991 0.349126463045513 0.0 -0.2375509338946614 -0.2490085882953736 -0.10018802899712484 -0.38729833462074176 -0.7728015412913078 -0.21949278651776552 0.1281217009592869 -0.07905694150420954 -0.04990651285059492 -0.3547874375934497 0.49574345469614267 0.6020865479415871 -0.10018802899712492 -0.15544490726635748 -0.13450859502092394 -0.2433321316961438 0.6647526039549082 1.242110321313879 -0.26547829177591026 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0260514598733632 0.3221050867490015 0.8122769321068961 1.4796773885633516 -0.15547677636811844 -0.2799915756362179 -0.8442352960912887</Array>
+		</Cluster>
+	</ClusteringModel>
+</PMML>
