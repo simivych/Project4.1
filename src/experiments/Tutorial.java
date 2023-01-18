@@ -35,7 +35,7 @@ public class Tutorial
 		System.out.println("Built-in games = " + Arrays.toString(games));
 		
 		// one of the games is "Amazons.lud". Let's load it
-		Game game = GameLoader.loadGameFromName("Tic-Tac-Four.lud");
+		Game game = GameLoader.loadGameFromName("Lifeline.lud");
 		// the game's "stateFlags" contain properties of the game that may be
 		// important for some AI algorithms to know about
 		final long gameFlags = game.gameFlags();

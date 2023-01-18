@@ -1,6 +1,6 @@
 To get code to compile download the ludii.jar file
 
-In IntelliJ upload by File -> Project Structur -> Dependencies -> + -> JARs -> select downloaded .jar file
+In IntelliJ upload by File -> Project Structur -> Modules -> Dependencies -> + -> JARs -> select downloaded .jar file
 
 USEFUL COMMANDS
 
