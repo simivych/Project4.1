@@ -18,6 +18,7 @@ import other.RankUtils;
 import other.context.Context;
 import other.model.Model;
 import other.trial.Trial;
+import search.mcts.MCTS;
 import utils.AIFactory;
 
 import ai.PNSMCTS;
@@ -92,7 +93,7 @@ public class KilothonTest
         FileWriter file;
         BufferedWriter buf = null;
         try {
-            buf = new BufferedWriter(new FileWriter("resultGRAVE.txt", true));
+            buf = new BufferedWriter(new FileWriter("resultUCT.txt", true));
         } catch (IOException e1) {
             e1.printStackTrace();
         }
@@ -119,7 +120,7 @@ public class KilothonTest
             for (final String gameName : validChoices)
             {
                 final Game game = GameLoader.loadGameFromName(gameName);
-                if(!done.contains(game.name())&&AIFactory.createAI("MC-GRAVE").supportsGame(game)){
+                if(!done.contains(game.name())&& MCTS.createUCT().supportsGame(game)){
 
 
                     final int numPlayers = game.players().count();
@@ -137,7 +138,7 @@ public class KilothonTest
                         {
                             if(pid == 1)
                             {
-                                final AI challenger = AIFactory.createAI("MC-GRAVE");
+                                final AI challenger = MCTS.createUCT();
                                 challenger.setMaxSecondsPerMove(0.5);
                                 ais.add(challenger);
                             }
@@ -230,7 +231,7 @@ public class KilothonTest
                         lineToWrite+=rewardP1 + ", "; // reward of P1
                         lineToWrite+=numMoves + ", "; // game length
                         lineToWrite+=numP1Moves + ""; // num P1 moves
-                        buf = new BufferedWriter(new FileWriter("resultsGRAVE.txt", true));
+                        buf = new BufferedWriter(new FileWriter("resultsUCT.txt", true));
                         buf.write(lineToWrite);
                         buf.newLine();
 
@@ -269,7 +270,7 @@ public class KilothonTest
             bodyMsg += "\nDone in " + hours + " hours " + minutes + " minutes " + seconds + " seconds.";
 
 
-            buf = new BufferedWriter(new FileWriter("resultsGRAVE.txt", true));
+            buf = new BufferedWriter(new FileWriter("resultsUCT.txt", true));
             // Writes the string to the file
             buf.write(bodyMsg);
 
@@ -288,7 +289,7 @@ public class KilothonTest
         ArrayList<String> done = new ArrayList<>();
         try{
             // Creates a FileReader
-            FileReader file = new FileReader("resultsGRAVE.txt");
+            FileReader file = new FileReader("resultsUCT.txt");
             BufferedReader br = new BufferedReader(file);
             String line;
             while( (line = br.readLine()) != null){
