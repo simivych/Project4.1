@@ -35,13 +35,16 @@ public class OurAI extends AI{
     double[][] pcacomponents;
     double[][] scalecomponents;
     Map<String, Integer> clusters;
+    Map<String, Double> lengths = new HashMap<>();
     double grad = 0.0;
     double time = 0.5;
-    int timeTech = 0; //0 is uniform, 1 is increasing, 2 is decreasing
+    int timeTech = 1; //0 is uniform, 1 is increasing, 2 is decreasing
+    int turn =1;
 
     public  OurAI() {
         this.friendlyName = "Our AI";
         this.clusters = getClusters();
+        readGameLengths();
         //this.evaluator = getModel();
         //this.pcacomponents = getPCACompenents();
         //this.scalecomponents = getScaleComponents();
@@ -49,8 +52,10 @@ public class OurAI extends AI{
 
     @Override
     public Move selectAction(Game game, Context context, double maxSeconds, int maxIterations, int maxDepth) {
+        System.out.println("Turn - "+ turn +" time - "+time);
         Move move = selectedAI.selectAction(game, context, time, maxIterations, maxDepth);
         time += grad;
+        turn ++;
         return move;
     }
 
@@ -65,7 +70,7 @@ public class OurAI extends AI{
 
     //decision structure for selecting the AI
     public AI selectAI(Game game, int playerID){
-        int clusterid = getClusterIdFromModel(game);
+        int clusterid = 0;//getClusterIdFromModel(game);
         AI foundAI;
         System.out.println("cluster selected:" + clusterid);
         switch (clusterid){
@@ -260,6 +265,25 @@ public class OurAI extends AI{
         return null;
     }
 
+    public void readGameLengths(){
+        try {
+            File file = new File("Python\\game_lengths.csv");
+            BufferedReader br = new BufferedReader(new FileReader(file));
+            String line = br.readLine();
+            while ((line = br.readLine()) != null){
+                String[] values = line.split(",");
+                String name = values[2];
+                double length = Double.parseDouble(values[3]);
+                lengths.put(name, length);
+            }
+
+        } catch(Exception e){
+            System.out.println(e);
+            System.out.println(e.getStackTrace());
+            System.out.println("Couldnt load components correctly");
+        }
+    }
+
 
     // reads scale components from a file (to reverse standardize)
     public double[][] getScaleComponents(){
@@ -298,9 +322,7 @@ public class OurAI extends AI{
             while ((line = br.readLine()) != null){
                 if(!firsttime) {
                     String[] values = line.split(",");
-                    for (int i = 1; i < values.length; i++) {
-                        clusters.put(values[3], Integer.parseInt(values[1]));
-                    }
+                    clusters.put(values[3], Integer.parseInt(values[1]));
                 }
                 firsttime=false;
 
@@ -538,19 +560,22 @@ public class OurAI extends AI{
     }
 
     private void setTimeGrad(Game game) {
-        Map<Integer, String> nonboolconcepts =  game.nonBooleanConcepts();
-        String length = nonboolconcepts.get(548);
-        double gameLen = Double.parseDouble(length);
-        double maxTime = (120.0/gameLen)-0.1;
-        grad = (maxTime-0.1)/gameLen;
-        if(timeTech==0){
-            time = gameLen/60;
-            grad = 0;
-        }else if(timeTech==1){
-            time = 0.1;
-        }else if(timeTech==2){
-            time = maxTime;
-            grad = -grad;
+        System.out.println(game.name());
+        if(lengths.containsKey(game.name())){
+            System.out.println("time changed");
+            double gameLen = lengths.get(game.name());
+            System.out.println(gameLen);
+            double maxTime = (120.0 / gameLen) - 0.1;
+            grad = (maxTime - 0.1) / gameLen;
+            if (timeTech == 0) {
+                time = 60/gameLen;
+                grad = 0;
+            } else if (timeTech == 1) {
+                time = 0.1;
+            } else if (timeTech == 2) {
+                time = maxTime;
+                grad = -grad;
+            }
         }
     }
 }
