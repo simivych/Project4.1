@@ -1,30 +1,27 @@
 package ai;
 
 import game.Game;
-import metadata.ai.heuristics.HeuristicUtil;
 import metadata.ai.heuristics.Heuristics;
 import metadata.ai.heuristics.terms.*;
-import org.dmg.pmml.MiningFunction;
 import org.jpmml.evaluator.Evaluator;
 import org.jpmml.evaluator.EvaluatorUtil;
 import org.jpmml.evaluator.InputField;
 import org.jpmml.evaluator.LoadingModelEvaluatorBuilder;
-import org.jpmml.evaluator.clustering.ClusteringModelEvaluator;
 import other.AI;
 import other.GameLoader;
 import other.concept.Concept;
-import other.concept.EndConcepts;
 import other.context.Context;
 import other.move.Move;
-import supplementary.experiments.HeuristicsTraining;
-import supplementary.experiments.analysis.RulesetConceptsUCT;
+import search.mcts.playout.MAST;
+import utils.AIFactory;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.util.*;
-
-import static features.spatial.elements.FeatureElement.ElementType.RegionProximity;
+import java.util.BitSet;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class OurAI extends AI{
 
@@ -32,18 +29,26 @@ public class OurAI extends AI{
     int player;
     AI selectedAI;
     Evaluator evaluator;
+    Map<String, Integer> clusters;
+    Map<String, Integer> predictions;
+    Map<String, Double> lengths = new HashMap<>();
+
+    // for reading directly from pmml model
     double[][] pcacomponents;
     double[][] scalecomponents;
-    Map<String, Integer> clusters;
-    Map<String, Double> lengths = new HashMap<>();
+
+
     double grad = 0.0;
     double time = 0.5;
     int timeTech = 1; //0 is uniform, 1 is increasing, 2 is decreasing
     int turn =1;
+    boolean clusteringbool;
 
     public  OurAI() {
         this.friendlyName = "Our AI";
         this.clusters = getClusters();
+        this.clusteringbool = false;
+        this.predictions = getPredictions();
         readGameLengths();
         //this.evaluator = getModel();
         //this.pcacomponents = getPCACompenents();
@@ -52,7 +57,7 @@ public class OurAI extends AI{
 
     @Override
     public Move selectAction(Game game, Context context, double maxSeconds, int maxIterations, int maxDepth) {
-        System.out.println("Turn - "+ turn +" time - "+time);
+//        System.out.println("Turn - "+ turn +" time - "+time);
         Move move = selectedAI.selectAction(game, context, time, maxIterations, maxDepth);
         time += grad;
         turn ++;
@@ -70,32 +75,56 @@ public class OurAI extends AI{
 
     //decision structure for selecting the AI
     public AI selectAI(Game game, int playerID){
-        int clusterid = 0;//getClusterIdFromModel(game);
-        AI foundAI;
-        System.out.println("cluster selected:" + clusterid);
-        switch (clusterid){
-            case 0:
-                foundAI = new ExampleUCT();
-                break;
-            case 1:
-                foundAI = new ExampleUCT();
-                break;
-            case 2:
-                foundAI = new ExampleUCT();
-            case 3:
-                foundAI = new ExampleUCT();
-            case 4:
-                foundAI = new ExampleUCT();
-            default:
-                foundAI = new ExampleUCT();
+        if(clusteringbool) {
+            int clusterid = getClusterIdFromModel(game);
+            System.out.println("cluster selected:" + clusterid);
+            AI foundAI;
+            switch (clusterid) {
+                case 0:
+                    foundAI = new ExampleUCT();
+                    break;
+                case 1:
+                    foundAI = new ExampleUCT();
+                    break;
+                case 2:
+                    foundAI = new ExampleUCT();
+                case 3:
+                    foundAI = new ExampleUCT();
+                case 4:
+                    foundAI = new ExampleUCT();
+                default:
+                    foundAI = new ExampleUCT();
 
+            }
+            return foundAI;
+        } else {
+            int agentid = this.predictions.get(game.name());
+            System.out.println("agent selected:" + agentid);
+            AI foundAI;
+            switch (agentid) {
+                case 0:
+                    foundAI = new ExampleUCT();
+                    break;
+                case 1:
+                    foundAI = new PNSMCTS();
+                    break;
+                case 2:
+                     return AIFactory.createAI("MAST");
+                case 3:
+                     return AIFactory.createAI("MC-GRAVE");
+                case 4:
+                    return new AlphaBetaNoHeuristics();
+                default:
+                    foundAI = new ExampleUCT();
+            }
+            return foundAI;
         }
-        return foundAI;
     }
 
     // retrieves the clusterid for a certain game
     public int getClusterIdFromModel(Game game){
         var clusterid = this.clusters.get(game.name());
+        // this is probably not necessary though
         if(clusterid == null){
             clusterid = 2;
         }
@@ -337,6 +366,31 @@ public class OurAI extends AI{
         return null;
     }
 
+    public Map<String, Integer> getPredictions() {
+        HashMap<String, Integer> clusters = new HashMap<>();
+        try {
+            File file = new File("Python\\predictions.csv");
+            BufferedReader br = new BufferedReader(new FileReader(file));
+            String line = "";
+            boolean firsttime = true;
+            while ((line = br.readLine()) != null) {
+                if (!firsttime) {
+                    String[] values = line.split(",");
+                    clusters.put(values[1], Integer.parseInt(values[2]));
+                }
+                firsttime = false;
+
+            }
+            return clusters;
+
+        } catch (Exception e) {
+            System.out.println(e);
+            System.out.println(e.getStackTrace());
+            System.out.println("Couldnt load clusters correctly");
+        }
+        return null;
+    }
+
     // convert pca to a map
     public Map<String, Double> pcaToMap(double[][] pca){
         HashMap<String, Double> map = new HashMap<>();
@@ -447,10 +501,13 @@ public class OurAI extends AI{
                 heur = new SidesProximity(null, -1.0f, null);
                 break;
             case 23:
-                heur = new RegionProximity(null, 1.0f, null, null);
+                heur = new RegionProximity(null, 1.0f, 3, null);
                 break;
             case 26:
                 heur = new Score(null, 1.0f);
+                break;
+            case 30:
+                heur = new OwnRegionsCount(null, -1.0f);
                 break;
             case 31:
                 heur = new RegionProximity(null, 1.0f, 1, null);
