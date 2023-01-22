@@ -35,6 +35,9 @@ public class OurAI extends AI{
     double[][] pcacomponents;
     double[][] scalecomponents;
     Map<String, Integer> clusters;
+    double grad = 0.0;
+    double time = 0.5;
+    int timeTech = 0; //0 is uniform, 1 is increasing, 2 is decreasing
 
     public  OurAI() {
         this.friendlyName = "Our AI";
@@ -46,7 +49,9 @@ public class OurAI extends AI{
 
     @Override
     public Move selectAction(Game game, Context context, double maxSeconds, int maxIterations, int maxDepth) {
-        return selectedAI.selectAction(game, context, maxSeconds, maxIterations, maxDepth);
+        Move move = selectedAI.selectAction(game, context, time, maxIterations, maxDepth);
+        time += grad;
+        return move;
     }
 
     @Override
@@ -55,6 +60,7 @@ public class OurAI extends AI{
         this.player = playerID;
         this.selectedAI = selectAI(game, playerID);
         this.selectedAI.initAI(game, playerID);
+        setTimeGrad(game);
     }
 
     //decision structure for selecting the AI
@@ -529,5 +535,22 @@ public class OurAI extends AI{
             }
         }
         return new double[]{1, 0.5};
+    }
+
+    private void setTimeGrad(Game game) {
+        Map<Integer, String> nonboolconcepts =  game.nonBooleanConcepts();
+        String length = nonboolconcepts.get(548);
+        double gameLen = Double.parseDouble(length);
+        double maxTime = (120.0/gameLen)-0.1;
+        grad = (maxTime-0.1)/gameLen;
+        if(timeTech==0){
+            time = gameLen/60;
+            grad = 0;
+        }else if(timeTech==1){
+            time = 0.1;
+        }else if(timeTech==2){
+            time = maxTime;
+            grad = -grad;
+        }
     }
 }
