@@ -5,9 +5,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import ai.AlphaBetaNoHeuristics;
+import ai.OurAI;
 import game.Game;
 import manager.ai.AIRegistry;
 import ai.PNSMCTS;
+import metadata.ai.heuristics.Heuristics;
+import metadata.ai.heuristics.terms.HeuristicTerm;
 import other.AI;
 import other.GameLoader;
 import other.context.Context;
@@ -35,7 +39,7 @@ public class RunCustomMatch
 	//-------------------------------------------------------------------------
 
 	/** Experiment + file settings */
-	static final int NUM_GAMES = 10;
+	static final int NUM_GAMES = 5;
 	static final String fileName = "Experiment Data.csv";
 	static final String testedfileName = "Experiment Games - Tested.csv";
 	static final String untestedfileName = "Experiment Games - Untested.csv";
@@ -45,6 +49,10 @@ public class RunCustomMatch
 	static boolean showProgressBar = true;
 	static String completed = "x";
 	static String incomplete = "-";
+
+	/** Heuristic settings */
+	static int heuristic1 = 9;
+	static int heuristic2 = 26;
 
 	//-------------------------------------------------------------------------
 
@@ -75,14 +83,19 @@ public class RunCustomMatch
 		 */
 
 		ArrayList<String> agents = new ArrayList<>();
-		agents.add("UCT");
-		agents.add("Alpha-Beta Search");
-		agents.add("PN-MCTS");
-		agents.add("MAST");
-		agents.add("GRAVE");
+//		agents.add("UCT");
+//		agents.add("Alpha-Beta Search");
+		agents.add("equal");
+		agents.add("firsthigher");
+		agents.add("secondhigher");
+		agents.add("nosecond");
+		agents.add("basicheuristics");
+//		agents.add("PN-MCTS");
+//		agents.add("MAST");
+//		agents.add("GRAVE");
 //		agents.add("Random");
 
-		String opponent = "UCT";
+		String opponent = "basicheuristics";
 //		String opponent = "Random";
 
 		// This is how you can add extra games to be played without going through the untested file.
@@ -328,6 +341,46 @@ public class RunCustomMatch
 					return null;
 				}
 				return AIFactory.createAI("MC-GRAVE");
+			case "equal":
+				if (!search.minimax.AlphaBetaSearch.createAlphaBeta().supportsGame(game)){
+					System.out.println("AB-Search cannot play "+game.name());
+					return null;
+				}
+				HeuristicTerm heur1 = OurAI.getHeuristicFromId(heuristic1);
+				HeuristicTerm heur2 = OurAI.getHeuristicFromId(heuristic2);
+				return new AlphaBetaNoHeuristics(new Heuristics(new HeuristicTerm[]{heur1, heur2}));
+			case "firsthigher":
+				if (!search.minimax.AlphaBetaSearch.createAlphaBeta().supportsGame(game)){
+					System.out.println("AB-Search cannot play "+game.name());
+					return null;
+				}
+				HeuristicTerm hr1 = OurAI.getHeuristicFromId(heuristic1);
+				hr1.setWeight(hr1.weight()*100);
+				HeuristicTerm hr2 = OurAI.getHeuristicFromId(heuristic2);
+				return new AlphaBetaNoHeuristics(new Heuristics(new HeuristicTerm[]{hr1, hr2}));
+			case "secondhigher":
+				if (!search.minimax.AlphaBetaSearch.createAlphaBeta().supportsGame(game)){
+					System.out.println("AB-Search cannot play "+game.name());
+					return null;
+				}
+				HeuristicTerm hrs1 = OurAI.getHeuristicFromId(heuristic1);
+				HeuristicTerm hrs2 = OurAI.getHeuristicFromId(heuristic2);
+				hrs1.setWeight(hrs1.weight()*0.01f);
+				return new AlphaBetaNoHeuristics(new Heuristics(new HeuristicTerm[]{hrs1, hrs2}));
+			case "nosecond":
+				if (!search.minimax.AlphaBetaSearch.createAlphaBeta().supportsGame(game)){
+					System.out.println("AB-Search cannot play "+game.name());
+					return null;
+				}
+				HeuristicTerm h1 = OurAI.getHeuristicFromId(heuristic1);
+				return new AlphaBetaNoHeuristics(new Heuristics(new HeuristicTerm[]{h1}));
+			case "basicheuristics":
+				if (!search.minimax.AlphaBetaSearch.createAlphaBeta().supportsGame(game)){
+					System.out.println("AB-Search cannot play "+game.name());
+					return null;
+				}
+				return new AlphaBetaNoHeuristics();
+
 			default:
 				System.out.println("AI not in list");
 				return null;
