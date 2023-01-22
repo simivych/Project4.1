@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import ai.OurAI;
 import game.Game;
 import main.Constants;
 import main.FileHandling;
@@ -138,8 +139,7 @@ public class KilothonTest
                         {
                             if(pid == 1)
                             {
-                                final AI challenger = MCTS.createUCT();
-                                challenger.setMaxSecondsPerMove(0.5);
+                                final AI challenger = new OurAI();
                                 ais.add(challenger);
                             }
                             else if(pid == 2)
