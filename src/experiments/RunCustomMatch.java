@@ -14,6 +14,7 @@ import metadata.ai.heuristics.Heuristics;
 import metadata.ai.heuristics.terms.HeuristicTerm;
 import other.AI;
 import other.GameLoader;
+import other.RankUtils;
 import other.context.Context;
 import other.model.Model;
 import other.trial.Trial;
@@ -21,6 +22,7 @@ import ai.RandomAI;
 import search.mcts.MCTS;
 import search.pns.ProofNumberSearch;
 import utils.AIFactory;
+import ai.AlphaBetaNoHeuristics;
 
 
 /**
@@ -49,6 +51,10 @@ public class RunCustomMatch
 	static boolean showProgressBar = true;
 	static String completed = "x";
 	static String incomplete = "-";
+	static String wentToRandom = "r";
+
+	static int numRandoms = 0;
+	static int agentWins = 0;
 
 	/** Heuristic settings */
 	static int heuristic1 = 9;
@@ -84,18 +90,13 @@ public class RunCustomMatch
 
 		ArrayList<String> agents = new ArrayList<>();
 //		agents.add("UCT");
-//		agents.add("Alpha-Beta Search");
-		agents.add("equal");
-		agents.add("firsthigher");
-		agents.add("secondhigher");
-		agents.add("nosecond");
-		agents.add("basicheuristics");
+		agents.add("Alpha-Beta Search");
 //		agents.add("PN-MCTS");
 //		agents.add("MAST");
 //		agents.add("GRAVE");
 //		agents.add("Random");
 
-		String opponent = "basicheuristics";
+		String opponent = "UCT";
 //		String opponent = "Random";
 
 		// This is how you can add extra games to be played without going through the untested file.
@@ -140,9 +141,9 @@ public class RunCustomMatch
 		System.out.println();
 
 		if (includeHeader){
-			String firstline = "GameName,";
+			String firstline = "Name,";
 			for (String agent : agents) {
-				firstline += agent + ",";
+				firstline += "utility_" + agent + ",numRandom_" + agent + ",numWins_" + agent + ",";
 			}
 
 			try {
@@ -168,25 +169,32 @@ public class RunCustomMatch
 
 			/**
 			 * Loop that goes through each agent and runs NUM_GAMES number of games against the opponent agent. Winrate
-			 * is saved to the Experiment Data.csv after each GAME (not after each agent).
+			 * is saved to the Experiment Data Wins Only.csv after each GAME (not after each agent).
 			 */
 
 			for (String agent : agents){
 
 				// Check if agent can even play game, if not -> winrate -1
 				if (getAgentFromName(agent, game) == null){
-					csvData.add("-1.0");
+					csvData.add("NaN");
+					csvData.add("NaN");
+					csvData.add("NaN");
 					continue;
 				}
 
 				// Exception Handling for OOM errors
 				try {
-					int agentWins = 0;
+					double utility = 0;
+					agentWins = 0;
+					String progressBar = "";
+					boolean outOfTime = false;
+					numRandoms = 0;
 
 					for (int gameCounter = 0; gameCounter < NUM_GAMES; ++gameCounter) {
 
 						if (showProgressBar) {
-							System.out.print("\r" + agent + ": [" + completed.repeat(gameCounter) + incomplete.repeat(NUM_GAMES - gameCounter) + "]");
+							outOfTime = false;
+							System.out.print("\r" + agent + ": [" + progressBar + incomplete.repeat(NUM_GAMES - gameCounter) + "]");
 						}
 
 						List<AI> ais = new ArrayList<AI>();
@@ -225,7 +233,11 @@ public class RunCustomMatch
 							if (remainingTimeP1 > 0.0D && mover == 1) {
 								remainingTimeP1 -= timeUsed;
 								if (remainingTimeP1 <= 0.0D) {
-									System.out.print("r1!"); //+ trial.numberRealMoves());
+									if (showProgressBar){
+										outOfTime = true;
+										progressBar += wentToRandom;
+									}
+									numRandoms++;
 									((AI) ais.get(1)).closeAI();
 									ais.set(1, new utils.RandomAI());
 									((AI) ais.get(1)).initAI(game, 1);
@@ -244,20 +256,38 @@ public class RunCustomMatch
 
 						}
 
-						if (context.trial().status().winner() == 1) {
+//						if (context.trial().status().winner() == 1) {
+//							agentWins++;
+//						}
+
+						boolean win = RankUtils.rankToUtil(trial.ranking()[1], game.players().count()) == 1.0D;
+						if (win){
 							agentWins++;
+						}
+
+						utility += RankUtils.rankToUtil(trial.ranking()[1], game.players().count());
+
+						if (showProgressBar){
+							if (!outOfTime){
+								progressBar += completed;
+							}
 						}
 					}
 
 					if (showProgressBar) {
-						System.out.print("\r" + agent + ": [" + completed.repeat(NUM_GAMES) + "]");
+						System.out.print("\r" + agent + ": [" + progressBar + "]");
 					}
 
-					double winrate = (double) agentWins / NUM_GAMES;
-					System.out.println("\n" + agent + " agent winrate: " + winrate + " (" + agentWins + ")");
+					double winrate = (double) agentWins / (double) NUM_GAMES;
+					utility = utility/(double) NUM_GAMES;
+					System.out.println("\n" + agent + " agent winrate: " + winrate + " (" + utility + ")");
+					System.out.println("Number of wins: " + agentWins);
+					System.out.println("Defaulted to random " + numRandoms + " times");
 					System.out.println();
 
-					csvData.add(String.valueOf(winrate));
+					csvData.add(String.valueOf(utility));
+					csvData.add(String.valueOf(numRandoms));
+					csvData.add(String.valueOf(agentWins));
 				} catch (Exception e){
 					System.out.println(e.getMessage());
 				}
@@ -284,13 +314,14 @@ public class RunCustomMatch
 			try
 			{
 				FileWriter fw = new FileWriter(testedfileName, true);
-				fw.write(gameName + "," + time + "\n");
+				fw.write(gameName + "," + time +"\n");
 				fw.close();
 			}catch (Exception e){}
 
 			experiment++;
 
 		}
+
 		System.out.println("------------------------------------------------------------------");
 
 	}
@@ -308,11 +339,16 @@ public class RunCustomMatch
 	private static AI getAgentFromName(String name, Game game){
 		switch (name){
 			case "Alpha-Beta Search":
-				if (!search.minimax.AlphaBetaSearch.createAlphaBeta().supportsGame(game)){
+				if (!new AlphaBetaNoHeuristics().supportsGame(game)){
 					System.out.println("AB-Search cannot play "+game.name());
 					return null;
 				}
-				return search.minimax.AlphaBetaSearch.createAlphaBeta();
+				return new AlphaBetaNoHeuristics();
+//				if (!search.minimax.AlphaBetaSearch.createAlphaBeta().supportsGame(game)){
+//					System.out.println("AB-Search cannot play "+game.name());
+//					return null;
+//				}
+//				return search.minimax.AlphaBetaSearch.createAlphaBeta();
 			case "UCT":
 				if (!MCTS.createUCT().supportsGame(game)){
 					System.out.println("UCT cannot play "+game.name());
