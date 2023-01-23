@@ -12,6 +12,7 @@ import other.GameLoader;
 import other.concept.Concept;
 import other.context.Context;
 import other.move.Move;
+import search.mcts.MCTS;
 import search.mcts.playout.MAST;
 import utils.AIFactory;
 
@@ -81,20 +82,19 @@ public class OurAI extends AI{
             AI foundAI;
             switch (clusterid) {
                 case 0:
-                    foundAI = new ExampleUCT();
+                    foundAI = new PNSMCTS();
                     break;
                 case 1:
-                    foundAI = new ExampleUCT();
+                    foundAI = new AlphaBetaNoHeuristics();
                     break;
                 case 2:
-                    foundAI = new ExampleUCT();
+                    foundAI = new AlphaBetaNoHeuristics();
                 case 3:
-                    foundAI = new ExampleUCT();
+                    foundAI = AIFactory.createAI("MAST");
                 case 4:
-                    foundAI = new ExampleUCT();
+                    foundAI = new AlphaBetaNoHeuristics();
                 default:
-                    foundAI = new ExampleUCT();
-
+                    foundAI = MCTS.createUCT();
             }
             return foundAI;
         } else {
@@ -103,7 +103,7 @@ public class OurAI extends AI{
             AI foundAI;
             switch (agentid) {
                 case 0:
-                    foundAI = new ExampleUCT();
+                    foundAI = MCTS.createUCT();
                     break;
                 case 1:
                     foundAI = new PNSMCTS();
@@ -115,7 +115,7 @@ public class OurAI extends AI{
                 case 4:
                     return new AlphaBetaNoHeuristics();
                 default:
-                    foundAI = new ExampleUCT();
+                    foundAI = MCTS.createUCT();
             }
             return foundAI;
         }
