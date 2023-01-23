@@ -1,1105 +1,1105 @@
-,RulesetId,Name,DurationTurns
-0,918,Do Guti,39.0
-1,595,Symbol S.2,34.0
+,RulesetId,Name,DurationTurns_UCT
+0,918,Do Guti,2500.0
+1,595,Symbol S.2,1217.0
 2,1986,Elea,61.0
-3,417,Salta,182.0
-4,1734,Double-Move Situ,12.0
-5,1451,Cittabhramanrpasya Khelanam,250.0
-6,713,Khutka Boia,181.0
-7,1558,Resolve,79.0
+3,417,Salta,2488.87
+4,1734,Double-Move Situ,10.65
+5,1451,Cittabhramanrpasya Khelanam,120.31
+6,713,Khutka Boia,1458.17
+7,1558,Resolve,61.61
 8,121,Insanity,1.0
-9,740,Niranchy,8.0
-10,955,Triodi,237.0
-11,986,Len Doat,136.0
-12,328,Los Palos,38.0
-13,946,Epelle,23.0
-14,704,Y,53.0
-15,415,Kharbaga,8.0
-16,851,Abrobad,9.0
-17,983,Dam (Singapore),250.0
-18,1770,Onyx,148.0
-19,1286,Zola,51.0
-20,1824,TacTix,10.0
-21,1166,To Kinegi tou Lagou,248.0
-22,875,Dama (Philippines),135.0
-23,1251,Leap Frog,25.0
-24,202,Tsun K'i,138.0
+9,740,Niranchy,12.64
+10,955,Triodi,43.42
+11,986,Len Doat,322.34
+12,328,Los Palos,1635.51
+13,946,Epelle,2500.0
+14,704,Y,26.12
+15,415,Kharbaga,409.56
+16,851,Abrobad,15.19
+17,983,Dam (Singapore),703.93
+18,1770,Onyx,138.72
+19,1286,Zola,48.82
+20,1824,TacTix,10.53
+21,1166,To Kinegi tou Lagou,2490.5
+22,875,Dama (Philippines),445.9
+23,1251,Leap Frog,1172.13
+24,202,Tsun K'i,180.64
 25,702,Nein Ari,1.0
-26,1538,Goldilocks Stones,37.0
-27,1800,Cascades,56.0
-28,1197,Paradis,250.0
-29,1068,Vela,46.0
-30,985,Len Cua Kin Ngoa,21.0
-31,859,Shafran Chess,98.0
-32,288,Kay,172.0
-33,1619,Unachess,249.0
-34,1029,Tavan Tal,98.0
-35,1260,Dodgem,17.0
-36,1571,Zuz Mel (7x7),239.0
-37,194,Ad elta stelpur,83.0
-38,78,Gyan Chaupar,83.0
-39,1616,Hexshogi,239.0
-40,104,Reversi,63.0
-41,890,Unnamed Dutch Draughts Game,62.0
-42,1433,Shatranj (Algeria),250.0
+26,1538,Goldilocks Stones,35.78
+27,1800,Cascades,50.74
+28,1197,Paradis,475.17
+29,1068,Vela,107.78
+30,985,Len Cua Kin Ngoa,33.6
+31,859,Shafran Chess,118.77
+32,288,Kay,306.93
+33,1619,Unachess,192.74
+34,1029,Tavan Tal,292.79
+35,1260,Dodgem,161.63
+36,1571,Zuz Mel (7x7),543.71
+37,194,Ad elta stelpur,44.97
+38,78,Gyan Chaupar,135.2
+39,1616,Hexshogi,693.98
+40,104,Reversi,62.34
+41,890,Unnamed Dutch Draughts Game,302.16
+42,1433,Shatranj (Algeria),110.5
 43,699,Oriath,1.0
-44,1815,Kanguruh,111.0
-45,964,Gale,73.0
-46,205,Ceelkoqyuqkoqiji,136.0
-47,1140,Pulijudamu,237.0
-48,1041,Xarajlt,250.0
-49,418,Tic-Tac-Four,29.0
-50,1229,Tavelspel,250.0
-51,332,Mapuche Game,135.0
-52,1736,Chaturanga (Kridakausalya 14x14),250.0
-53,22,Sokkattan,183.0
-54,1206,Russian Fortress Chess,250.0
-55,296,Hindustani Chess,250.0
-56,1778,Barca,250.0
-57,1936,Lifeline,95.0
-58,1934,Felli,90.0
-59,915,Kulaochal,250.0
-60,83,Y (Hex),101.0
+44,1815,Kanguruh,859.47
+45,964,Gale,40.45
+46,205,Ceelkoqyuqkoqiji,293.0
+47,1140,Pulijudamu,283.46
+48,1041,Xarajlt,1375.08
+49,418,Tic-Tac-Four,13.92
+50,1229,Tavelspel,2497.37
+51,332,Mapuche Game,373.06
+52,1736,Chaturanga (Kridakausalya 14x14),329.41
+53,22,Sokkattan,213.2
+54,1206,Russian Fortress Chess,4753.07
+55,296,Hindustani Chess,280.63
+56,1778,Barca,181.12
+57,1936,Lifeline,135.33
+58,1934,Felli,1606.8
+59,915,Kulaochal,7.0
+60,83,Y (Hex),59.04
 61,1804,Product,61.0
-62,88,Connect6,105.0
-63,1227,Nuktagaq,250.0
-64,781,Koro,250.0
-65,1094,Gala (Buginese),250.0
-66,1940,Sabou'iyya,236.0
-67,1400,Fivalath,45.0
-68,308,Shatranj at-Tamma,250.0
+62,88,Connect6,62.65
+63,1227,Nuktagaq,253.16
+64,781,Koro,1296.02
+65,1094,Gala (Buginese),859.18
+66,1940,Sabou'iyya,136.86
+67,1400,Fivalath,27.71
+68,308,Shatranj at-Tamma,1409.86
 69,616,Hamiltonian Maze,1.0
-70,738,Tablas Astronomias,84.0
-71,274,Mwendo,77.0
-72,1072,Janes Soppi,250.0
-73,1281,Andot,69.0
-74,1389,Master Y,42.0
-75,315,Shatranj Diwana Shah,107.0
-76,1346,Ntyenge,101.0
-77,1120,Ludus Lombardorum,54.0
-78,1049,Crossway,250.0
-79,381,Blue Nile,24.0
-80,201,Pancha Keliya,78.0
-81,1312,Njombwa (Two Counters),117.0
-82,949,Liu Tsi,7.0
-83,1043,Doov,187.0
-84,168,Awangdu,190.0
-85,433,Motiq,119.0
-86,346,Andada,84.0
-87,141,Tugi-Epfe,29.0
-88,57,Nei-Pat-Kono,250.0
-89,269,Tchela,90.0
-90,232,Azigo,250.0
-91,27,Dabuda,64.0
-92,899,Ram Tir,250.0
-93,165,Rithmomachia,250.0
-94,1233,Tablo,244.0
-95,885,Diagonal Draughts,192.0
-96,80,L Game,7.0
-97,1213,Callanish,4.0
-98,1442,Four-Player Chaturanga (al-Biruni),189.0
+70,738,Tablas Astronomias,112.87
+71,274,Mwendo,51.85
+72,1072,Janes Soppi,45.62
+73,1281,Andot,319.6
+74,1389,Master Y,23.86
+75,315,Shatranj Diwana Shah,151.0
+76,1346,Ntyenge,170.91
+77,1120,Ludus Lombardorum,61.59
+78,1049,Crossway,227.43
+79,381,Blue Nile,22.64
+80,201,Pancha Keliya,83.35
+81,1312,Njombwa (Two Counters),514.94
+82,949,Liu Tsi,31.93
+83,1043,Doov,252.27
+84,168,Awangdu,186.76
+85,433,Motiq,2213.41
+86,346,Andada,68.26
+87,141,Tugi-Epfe,198.18
+88,57,Nei-Pat-Kono,466.26
+89,269,Tchela,71.3
+90,232,Azigo,2500.0
+91,27,Dabuda,48.33
+92,899,Ram Tir,1574.21
+93,165,Rithmomachia,1269.88
+94,1233,Tablo,1856.74
+95,885,Diagonal Draughts,722.16
+96,80,L Game,4.9
+97,1213,Callanish,18.49
+98,1442,Four-Player Chaturanga (al-Biruni),997.41
 99,265,Choro (Lango),5.0
-100,1246,Damspel,73.0
-101,848,Tasholiwe,140.0
-102,1578,Sig (El Oued Capture),107.0
-103,1661,Watershed,59.0
-104,943,San-Noku-Narabe,7.0
-105,413,Castello,227.0
-106,351,Gabata (Adegrat),191.0
+100,1246,Damspel,263.57
+101,848,Tasholiwe,202.54
+102,1578,Sig (El Oued Capture),35.27
+103,1661,Watershed,59.25
+104,943,San-Noku-Narabe,691.74
+105,413,Castello,1570.79
+106,351,Gabata (Adegrat),1265.95
 107,682,CrossGeo,26.0
-108,1391,3D Tic-Tac-Toe,10.0
-109,313,Acedrex de los Cuatros Tiempos,250.0
-110,1781,Atomic Chess,57.0
+108,1391,3D Tic-Tac-Toe,7.45
+109,313,Acedrex de los Cuatros Tiempos,3800.91
+110,1781,Atomic Chess,23.48
 111,1775,Buttons And Lights,1.0
-112,1022,Engijn Zirge,19.0
-113,437,Unnee Tugalluulax,250.0
-114,863,Pasit,242.0
-115,187,Mefuvha,53.0
-116,676,Ringo,17.0
-117,1167,Kiust Oyun,215.0
-118,772,Weiqi,250.0
-119,784,Abak,250.0
-120,252,Adjiboto,83.0
+112,1022,Engijn Zirge,106.78
+113,437,Unnee Tugalluulax,98.1
+114,863,Pasit,1218.29
+115,187,Mefuvha,55.83
+116,676,Ringo,10.45
+117,1167,Kiust Oyun,737.05
+118,772,Weiqi,350.97
+119,784,Abak,328.4
+120,252,Adjiboto,70.88
 121,1823,Plotto,6.0
-122,1386,Crand,250.0
-123,756,Daldos,118.0
-124,947,Six-Penny Madell,110.0
-125,1733,Don't Mosey and The Last Scavenger,16.0
-126,817,Mylna,245.0
-127,1774,Duidoku,64.0
-128,55,Dama,102.0
-129,961,Lam Pusri,244.0
-130,1401,Unfair,21.0
-131,1014,Ultimate Chess,147.0
-132,971,Sumi Naga (War),102.0
-133,910,Bagha Guti,250.0
-134,86,Andantino,45.0
-135,160,Dash Guti,202.0
+122,1386,Crand,526.93
+123,756,Daldos,128.76
+124,947,Six-Penny Madell,43.35
+125,1733,Don't Mosey and The Last Scavenger,17.54
+126,817,Mylna,47.56
+127,1774,Duidoku,65.02
+128,55,Dama,188.81
+129,961,Lam Pusri,1024.57
+130,1401,Unfair,9.25
+131,1014,Ultimate Chess,261.25
+132,971,Sumi Naga (War),773.62
+133,910,Bagha Guti,274.94
+134,86,Andantino,29.14
+135,160,Dash Guti,634.7
 136,1150,Sudoku Mine,1.0
-137,1228,Dablot Prejjesne,238.0
-138,574,Ja-Jeon-Geo-Gonu,33.0
-139,706,Trike,41.0
-140,854,Mini Hexchess,227.0
-141,1769,Reach Chess,64.0
-142,1822,Snort,37.0
-143,167,Kioz,162.0
-144,432,Kanji Guti,42.0
-145,846,Sig (Tidikelt),250.0
-146,1121,Jacquet de Versailles,116.0
-147,1805,Fission,42.0
-148,18,Gabata (Aksum),128.0
-149,226,J'odu,33.0
-150,878,Jeu de Renard (Two Foxes),250.0
-151,1284,Lobudok,93.0
-152,1536,Quarto,13.0
-153,642,Aj Sayil,66.0
-154,1158,Fibonacci Nim,27.0
-155,1385,Nchayo,37.0
-156,250,English Wari (St. Lucia),91.0
-157,1272,DuploHex,36.0
-158,1067,Ethiopian Capture Game,33.0
-159,64,Zamma,231.0
-160,1518,Uthi,59.0
-161,1464,Chaturanga (12x12),250.0
-162,1159,Hops-a-Daisy Generalized,53.0
-163,298,Rumi Shatranj,249.0
-164,521,Hyvn aetter Hare,250.0
-165,365,Tuz,127.0
-166,1806,First Attack,7.0
-167,295,Chaturaji,247.0
-168,558,Hewakam Keliya,243.0
-169,1435,Medieval Chess,247.0
-170,347,Qelat (Beni Amir-Mensa),250.0
-171,419,Ataxx,145.0
-172,489,Frisian Draughts,69.0
-173,1567,Bao,6.0
-174,1789,Es-Sig,243.0
-175,1152,Dice Chess,188.0
-176,135,Qelat,82.0
-177,1795,Quick Chess,112.0
-178,739,Nerenchi Keliya,153.0
-179,1508,Wari (Alignment),172.0
+137,1228,Dablot Prejjesne,1173.89
+138,574,Ja-Jeon-Geo-Gonu,8.98
+139,706,Trike,63.55
+140,854,Mini Hexchess,87.48
+141,1769,Reach Chess,20.2
+142,1822,Snort,42.17
+143,167,Kioz,446.29
+144,432,Kanji Guti,58.03
+145,846,Sig (Tidikelt),1405.22
+146,1121,Jacquet de Versailles,184.0
+147,1805,Fission,268.08
+148,18,Gabata (Aksum),2500.0
+149,226,J'odu,52.09
+150,878,Jeu de Renard (Two Foxes),2109.2
+151,1284,Lobudok,49.99
+152,1536,Quarto,17.59
+153,642,Aj Sayil,381.39
+154,1158,Fibonacci Nim,18.76
+155,1385,Nchayo,30.94
+156,250,English Wari (St. Lucia),275.39
+157,1272,DuploHex,14.45
+158,1067,Ethiopian Capture Game,1061.22
+159,64,Zamma,316.3
+160,1518,Uthi,2078.09
+161,1464,Chaturanga (12x12),281.09
+162,1159,Hops-a-Daisy Generalized,43.36
+163,298,Rumi Shatranj,1167.33
+164,521,Hyvn aetter Hare,222.02
+165,365,Tuz,775.19
+166,1806,First Attack,6.57
+167,295,Chaturaji,517.74
+168,558,Hewakam Keliya,753.08
+169,1435,Medieval Chess,181.75
+170,347,Qelat (Beni Amir-Mensa),929.23
+171,419,Ataxx,104.98
+172,489,Frisian Draughts,140.2
+173,1567,Bao,33.54
+174,1789,Es-Sig,505.48
+175,1152,Dice Chess,88.56
+176,135,Qelat,883.88
+177,1795,Quick Chess,60.08
+178,739,Nerenchi Keliya,59.34
+179,1508,Wari (Alignment),89.89
 180,685,Chase,1.0
-181,458,Amazon Chess,249.0
-182,965,Lontu-Holo,186.0
-183,180,Shing Quon Tu,122.0
-184,1050,Main Dam,43.0
-185,1801,Louis XVI,77.0
+181,458,Amazon Chess,67.69
+182,965,Lontu-Holo,552.85
+183,180,Shing Quon Tu,1718.75
+184,1050,Main Dam,752.45
+185,1801,Louis XVI,69.61
 186,1314,Chiana wa Kunja,100.0
-187,407,Snowpaque,31.0
-188,953,Sam K'i,25.0
-189,1657,Viking Chess,247.0
-190,448,Pentalath,41.0
-191,243,Bosh,160.0
-192,736,El Mundo,84.0
-193,1125,Panchi,189.0
-194,1761,Rabbit Warrens,59.0
+187,407,Snowpaque,31.97
+188,953,Sam K'i,92.93
+189,1657,Viking Chess,167.19
+190,448,Pentalath,18.32
+191,243,Bosh,2141.1
+192,736,El Mundo,201.56
+193,1125,Panchi,195.1
+194,1761,Rabbit Warrens,71.89
 195,1323,Shisen-Sho,1.0
-196,1535,Pentago,25.0
-197,173,Romavoa,65.0
+196,1535,Pentago,13.12
+197,173,Romavoa,61.09
 198,122,Knight's Tour,1.0
-199,1671,Yavalax,65.0
+199,1671,Yavalax,31.36
 200,119,Squaro,1.0
-201,47,Skirmish (GDL),99.0
-202,1439,Acedrex (Alfonso),250.0
-203,216,Puhulmutu,17.0
-204,1737,Dogtown Clans,20.0
-205,293,Shatranj ar-Rumiya,250.0
-206,1245,Damenspiel,45.0
-207,678,Crossline,9.0
-208,717,Tugul Shodra,27.0
-209,1450,Chaturanga (Kridakausalya),250.0
-210,770,Haretavl,250.0
-211,1669,Make Muster,77.0
-212,979,Forcado,250.0
-213,1222,Tap Urdy,60.0
-214,1290,Misoro Tsoro,85.0
-215,267,Muvalavala (Quioco),28.0
-216,1987,Ecosys,63.0
-217,1123,Garanguet,68.0
-218,1935,Fettas,110.0
-219,468,Kaooa,85.0
+201,47,Skirmish (GDL),85.4
+202,1439,Acedrex (Alfonso),1224.8
+203,216,Puhulmutu,78.17
+204,1737,Dogtown Clans,20.9
+205,293,Shatranj ar-Rumiya,1246.44
+206,1245,Damenspiel,705.21
+207,678,Crossline,11.63
+208,717,Tugul Shodra,10.32
+209,1450,Chaturanga (Kridakausalya),145.24
+210,770,Haretavl,83.2
+211,1669,Make Muster,35.55
+212,979,Forcado,2336.24
+213,1222,Tap Urdy,397.27
+214,1290,Misoro Tsoro,69.33
+215,267,Muvalavala (Quioco),39.21
+216,1987,Ecosys,69.44
+217,1123,Garanguet,119.09
+218,1935,Fettas,85.2
+219,468,Kaooa,16.12
 220,1383,Ngulungu,13.0
-221,1659,HexGo,169.0
-222,1992,Dama (Alquerque),96.0
-223,1628,Shatranj (14x14),250.0
-224,1262,Erherhe,250.0
-225,177,Tawula,141.0
-226,46,Shogi,231.0
-227,864,Barjis,250.0
-228,62,Peralikatuma,240.0
-229,653,Pagade Kayi Ata (Sixteen-handed),203.0
-230,1419,Six Insect Game,250.0
-231,884,The Babylonian,240.0
-232,1396,Spartan Chess,248.0
-233,33,XII Scripta,114.0
-234,74,Knightthrough,25.0
-235,133,Half Chess,250.0
-236,368,Leyla,131.0
-237,573,Ho-Bag Gonu,63.0
-238,889,RootZone,41.0
-239,632,Bagh Guti,241.0
-240,1354,Greater Loss,1.0
-241,82,Hex,81.0
+221,1659,HexGo,104.43
+222,1992,Dama (Alquerque),169.11
+223,1628,Shatranj (14x14),372.44
+224,1262,Erherhe,200.57
+225,177,Tawula,272.19
+226,46,Shogi,421.66
+227,864,Barjis,322.24
+228,62,Peralikatuma,614.46
+229,653,Pagade Kayi Ata (Sixteen-handed),3278.77
+230,1419,Six Insect Game,592.44
+231,884,The Babylonian,759.53
+232,1396,Spartan Chess,236.85
+233,33,XII Scripta,286.08
+234,74,Knightthrough,27.43
+235,133,Half Chess,95.18
+236,368,Leyla,1467.77
+237,573,Ho-Bag Gonu,2475.13
+238,889,RootZone,36.35
+239,632,Bagh Guti,92.52
+240,1354,Greater Loss,15.0
+241,82,Hex,45.16
 242,615,Icosian,1.0
 243,787,Aksadyuta,2.0
-244,431,Mawkar Katiya,149.0
-245,391,Havannah,87.0
-246,1468,Tepong,250.0
-247,1308,Shono,71.0
-248,1545,Tenjiku Shogi,212.0
-249,1317,Greatest Loss,6.0
-250,645,Aj Sina'anil,68.0
-251,567,Round Merels,10.0
-252,1009,Dorvon Cag,7.0
-253,56,English Draughts,136.0
-254,617,Sim,7.0
-255,1975,Overflow,52.0
-256,1550,Dodo,41.0
-257,1798,Annuvin,119.0
-258,1139,Huli-Mane Ata,52.0
-259,604,of Solomon,18.0
-260,401,Gol Ekuish,250.0
-261,1411,Chandaraki,250.0
-262,1555,Wali,235.0
-263,462,Los Alamos Chess,20.0
-264,819,Ketch-Dolt,6.0
-265,1929,Co Chan Cho,27.0
-266,750,Tayam Sonalu,159.0
-267,1189,Sik,250.0
-268,1467,Main Chator (Batak),250.0
-269,1623,Xiang Hex,250.0
-270,900,Pam Pait,250.0
-271,372,Bao Kiswahili (East Africa),47.0
+244,431,Mawkar Katiya,455.06
+245,391,Havannah,47.46
+246,1468,Tepong,367.83
+247,1308,Shono,102.46
+248,1545,Tenjiku Shogi,165.84
+249,1317,Greatest Loss,15.0
+250,645,Aj Sina'anil,332.46
+251,567,Round Merels,2500.0
+252,1009,Dorvon Cag,4.0
+253,56,English Draughts,461.27
+254,617,Sim,13.63
+255,1975,Overflow,61.92
+256,1550,Dodo,97.28
+257,1798,Annuvin,50.67
+258,1139,Huli-Mane Ata,32.3
+259,604,of Solomon,553.75
+260,401,Gol Ekuish,577.32
+261,1411,Chandaraki,160.93
+262,1555,Wali,89.25
+263,462,Los Alamos Chess,59.42
+264,819,Ketch-Dolt,72.48
+265,1929,Co Chan Cho,2500.0
+266,750,Tayam Sonalu,1604.68
+267,1189,Sik,290.79
+268,1467,Main Chator (Batak),468.54
+269,1623,Xiang Hex,417.23
+270,900,Pam Pait,458.4
+271,372,Bao Kiswahili (East Africa),1.0
 272,273,Quendo,57.0
-273,451,Susan,22.0
-274,901,Bam Blang Beh Khla,77.0
-275,766,Bagh Batti,240.0
-276,644,Aj T'iwil,68.0
-277,545,Trax,29.0
-278,1566,Dongjintian (Four Players),28.0
-279,441,Conspirateurs,201.0
-280,400,Cross,59.0
-281,364,Jimafesosh,96.0
-282,805,Satoel,234.0
-283,981,Rimau-Rimau (Two Tigers),248.0
-284,325,Shuanglu,128.0
-285,977,Gavalata,184.0
-286,911,Bis Gutiya,250.0
-287,549,Capture the Queen,100.0
-288,1083,Hund efter Hare (Vendsyssel),250.0
-289,1812,Tara,23.0
-290,1814,Troll,44.0
-291,1973,Traffic Lights,8.0
-292,1413,Keryo-Pente,181.0
-293,719,Bara Guti,250.0
-294,1384,Lisolo,250.0
-295,1797,Archimedes,80.0
-296,450,Spline,25.0
-297,427,Oure Ngat,250.0
-298,459,Safe Passage,3.0
-299,378,Mbelele,114.0
-300,1200,Uril,214.0
-301,1612,Mulabalaba,177.0
-302,50,Fanorona,37.0
-303,1057,Dris at-Talata,20.0
+273,451,Susan,36.94
+274,901,Bam Blang Beh Khla,2445.82
+275,766,Bagh Batti,36.7
+276,644,Aj T'iwil,120.76
+277,545,Trax,11.32
+278,1566,Dongjintian (Four Players),169.71
+279,441,Conspirateurs,1682.44
+280,400,Cross,43.53
+281,364,Jimafesosh,1846.57
+282,805,Satoel,1414.5
+283,981,Rimau-Rimau (Two Tigers),300.22
+284,325,Shuanglu,169.08
+285,977,Gavalata,213.05
+286,911,Bis Gutiya,484.92
+287,549,Capture the Queen,5.39
+288,1083,Hund efter Hare (Vendsyssel),264.32
+289,1812,Tara,948.84
+290,1814,Troll,35.66
+291,1973,Traffic Lights,25.62
+292,1413,Keryo-Pente,94.39
+293,719,Bara Guti,922.97
+294,1384,Lisolo,773.65
+295,1797,Archimedes,27.6
+296,450,Spline,21.29
+297,427,Oure Ngat,2500.0
+298,459,Safe Passage,5.18
+299,378,Mbelele,278.15
+300,1200,Uril,275.38
+301,1612,Mulabalaba,77.46
+302,50,Fanorona,121.25
+303,1057,Dris at-Talata,811.71
 304,1547,Rolit,64.0
-305,344,Mewegae,118.0
-306,1931,Flower Shop,36.0
-307,1817,Crusade,37.0
-308,806,Rimoe,181.0
+305,344,Mewegae,669.87
+306,1931,Flower Shop,32.26
+307,1817,Crusade,38.66
+308,806,Rimoe,1594.37
 309,112,Kakuro,1.0
-310,453,Yavalanchor,15.0
+310,453,Yavalanchor,13.48
 311,124,Peg Solitaire,1.0
-312,457,Maharajah Chess,103.0
-313,1268,Isolation,32.0
-314,1184,Residuel,35.0
-315,374,Bao Ki Arabu (Zanzibar 2),94.0
-316,765,Bheri Bakhri,162.0
-317,193,Makvoer,250.0
-318,218,Kotu Baendum,65.0
-319,1974,Ring,47.0
-320,307,Shatranj al-Mustatila,168.0
-321,812,Natt Klab ash-Shawk,170.0
-322,387,Jeu Militaire,9.0
-323,66,Das Bohnenspiel,66.0
-324,203,Nyout,41.0
-325,620,DisPath,34.0
-326,1811,Kassle,44.0
-327,1809,Minefield,27.0
-328,1662,Fenix,68.0
-329,1792,Official Football Chess,247.0
-330,1784,Chessence,19.0
-331,840,Set Dilth',222.0
-332,129,Chopsticks,9.0
-333,1767,Atoll,106.0
-334,100,Tic-Tac-Toe,5.0
-335,222,Sonka,105.0
-336,728,Seys Dos y As,70.0
+312,457,Maharajah Chess,169.75
+313,1268,Isolation,29.99
+314,1184,Residuel,33.27
+315,374,Bao Ki Arabu (Zanzibar 2),63.82
+316,765,Bheri Bakhri,71.96
+317,193,Makvoer,176.97
+318,218,Kotu Baendum,129.55
+319,1974,Ring,2500.0
+320,307,Shatranj al-Mustatila,261.77
+321,812,Natt Klab ash-Shawk,1015.38
+322,387,Jeu Militaire,967.49
+323,66,Das Bohnenspiel,63.71
+324,203,Nyout,31.38
+325,620,DisPath,42.5
+326,1811,Kassle,27.6
+327,1809,Minefield,11.79
+328,1662,Fenix,167.79
+329,1792,Official Football Chess,84.35
+330,1784,Chessence,169.99
+331,840,Set Dilth',521.38
+332,129,Chopsticks,2500.0
+333,1767,Atoll,67.99
+334,100,Tic-Tac-Toe,11.0
+335,222,Sonka,1644.58
+336,728,Seys Dos y As,87.92
 337,1343,Ngre E E,8.0
-338,240,Kara,47.0
-339,147,Pachisi,218.0
-340,674,Onek Rong,18.0
-341,214,Mangala (Bedouin),22.0
-342,793,Kyoto Shogi,222.0
-343,694,Ilpion,17.0
-344,963,Tumbleweed,249.0
-345,1325,Persian Chess with a Queen,250.0
-346,1075,Wolf und Schaaf,43.0
-347,95,Shisima,57.0
-348,1011,Phase Chess,248.0
-349,145,Chaturanga,249.0
-350,276,Kubuguza,42.0
-351,763,Sig (Mzab),250.0
-352,785,Pente Grammai,63.0
-353,1252,Verquere,102.0
-354,1821,Tandems,126.0
-355,319,Saxun,250.0
-356,920,Omangunta Peeta,147.0
-357,1510,Marelle Quadruple,250.0
-358,143,Sungka,78.0
-359,343,Mewelad,130.0
-360,619,Two-Colour,30.0
-361,231,Okwe (Nigeria),250.0
-362,207,Laomuzhu,157.0
-363,587,Picaria,6.0
-364,873,Main Pacheh,236.0
-365,774,Kharberg,170.0
-366,1531,Faraday,76.0
-367,808,Sig wa Duqqan (Houmt al-Arbah),132.0
-368,1153,Refugia,18.0
-369,1421,Mini Wars,26.0
-370,1073,Janes Soppi (Symmetrical),250.0
-371,542,Mehen,250.0
-372,950,Akidada,5.0
-373,493,Domineering,16.0
-374,1296,Tsoro (Reentered Captures),110.0
-375,211,Halusa,78.0
-376,1989,Dama (Kenya),90.0
-377,341,Selus,45.0
-378,577,Kolowis Awithlaknannai,250.0
-379,280,Kpo,147.0
-380,1079,Kiz Tavlasi,33.0
+338,240,Kara,85.07
+339,147,Pachisi,582.13
+340,674,Onek Rong,32.37
+341,214,Mangala (Bedouin),30.13
+342,793,Kyoto Shogi,30.31
+343,694,Ilpion,16.93
+344,963,Tumbleweed,381.93
+345,1325,Persian Chess with a Queen,536.86
+346,1075,Wolf und Schaaf,36.14
+347,95,Shisima,2475.1
+348,1011,Phase Chess,200.95
+349,145,Chaturanga,184.58
+350,276,Kubuguza,31.58
+351,763,Sig (Mzab),994.29
+352,785,Pente Grammai,186.59
+353,1252,Verquere,141.93
+354,1821,Tandems,453.22
+355,319,Saxun,567.67
+356,920,Omangunta Peeta,2500.0
+357,1510,Marelle Quadruple,85.34
+358,143,Sungka,2185.54
+359,343,Mewelad,882.74
+360,619,Two-Colour,27.51
+361,231,Okwe (Nigeria),2500.0
+362,207,Laomuzhu,2363.09
+363,587,Picaria,2201.08
+364,873,Main Pacheh,389.31
+365,774,Kharberg,135.06
+366,1531,Faraday,77.7
+367,808,Sig wa Duqqan (Houmt al-Arbah),201.44
+368,1153,Refugia,28.02
+369,1421,Mini Wars,145.09
+370,1073,Janes Soppi (Symmetrical),2500.0
+371,542,Mehen,1268.58
+372,950,Akidada,393.35
+373,493,Domineering,15.63
+374,1296,Tsoro (Reentered Captures),1354.08
+375,211,Halusa,593.93
+376,1989,Dama (Kenya),388.7
+377,341,Selus,997.58
+378,577,Kolowis Awithlaknannai,1070.22
+379,280,Kpo,60.3
+380,1079,Kiz Tavlasi,34.51
 381,684,Theseus and the Minotaur,1.0
-382,1731,Astralesce and Constellation,14.0
-383,1793,Football Chess,245.0
-384,36,58 Holes,127.0
-385,281,Wouri,118.0
-386,1060,Frangieh,73.0
-387,41,ArdRi,166.0
+382,1731,Astralesce and Constellation,14.72
+383,1793,Football Chess,74.65
+384,36,58 Holes,133.68
+385,281,Wouri,2166.9
+386,1060,Frangieh,88.39
+387,41,ArdRi,50.68
 388,919,Nao Gutiya Baithaneka,1.0
 389,1147,Hoshi,1.0
-390,416,Camelot,197.0
-391,663,Flowers,56.0
-392,290,Hoyito,101.0
-393,388,Go with the Floe,21.0
-394,172,Ashtapada,126.0
+390,416,Camelot,1191.67
+391,663,Flowers,10.59
+392,290,Hoyito,61.28
+393,388,Go with the Floe,40.58
+394,172,Ashtapada,128.26
 395,120,Sudoku,1.0
-396,353,Gabata (Wuqro),121.0
-397,228,Obridje,62.0
-398,1322,Sute,250.0
-399,1291,Misoro Tsoro (Additional Capture),18.0
-400,1191,Sig (Mauritania),177.0
-401,171,Yeung Luk Sz' Kon Tseung Kwan,250.0
-402,200,Chaupar,85.0
-403,1306,Yovodi,29.0
-404,1799,A Simple Game,18.0
-405,922,Senet,175.0
-406,256,Chisolo,36.0
-407,1010,Gurvan Xudag,27.0
-408,261,Ikibuguzo (Opening 1),68.0
-409,1333,Short Assize,250.0
-410,1548,Brain Coral,32.0
-411,426,Kapana Bona,10.0
-412,1732,Conflagration and Keep-a-riding,30.0
-413,1666,N-Mesh,20.0
-414,1307,Ti,56.0
-415,1970,Wrigglers Squared,102.0
-416,291,Shui Yen Ho-Shang,250.0
-417,268,Muvalavala (Luena),104.0
+396,353,Gabata (Wuqro),177.62
+397,228,Obridje,36.86
+398,1322,Sute,514.86
+399,1291,Misoro Tsoro (Additional Capture),29.51
+400,1191,Sig (Mauritania),1225.89
+401,171,Yeung Luk Sz' Kon Tseung Kwan,2450.92
+402,200,Chaupar,110.06
+403,1306,Yovodi,37.08
+404,1799,A Simple Game,168.88
+405,922,Senet,145.6
+406,256,Chisolo,400.8
+407,1010,Gurvan Xudag,174.91
+408,261,Ikibuguzo (Opening 1),30.62
+409,1333,Short Assize,211.28
+410,1548,Brain Coral,32.51
+411,426,Kapana Bona,2443.15
+412,1732,Conflagration and Keep-a-riding,44.14
+413,1666,N-Mesh,11.06
+414,1307,Ti,721.38
+415,1970,Wrigglers Squared,79.91
+416,291,Shui Yen Ho-Shang,2284.18
+417,268,Muvalavala (Luena),44.0
 418,902,Mawryngkneng Solitaire Game,1.0
-419,1664,Pentomino,9.0
-420,1242,Three Musketeers,35.0
-421,773,T'uk T'uk,250.0
-422,679,Chomp,5.0
-423,402,Grasshopper,211.0
-424,254,Hus (Nama),119.0
-425,1646,Seesaw Draughts,42.0
-426,1144,Tic-Tac-Die,9.0
-427,1077,Lange Puff,80.0
-428,618,MaxMatch,18.0
-429,1794,Lelac,121.0
-430,895,Pachesi,250.0
-431,91,Gomoku,84.0
-432,234,The Concentration Game,250.0
-433,53,Brazilian Draughts,49.0
-434,1939,Khamousiyya,218.0
-435,1365,Kisolo (Lali),3.0
-436,1627,Shatranj (12x12),250.0
-437,1813,Moxie,20.0
-438,809,Sig wa Duqqan (Houmt Taourit),166.0
-439,1574,Kharebga (7x7),226.0
-440,1304,Adidada,121.0
+419,1664,Pentomino,8.12
+420,1242,Three Musketeers,37.82
+421,773,T'uk T'uk,2500.0
+422,679,Chomp,12.2
+423,402,Grasshopper,665.82
+424,254,Hus (Nama),1018.05
+425,1646,Seesaw Draughts,72.26
+426,1144,Tic-Tac-Die,7.37
+427,1077,Lange Puff,107.39
+428,618,MaxMatch,28.68
+429,1794,Lelac,46.74
+430,895,Pachesi,279.07
+431,91,Gomoku,30.54
+432,234,The Concentration Game,156.27
+433,53,Brazilian Draughts,542.5
+434,1939,Khamousiyya,358.17
+435,1365,Kisolo (Lali),6.13
+436,1627,Shatranj (12x12),238.76
+437,1813,Moxie,122.87
+438,809,Sig wa Duqqan (Houmt Taourit),320.74
+439,1574,Kharebga (7x7),321.88
+440,1304,Adidada,80.78
 441,1981,Signum,91.0
-442,1962,Symple,66.0
-443,561,Jekab,46.0
-444,940,Pachgarhwa,9.0
-445,60,Lasca,34.0
-446,61,Mogul Putt'han,244.0
-447,726,Quinze Tablas,71.0
-448,836,Owasokotz,31.0
-449,737,Alquerque de Tres,6.0
-450,312,Grande Acedrex,250.0
-451,603,Portes,113.0
-452,1082,Hund efter Hare (Thy),250.0
-453,1816,Jumping Beans,122.0
-454,1096,Mao Naga Tiger Game,250.0
-455,1258,Katro,34.0
-456,128,Tron,4.0
+442,1962,Symple,94.07
+443,561,Jekab,645.64
+444,940,Pachgarhwa,5.66
+445,60,Lasca,170.41
+446,61,Mogul Putt'han,623.61
+447,726,Quinze Tablas,372.01
+448,836,Owasokotz,27.07
+449,737,Alquerque de Tres,8.0
+450,312,Grande Acedrex,1002.28
+451,603,Portes,112.67
+452,1082,Hund efter Hare (Thy),2500.0
+453,1816,Jumping Beans,171.35
+454,1096,Mao Naga Tiger Game,203.16
+455,1258,Katro,29.89
+456,128,Tron,67.19
 457,1154,Tridoku,1.0
-458,438,Bay Khom,65.0
-459,38,Baghchal,250.0
-460,1127,Mysore Tiger Game,12.0
-461,701,Nedilmarth,14.0
-462,1027,Xanan Zirge,173.0
-463,436,Vai Lung Thlan,166.0
-464,410,Dai Hasami Shogi,179.0
-465,1012,Breakthrough Chess,20.0
-466,454,Manzhouqi,250.0
-467,984,Jeu du Renard et de la Poule,77.0
-468,363,Gabata (Oromo),150.0
+458,438,Bay Khom,60.86
+459,38,Baghchal,139.53
+460,1127,Mysore Tiger Game,2500.0
+461,701,Nedilmarth,16.54
+462,1027,Xanan Zirge,2405.58
+463,436,Vai Lung Thlan,98.42
+464,410,Dai Hasami Shogi,43.61
+465,1012,Breakthrough Chess,1688.55
+466,454,Manzhouqi,134.87
+467,984,Jeu du Renard et de la Poule,72.66
+468,363,Gabata (Oromo),2500.0
 469,213,Li'b al-Ghashim,1.0
-470,767,Deleb,140.0
-471,1542,Pylos,41.0
-472,352,Gabata (Shoa and Adegrat),119.0
-473,912,Challis Ghutia (Titagarh),250.0
-474,1016,Neg Tugal Tuux,4.0
-475,198,Ashta-kashte,211.0
+470,767,Deleb,3092.52
+471,1542,Pylos,141.27
+472,352,Gabata (Shoa and Adegrat),2463.26
+473,912,Challis Ghutia (Titagarh),1281.85
+474,1016,Neg Tugal Tuux,112.96
+475,198,Ashta-kashte,269.45
 476,113,Killer Sudoku,1.0
-477,1024,Xonin Shatar (Simple),156.0
-478,1576,Fart (7x7),226.0
-479,1927,Cannon,98.0
-480,1539,Quoridor,214.0
-481,241,Leyla Gobale (Gabradarre),67.0
-482,58,International Draughts,102.0
-483,579,Brandub,86.0
-484,322,Makonn,8.0
-485,872,Main Tapak Empat,52.0
-486,1332,Long Assize,243.0
-487,735,Laquet,98.0
-488,749,Asi Keliya,130.0
-489,411,Fox and Geese,250.0
-490,1143,Bravalath,3.0
-491,42,Hnefatafl,250.0
-492,1581,Aqrad,172.0
-493,1035,Jeson Mor,51.0
-494,891,Coc-Inbert,117.0
-495,423,Woli,250.0
-496,373,Tablut,20.0
-497,1504,Flume,26.0
-498,896,Chonpa,96.0
-499,142,Bao Kiswahili (DR Congo),4.0
-500,260,Choro (Acholi),43.0
-501,472,EinStein Wurfelt Nicht,30.0
-502,1796,4 Squared,58.0
-503,435,Katra,101.0
-504,1203,Dum Blas,93.0
-505,710,Inkblots,19.0
+477,1024,Xonin Shatar (Simple),257.68
+478,1576,Fart (7x7),664.26
+479,1927,Cannon,87.8
+480,1539,Quoridor,243.63
+481,241,Leyla Gobale (Gabradarre),60.83
+482,58,International Draughts,503.58
+483,579,Brandub,25.65
+484,322,Makonn,107.8
+485,872,Main Tapak Empat,74.18
+486,1332,Long Assize,170.04
+487,735,Laquet,100.6
+488,749,Asi Keliya,2175.83
+489,411,Fox and Geese,357.52
+490,1143,Bravalath,25.55
+491,42,Hnefatafl,121.52
+492,1581,Aqrad,96.73
+493,1035,Jeson Mor,4.82
+494,891,Coc-Inbert,529.94
+495,423,Woli,796.71
+496,373,Tablut,42.16
+497,1504,Flume,24.21
+498,896,Chonpa,220.95
+499,142,Bao Kiswahili (DR Congo),7.27
+500,260,Choro (Acholi),17.62
+501,472,EinStein Wurfelt Nicht,27.51
+502,1796,4 Squared,83.78
+503,435,Katra,2152.34
+504,1203,Dum Blas,402.1
+505,710,Inkblots,16.6
 506,1803,Diagonals,64.0
-507,1446,Krida Buddhibalasrita,250.0
-508,951,Fanorona Telo,36.0
-509,286,Pic,86.0
-510,897,Sher Bakr,2.0
-511,1969,Wrigglers,54.0
-512,212,Baqura,165.0
-513,199,Tamman,231.0
-514,1963,Double-Run Stone,18.0
-515,731,Pareia de Entrada,81.0
+507,1446,Krida Buddhibalasrita,264.81
+508,951,Fanorona Telo,31.97
+509,286,Pic,149.99
+510,897,Sher Bakr,2500.0
+511,1969,Wrigglers,44.4
+512,212,Baqura,1439.95
+513,199,Tamman,323.02
+514,1963,Double-Run Stone,17.59
+515,731,Pareia de Entrada,122.05
 516,1978,Yoin,127.0
-517,461,Loop Chess,248.0
-518,1976,Redstone,250.0
-519,1270,Cage,120.0
-520,79,Amazons,63.0
-521,1554,Meridians,115.0
-522,1966,of Dwarfs,13.0
-523,818,Kotra,105.0
-524,1533,Shobu,99.0
-525,282,Toguz Kumalak,169.0
-526,751,Pachih,185.0
+517,461,Loop Chess,119.32
+518,1976,Redstone,296.53
+519,1270,Cage,106.26
+520,79,Amazons,77.12
+521,1554,Meridians,123.28
+522,1966,of Dwarfs,88.54
+523,818,Kotra,194.89
+524,1533,Shobu,33.77
+525,282,Toguz Kumalak,152.93
+526,751,Pachih,352.96
 527,70,Latin Square,1.0
-528,907,Challis Ghutia,243.0
-529,883,Shashki,39.0
-530,376,Isolo,151.0
-531,789,Shah,233.0
-532,249,French Wari,28.0
-533,1344,Katsela,6.0
-534,164,Queah Game,62.0
-535,905,Mughal Pathan,244.0
-536,956,Triodi (Diagonal),61.0
-537,1654,Gygoreg,141.0
-538,810,Siryu (Race),188.0
-539,816,Refskak,118.0
-540,294,Shatranj al-Kabir,250.0
-541,136,Santaraj,250.0
-542,1171,Tic-Tac-Toe Misere,8.0
-543,189,Maak Yek,250.0
+528,907,Challis Ghutia,1807.56
+529,883,Shashki,677.39
+530,376,Isolo,220.48
+531,789,Shah,916.53
+532,249,French Wari,25.24
+533,1344,Katsela,7.08
+534,164,Queah Game,143.17
+535,905,Mughal Pathan,1125.86
+536,956,Triodi (Diagonal),37.23
+537,1654,Gygoreg,246.65
+538,810,Siryu (Race),2301.84
+539,816,Refskak,99.44
+540,294,Shatranj al-Kabir,1141.17
+541,136,Santaraj,292.53
+542,1171,Tic-Tac-Toe Misere,10.9
+543,189,Maak Yek,452.92
 544,1148,Sudoku X,1.0
-545,52,Alquerque,201.0
-546,429,Namudilakunze,138.0
-547,1764,Agon,250.0
-548,262,Bao Ki Arabu (Zanzibar 1),104.0
+545,52,Alquerque,875.8
+546,429,Namudilakunze,117.76
+547,1764,Agon,259.11
+548,262,Bao Ki Arabu (Zanzibar 1),96.67
 549,917,Pentalpha,1.0
-550,54,Canadian Draughts,154.0
-551,389,Madelinette,41.0
-552,434,O An Quan,102.0
-553,724,Doblet,59.0
-554,945,Nine Holes,7.0
-555,302,Ouk Chatrang,250.0
-556,779,Yote,86.0
-557,1670,Fischer Random Chess,250.0
-558,775,Tauru,88.0
+550,54,Canadian Draughts,413.18
+551,389,Madelinette,2500.0
+552,434,O An Quan,286.69
+553,724,Doblet,51.81
+554,945,Nine Holes,594.57
+555,302,Ouk Chatrang,782.71
+556,779,Yote,272.52
+557,1670,Fischer Random Chess,280.44
+558,775,Tauru,31.39
 559,1777,Lights Out,1.0
-560,73,Breakthrough,71.0
-561,68,Kalah,43.0
-562,998,Diagonal Hex,96.0
-563,646,Aj Sakakil,68.0
-564,1552,Seesaw,16.0
-565,1802,Bombardment,18.0
-566,206,Yucebao,136.0
-567,1472,Raja Pasu Mandiri,116.0
-568,1658,Lielow,31.0
-569,247,Intotoi,58.0
-570,1950,Millieu,17.0
-571,127,Hawalis,250.0
-572,43,Arimaa,60.0
-573,1540,Quixo,32.0
+560,73,Breakthrough,55.65
+561,68,Kalah,30.52
+562,998,Diagonal Hex,34.1
+563,646,Aj Sakakil,393.0
+564,1552,Seesaw,93.01
+565,1802,Bombardment,68.56
+566,206,Yucebao,2409.92
+567,1472,Raja Pasu Mandiri,809.24
+568,1658,Lielow,22.61
+569,247,Intotoi,49.63
+570,1950,Millieu,29.68
+571,127,Hawalis,299.26
+572,43,Arimaa,70.17
+573,1540,Quixo,202.85
 574,1156,Samurai Sudoku,1.0
-575,548,Kensington,246.0
-576,386,O-Pat-Kono,250.0
-577,248,Kisolo,65.0
-578,1028,Jeson Zam,31.0
+575,548,Kensington,2500.0
+576,386,O-Pat-Kono,1232.68
+577,248,Kisolo,65.01
+578,1028,Jeson Zam,64.62
 579,660,Ciri Amber,21.0
-580,1586,Yonin Shogi,242.0
-581,99,Tic-Tac-Mo,18.0
-582,1529,Omny,116.0
-583,972,Terhuchu (Small),188.0
-584,820,Dubblets,15.0
-585,452,Yavalade,44.0
-586,1942,El Perro,247.0
-587,1768,Fractal,119.0
-588,1618,Unashogi,220.0
-589,723,Sujjua,30.0
-590,425,Foji,33.0
-591,257,Spreta,25.0
-592,748,Pahada Keliya,125.0
-593,1506,Gopher,47.0
-594,1302,Adi,242.0
-595,1655,Spava,9.0
-596,698,LastEdge,19.0
-597,420,Yovodji,63.0
-598,65,Aw-li On-nam Ot-tjin,63.0
-599,1353,Ngrin,7.0
-600,30,Ako Okwe,134.0
-601,1514,Svensk Bradspel,114.0
-602,1530,Bashni,37.0
-603,380,Alea Evangelii,250.0
-604,1660,Branching Coral,30.0
-605,1517,Tama,114.0
-606,1190,Boukerourou,124.0
-607,1455,Chatrang,250.0
+580,1586,Yonin Shogi,719.68
+581,99,Tic-Tac-Mo,11.54
+582,1529,Omny,113.59
+583,972,Terhuchu (Small),928.23
+584,820,Dubblets,9.66
+585,452,Yavalade,13.8
+586,1942,El Perro,167.0
+587,1768,Fractal,61.29
+588,1618,Unashogi,1119.73
+589,723,Sujjua,26.04
+590,425,Foji,51.82
+591,257,Spreta,19.22
+592,748,Pahada Keliya,1892.85
+593,1506,Gopher,39.6
+594,1302,Adi,2478.41
+595,1655,Spava,18.86
+596,698,LastEdge,19.04
+597,420,Yovodji,51.37
+598,65,Aw-li On-nam Ot-tjin,67.28
+599,1353,Ngrin,11.0
+600,30,Ako Okwe,123.35
+601,1514,Svensk Bradspel,210.95
+602,1530,Bashni,251.55
+603,380,Alea Evangelii,190.28
+604,1660,Branching Coral,30.23
+605,1517,Tama,1787.83
+606,1190,Boukerourou,216.51
+607,1455,Chatrang,215.01
 608,108,Futoshiki,1.0
-609,853,Starchess,113.0
-610,40,Wolf and Sheep,106.0
-611,266,Owela (Benguela),34.0
-612,393,Ko-app-paw-na,6.0
-613,730,Medio Emperador,84.0
-614,237,Gifia,250.0
-615,1330,Lombard Chess,250.0
-616,1983,Veloop (Square),60.0
-617,1563,Tsoro Yemutatu (Triangle),15.0
-618,1652,Netted,9.0
+609,853,Starchess,73.68
+610,40,Wolf and Sheep,25.76
+611,266,Owela (Benguela),37.18
+612,393,Ko-app-paw-na,32.72
+613,730,Medio Emperador,170.21
+614,237,Gifia,2475.37
+615,1330,Lombard Chess,728.97
+616,1983,Veloop (Square),24.02
+617,1563,Tsoro Yemutatu (Triangle),2500.0
+618,1652,Netted,8.03
 619,691,Radran,34.0
-620,1945,El Cazador,250.0
-621,76,Backgammon,92.0
-622,492,Dice Shogi,76.0
-623,158,Awithlaknan Mosona,203.0
+620,1945,El Cazador,1362.15
+621,76,Backgammon,110.07
+622,492,Dice Shogi,63.39
+623,158,Awithlaknan Mosona,827.07
 624,118,Slitherlink,1.0
-625,464,Taikyoku Shogi,239.0
-626,1381,Gamacha,61.0
-627,371,Nsumbi,104.0
-628,796,La'b Akila,72.0
-629,830,Patol,29.0
-630,414,Press Ups,26.0
-631,580,NoGo,75.0
-632,316,Shatr ikh Padan,250.0
-633,1134,Fang,246.0
-634,1573,Kharebga (5x5),238.0
-635,1549,Windflowers,34.0
-636,1577,Sig (El Oued),198.0
-637,629,Clobber,67.0
-638,170,Juroku Musashi,250.0
-639,792,Djara-Badakh,15.0
-640,839,Setichch,219.0
-641,1982,Cavity,149.0
-642,150,Seega,238.0
+625,464,Taikyoku Shogi,1625.97
+626,1381,Gamacha,56.85
+627,371,Nsumbi,58.36
+628,796,La'b Akila,79.0
+629,830,Patol,22.99
+630,414,Press Ups,33.19
+631,580,NoGo,71.51
+632,316,Shatr ikh Padan,2451.84
+633,1134,Fang,263.78
+634,1573,Kharebga (5x5),120.36
+635,1549,Windflowers,42.48
+636,1577,Sig (El Oued),712.89
+637,629,Clobber,69.34
+638,170,Juroku Musashi,672.76
+639,792,Djara-Badakh,2487.08
+640,839,Setichch,151.3
+641,1982,Cavity,136.33
+642,150,Seega,266.37
 643,116,N Queens,1.0
-644,449,Quantum Leap,38.0
-645,412,Li'b al-'Aqil,1.0
-646,289,Papan Dakon,165.0
-647,349,Selus (Massawa),131.0
-648,1224,Throngs,48.0
-649,1366,Ngolo,11.0
-650,913,Orissa Tiger (Four Tigers),247.0
+644,449,Quantum Leap,39.82
+645,412,Li'b al-'Aqil,1204.83
+646,289,Papan Dakon,2500.0
+647,349,Selus (Massawa),2500.0
+648,1224,Throngs,61.01
+649,1366,Ngolo,2500.0
+650,913,Orissa Tiger (Four Tigers),137.44
 651,115,Magic Square,1.0
-652,734,Todas Tablas,88.0
-653,392,Jungle,236.0
-654,1818,Quad Wrangle,169.0
-655,465,Janggi,17.0
-656,334,Pasa,172.0
-657,1026,Gurgaldaj,179.0
-658,406,Spots,17.0
+652,734,Todas Tablas,83.62
+653,392,Jungle,94.19
+654,1818,Quad Wrangle,124.64
+655,465,Janggi,119.4
+656,334,Pasa,101.36
+657,1026,Gurgaldaj,87.71
+658,406,Spots,16.17
 659,1223,Chuka,1.0
-660,1961,Allemande,13.0
-661,988,Renard et les Poules,239.0
-662,152,Awithlaknakwe,250.0
-663,1007,Temeen Tavag,9.0
-664,1106,Bison,33.0
-665,421,Enindji,193.0
-666,1932,Sweep Burrow,37.0
-667,683,Cram,17.0
+660,1961,Allemande,8.76
+661,988,Renard et les Poules,1030.97
+662,152,Awithlaknakwe,4270.41
+663,1007,Temeen Tavag,2500.0
+664,1106,Bison,64.58
+665,421,Enindji,148.35
+666,1932,Sweep Burrow,29.4
+667,683,Cram,16.07
 668,105,Takuzu,1.0
-669,186,Dala,216.0
-670,1438,Shatranj (Iraq),250.0
-671,1546,Let's Catch the Lion,39.0
-672,1113,Imperial,84.0
-673,275,Katra Boaoaka,25.0
-674,1532,Claustro,11.0
-675,1783,Um el-Bil,104.0
-676,1115,Provincial,84.0
-677,1507,Pathway,31.0
-678,1412,Pente,113.0
-679,1620,Four-Player Chess,250.0
-680,1280,Moruba,250.0
-681,700,Windir,28.0
-682,239,Um el-Bagara,82.0
-683,1445,Chaturanga (al-Adli),250.0
-684,1021,Gauntlet,37.0
-685,768,Sig (Western Sahara),169.0
-686,305,Tobi Shogi,250.0
-687,1232,Tsukkalavde,188.0
-688,1129,Mysore Tiger (Two Tigers),250.0
-689,1046,Patok,250.0
-690,1288,Tsoro Yemutwelve,101.0
-691,718,HeXentafl,34.0
-692,743,Shatren,50.0
-693,224,Sijat El Taba,77.0
-694,858,De Vasa Chess,249.0
-695,729,Emperador,84.0
-696,1145,Triple Tangle,246.0
-697,39,Diviyan Keliya,250.0
+669,186,Dala,40.1
+670,1438,Shatranj (Iraq),116.2
+671,1546,Let's Catch the Lion,26.79
+672,1113,Imperial,162.2
+673,275,Katra Boaoaka,13.72
+674,1532,Claustro,19.45
+675,1783,Um el-Bil,89.27
+676,1115,Provincial,138.99
+677,1507,Pathway,31.28
+678,1412,Pente,90.94
+679,1620,Four-Player Chess,2942.67
+680,1280,Moruba,209.46
+681,700,Windir,27.76
+682,239,Um el-Bagara,62.44
+683,1445,Chaturanga (al-Adli),1247.95
+684,1021,Gauntlet,33.21
+685,768,Sig (Western Sahara),245.65
+686,305,Tobi Shogi,2462.55
+687,1232,Tsukkalavde,705.84
+688,1129,Mysore Tiger (Two Tigers),563.1
+689,1046,Patok,559.03
+690,1288,Tsoro Yemutwelve,63.28
+691,718,HeXentafl,19.64
+692,743,Shatren,99.94
+693,224,Sijat El Taba,78.27
+694,858,De Vasa Chess,143.03
+695,729,Emperador,164.68
+696,1145,Triple Tangle,170.84
+697,39,Diviyan Keliya,505.22
 698,132,Contagion,21.0
-699,330,Kolica Atarakua,120.0
-700,1283,Otep,112.0
-701,151,Tab,48.0
-702,1430,Korkserschach,247.0
-703,1933,Rampart,130.0
-704,467,Gonnect,179.0
-705,999,Broken Line,55.0
-706,1672,Notakto,106.0
-707,906,Kaua Dorki,90.0
-708,761,Tablan,139.0
-709,394,Lines of Action,208.0
-710,1417,Tsatsarandi,250.0
-711,67,En Gehe,58.0
-712,244,Um el Banat,96.0
-713,631,Ultimate Tic-Tac-Toe,67.0
-714,1175,La Yagua,153.0
-715,1582,Tides,219.0
-716,1278,Luuth,68.0
-717,759,Daldosa,123.0
-718,777,T'oki,250.0
-719,1392,I,18.0
-720,1282,Ryakati,134.0
-721,547,Pushing Me XO,33.0
-722,1941,La Dama,173.0
-723,156,Terhuchu,250.0
-724,162,Pretwa,125.0
-725,797,Qi Guo Xiangxi,250.0
-726,1034,Aralzaa,27.0
-727,1436,Shatranj (Turkey),250.0
-728,1015,Uxrijn Ever,85.0
-729,359,Tapata,70.0
-730,1285,Mlabalaba,78.0
-731,71,Chinese Checkers,200.0
-732,1100,Esa Hex,50.0
-733,1226,Unlur,88.0
-734,553,Triad,21.0
-735,1399,American Pool Checkers,76.0
-736,45,Double Chess,250.0
-737,1295,Tsoro (Additional Capture),32.0
-738,466,Chameleon,117.0
-739,752,Merimueng-rimueng,236.0
-740,1056,Mankala,153.0
-741,769,Had,213.0
-742,1294,Musoro Tsoro,70.0
-743,1452,Tai Shogi,250.0
-744,639,Santorini,55.0
-745,403,Groups,250.0
-746,1000,Boolik,125.0
-747,101,Twelve Men's Morris,233.0
-748,1984,Veloop (Hex),52.0
-749,696,OddEvenTree,7.0
-750,69,Oware,58.0
-751,1765,Monkey Queen,67.0
-752,1327,Goats Wintering,18.0
-753,1390,Coil,86.0
-754,370,I Pere,34.0
-755,140,Zohn Ahl,219.0
-756,1084,Gasetavl,250.0
+699,330,Kolica Atarakua,95.53
+700,1283,Otep,73.17
+701,151,Tab,40.81
+702,1430,Korkserschach,392.38
+703,1933,Rampart,211.8
+704,467,Gonnect,156.84
+705,999,Broken Line,9.79
+706,1672,Notakto,107.22
+707,906,Kaua Dorki,659.14
+708,761,Tablan,212.21
+709,394,Lines of Action,169.2
+710,1417,Tsatsarandi,456.96
+711,67,En Gehe,206.18
+712,244,Um el Banat,939.4
+713,631,Ultimate Tic-Tac-Toe,51.82
+714,1175,La Yagua,65.8
+715,1582,Tides,1079.75
+716,1278,Luuth,110.43
+717,759,Daldosa,84.64
+718,777,T'oki,502.84
+719,1392,I,24.15
+720,1282,Ryakati,1233.01
+721,547,Pushing Me XO,345.08
+722,1941,La Dama,190.81
+723,156,Terhuchu,788.17
+724,162,Pretwa,244.07
+725,797,Qi Guo Xiangxi,536.26
+726,1034,Aralzaa,2500.0
+727,1436,Shatranj (Turkey),1056.69
+728,1015,Uxrijn Ever,67.26
+729,359,Tapata,61.26
+730,1285,Mlabalaba,134.55
+731,71,Chinese Checkers,4018.39
+732,1100,Esa Hex,28.92
+733,1226,Unlur,67.58
+734,553,Triad,17.23
+735,1399,American Pool Checkers,812.04
+736,45,Double Chess,673.19
+737,1295,Tsoro (Additional Capture),16.66
+738,466,Chameleon,69.43
+739,752,Merimueng-rimueng,290.78
+740,1056,Mankala,121.64
+741,769,Had,1608.17
+742,1294,Musoro Tsoro,68.67
+743,1452,Tai Shogi,1838.23
+744,639,Santorini,27.26
+745,403,Groups,28.11
+746,1000,Boolik,719.84
+747,101,Twelve Men's Morris,65.3
+748,1984,Veloop (Hex),26.86
+749,696,OddEvenTree,6.6
+750,69,Oware,495.83
+751,1765,Monkey Queen,5.38
+752,1327,Goats Wintering,52.06
+753,1390,Coil,41.75
+754,370,I Pere,31.34
+755,140,Zohn Ahl,842.24
+756,1084,Gasetavl,2455.9
 757,921,Sat Gol,8.0
-758,440,Atari Go,203.0
+758,440,Atari Go,105.99
 759,107,Fill A Pix,1.0
-760,1431,Welschschach,250.0
-761,794,Guerrilla Checkers,66.0
-762,259,Pereauni,19.0
+760,1431,Welschschach,2101.22
+761,794,Guerrilla Checkers,22.07
+762,259,Pereauni,5.58
 763,1624,Labirintus,1.0
-764,865,Hex Amazons,77.0
-765,270,Quela,250.0
-766,1355,Greater Even Loss,1.0
-767,1305,Duene,31.0
-768,1316,Greater,12.0
-769,1382,Gamacha (Nobility),34.0
-770,1040,Boxijn Barildaan,11.0
-771,1964,Pyrga,22.0
-772,37,Adugo,250.0
-773,1319,Tsoro (Baia),146.0
-774,339,Abalala'e,26.0
-775,681,Bizingo,250.0
-776,903,Tule Paid,138.0
-777,87,Connect Four,23.0
-778,980,Rimau-Rimau (One Tiger),247.0
-779,1069,Choko,197.0
-780,1651,Lava,144.0
-781,1575,Fart (5x5),11.0
-782,157,Ratti-Chitti-Bakri,250.0
-783,405,Tawlbwrdd,196.0
-784,176,Plakoto,57.0
-785,838,Tsaydithl,16.0
-786,1766,Jostle,28.0
-787,1023,Altan Xaraacaj,34.0
+764,865,Hex Amazons,98.48
+765,270,Quela,2500.0
+766,1355,Greater Even Loss,9.0
+767,1305,Duene,24.53
+768,1316,Greater,17.98
+769,1382,Gamacha (Nobility),21.68
+770,1040,Boxijn Barildaan,11.47
+771,1964,Pyrga,24.0
+772,37,Adugo,1752.21
+773,1319,Tsoro (Baia),65.0
+774,339,Abalala'e,77.36
+775,681,Bizingo,2324.82
+776,903,Tule Paid,74.67
+777,87,Connect Four,31.92
+778,980,Rimau-Rimau (One Tiger),2262.33
+779,1069,Choko,793.18
+780,1651,Lava,147.86
+781,1575,Fart (5x5),647.6
+782,157,Ratti-Chitti-Bakri,1299.08
+783,405,Tawlbwrdd,46.89
+784,176,Plakoto,1203.39
+785,838,Tsaydithl,22.64
+786,1766,Jostle,31.79
+787,1023,Altan Xaraacaj,29.02
 788,114,Magic Hexagon,1.0
-789,1161,Order and Chaos,30.0
-790,1039,Toono,31.0
-791,1968,Hexifact,25.0
-792,195,Tourne-Case,103.0
-793,855,Glinski Chess,249.0
-794,1404,Pippinzip,19.0
-795,1621,Qatranj,250.0
-796,1425,BlooGo,49.0
-797,1541,Quantik,12.0
-798,1088,Dam Hariman,244.0
-799,98,Three Men's Morris,10.0
-800,1194,Nama,250.0
-801,35,20 Squares,120.0
-802,1375,Fetach,182.0
-803,856,Brusky Chess,248.0
-804,659,Awagagae,40.0
-805,221,Galatjang,80.0
-806,970,Sumi Naga (Hunt),246.0
-807,217,Walak-Pussa,62.0
-808,857,McCooey Chess,250.0
+789,1161,Order and Chaos,23.21
+790,1039,Toono,42.55
+791,1968,Hexifact,29.59
+792,195,Tourne-Case,122.97
+793,855,Glinski Chess,196.21
+794,1404,Pippinzip,84.44
+795,1621,Qatranj,325.2
+796,1425,BlooGo,57.88
+797,1541,Quantik,9.66
+798,1088,Dam Hariman,792.77
+799,98,Three Men's Morris,31.97
+800,1194,Nama,377.42
+801,35,20 Squares,79.7
+802,1375,Fetach,469.76
+803,856,Brusky Chess,106.78
+804,659,Awagagae,130.65
+805,221,Galatjang,1973.89
+806,970,Sumi Naga (Hunt),127.6
+807,217,Walak-Pussa,109.65
+808,857,McCooey Chess,170.09
 809,125,Tower of Hanoi,1.0
-810,957,Marelle Triple,79.0
-811,1667,Alice Chess,250.0
-812,914,Orissa Tiger (One Tiger),207.0
-813,161,Egara Guti,242.0
-814,278,Mwambulula,178.0
-815,1109,Manu,250.0
-816,1318,Level Chess,250.0
-817,534,Ludus Latrunculorum,219.0
-818,1626,Wari,250.0
-819,1494,La Liebre Perseguida,19.0
-820,1825,Ratio,11.0
-821,155,Kotu Ellima,250.0
-822,1078,Contrare Puff,83.0
-823,1780,Stratomic,139.0
-824,1971,Scaffold,60.0
-825,1003,Chungcajon,94.0
-826,1289,Tsoro Yemutatu,5.0
-827,1076,Tokkadille,148.0
-828,1185,Ex Nihilo,28.0
-829,1063,Yahoudieh,49.0
+810,957,Marelle Triple,51.74
+811,1667,Alice Chess,160.22
+812,914,Orissa Tiger (One Tiger),1573.7
+813,161,Egara Guti,457.97
+814,278,Mwambulula,1491.94
+815,1109,Manu,334.36
+816,1318,Level Chess,3077.91
+817,534,Ludus Latrunculorum,2358.27
+818,1626,Wari,90.58
+819,1494,La Liebre Perseguida,11.14
+820,1825,Ratio,14.9
+821,155,Kotu Ellima,635.32
+822,1078,Contrare Puff,123.13
+823,1780,Stratomic,224.61
+824,1971,Scaffold,61.16
+825,1003,Chungcajon,81.85
+826,1289,Tsoro Yemutatu,2376.69
+827,1076,Tokkadille,339.63
+828,1185,Ex Nihilo,17.99
+829,1063,Yahoudieh,45.82
 830,447,Omega,30.0
-831,102,Yavalath,22.0
-832,284,Mangala (Turkey),68.0
-833,1116,Ludus Anglicorum,84.0
-834,552,Social Distance Chess,250.0
-835,245,Kiuthi,56.0
-836,1418,Dig Dig,248.0
+831,102,Yavalath,27.36
+832,284,Mangala (Turkey),53.89
+833,1116,Ludus Anglicorum,116.84
+834,552,Social Distance Chess,191.88
+835,245,Kiuthi,103.38
+836,1418,Dig Dig,582.52
 837,1151,Sujiken,1.0
-838,725,Los Doze Canes,125.0
-839,51,Surakarta,250.0
-840,648,A K'aak'il,65.0
-841,369,Rio Kadalis,158.0
-842,263,Mweiso,33.0
-843,1556,Gyre,124.0
+838,725,Los Doze Canes,134.58
+839,51,Surakarta,121.81
+840,648,A K'aak'il,199.64
+841,369,Rio Kadalis,966.77
+842,263,Mweiso,9.2
+843,1556,Gyre,112.07
 844,1985,Mono,61.0
-845,1807,Lewthwaite's Game,16.0
-846,398,Squava,17.0
-847,1991,Mraha wa Bwe,235.0
-848,300,Sittuyin,229.0
-849,1565,Hermit,46.0
-850,909,Bara Guti (Bihar),78.0
-851,1625,Tank Tactics,36.0
-852,727,Fallas,57.0
-853,345,Bechi,250.0
-854,1808,Forge,77.0
-855,358,Hufesay,59.0
-856,183,Knossos Game,114.0
-857,1181,Mig Mang,250.0
+845,1807,Lewthwaite's Game,17.1
+846,398,Squava,14.53
+847,1991,Mraha wa Bwe,607.61
+848,300,Sittuyin,770.19
+849,1565,Hermit,43.84
+850,909,Bara Guti (Bihar),492.05
+851,1625,Tank Tactics,14.92
+852,727,Fallas,58.14
+853,345,Bechi,1413.25
+854,1808,Forge,119.72
+855,358,Hufesay,843.28
+856,183,Knossos Game,94.95
+857,1181,Mig Mang,375.05
 858,695,SpanRups,1.0
-859,1762,Epoxy,36.0
-860,721,Musinaykahwhanmetowaywin,248.0
-861,443,HexDame,72.0
-862,297,Parsi Chess,202.0
-863,1044,Dorvolz,250.0
-864,318,Shodra,250.0
-865,764,Sig (Tozeur),189.0
-866,1505,Bamboo,54.0
-867,1579,T'mbl,56.0
-868,277,Mangola,72.0
-869,235,Okwe (Achalla),40.0
-870,89,Dara,108.0
+859,1762,Epoxy,34.64
+860,721,Musinaykahwhanmetowaywin,528.88
+861,443,HexDame,176.92
+862,297,Parsi Chess,245.1
+863,1044,Dorvolz,291.0
+864,318,Shodra,1987.48
+865,764,Sig (Tozeur),196.57
+866,1505,Bamboo,53.07
+867,1579,T'mbl,2500.0
+868,277,Mangola,29.38
+869,235,Okwe (Achalla),32.92
+870,89,Dara,77.14
 871,916,Lam Turki,1.0
-872,1169,Ishighan,15.0
-873,1649,Sprout-R-Out,14.0
-874,209,Dongjintian,27.0
-875,1163,Gioco dell'Orso,246.0
-876,614,Wagner,5.0
-877,776,Bolotudu,58.0
-878,898,Bagh Bandi,242.0
-879,887,Maleys,247.0
+872,1169,Ishighan,15.5
+873,1649,Sprout-R-Out,25.49
+874,209,Dongjintian,33.27
+875,1163,Gioco dell'Orso,2330.62
+876,614,Wagner,4.02
+877,776,Bolotudu,51.15
+878,898,Bagh Bandi,199.76
+879,887,Maleys,539.78
 880,1356,Nzengue (Small),8.0
-881,656,Score Four,25.0
-882,705,Kints,76.0
-883,1122,Jacquet,106.0
-884,745,Siga (Sri Lanka),38.0
-885,1763,ConHex,52.0
-886,732,Cab e Quinal,63.0
-887,1388,HexTrike,52.0
-888,1310,Njombwa,138.0
-889,876,Moo,119.0
-890,1537,Breakthru,55.0
-891,1193,Uturu Uturu Kaida,91.0
-892,565,Five Men's Morris,177.0
+881,656,Score Four,44.56
+882,705,Kints,565.12
+883,1122,Jacquet,199.31
+884,745,Siga (Sri Lanka),36.19
+885,1763,ConHex,28.12
+886,732,Cab e Quinal,109.86
+887,1388,HexTrike,87.29
+888,1310,Njombwa,397.13
+889,876,Moo,282.29
+890,1537,Breakthru,17.39
+891,1193,Uturu Uturu Kaida,103.05
+892,565,Five Men's Morris,36.51
 893,456,Shogi Puzzle,1.0
-894,1202,Shanzak Kammar,250.0
-895,1177,Udat Pagada,31.0
-896,778,Laram Wali,186.0
-897,396,Pon Chochotl,30.0
-898,72,Halma,193.0
-899,1943,El Zorro,250.0
-900,868,Bargese,179.0
-901,1772,So Long Sucker,40.0
-902,362,Lamosh,144.0
-903,299,Main Chator,250.0
-904,233,Iyogh,250.0
-905,1315,Chiana wa Bwalo,250.0
-906,350,Rab'e,169.0
-907,821,Currierspiel,250.0
-908,1735,Loop Xiangqi,250.0
-909,757,Sahkku,105.0
-910,1930,Center,73.0
-911,306,Shatranj,249.0
-912,813,Chatur,250.0
-913,442,Feed the Ducks,42.0
-914,163,Dam,244.0
-915,563,Achi,247.0
-916,880,Dama (Italy),44.0
-917,1470,Main Chator (Selangor),248.0
-918,594,Boseog Gonu,76.0
-919,311,Shatranj al-Husun,250.0
-920,1570,Zuz Mel (5x5),248.0
-921,780,Wure Dune,11.0
-922,271,Quiela,250.0
-923,976,Kawade Kelia,250.0
+894,1202,Shanzak Kammar,2500.0
+895,1177,Udat Pagada,24.85
+896,778,Laram Wali,1395.11
+897,396,Pon Chochotl,47.42
+898,72,Halma,2500.0
+899,1943,El Zorro,1998.02
+900,868,Bargese,142.83
+901,1772,So Long Sucker,47.09
+902,362,Lamosh,938.17
+903,299,Main Chator,342.01
+904,233,Iyogh,191.37
+905,1315,Chiana wa Bwalo,379.92
+906,350,Rab'e,2224.01
+907,821,Currierspiel,753.12
+908,1735,Loop Xiangqi,337.89
+909,757,Sahkku,143.42
+910,1930,Center,28.55
+911,306,Shatranj,179.1
+912,813,Chatur,170.73
+913,442,Feed the Ducks,114.13
+914,163,Dam,777.48
+915,563,Achi,98.64
+916,880,Dama (Italy),426.16
+917,1470,Main Chator (Selangor),134.95
+918,594,Boseog Gonu,427.93
+919,311,Shatranj al-Husun,928.29
+920,1570,Zuz Mel (5x5),599.29
+921,780,Wure Dune,733.94
+922,271,Quiela,2500.0
+923,976,Kawade Kelia,641.53
 924,1146,Maze,1.0
-925,1944,La Chascona,87.0
-926,264,Mweso,109.0
+925,1944,La Chascona,43.05
+926,264,Mweso,80.54
 927,1149,Anti-Knight Sudoku,1.0
-928,1665,FairKalah,32.0
-929,1653,Shogun,42.0
-930,399,Coyote,30.0
-931,175,Fevga,102.0
-932,367,Fergen Gobale,22.0
-933,1397,Tabu Y,47.0
-934,1819,Diagonals (2002),62.0
-935,342,Gabata (Ansaba),85.0
-936,287,Khrour,250.0
-937,144,Go,250.0
-938,445,Manalath,26.0
-939,1126,Thaayam,84.0
-940,1403,Yaguarete Kora,191.0
-941,397,Demala Diviyan Keliya,99.0
-942,1647,Murus Gallicus,37.0
-943,1787,Addi Kul,250.0
-944,804,Gala,250.0
-945,1128,Mysore Tiger (Three Tigers),211.0
-946,1926,Icebreaker,83.0
-947,1771,Diamond,222.0
-948,1990,Dama (Comoros),241.0
-949,1130,Padaivettu,250.0
-950,314,Los Escaques,41.0
-951,1426,Shakhmaty,246.0
-952,711,Tre Guti,45.0
-953,1465,Breakback,250.0
-954,1379,Pasang,89.0
-955,439,Waurie,86.0
-956,1788,El-Mthaltha,27.0
-957,375,Hus (Damara),161.0
-958,1580,Buqruru,3.0
-959,360,Lam Waladach,133.0
-960,1415,Scachs,250.0
-961,882,Pleasant Draughts,245.0
-962,169,Shi Liu Kan Tsiang Kun,14.0
-963,1368,Asalto,9.0
-964,1085,Gasetavl (Gedved),250.0
-965,680,Line and Cross,23.0
-966,1977,Paintbucket,13.0
-967,184,Les Pendus,5.0
-968,383,Cercar La Liebre,32.0
-969,1160,King's Valley,250.0
-970,242,Leyla Gobale (Somaliland),34.0
+928,1665,FairKalah,24.76
+929,1653,Shogun,22.62
+930,399,Coyote,54.14
+931,175,Fevga,108.98
+932,367,Fergen Gobale,38.55
+933,1397,Tabu Y,35.58
+934,1819,Diagonals (2002),60.89
+935,342,Gabata (Ansaba),1072.3
+936,287,Khrour,2495.84
+937,144,Go,340.16
+938,445,Manalath,10.22
+939,1126,Thaayam,158.09
+940,1403,Yaguarete Kora,99.62
+941,397,Demala Diviyan Keliya,109.67
+942,1647,Murus Gallicus,77.08
+943,1787,Addi Kul,1914.43
+944,804,Gala,544.75
+945,1128,Mysore Tiger (Three Tigers),169.0
+946,1926,Icebreaker,64.18
+947,1771,Diamond,12.19
+948,1990,Dama (Comoros),763.71
+949,1130,Padaivettu,585.61
+950,314,Los Escaques,17.07
+951,1426,Shakhmaty,402.82
+952,711,Tre Guti,2054.38
+953,1465,Breakback,2500.0
+954,1379,Pasang,75.9
+955,439,Waurie,95.87
+956,1788,El-Mthaltha,61.48
+957,375,Hus (Damara),2204.89
+958,1580,Buqruru,4.56
+959,360,Lam Waladach,2500.0
+960,1415,Scachs,174.06
+961,882,Pleasant Draughts,344.46
+962,169,Shi Liu Kan Tsiang Kun,9.7
+963,1368,Asalto,25.98
+964,1085,Gasetavl (Gedved),2288.78
+965,680,Line and Cross,22.0
+966,1977,Paintbucket,20.76
+967,184,Les Pendus,2493.62
+968,383,Cercar La Liebre,49.8
+969,1160,King's Valley,21.54
+970,242,Leyla Gobale (Somaliland),23.92
 971,1948,Selbia,8.0
-972,1437,MacBeth,73.0
-973,97,Tant Fant,19.0
-974,1965,Chains of Thought,32.0
-975,285,Alitev,30.0
-976,744,Chonka,6.0
-977,908,Tuk Tak,5.0
-978,1030,Zurgaan Tal,138.0
-979,795,Um el Tuweisat,39.0
-980,191,Shantarad,226.0
-981,149,Nard,148.0
-982,1810,Trianon,8.0
-983,1534,Agilidade,7.0
-984,1208,Schuster,125.0
-985,130,Nim,16.0
-986,1045,Ssang-Ryouk,129.0
-987,814,Paumecary,110.0
-988,77,Royal of Ur,153.0
-989,1443,Triodi (Chios),5.0
-990,1622,MiniXiangqi,153.0
-991,1820,Roll-Ing to Four,68.0
-992,1311,Njombwa (One Counter),140.0
-993,877,Jeu de Renard,250.0
-994,1320,Msuwa,89.0
-995,997,Piprjall,91.0
-996,220,Meusueb,143.0
-997,954,Oumoul Kono,23.0
-998,1585,Morpharaoh,38.0
-999,404,Pong Hau K'i,52.0
-1000,712,Sher Bakar,178.0
-1001,1025,Xonin Shatar (Complex),232.0
+972,1437,MacBeth,75.98
+973,97,Tant Fant,2450.2
+974,1965,Chains of Thought,30.46
+975,285,Alitev,37.17
+976,744,Chonka,17.6
+977,908,Tuk Tak,2400.36
+978,1030,Zurgaan Tal,412.49
+979,795,Um el Tuweisat,72.9
+980,191,Shantarad,2434.77
+981,149,Nard,170.59
+982,1810,Trianon,19.34
+983,1534,Agilidade,16.0
+984,1208,Schuster,178.77
+985,130,Nim,13.61
+986,1045,Ssang-Ryouk,178.23
+987,814,Paumecary,67.11
+988,77,Royal of Ur,118.08
+989,1443,Triodi (Chios),2496.15
+990,1622,MiniXiangqi,77.99
+991,1820,Roll-Ing to Four,30.32
+992,1311,Njombwa (One Counter),937.28
+993,877,Jeu de Renard,2451.4
+994,1320,Msuwa,66.15
+995,997,Piprjall,166.01
+996,220,Meusueb,77.75
+997,954,Oumoul Kono,2500.0
+998,1585,Morpharaoh,34.03
+999,404,Pong Hau K'i,2500.0
+1000,712,Sher Bakar,42.82
+1001,1025,Xonin Shatar (Complex),104.49
 1002,974,BoxOff,1.0
-1003,354,Gabata (Shoa I),110.0
-1004,219,Daramuti,54.0
-1005,1199,Omnidirectional Draughts,79.0
-1006,230,J'erin,52.0
-1007,188,Morabaraba,61.0
-1008,1209,Buffa de Baldrac,84.0
-1009,1287,Tsoro,123.0
-1010,823,Nebakuthana,158.0
-1011,753,Meurimueng-rimueng Peuet Ploh,234.0
-1012,879,Damas,54.0
-1013,331,Chukaray,133.0
-1014,760,At-Tab wa-d-Dukk,160.0
-1015,791,Koruboddo,249.0
-1016,301,Mak Ruk,160.0
-1017,408,Ploy,151.0
-1018,229,Whyo,250.0
-1019,948,Tapatan,50.0
-1020,811,Siryu (War),214.0
-1021,1142,Infuse,22.0
-1022,741,Koti Keliya,113.0
-1023,815,Ofanfelling,34.0
-1024,1105,Upper Hand,28.0
-1025,81,Mu Torere,33.0
-1026,190,Hasami Shogi,250.0
+1003,354,Gabata (Shoa I),1155.16
+1004,219,Daramuti,345.47
+1005,1199,Omnidirectional Draughts,204.39
+1006,230,J'erin,281.02
+1007,188,Morabaraba,50.33
+1008,1209,Buffa de Baldrac,141.27
+1009,1287,Tsoro,68.11
+1010,823,Nebakuthana,341.78
+1011,753,Meurimueng-rimueng Peuet Ploh,920.64
+1012,879,Damas,550.36
+1013,331,Chukaray,145.05
+1014,760,At-Tab wa-d-Dukk,181.34
+1015,791,Koruboddo,655.15
+1016,301,Mak Ruk,122.33
+1017,408,Ploy,60.16
+1018,229,Whyo,157.07
+1019,948,Tapatan,31.97
+1020,811,Siryu (War),452.85
+1021,1142,Infuse,83.72
+1022,741,Koti Keliya,25.38
+1023,815,Ofanfelling,34.02
+1024,1105,Upper Hand,30.5
+1025,81,Mu Torere,2500.0
+1026,190,Hasami Shogi,388.05
 1027,446,Odd,61.0
-1028,1988,OffShore,30.0
+1028,1988,OffShore,29.51
 1029,455,Chess Puzzle,1.0
-1030,1463,Shataranja,250.0
-1031,384,Dra,235.0
-1032,159,Lau Kata Kati,165.0
-1033,44,Chess,249.0
-1034,92,Nine Men's Morris,91.0
-1035,1543,Squadro,92.0
-1036,834,Kawasukuts,7.0
+1030,1463,Shataranja,177.09
+1031,384,Dra,76.43
+1032,159,Lau Kata Kati,904.15
+1033,44,Chess,112.68
+1034,92,Nine Men's Morris,52.02
+1035,1543,Squadro,90.67
+1036,834,Kawasukuts,11.72
 1037,1979,2048,1.0
-1038,1605,Poprad Game,125.0
-1039,1331,Schachzabel,250.0
-1040,258,Tshuba,8.0
-1041,1321,Msuwa wa Kunja,86.0
-1042,422,Fondji,164.0
-1043,1031,One-Eyed Go,250.0
-1044,1036,Bajr,250.0
-1045,1668,Symmetric Chess,247.0
-1046,1520,Mity,56.0
-1047,204,Ghingskoot,53.0
-1048,716,Bouge Shodra,250.0
-1049,1114,Myles,45.0
-1050,292,Chongka',58.0
-1051,1663,Ikibuguzo (Opening 2),78.0
-1052,460,Horde Chess,98.0
-1053,348,Wa'ache Waledat,26.0
-1054,602,Tic-Tac-Chess,28.0
-1055,1448,Sarvatobhadra,83.0
-1056,279,Mangala (Suez),18.0
-1057,338,Komikan,48.0
-1058,49,Xiangqi,250.0
-1059,1001,Puluc,40.0
-1060,1405,Pippinzip (Zipline variant),20.0
-1061,103,Dots and Boxes,93.0
-1062,1656,1D Chess,6.0
-1063,852,Wellisch Chess,250.0
-1064,568,Six Men's Morris,245.0
-1065,1188,Suffragetto,157.0
-1066,1107,Oust,54.0
-1067,223,Main Chongkak,98.0
-1068,329,Petol,113.0
-1069,1993,King And Courtesan,43.0
-1070,17,Gabata (Adowa),128.0
-1071,179,Li'b el-Merafib,90.0
-1072,1112,Baralie,41.0
-1073,1168,Issiren,174.0
-1074,215,Pallankuli,169.0
-1075,661,Gabata (Ghinda),128.0
-1076,1254,Ovalhu,94.0
-1077,1013,Breakthrough Checkers,36.0
-1078,379,Deka,34.0
-1079,428,Wore,47.0
-1080,395,Merimueng-rimueng-do,250.0
-1081,550,Lotus,77.0
-1082,390,Hat Diviyan Keliya,33.0
-1083,85,All Queens Chess,68.0
-1084,722,Ahtarah Guti,238.0
-1085,1042,Buudal,250.0
-1086,197,Saturankam,64.0
-1087,555,Three-Player Hex,30.0
+1038,1605,Poprad Game,2500.0
+1039,1331,Schachzabel,505.67
+1040,258,Tshuba,8.02
+1041,1321,Msuwa wa Kunja,54.36
+1042,422,Fondji,605.69
+1043,1031,One-Eyed Go,335.27
+1044,1036,Bajr,316.2
+1045,1668,Symmetric Chess,124.41
+1046,1520,Mity,58.23
+1047,204,Ghingskoot,710.99
+1048,716,Bouge Shodra,302.72
+1049,1114,Myles,40.01
+1050,292,Chongka',54.34
+1051,1663,Ikibuguzo (Opening 2),39.21
+1052,460,Horde Chess,163.55
+1053,348,Wa'ache Waledat,37.5
+1054,602,Tic-Tac-Chess,2475.1
+1055,1448,Sarvatobhadra,152.72
+1056,279,Mangala (Suez),25.79
+1057,338,Komikan,69.0
+1058,49,Xiangqi,293.12
+1059,1001,Puluc,35.15
+1060,1405,Pippinzip (Zipline variant),48.0
+1061,103,Dots and Boxes,85.04
+1062,1656,1D Chess,9.0
+1063,852,Wellisch Chess,390.35
+1064,568,Six Men's Morris,83.85
+1065,1188,Suffragetto,2043.0
+1066,1107,Oust,84.95
+1067,223,Main Chongkak,825.48
+1068,329,Petol,95.66
+1069,1993,King And Courtesan,61.99
+1070,17,Gabata (Adowa),2485.8
+1071,179,Li'b el-Merafib,148.89
+1072,1112,Baralie,58.57
+1073,1168,Issiren,1263.93
+1074,215,Pallankuli,343.22
+1075,661,Gabata (Ghinda),149.6
+1076,1254,Ovalhu,1997.66
+1077,1013,Breakthrough Checkers,36.64
+1078,379,Deka,36.07
+1079,428,Wore,51.26
+1080,395,Merimueng-rimueng-do,136.1
+1081,550,Lotus,66.79
+1082,390,Hat Diviyan Keliya,16.02
+1083,85,All Queens Chess,18.7
+1084,722,Ahtarah Guti,691.02
+1085,1042,Buudal,995.28
+1086,197,Saturankam,184.34
+1087,555,Three-Player Hex,14.88
 1088,123,N Puzzles,1.0
-1089,1047,Tables Rabbatuees,31.0
-1090,941,Nao Guti,161.0
-1091,377,Gundru,250.0
-1092,697,Hackenbush,4.0
-1093,251,Awari,73.0
-1094,1673,Thermenmuseum,240.0
-1095,1313,Nsolo,166.0
-1096,255,Nchuwa,59.0
+1089,1047,Tables Rabbatuees,35.89
+1090,941,Nao Guti,55.13
+1091,377,Gundru,1066.48
+1092,697,Hackenbush,10.9
+1093,251,Awari,93.02
+1094,1673,Thermenmuseum,17.0
+1095,1313,Nsolo,78.2
+1096,255,Nchuwa,61.21
 1097,1454,Jiu Zi Xian Qi,1.0
-1098,59,Konane,78.0
-1099,185,Shiva,41.0
-1100,952,Driesticken,46.0
-1101,463,Minishogi,142.0
-1102,154,Tuknanavuhpi,250.0
-1103,1779,Dragonchess,250.0
+1098,59,Konane,73.78
+1099,185,Shiva,1184.21
+1100,952,Driesticken,530.35
+1101,463,Minishogi,41.23
+1102,154,Tuknanavuhpi,578.38
+1103,1779,Dragonchess,258.1
