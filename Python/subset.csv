@@ -1,73 +1,69 @@
 ,Cluster,RulesetId,Name
-0,0,1323, Shisen-Sho
-1,0,695, SpanRups
-2,0,1624, Labirintus
-3,0,1664, Pentomino
-4,1,322, Makonn
-5,1,265, Choro (Lango)
-6,1,1774, Duidoku
-7,1,257, Spreta
-8,1,448, Pentalath
-9,1,1545, Tenjiku Shogi
-10,1,1971, Scaffold
-11,1,772, Weiqi
-12,1,373, Tablut
-13,1,408, Ploy
-14,1,1031, One-Eyed Go
-15,1,1768, Fractal
-16,1,400, Cross
-17,2,315, Shatranj Diwana Shah
-18,2,1356, Nzengue (Small)
-19,2,579, Brandub
-20,2,1762, Epoxy
-21,2,428, Wore
-22,2,339, Abalala'e
-23,2,1669, Make Muster
-24,2,1200, Uril
-25,2,639, Santorini
-26,2,1824, TacTix
-27,2,461, Loop Chess
-28,2,1620, Four-Player Chess
-29,2,680, Line and Cross
-30,2,460, Horde Chess
-31,2,1317, Greatest Loss
-32,2,1665, FairKalah
-33,2,284, Mangala (Turkey)
-34,2,1451, Cittabhramanrpasya Khelanam
-35,2,1197, Paradis
-36,2,175, Fevga
-37,2,1316, Greater
-38,2,1213, Callanish
-39,2,414, Press Ups
-40,2,1463, Shataranja
-41,2,1534, Agilidade
-42,2,44, Chess
-43,2,853, Starchess
-44,2,614, Wagner
-45,2,425, Foji
-46,2,1160, King's Valley
-47,2,286, Pic
-48,3,1452, Tai Shogi
-49,4,156, Terhuchu
-50,4,1573, Kharebga (5x5)
-51,4,642, Aj Sayil
-52,4,1929, Co Chan Cho
-53,4,1942, El Perro
-54,4,1140, Pulijudamu
-55,4,1083, Hund efter Hare (Vendsyssel)
-56,4,384, Dra
-57,4,1050, Main Dam
-58,4,905, Mughal Pathan
-59,4,789, Shah
-60,4,171, Yeung Luk Sz' Kon Tseung Kwan
-61,4,721, Musinaykahwhanmetowaywin
-62,4,39, Diviyan Keliya
-63,4,1024, Xonin Shatar (Simple)
-64,4,35, 20 Squares
-65,4,403, Groups
-66,4,1270, Cage
-67,4,149, Nard
-68,4,806, Rimoe
-69,4,162, Pretwa
-70,4,756, Daldos
-71,4,1078, Contrare Puff
+0,4,1323,Shisen-Sho
+1,4,1624,Labirintus
+2,4,1664,Pentomino
+3,3,322,Makonn
+4,3,265,Choro (Lango)
+5,4,1774,Duidoku
+6,3,257,Spreta
+7,4,448,Pentalath
+8,1,1545,Tenjiku Shogi
+9,4,1971,Scaffold
+10,4,772,Weiqi
+11,4,373,Tablut
+12,1,408,Ploy
+13,4,1031,One-Eyed Go
+14,4,1768,Fractal
+15,4,400,Cross
+16,1,315,Shatranj Diwana Shah
+17,2,1356,Nzengue (Small)
+18,4,579,Brandub
+19,4,1762,Epoxy
+20,3,428,Wore
+21,3,339,Abalala'e
+22,4,1669,Make Muster
+23,3,1200,Uril
+24,2,639,Santorini
+25,4,1824,TacTix
+26,1,461,Loop Chess
+27,1,1620,Four-Player Chess
+28,1,460,Horde Chess
+29,3,1665,FairKalah
+30,3,284,Mangala (Turkey)
+31,1,1451,Cittabhramanrpasya Khelanam
+32,0,1197,Paradis
+33,0,175,Fevga
+34,4,1213,Callanish
+35,4,414,Press Ups
+36,1,1463,Shataranja
+37,2,1534,Agilidade
+38,1,44,Chess
+39,1,853,Starchess
+40,2,614,Wagner
+41,3,425,Foji
+42,4,1160,King's Valley
+43,3,286,Pic
+44,1,1452,Tai Shogi
+45,2,156,Terhuchu
+46,4,1573,Kharebga (5x5)
+47,0,642,Aj Sayil
+48,2,1929,Co Chan Cho
+49,2,1942,El Perro
+50,2,1140,Pulijudamu
+51,2,1083,Hund efter Hare (Vendsyssel)
+52,2,384,Dra
+53,4,1050,Main Dam
+54,2,905,Mughal Pathan
+55,2,789,Shah
+56,2,171,Yeung Luk Sz' Kon Tseung Kwan
+57,2,721,Musinaykahwhanmetowaywin
+58,2,39,Diviyan Keliya
+59,2,1024,Xonin Shatar (Simple)
+60,0,35,20 Squares
+61,4,403,Groups
+62,4,1270,Cage
+63,0,149,Nard
+64,2,806,Rimoe
+65,2,162,Pretwa
+66,0,756,Daldos
+67,0,1078,Contrare Puff
