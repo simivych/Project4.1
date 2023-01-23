@@ -1,6 +1,7 @@
 package ai;
 
 import game.Game;
+import game.rules.end.End;
 import metadata.ai.heuristics.Heuristics;
 import metadata.ai.heuristics.terms.*;
 import org.jpmml.evaluator.Evaluator;
@@ -49,7 +50,7 @@ public class OurAI extends AI{
         this.clusters = getClusters();
         this.clusteringbool = false;
         this.predictions = getPredictions();
-        readGameLengths();
+//        readGameLengths();
         //this.evaluator = getModel();
         //this.pcacomponents = getPCACompenents();
         //this.scalecomponents = getScaleComponents();
@@ -113,7 +114,8 @@ public class OurAI extends AI{
                 case 3:
                      return AIFactory.createAI("MC-GRAVE");
                 case 4:
-                    return new AlphaBetaNoHeuristics();
+                    Heuristics heurs = getHeuristicsPerGame(game);
+                    return new AlphaBetaNoHeuristics(heurs);
                 default:
                     foundAI = new ExampleUCT();
             }
@@ -479,6 +481,8 @@ public class OurAI extends AI{
             case 12:
                 heur = new MobilitySimple(null, -1.0f);
                 break;
+            case 13:
+                heur = new CentreProximity(null, -1.0f, null);
             case 14:
                 heur = new Material(null, -1.0f, null, null);
                 break;
@@ -518,6 +522,9 @@ public class OurAI extends AI{
             case 42:
                 heur = new RegionProximity(null, 1.0f, 2, null);
                 break;
+            case 43:
+                heur = new RegionProximity(null, 1.0f, 3, null);
+                break;
             case 48:
                 heur = new RegionProximity(null, 1.0f, 5, null);
                 break;
@@ -527,16 +534,23 @@ public class OurAI extends AI{
         return heur;
     }
     //from a game name, loops through endconcepts and gets the right heuristics from that. (NOT FINISHED)
-    public Heuristics getHeuristicsPerGame(String gamename){
-        Game game = GameLoader.loadGameFromName(gamename+ ".lud");
+    public Heuristics getHeuristicsPerGame(Game game){
         BitSet concepts = game.booleanConcepts();
-        int[] endconcepts = new int[]{492, 494, 500, 502, 516, 518, 524, 526, 508, 510, 483, 485, 467, 469};
-        int[][] endconceptheurs = new int[][]{{}};
+        Map<Integer, String> nonboolcon = game.nonBooleanConcepts();
+        End end = game.endRules();
+        double[][] values = readConcepts(game.name());
+//        int[] endconcepts = new int[]{517, 427, 411, 527, 526, 492};
+        int[] endconcepts = new int[]{408, 392, 508, 476, 474};
+        int[] endconceptheur1 = new int[]{ 16, 48, 5, 12, 9};
+        int[] endconceptheur2 = new int[]{ 10, 10, 14, 15, 1};
+        int[] weight1 = new int[]{ 1, 1, 100, 1, 100};
+        int[] weight2 = new int[]{ 100, 1, 1, 1, 1};
         for(int i=0;i<endconcepts.length;i++){
-            if(concepts.get(endconcepts[i])){
-                int[] vals = endconceptheurs[i];
-                HeuristicTerm heur1 = getHeuristicFromId(vals[0]);
-                HeuristicTerm heur2 = getHeuristicFromId(vals[1]);
+            if(values[0][endconcepts[i]] > 0.01){
+                HeuristicTerm heur1 = getHeuristicFromId(endconceptheur1[i]);
+                heur1.setWeight(weight1[i]);
+                HeuristicTerm heur2 = getHeuristicFromId(endconceptheur2[i]);
+                heur2.setWeight(weight2[i]);
                 return new Heuristics(new HeuristicTerm[]{heur1, heur2});
             }
         }
@@ -619,9 +633,9 @@ public class OurAI extends AI{
     private void setTimeGrad(Game game) {
         System.out.println(game.name());
         if(lengths.containsKey(game.name())){
-            System.out.println("time changed");
+//            System.out.println("time changed");
             double gameLen = lengths.get(game.name());
-            System.out.println(gameLen);
+//            System.out.println(gameLen);
             double maxTime = (120.0 / gameLen) - 0.1;
             grad = (maxTime - 0.1) / gameLen;
             if (timeTech == 0) {
