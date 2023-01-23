@@ -94,7 +94,7 @@ public class KilothonTest
         FileWriter file;
         BufferedWriter buf = null;
         try {
-            buf = new BufferedWriter(new FileWriter("resultUCT.txt", true));
+            buf = new BufferedWriter(new FileWriter("results\\resultsPort.txt", true));
         } catch (IOException e1) {
             e1.printStackTrace();
         }
@@ -231,7 +231,7 @@ public class KilothonTest
                         lineToWrite+=rewardP1 + ", "; // reward of P1
                         lineToWrite+=numMoves + ", "; // game length
                         lineToWrite+=numP1Moves + ""; // num P1 moves
-                        buf = new BufferedWriter(new FileWriter("resultsUCT.txt", true));
+                        buf = new BufferedWriter(new FileWriter("results\\resultsPort.txt", true));
                         buf.write(lineToWrite);
                         buf.newLine();
 
@@ -270,7 +270,7 @@ public class KilothonTest
             bodyMsg += "\nDone in " + hours + " hours " + minutes + " minutes " + seconds + " seconds.";
 
 
-            buf = new BufferedWriter(new FileWriter("resultsUCT.txt", true));
+            buf = new BufferedWriter(new FileWriter("results\\resultsPort.txt", true));
             // Writes the string to the file
             buf.write(bodyMsg);
 
@@ -289,7 +289,7 @@ public class KilothonTest
         ArrayList<String> done = new ArrayList<>();
         try{
             // Creates a FileReader
-            FileReader file = new FileReader("resultsUCT.txt");
+            FileReader file = new FileReader("results\\resultsPort.txt");
             BufferedReader br = new BufferedReader(file);
             String line;
             while( (line = br.readLine()) != null){

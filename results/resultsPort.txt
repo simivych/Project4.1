@@ -1,0 +1,12 @@
+GAME NAME, NUM PLAYERS, WIN?, RANK P1, UTILITY P1, NUM MOVES, NUM P1 MOVES
+Poprad Game, 2, false, 1.5, 0.0, 1000.0, 499
+Roll-Ing to Four, 2, true, 1.0, 1.0, 17.0, 9
+Sik, 4, true, 1.0, 1.0, 303.0, 75
+Triad, 3, true, 1.0, 1.0, 25.0, 7
+Bison, 2, true, 1.0, 1.0, 89.0, 45
+Luuth, 2, false, 2.0, -1.0, 60.0, 21
+Diamond, 2, true, 1.0, 1.0, 11.0, 6
+Shatranj al-Kabir, 2, false, 1.5, 0.0, 1000.0, 499
+Pachisi, 4, true, 1.0, 1.0, 777.0, 192
+Gomoku, 2, true, 1.0, 1.0, 17.0, 9
+
