@@ -70,7 +70,7 @@ public class OurAI extends AI{
         this.player = playerID;
         this.selectedAI = selectAI(game, playerID);
         this.selectedAI.initAI(game, playerID);
-        setTimeGrad(game);
+        //setTimeGrad(game);
     }
 
     //decision structure for selecting the AI
@@ -109,9 +109,9 @@ public class OurAI extends AI{
                     foundAI = new PNSMCTS();
                     break;
                 case 2:
-                     return AIFactory.createAI("MAST");
+                    return AIFactory.createAI("MAST");
                 case 3:
-                     return AIFactory.createAI("MC-GRAVE");
+                    return AIFactory.createAI("MC-GRAVE");
                 case 4:
                     return new AlphaBetaNoHeuristics();
                 default:
@@ -198,7 +198,7 @@ public class OurAI extends AI{
             if(val == 1) {
                 concepts.put(name, 1.0);
                 conceptsarray[0][i] = 1.0;
-            //check 2: non boolean concepts
+                //check 2: non boolean concepts
             } else {
                 String nonbools = nonboolconcepts.get(i);
                 //if it exists in our nonbool list add it, otherwise add 0
@@ -421,19 +421,19 @@ public class OurAI extends AI{
     }
     // get columns that turned out to be the best from the featureselection
     public double[][] getSelectedColumns(double[][] pca){
-       int[] columns =  new int[]{38,  31,   9,  40,  26,  20,  41,  46,  87,  72,  45,  56,  71,
+        int[] columns =  new int[]{38,  31,   9,  40,  26,  20,  41,  46,  87,  72,  45,  56,  71,
                 51,  24,  29,  33,  54,  43,  55,  96,  18,  80,  63,  35,  23,
                 30,  65,  78,  81,  75, 112,  60,  37,  10,  59,  16, 110,  57,
                 119,  53,  27,  91,  14,  44,  73,  39,  88,  66,  58,  52,  61,
                 4,  85, 123,  48, 100, 107, 124,  77, 138,  36,  99,   6,  76,
                 15,  70,  32,  68,  19, 101, 105,   2,  42, 113};
-       double[][] newpca = new double[pca.length][columns.length];
+        double[][] newpca = new double[pca.length][columns.length];
 
-       for(int i=0;i<columns.length;i++){
-           int index = columns[i];
-           newpca[0][i] = pca[0][index];
-       }
-       return newpca;
+        for(int i=0;i<columns.length;i++){
+            int index = columns[i];
+            newpca[0][i] = pca[0][index];
+        }
+        return newpca;
     }
 
     // normalize our features based on other games (has to be imported through python)
