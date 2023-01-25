@@ -1,4 +1,4 @@
-package main;
+package experiments;
 
 import com.kitfox.svg.A;
 import game.Game;
