@@ -42,7 +42,7 @@ public class OurAI extends AI{
 
     double grad = 0.0;
     double time = 0.5;
-    int timeTech = 1; //0 is uniform, 1 is increasing, 2 is decreasing
+    int timeTech = 0; //0 is uniform, 1 is increasing, 2 is decreasing
     int turn =1;
     boolean clusteringbool;
 
@@ -55,6 +55,15 @@ public class OurAI extends AI{
         //this.evaluator = getModel();
         //this.pcacomponents = getPCACompenents();
         //this.scalecomponents = getScaleComponents();
+        if (timeTech == 0) {
+            System.out.println("Uniform Time");
+        } else if (timeTech == 1) {
+            System.out.println("Increasing Time");
+        } else if (timeTech == 2) {
+            System.out.println("Decreasing Time");
+        } else{
+            System.out.println("No Time");
+        }
     }
 
     @Override
@@ -100,20 +109,25 @@ public class OurAI extends AI{
             return foundAI;
         } else {
             int agentid = this.predictions.get(game.name());
-            System.out.println("agent selected:" + agentid);
+            System.out.print("agent selected: ");
             AI foundAI;
             switch (agentid) {
                 case 0:
+                    System.out.println("UCT");
                     foundAI = MCTS.createUCT();
                     break;
                 case 1:
+                    System.out.println("PNMCTS");
                     foundAI = new PNSMCTS();
                     break;
                 case 2:
+                    System.out.println("MAST");
                     return AIFactory.createAI("MAST");
                 case 3:
+                    System.out.println("GRAVE");
                     return AIFactory.createAI("MC-GRAVE");
                 case 4:
+                    System.out.println("Alpha Beta");
                     Heuristics heurs = getHeuristicsPerGame(game);
                     return new AlphaBetaNoHeuristics(heurs);
                 default:
@@ -646,6 +660,9 @@ public class OurAI extends AI{
             } else if (timeTech == 2) {
                 time = maxTime;
                 grad = -grad;
+            } else{
+                time = 0.5;
+                grad = 0;
             }
         }
     }

@@ -28,8 +28,8 @@ public class LaunchLudii
 	public static void main(final String[] args)
 	{
 		// Register alpha beta no heuristics
-		AIRegistry.registerAI("ABNoHeuristics", () -> {return new AlphaBetaNoHeuristics();}, (game) -> {return true;});
-		Kilothon.main(new String[]{"ABNoHeuristics", "ABNoHeuristics"});
+		AIRegistry.registerAI("OurAI", () -> {return new OurAI();}, (game) -> {return true;});
+		Kilothon.main(new String[]{"OurAI", "OurAI"});
 	}
 
 	public static void getHeuristic(){
