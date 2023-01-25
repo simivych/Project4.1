@@ -57,8 +57,8 @@ public class RunCustomMatch
 	static int agentWins = 0;
 
 	/** Heuristic settings */
-	static int heuristic1 = 9;
-	static int heuristic2 = 26;
+	static int heuristic1 = 16;
+	static int heuristic2 = 10;
 
 	//-------------------------------------------------------------------------
 
@@ -95,6 +95,10 @@ public class RunCustomMatch
 //		agents.add("MAST");
 //		agents.add("GRAVE");
 //		agents.add("Random");
+		agents.add("equal");
+		agents.add("ourAI");
+		agents.add("basicheuristics");
+
 
 		String opponent = "UCT";
 //		String opponent = "Random";
@@ -377,7 +381,8 @@ public class RunCustomMatch
 					return null;
 				}
 				return AIFactory.createAI("MC-GRAVE");
-			case "equal":
+			case "equal": // creates an ab agent with the set heuristics with equal weights
+
 				if (!search.minimax.AlphaBetaSearch.createAlphaBeta().supportsGame(game)){
 					System.out.println("AB-Search cannot play "+game.name());
 					return null;
@@ -385,7 +390,7 @@ public class RunCustomMatch
 				HeuristicTerm heur1 = OurAI.getHeuristicFromId(heuristic1);
 				HeuristicTerm heur2 = OurAI.getHeuristicFromId(heuristic2);
 				return new AlphaBetaNoHeuristics(new Heuristics(new HeuristicTerm[]{heur1, heur2}));
-			case "firsthigher":
+			case "firsthigher": // creates an ab agent with the set heuristics with first weight higher
 				if (!search.minimax.AlphaBetaSearch.createAlphaBeta().supportsGame(game)){
 					System.out.println("AB-Search cannot play "+game.name());
 					return null;
@@ -394,7 +399,7 @@ public class RunCustomMatch
 				hr1.setWeight(hr1.weight()*100);
 				HeuristicTerm hr2 = OurAI.getHeuristicFromId(heuristic2);
 				return new AlphaBetaNoHeuristics(new Heuristics(new HeuristicTerm[]{hr1, hr2}));
-			case "secondhigher":
+			case "secondhigher": // creates an ab agent with the set heuristics with second weight higher
 				if (!search.minimax.AlphaBetaSearch.createAlphaBeta().supportsGame(game)){
 					System.out.println("AB-Search cannot play "+game.name());
 					return null;
@@ -403,20 +408,22 @@ public class RunCustomMatch
 				HeuristicTerm hrs2 = OurAI.getHeuristicFromId(heuristic2);
 				hrs1.setWeight(hrs1.weight()*0.01f);
 				return new AlphaBetaNoHeuristics(new Heuristics(new HeuristicTerm[]{hrs1, hrs2}));
-			case "nosecond":
+			case "nosecond": // creates an ab agent with the first of the set heuristics
 				if (!search.minimax.AlphaBetaSearch.createAlphaBeta().supportsGame(game)){
 					System.out.println("AB-Search cannot play "+game.name());
 					return null;
 				}
 				HeuristicTerm h1 = OurAI.getHeuristicFromId(heuristic1);
 				return new AlphaBetaNoHeuristics(new Heuristics(new HeuristicTerm[]{h1}));
-			case "basicheuristics":
+			case "basicheuristics": // creates an ab agent with the basic heuristics
 				if (!search.minimax.AlphaBetaSearch.createAlphaBeta().supportsGame(game)){
 					System.out.println("AB-Search cannot play "+game.name());
 					return null;
 				}
 				return new AlphaBetaNoHeuristics();
-
+			case "ourAI":
+				AIRegistry.registerAI("Our AI", () -> {return new OurAI();}, (game2) -> {return true;});
+				return new OurAI();
 			default:
 				System.out.println("AI not in list");
 				return null;
