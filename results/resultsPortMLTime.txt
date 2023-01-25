@@ -1,0 +1,1120 @@
+GAME NAME, NUM PLAYERS, WIN?, RANK P1, UTILITY P1, NUM MOVES, NUM P1 MOVES,TIME
+Kharebga (5x5), 2, true, 1.0, 1.0, 77.0, 39, 40490.0
+MensaSpiel, 2, true, 1.0, 1.0, 42.0, 21, 49319.0
+Xiang Hex, 2, true, 1.0, 1.0, 41.0, 21, 56911.0
+Nyout, 2, true, 1.0, 1.0, 72.0, 35, 46403.0
+Fart (5x5), 2, false, 2.0, -1.0, 70.0, 34, 58363.0
+Half Chess, 2, false, 1.5, 0.0, 209.0, 105, -81.0
+Main Dam, 2, false, 2.0, -1.0, 47.0, 21, 58571.0
+Tridoku, 1, false, 0.0, -1.0, 500.0, 500, -80.0
+Rithmomachia, 2, true, 1.0, 1.0, 227.0, 114, 54588.0
+Mefuvha, 2, true, 1.0, 1.0, 136.0, 70, 11436.0
+Los Escaques, 7, false, 4.0, 0.0, 18.0, 3, 52969.0
+Mawkar Katiya, 2, true, 1.0, 1.0, 334.0, 218, 51529.0
+Gopher, 2, false, 2.0, -1.0, 2.0, 0, 58481.0
+Domineering, 2, true, 1.0, 1.0, 17.0, 9, 25371.0
+Muvalavala (Quioco), 2, true, 1.0, 1.0, 37.0, 18, 41601.0
+Throngs, 2, false, 2.0, -1.0, 171.0, 88, -801.0
+Triodi, 2, true, 1.0, 1.0, 42.0, 24, 26334.0
+Bagh Guti, 2, false, 2.0, -1.0, 184.0, 84, 3455.0
+Gabata (Adowa), 2, false, 1.5, 0.0, 1000.0, 482, 54821.0
+Pasit, 4, true, 1.0, 1.0, 1210.0, 186, 53647.0
+Uthi, 2, false, 2.0, -1.0, 380.0, 182, 58322.0
+Merimueng-rimueng, 2, true, 1.0, 1.0, 294.0, 140, 31028.0
+Selbia, 2, false, 1.5, 0.0, 8.0, 3, 59950.0
+Epoxy, 2, true, 1.0, 1.0, 65.0, 33, 5982.0
+Fischer Random Chess, 2, true, 1.0, 1.0, 327.0, 164, 17389.0
+Shono, 2, true, 1.0, 1.0, 104.0, 51, 29495.0
+Product, 2, false, 2.0, -1.0, 61.0, 31, 30474.0
+Dots and Boxes, 2, true, 1.0, 1.0, 131.0, 72, 8449.0
+Intotoi, 2, true, 1.0, 1.0, 64.0, 31, 38168.0
+Udat Pagada, 2, true, 1.0, 1.0, 19.0, 10, 36506.0
+Shanzak Kammar, 2, false, 1.5, 0.0, 1000.0, 499, 47982.0
+Chukaray, 2, true, 1.0, 1.0, 298.0, 166, 59978.0
+Okwe (Nigeria), 2, false, 1.5, 0.0, 1000.0, 499, 47277.0
+Tawula, 2, true, 1.0, 1.0, 574.0, 281, 10252.0
+4 Squared, 2, true, 1.0, 1.0, 115.0, 58, 18089.0
+Shatranj (14x14), 2, false, 1.5, 0.0, 1000.0, 499, -123.0
+Rabbit Warrens, 2, false, 1.5, 0.0, 145.0, 73, -21.0
+Meridians, 2, true, 1.0, 1.0, 98.0, 48, 35524.0
+Tic-Tac-Four, 4, true, 1.0, 1.0, 16.0, 2, 47070.0
+Motiq, 2, false, 1.5, 0.0, 1000.0, 533, 52707.0
+Hund efter Hare (Vendsyssel), 2, false, 1.5, 0.0, 1000.0, 499, -80.0
+Chopsticks, 2, false, 1.5, 0.0, 1000.0, 499, 59875.0
+Terhuchu (Small), 2, false, 2.0, -1.0, 98.0, 48, 56843.0
+Tokkadille, 2, false, 2.0, -1.0, 267.0, 131, 43250.0
+Hexifact, 2, false, 2.0, -1.0, 48.0, 23, 15385.0
+Zuz Mel (7x7), 2, true, 1.0, 1.0, 558.0, 279, 28504.0
+Sungka, 2, false, 1.5, 0.0, 1000.0, 519, 53902.0
+ConHex, 2, true, 1.0, 1.0, 25.0, 13, 32053.0
+N Queens, 1, false, 0.0, -1.0, 500.0, 500, -35.0
+Quick Chess, 2, true, 1.0, 1.0, 84.0, 41, 17980.0
+Medieval Chess, 2, true, 1.0, 1.0, 281.0, 141, 12352.0
+Feed the Ducks, 2, false, 2.0, -1.0, 38.0, 18, 49955.0
+Troll, 2, true, 1.0, 1.0, 23.0, 12, 39815.0
+Sokkattan, 4, true, 1.0, 1.0, 354.0, 86, 36275.0
+Round Merels, 2, true, 1.0, 1.0, 197.0, 99, 57035.0
+Li'b el-Merafib, 4, true, 1.0, 1.0, 395.0, 91, 55778.0
+Mu Torere, 2, true, 1.0, 1.0, 395.0, 198, 56820.0
+Pachesi, 4, false, 4.0, -1.0, 278.0, 71, 55965.0
+Daldosa, 2, true, 1.0, 1.0, 93.0, 49, 22923.0
+Kubuguza, 2, true, 1.0, 1.0, 69.0, 54, 42887.0
+Koruboddo, 2, true, 1.0, 1.0, 246.0, 123, 30178.0
+Fractal, 2, true, 1.0, 1.0, 7.0, 4, 56085.0
+Los Doze Canes, 2, false, 1.5, 0.0, 297.0, 149, -363.0
+Forcado, 2, false, 1.5, 0.0, 1000.0, 499, 47758.0
+Kiuthi, 2, false, 1.5, 0.0, 356.0, 166, 22168.0
+Dara, 2, false, 2.0, -1.0, 74.0, 33, 33432.0
+Ceelkoqyuqkoqiji, 2, false, 2.0, -1.0, 141.0, 66, 50842.0
+Bara Guti, 2, false, 2.0, -1.0, 58.0, 28, 58086.0
+Owela (Benguela), 2, false, 2.0, -1.0, 75.0, 36, 38919.0
+Fill A Pix, 1, false, 0.0, -1.0, 500.0, 500, -638.0
+Tavelspel, 2, true, 1.0, 1.0, 914.0, 460, 48966.0
+Ultimate Tic-Tac-Toe, 2, false, 1.5, 0.0, 63.0, 32, 24661.0
+Ultimate Chess, 2, true, 1.0, 1.0, 175.0, 89, 40948.0
+Kolowis Awithlaknannai, 2, false, 1.5, 0.0, 1000.0, 499, 31433.0
+Tawlbwrdd, 2, true, 1.0, 1.0, 15.0, 8, 49722.0
+Um el Banat, 2, false, 1.5, 0.0, 1000.0, 503, 49005.0
+Kotra, 2, true, 1.0, 1.0, 427.0, 218, -252.0
+Kapana Bona, 2, false, 1.5, 0.0, 246.0, 122, 57004.0
+Dice Chess, 2, true, 1.0, 1.0, 69.0, 35, 40430.0
+Chomp, 2, true, 1.0, 1.0, 10.0, 4, 59903.0
+Misoro Tsoro, 2, true, 1.0, 1.0, 77.0, 45, 33981.0
+Tsoro Yemutatu (Triangle), 2, true, 1.0, 1.0, 145.0, 73, 53521.0
+Zohn Ahl, 4, false, 2.5, 0.0, 2000.0, 502, 59963.0
+Atari Go, 2, true, 1.0, 1.0, 137.0, 69, 20254.0
+Press Ups, 2, false, 1.5, 0.0, 29.0, 15, 35541.0
+Frangieh, 2, true, 1.0, 1.0, 165.0, 85, 4555.0
+Sujjua, 2, true, 1.0, 1.0, 9.0, 5, 46134.0
+At-Tab wa-d-Dukk, 2, false, 2.0, -1.0, 257.0, 122, 38513.0
+Maleys, 2, false, 1.5, 0.0, 163.0, 82, 52265.0
+Connect Four, 2, true, 1.0, 1.0, 19.0, 10, 54624.0
+Msuwa wa Kunja, 2, true, 1.0, 1.0, 109.0, 64, 31879.0
+Frisian Draughts, 2, false, 2.0, -1.0, 103.0, 49, 44642.0
+Snowpaque, 2, false, 2.0, -1.0, 30.0, 14, 31599.0
+Rolit, 4, true, 1.0, 1.0, 64.0, 15, 46645.0
+Blue Nile, 2, false, 2.0, -1.0, 28.0, 13, 33495.0
+Katro, 2, true, 1.0, 1.0, 191.0, 147, 27837.0
+Fivalath, 2, true, 1.0, 1.0, 21.0, 11, 33745.0
+Djara-Badakh, 2, true, 1.0, 1.0, 227.0, 114, 53567.0
+Jacquet de Versailles, 2, false, 2.0, -1.0, 419.0, 198, -6.0
+Skirmish (GDL), 2, true, 1.0, 1.0, 100.0, 49, 24000.0
+Phase Chess, 2, false, 2.0, -1.0, 138.0, 68, 36622.0
+Six-Penny Madell, 2, true, 1.0, 1.0, 36.0, 21, 32120.0
+Killer Sudoku, 1, false, 0.0, -1.0, 500.0, 500, -287.0
+First Attack, 2, true, 1.0, 1.0, 7.0, 4, 32604.0
+Seega, 2, true, 1.0, 1.0, 321.0, 161, 23656.0
+Roll-Ing to Four, 2, true, 1.0, 1.0, 9.0, 5, 55939.0
+Bagh Batti, 2, false, 2.0, -1.0, 89.0, 37, -95.0
+El Perro, 2, true, 1.0, 1.0, 126.0, 65, 36631.0
+Icebreaker, 2, true, 1.0, 1.0, 65.0, 33, 28363.0
+Shatranj (Turkey), 2, false, 1.5, 0.0, 1000.0, 499, 30605.0
+Notakto, 2, true, 1.0, 1.0, 118.0, 58, 26854.0
+MughrabiehSubgame, 2, true, 1.0, 1.0, 197.0, 104, 3157.0
+Sprout-R-Out, 2, true, 1.0, 1.0, 42.0, 25, -1263.0
+Li'b al-Ghashim, 2, false, 1.5, 0.0, 1000.0, 1000, 0.0
+Fetach, 2, true, 1.0, 1.0, 71.0, 36, 48139.0
+Pachih, 4, false, 2.0, 0.33333333333333337, 2000.0, 95, 44037.0
+Seys Dos y As, 2, false, 2.0, -1.0, 232.0, 116, -113.0
+Make Muster, 2, true, 1.0, 1.0, 35.0, 18, 32958.0
+Pippinzip, 2, false, 2.0, -1.0, 124.0, 62, 14521.0
+Mankala, 2, true, 1.0, 1.0, 58.0, 28, 47072.0
+Ratio, 2, false, 2.0, -1.0, 12.0, 7, 59889.0
+Pong Hau K'i, 2, false, 1.5, 0.0, 1000.0, 499, 58574.0
+Adugo, 2, true, 1.0, 1.0, 333.0, 167, 54161.0
+Gioco dell'Orso, 2, false, 1.5, 0.0, 1000.0, 500, 47203.0
+Crossway, 2, true, 1.0, 1.0, 239.0, 120, 27663.0
+Tara, 2, false, 2.0, -1.0, 10.0, 4, 59745.0
+Shantarad, 2, false, 1.5, 0.0, 1000.0, 497, 47665.0
+Zola, 2, true, 1.0, 1.0, 45.0, 23, 32933.0
+Ssang-Ryouk, 2, false, 2.0, -1.0, 285.0, 141, 24399.0
+Cross, 2, true, 1.0, 1.0, 47.0, 24, 25470.0
+Breakthru, 2, true, 1.0, 1.0, 33.0, 13, 15102.0
+Tumbleweed, 2, false, 2.0, -1.0, 413.0, 206, -402.0
+Mraha wa Bwe, 2, false, 2.0, -1.0, 99.0, 50, 55176.0
+Yahoudieh, 2, true, 1.0, 1.0, 90.0, 47, 26260.0
+Akidada, 2, true, 1.0, 1.0, 215.0, 108, 38276.0
+Ciri Amber, 2, true, 1.0, 1.0, 21.0, 11, 27823.0
+Svensk Bradspel, 2, true, 1.0, 1.0, 444.0, 219, 9716.0
+Khamousiyya, 2, true, 1.0, 1.0, 449.0, 228, 21313.0
+Kalah, 2, false, 2.0, -1.0, 35.0, 19, 27585.0
+Tuk Tak, 2, false, 2.0, -1.0, 44.0, 21, 59089.0
+Ishighan, 4, true, 1.0, 1.0, 30.0, 12, 59997.0
+Liu Tsi, 2, true, 1.0, 1.0, 7.0, 4, 59899.0
+Njombwa, 2, false, 2.0, -1.0, 155.0, 58, 57109.0
+NoGo, 2, true, 1.0, 1.0, 75.0, 38, 28847.0
+Stratomic, 2, false, 2.0, -1.0, 182.0, 89, 34567.0
+Janes Soppi, 2, true, 1.0, 1.0, 10.0, 4, 59344.0
+Terhuchu, 2, true, 1.0, 1.0, 185.0, 93, 53003.0
+Queah Game, 2, true, 1.0, 1.0, 78.0, 39, 43397.0
+Shakhmaty, 2, false, 2.0, -1.0, 220.0, 109, 42570.0
+Four-Player Chess, 4, false, 2.0, 0.33333333333333337, 2000.0, 635, 46888.0
+Tuknanavuhpi, 2, false, 2.0, -1.0, 160.0, 79, 51595.0
+Msuwa, 2, true, 1.0, 1.0, 219.0, 132, 10930.0
+Tsun K'i, 2, true, 1.0, 1.0, 322.0, 164, 15696.0
+Mini Hexchess, 2, true, 1.0, 1.0, 31.0, 16, 48915.0
+Bao Ki Arabu (Zanzibar 2), 2, true, 1.0, 1.0, 106.0, 57, 37372.0
+Tshuba, 2, true, 1.0, 1.0, 23.0, 15, -1435.0
+DisPath, 2, true, 1.0, 1.0, 41.0, 21, 30040.0
+Tablo, 2, false, 1.5, 0.0, 1000.0, 500, 43354.0
+Onyx, 2, false, 2.0, -1.0, 148.0, 73, -80.0
+Toono, 2, true, 1.0, 1.0, 55.0, 28, 18787.0
+Selus, 2, false, 1.5, 0.0, 1000.0, 495, 53216.0
+Latin Square, 1, false, 0.0, -1.0, 500.0, 500, -28.0
+Gabata (Ghinda), 2, false, 2.0, -1.0, 258.0, 111, 44215.0
+Gabata (Ansaba), 2, false, 2.0, -1.0, 140.0, 63, 58681.0
+Four-Player Chaturanga (al-Biruni), 4, false, 2.5, 0.0, 2000.0, 515, 49716.0
+Siryu (Race), 4, false, 2.5, 0.0, 2000.0, 486, 57519.0
+Bison, 2, true, 1.0, 1.0, 83.0, 42, 19863.0
+Kisolo, 2, true, 1.0, 1.0, 216.0, 115, 2697.0
+Gavalata, 4, false, 4.0, -1.0, 225.0, 56, 46025.0
+Omega, 2, false, 2.0, -1.0, 60.0, 29, -534.0
+Pathway, 2, true, 1.0, 1.0, 28.0, 13, 32912.0
+Schuster, 2, false, 2.0, -1.0, 436.0, 219, -352.0
+Sher Bakr, 2, true, 1.0, 1.0, 168.0, 83, 57622.0
+Otep, 2, true, 1.0, 1.0, 179.0, 102, 31228.0
+Diagonal Hex, 2, true, 1.0, 1.0, 17.0, 9, 42790.0
+Obridje, 2, false, 1.5, 0.0, 49.0, 22, 40475.0
+Mapuche Game, 2, true, 1.0, 1.0, 65.0, 36, 56465.0
+Duidoku, 2, true, 1.0, 1.0, 63.0, 32, 30937.0
+Signum, 2, false, 2.0, -1.0, 91.0, 46, 30324.0
+Shi Liu Kan Tsiang Kun, 2, false, 2.0, -1.0, 10.0, 4, 59809.0
+Maze, 1, false, 0.0, -1.0, 7.0, 7, 0.0
+Do Guti, 2, false, 1.5, 0.0, 1000.0, 499, 58252.0
+Annuvin, 2, true, 1.0, 1.0, 73.0, 35, 18463.0
+Dam, 2, true, 1.0, 1.0, 742.0, 373, 30427.0
+Ring, 2, false, 2.0, -1.0, 94.0, 46, 55419.0
+Score Four, 2, false, 2.0, -1.0, 38.0, 18, 30512.0
+Imperial, 2, true, 1.0, 1.0, 404.0, 203, -77.0
+3D Tic-Tac-Toe, 2, true, 1.0, 1.0, 7.0, 4, 51840.0
+Oumoul Kono, 2, false, 1.5, 0.0, 1000.0, 499, 57389.0
+Hamiltonian Maze, 1, false, 0.0, -1.0, 24.0, 24, -192.0
+Dice Shogi, 2, true, 1.0, 1.0, 44.0, 22, 39062.0
+Tsoro (Additional Capture), 2, true, 1.0, 1.0, 27.0, 21, 41249.0
+Puhulmutu, 2, true, 1.0, 1.0, 150.0, 88, -46.0
+Chaturanga (14x14), 2, false, 1.5, 0.0, 1000.0, 499, -205.0
+Vai Lung Thlan, 2, false, 2.0, -1.0, 97.0, 49, 31300.0
+Unashogi, 2, false, 2.0, -1.0, 899.0, 447, -360.0
+Dama (Philippines), 2, true, 1.0, 1.0, 46.0, 25, 48844.0
+Halusa, 2, false, 1.5, 0.0, 1000.0, 499, 58934.0
+Lotus, 2, true, 1.0, 1.0, 77.0, 39, 25784.0
+Hat Diviyan Keliya, 2, false, 2.0, -1.0, 16.0, 7, 37521.0
+Aralzaa, 2, true, 1.0, 1.0, 419.0, 210, 57250.0
+Hund efter Hare (Thy), 2, false, 1.5, 0.0, 1000.0, 499, 56354.0
+Gamacha, 2, true, 1.0, 1.0, 95.0, 44, 36781.0
+Zuz Mel (5x5), 2, false, 2.0, -1.0, 82.0, 39, 55951.0
+Jungle, 2, true, 1.0, 1.0, 35.0, 18, 48468.0
+Shashki, 2, false, 2.0, -1.0, 44.0, 20, 58499.0
+Erherhe, 2, true, 1.0, 1.0, 310.0, 154, 25496.0
+Mewelad, 2, false, 1.5, 0.0, 1000.0, 510, 46806.0
+Buttons And Lights, 1, true, 1.0, 1.0, 6.0, 6, 59993.0
+Namudilakunze, 2, true, 1.0, 1.0, 140.0, 69, 37034.0
+Aksadyuta, 2, false, 1.5, 0.0, 2.0, 0, 60000.0
+Ringo, 2, false, 2.0, -1.0, 8.0, 3, 35128.0
+Sat Gol, 2, false, 2.0, -1.0, 40.0, 13, 52492.0
+Dum Blas, 2, false, 2.0, -1.0, 107.0, 52, 53351.0
+Symple, 2, true, 1.0, 1.0, 361.0, 171, -5881.0
+Sudoku Mine, 1, false, 0.0, -1.0, 500.0, 500, -548.0
+Shatren, 2, true, 1.0, 1.0, 67.0, 34, 39125.0
+XII Scripta, 2, true, 1.0, 1.0, 457.0, 223, 14793.0
+Diagonals, 2, true, 1.0, 1.0, 64.0, 31, 43333.0
+Slitherlink, 1, false, 0.0, -1.0, 500.0, 500, -273.0
+Renard et les Poules, 2, true, 1.0, 1.0, 271.0, 131, 52317.0
+Janes Soppi (Symmetrical), 2, true, 1.0, 1.0, 301.0, 151, 56388.0
+Mangala (Turkey), 2, false, 2.0, -1.0, 63.0, 32, 25405.0
+Tsatsarandi, 2, true, 1.0, 1.0, 13.0, 7, 59209.0
+Baghchal, 2, false, 2.0, -1.0, 162.0, 80, 25121.0
+Grasshopper, 2, true, 1.0, 1.0, 981.0, 495, 13301.0
+Bagha Guti, 2, true, 1.0, 1.0, 259.0, 130, 31845.0
+Pic, 5, true, 1.0, 1.0, 115.0, 22, 51962.0
+Tablas Astronomias, 7, false, 2.0, 0.6666666666666667, 452.0, 137, -276.0
+Leyla Gobale (Gabradarre), 2, false, 1.5, 0.0, 176.0, 34, 50124.0
+Madelinette, 2, true, 1.0, 1.0, 495.0, 248, 58325.0
+Paintbucket, 2, true, 1.0, 1.0, 23.0, 12, 25196.0
+Shatranj, 2, false, 2.0, -1.0, 195.0, 96, 26399.0
+Greater Even Loss, 2, false, 2.0, -1.0, 9.0, 5, 59996.0
+Wagner, 2, false, 2.0, -1.0, 4.0, 1, 60000.0
+Coil, 2, false, 2.0, -1.0, 106.0, 53, -1159.0
+Dabuda, 2, true, 1.0, 1.0, 65.0, 28, 52498.0
+Chongka', 2, true, 1.0, 1.0, 138.0, 66, 39014.0
+Makonn, 2, true, 1.0, 1.0, 191.0, 107, 22969.0
+Shogi Puzzle, 2, true, 1.0, 1.0, 1.0, 1, 0.0
+Jimafesosh, 2, false, 1.5, 0.0, 1000.0, 527, 55235.0
+Okwe (Achalla), 2, true, 1.0, 1.0, 38.0, 18, 34475.0
+JulbaharSubgame, 2, true, 1.0, 1.0, 186.0, 94, 14270.0
+Pancha Keliya, 2, true, 1.0, 1.0, 156.0, 81, 27801.0
+Refugia, 2, true, 1.0, 1.0, 29.0, 15, 27842.0
+Order and Chaos, 2, true, 1.0, 1.0, 13.0, 7, 41031.0
+Daldos, 2, true, 1.0, 1.0, 662.0, 331, -102.0
+Residuel, 2, true, 1.0, 1.0, 36.0, 17, 27221.0
+Level Chess, 4, false, 2.0, 0.33333333333333337, 2000.0, 613, 47675.0
+Emperador, 2, true, 1.0, 1.0, 404.0, 203, -349.0
+Marelle Quadruple, 2, false, 2.0, -1.0, 76.0, 37, 32911.0
+Azigo, 2, false, 1.5, 0.0, 1000.0, 499, 46499.0
+La Dama, 2, false, 2.0, -1.0, 43.0, 21, 54016.0
+Tablut, 2, true, 1.0, 1.0, 59.0, 30, 16886.0
+Nine Men's Morris, 2, true, 1.0, 1.0, 57.0, 30, 26465.0
+Triad, 3, true, 1.0, 1.0, 29.0, 9, 35503.0
+Sittuyin, 2, false, 2.0, -1.0, 90.0, 43, 56396.0
+Kawade Kelia, 4, true, 1.0, 1.0, 545.0, 136, 49257.0
+Shatranj (Algeria), 2, true, 1.0, 1.0, 37.0, 19, 49507.0
+San-Noku-Narabe, 2, true, 1.0, 1.0, 159.0, 80, 53068.0
+Cab e Quinal, 2, true, 1.0, 1.0, 433.0, 217, -239.0
+Kpo, 2, true, 1.0, 1.0, 45.0, 23, 37111.0
+Bagh Bandi, 2, true, 1.0, 1.0, 382.0, 198, 325.0
+Triodi (Diagonal), 2, false, 2.0, -1.0, 58.0, 26, 16446.0
+Isolation, 2, false, 2.0, -1.0, 72.0, 35, -453.0
+Tsoro (Reentered Captures), 2, false, 1.5, 0.0, 1000.0, 556, 50492.0
+Chains of Thought, 2, true, 1.0, 1.0, 24.0, 11, 36271.0
+Thaayam, 4, false, 2.0, 0.33333333333333337, 507.0, 131, 49617.0
+Orissa Tiger Game (One Tiger), 2, true, 1.0, 1.0, 849.0, 425, -400.0
+Jeson Zam, 2, true, 1.0, 1.0, 44.0, 26, 36134.0
+Tron, 2, true, 1.0, 1.0, 52.0, 25, 36808.0
+Los Alamos Chess, 2, false, 2.0, -1.0, 30.0, 14, 44764.0
+Epelle, 2, true, 1.0, 1.0, 209.0, 105, 55383.0
+Refskak, 2, false, 2.0, -1.0, 50.0, 24, 44850.0
+Kakuro, 1, false, 0.0, -1.0, 500.0, 500, -1858.0
+Overflow, 2, true, 1.0, 1.0, 77.0, 39, 21850.0
+Gala, 2, false, 1.5, 0.0, 1000.0, 499, 59159.0
+Zurgaan Tal, 2, false, 2.0, -1.0, 142.0, 64, 50661.0
+Addi Kul, 2, false, 1.5, 0.0, 1000.0, 499, 44148.0
+Leap Frog, 2, true, 1.0, 1.0, 257.0, 129, 53164.0
+Nein Ari, 1, true, 1.0, 1.0, 3.0, 3, 59988.0
+Three-Player Hex, 3, true, 1.0, 1.0, 17.0, 7, 29178.0
+Komikan, 2, false, 1.5, 0.0, 84.0, 41, 23325.0
+Mbelele, 2, false, 2.0, -1.0, 106.0, 36, 55225.0
+Canadian Draughts, 2, false, 2.0, -1.0, 169.0, 81, 49448.0
+Kiust Oyun, 2, false, 1.5, 0.0, 1000.0, 507, 55038.0
+Three Men's Morris, 2, true, 1.0, 1.0, 7.0, 4, 59917.0
+Fanorona Telo, 2, true, 1.0, 1.0, 7.0, 4, 59914.0
+Bheri Bakhri, 2, true, 1.0, 1.0, 160.0, 88, 39252.0
+Pulijudamu, 2, true, 1.0, 1.0, 243.0, 122, 34681.0
+Selus (Massawa), 2, false, 1.5, 0.0, 1000.0, 526, 51039.0
+Iyogh, 2, false, 2.0, -1.0, 825.0, 413, -209.0
+La Yagua, 2, true, 1.0, 1.0, 71.0, 36, 26758.0
+Fergen Gobale, 2, false, 2.0, -1.0, 60.0, 31, 45978.0
+Squadro, 2, false, 2.0, -1.0, 108.0, 53, 28745.0
+Glinski Chess, 2, true, 1.0, 1.0, 35.0, 18, 53943.0
+Greatest Loss, 2, false, 2.0, -1.0, 15.0, 8, 59866.0
+Hewakam Keliya, 2, true, 1.0, 1.0, 338.0, 168, 46624.0
+Kharbaga, 2, true, 1.0, 1.0, 92.0, 45, 36932.0
+Dai Hasami Shogi, 2, true, 1.0, 1.0, 55.0, 28, 19325.0
+Njombwa (One Counter), 2, false, 2.0, -1.0, 107.0, 44, 58951.0
+Crand, 2, false, 1.5, 0.0, 1000.0, 499, 2790.0
+Callanish, 2, true, 1.0, 1.0, 38.0, 18, 1526.0
+Chase, 1, false, 0.0, -1.0, 3.0, 3, -42.0
+Hoshi, 1, false, 0.0, -1.0, 500.0, 500, -2.0
+Damspel, 2, true, 1.0, 1.0, 48.0, 25, 54311.0
+Bay Khom, 2, false, 2.0, -1.0, 63.0, 28, 53024.0
+Ouk Chatrang, 2, true, 1.0, 1.0, 61.0, 31, 57678.0
+Mono, 2, true, 1.0, 1.0, 61.0, 31, 30492.0
+Dubblets, 2, true, 1.0, 1.0, 38.0, 27, -5676.0
+Don't Mosey and The Last Scavenger, 2, true, 1.0, 1.0, 17.0, 9, 29184.0
+Jeson Mor, 2, true, 1.0, 1.0, 3.0, 2, 32430.0
+Sute, 2, false, 1.5, 0.0, 1000.0, 499, 39462.0
+Galatjang, 2, false, 1.5, 0.0, 1000.0, 462, 54086.0
+Tepong, 2, false, 1.5, 0.0, 1000.0, 499, -87.0
+Tavan Tal, 2, false, 2.0, -1.0, 133.0, 60, 48356.0
+Siryu (War), 2, true, 1.0, 1.0, 420.0, 202, 49246.0
+Currierspiel, 2, false, 2.0, -1.0, 210.0, 104, 50646.0
+Y (Hex), 2, true, 1.0, 1.0, 35.0, 18, 40774.0
+Laomuzhu, 2, false, 1.5, 0.0, 1000.0, 548, 55420.0
+Pasang, 2, false, 1.5, 0.0, 115.0, 55, 15203.0
+Reversi, 2, true, 1.0, 1.0, 63.0, 32, 31114.0
+Bosh, 2, false, 1.5, 0.0, 1000.0, 470, 58503.0
+Kaua Dorki, 2, false, 2.0, -1.0, 38.0, 18, 58246.0
+Huli-Mane Ata, 2, true, 1.0, 1.0, 26.0, 12, 49243.0
+Tauru, 2, true, 1.0, 1.0, 40.0, 25, 8071.0
+Sig (El Oued), 4, true, 1.0, 1.0, 980.0, 176, 59980.0
+Dama (Comoros), 2, false, 2.0, -1.0, 219.0, 110, 50878.0
+Fang, 2, true, 1.0, 1.0, 370.0, 196, 15838.0
+Taikyoku Shogi, 2, false, 1.5, 0.0, 1000.0, 499, -70.0
+Hawalis, 2, true, 1.0, 1.0, 196.0, 97, 20916.0
+Chiana wa Bwalo, 2, false, 2.0, -1.0, 410.0, 204, 31950.0
+Choro (Acholi), 2, true, 1.0, 1.0, 56.0, 42, 32752.0
+Suffragetto, 2, false, 1.5, 0.0, 1000.0, 489, 37939.0
+Chaturanga (al-Adli), 2, true, 1.0, 1.0, 113.0, 57, 57300.0
+Chinese Checkers, 6, false, 3.5, 0.0, 3000.0, 1253, 42318.0
+Temeen Tavag, 2, false, 1.5, 0.0, 1000.0, 499, 57441.0
+MiniXiangqi, 2, true, 1.0, 1.0, 101.0, 51, 19157.0
+Chess, 2, false, 1.5, 0.0, 549.0, 275, -228.0
+Master Y, 2, true, 1.0, 1.0, 25.0, 13, 26919.0
+Tandems, 2, true, 1.0, 1.0, 585.0, 294, 31197.0
+Spline, 2, false, 2.0, -1.0, 24.0, 11, 42980.0
+Padaivettu, 2, true, 1.0, 1.0, 509.0, 255, 32652.0
+Mwambulula, 2, true, 1.0, 1.0, 745.0, 386, 48686.0
+Nzengue (Small), 2, false, 1.5, 0.0, 8.0, 3, 59546.0
+Rampart, 2, true, 1.0, 1.0, 217.0, 109, 27367.0
+Xonin Shatar (Simple), 2, false, 2.0, -1.0, 94.0, 41, 50636.0
+Camelot, 2, true, 1.0, 1.0, 363.0, 178, 51294.0
+Mangola, 2, true, 1.0, 1.0, 116.0, 97, 43575.0
+Laram Wali, 2, false, 2.0, -1.0, 156.0, 77, 56611.0
+Ram Tir, 2, true, 1.0, 1.0, 137.0, 69, 57412.0
+Gasetavl (Gedved), 2, true, 1.0, 1.0, 115.0, 58, 58596.0
+Shatranj al-Mustatila, 2, true, 1.0, 1.0, 265.0, 133, 31277.0
+Lifeline, 2, false, 2.0, -1.0, 140.0, 69, 22224.0
+Double-Run Stone, 2, true, 1.0, 1.0, 23.0, 12, 19057.0
+El Cazador, 2, false, 2.0, -1.0, 79.0, 40, 58266.0
+Center, 2, true, 1.0, 1.0, 57.0, 29, -1526.0
+Dama (Alquerque), 2, true, 1.0, 1.0, 47.0, 25, 43717.0
+Fanorona, 2, false, 2.0, -1.0, 84.0, 40, 42602.0
+Loop Xiangqi, 2, false, 2.0, -1.0, 390.0, 194, -171.0
+Labirintus, 1, false, 0.0, -1.0, 500.0, 500, 0.0
+Hex Amazons, 2, false, 2.0, -1.0, 163.0, 80, 20331.0
+Elea, 2, false, 2.0, -1.0, 61.0, 31, 44920.0
+Ako Okwe, 2, false, 2.0, -1.0, 44.0, 21, 48881.0
+Connect6, 2, true, 1.0, 1.0, 137.0, 69, 24934.0
+Tai Shogi, 2, false, 1.5, 0.0, 1000.0, 499, 34797.0
+Shisima, 2, true, 1.0, 1.0, 199.0, 100, 52603.0
+Jeu de Renard, 2, false, 1.5, 0.0, 1000.0, 499, 47885.0
+Barjis, 4, false, 3.0, -0.33333333333333326, 447.0, 130, 51497.0
+Nedilmarth, 2, true, 1.0, 1.0, 15.0, 8, 48658.0
+Walak-Pussa, 2, true, 1.0, 1.0, 867.0, 424, 4182.0
+Jekab, 2, true, 1.0, 1.0, 50.0, 27, 58317.0
+Mehen, 2, false, 1.5, 0.0, 1000.0, 499, 38954.0
+Tap Urdy, 2, false, 2.0, -1.0, 85.0, 42, 32957.0
+Makvoer, 2, true, 1.0, 1.0, 41.0, 21, 53459.0
+Santaraj, 2, true, 1.0, 1.0, 121.0, 61, 47837.0
+Egara Guti, 2, true, 1.0, 1.0, 271.0, 136, -17.0
+Choro (Lango), 2, true, 1.0, 1.0, 31.0, 27, 57493.0
+Yoin, 2, true, 1.0, 1.0, 127.0, 64, 26520.0
+Sig wa Duqqan (Houmt Taourit), 4, true, 1.0, 1.0, 544.0, 122, 59976.0
+Koro, 2, true, 1.0, 1.0, 300.0, 149, 52643.0
+Misoro Tsoro (Additional Capture), 2, true, 1.0, 1.0, 36.0, 24, 25424.0
+Seesaw Draughts, 2, false, 2.0, -1.0, 58.0, 27, 43362.0
+Jiu Zi Xian Qi, 1, true, 1.0, 1.0, 9.0, 9, 59812.0
+Chaturanga (Kridakausalya), 2, false, 2.0, -1.0, 210.0, 104, 11825.0
+Russian Fortress Chess, 4, false, 2.5, 0.0, 2000.0, 499, -28.0
+Flowers, 2, true, 1.0, 1.0, 7.0, 4, 34935.0
+Chisolo, 2, false, 2.0, -1.0, 69.0, 26, 57688.0
+Bravalath, 2, true, 1.0, 1.0, 17.0, 9, 55079.0
+Dig Dig, 2, false, 2.0, -1.0, 97.0, 44, 55498.0
+Juroku Musashi, 2, false, 2.0, -1.0, 142.0, 70, 53655.0
+Sumi Naga Game (War), 2, true, 1.0, 1.0, 106.0, 54, 27736.0
+Yovodji, 2, false, 1.5, 0.0, 57.0, 30, 38977.0
+Acedrex (Alfonso), 2, true, 1.0, 1.0, 77.0, 39, 41410.0
+Cage, 2, true, 1.0, 1.0, 149.0, 77, 22737.0
+Wrigglers Squared, 2, false, 2.0, -1.0, 95.0, 48, 36243.0
+Quela, 2, false, 1.5, 0.0, 1000.0, 499, 45777.0
+Adjiboto, 2, true, 1.0, 1.0, 49.0, 25, 39656.0
+Cercar La Liebre, 2, false, 2.0, -1.0, 92.0, 45, 3171.0
+Gomoku, 2, true, 1.0, 1.0, 11.0, 6, 56471.0
+Tsoro Yemutatu, 2, true, 1.0, 1.0, 141.0, 71, 56209.0
+Pahada Keliya, 4, false, 2.5, 0.0, 2000.0, 513, 51901.0
+Insanity, 1, true, 1.0, 1.0, 28.0, 28, 48669.0
+Katra, 2, false, 1.5, 0.0, 1000.0, 515, -399.0
+Louis XVI, 2, true, 1.0, 1.0, 85.0, 43, 41844.0
+Tower of Hanoi, 1, true, 1.0, 1.0, 7.0, 7, 59946.0
+Doblet, 2, false, 2.0, -1.0, 163.0, 80, -310.0
+Fevga, 2, false, 2.0, -1.0, 224.0, 114, 8861.0
+Fibonacci Nim, 2, false, 2.0, -1.0, 53.0, 27, 49357.0
+Claustro, 2, true, 1.0, 1.0, 20.0, 9, 55000.0
+Katra Boaoaka, 2, false, 2.0, -1.0, 83.0, 9, 58488.0
+Windflowers, 2, false, 2.0, -1.0, 44.0, 21, 48932.0
+Loop Chess, 2, false, 2.0, -1.0, 107.0, 53, 31550.0
+Sudoku, 1, false, 0.0, -1.0, 500.0, 500, -1978.0
+Wolf und Schaaf, 2, true, 1.0, 1.0, 43.0, 22, 24723.0
+Gundru, 2, false, 1.5, 0.0, 1000.0, 499, -141.0
+Shah, 2, true, 1.0, 1.0, 992.0, 513, 26218.0
+Contagion, 2, true, 1.0, 1.0, 73.0, 33, 43335.0
+Koti Keliya, 2, true, 1.0, 1.0, 49.0, 25, 546.0
+Sig wa Duqqan (Houmt al-Arbah), 4, true, 1.0, 1.0, 498.0, 142, 59956.0
+Main Pacheh, 4, false, 3.0, -0.33333333333333326, 490.0, 141, 42762.0
+Manalath, 2, true, 1.0, 1.0, 11.0, 6, 24734.0
+Panchi, 2, false, 2.0, -1.0, 263.0, 132, 20007.0
+Satoel, 2, false, 1.5, 0.0, 1000.0, 499, 34307.0
+Ryakati, 2, false, 1.5, 0.0, 1000.0, 783, 51545.0
+Pushing Me XO, 2, true, 1.0, 1.0, 66.0, 34, 42933.0
+Tic-Tac-Chess, 2, false, 2.0, -1.0, 210.0, 104, -661.0
+Ikibuguzo (Opening 1), 2, false, 2.0, -1.0, 77.0, 27, 53801.0
+Sabou'iyya, 2, false, 2.0, -1.0, 182.0, 90, 21809.0
+The SmallHolder, 2, true, 1.0, 1.0, 33.0, 17, 51441.0
+Gauntlet, 2, true, 1.0, 1.0, 31.0, 16, 34714.0
+Quad Wrangle, 2, true, 1.0, 1.0, 122.0, 60, 30122.0
+Kay, 2, false, 2.0, -1.0, 370.0, 195, -332.0
+Yaguarete Kora, 2, true, 1.0, 1.0, 91.0, 46, 29940.0
+Tre Guti, 2, false, 2.0, -1.0, 22.0, 10, 59681.0
+Chaturanga, 2, false, 2.0, -1.0, 219.0, 109, 23641.0
+Chonpa, 4, true, 1.0, 1.0, 372.0, 89, 11075.0
+Grande Acedrex, 2, false, 1.5, 0.0, 1000.0, 499, 20642.0
+Buffa de Baldrac, 2, false, 2.0, -1.0, 316.0, 157, -654.0
+Triple Tangle, 2, false, 2.0, -1.0, 115.0, 57, 31348.0
+Greater, 2, false, 1.5, 0.0, 18.0, 8, 59721.0
+Puluc, 2, true, 1.0, 1.0, 89.0, 45, -298.0
+Keryo-Pente, 2, false, 2.0, -1.0, 60.0, 29, 41182.0
+Raja Pasu Mandiri, 3, false, 1.5, 0.5, 1500.0, 752, 44698.0
+Nerenchi Keliya, 2, false, 2.0, -1.0, 60.0, 23, 36646.0
+Jacquet, 2, true, 1.0, 1.0, 501.0, 251, -72.0
+Ovalhu, 2, false, 1.5, 0.0, 1000.0, 506, -306.0
+Driesticken, 2, false, 2.0, -1.0, 98.0, 48, -525.0
+Atomic Chess, 2, true, 1.0, 1.0, 15.0, 8, 39435.0
+Sik, 4, true, 1.0, 1.0, 345.0, 87, 59990.0
+MaxMatch, 2, true, 1.0, 1.0, 28.0, 13, 28900.0
+20 Squares, 2, true, 1.0, 1.0, 117.0, 60, 41147.0
+Dash Guti, 2, false, 2.0, -1.0, 78.0, 38, 56321.0
+Quarto, 2, false, 1.5, 0.0, 36.0, 17, 5827.0
+Bam Blang Beh Khla, 2, false, 2.0, -1.0, 159.0, 80, -86.0
+Squaro, 1, false, 0.0, -1.0, 500.0, 500, -67.0
+To Kinegi tou Lagou, 2, false, 1.5, 0.0, 1000.0, 500, 48005.0
+Sig (Tozeur), 2, false, 2.0, -1.0, 186.0, 92, 53339.0
+Pachgarhwa, 2, true, 1.0, 1.0, 17.0, 15, 38771.0
+Nuktagaq, 2, true, 1.0, 1.0, 263.0, 132, 28177.0
+Chaupar, 4, false, 3.0, -0.33333333333333326, 301.0, 77, 15361.0
+Ikibuguzo (Opening 2), 2, false, 2.0, -1.0, 185.0, 90, 41477.0
+Yovodi, 2, true, 1.0, 1.0, 92.0, 44, 29251.0
+Brood, 2, true, 1.0, 1.0, 63.0, 32, 44744.0
+Backgammon, 2, false, 2.0, -1.0, 398.0, 195, -186.0
+Lau Kata Kati, 2, false, 2.0, -1.0, 104.0, 51, 56533.0
+Moruba, 2, false, 2.0, -1.0, 129.0, 65, 41522.0
+Tchela, 2, true, 1.0, 1.0, 82.0, 42, 32181.0
+Nebakuthana, 4, false, 3.0, -0.33333333333333326, 590.0, 131, 59990.0
+Agon, 2, false, 2.0, -1.0, 940.0, 469, -13.0
+Sig (El Oued Capture), 2, true, 1.0, 1.0, 39.0, 21, 38270.0
+Tab, 2, true, 1.0, 1.0, 53.0, 24, 24272.0
+Wure Dune, 2, true, 1.0, 1.0, 173.0, 87, 44444.0
+Len Cua Kin Ngoa, 2, true, 1.0, 1.0, 41.0, 21, 20914.0
+Crusade, 2, true, 1.0, 1.0, 36.0, 17, 31950.0
+En Gehe, 2, true, 1.0, 1.0, 713.0, 390, 22064.0
+Li'b al-'Aqil, 2, false, 1.5, 0.0, 1000.0, 996, 8039.0
+Aj T'iwil, 6, false, 4.0, -0.20000000000000018, 478.0, 86, 48959.0
+Conspirateurs, 2, false, 1.5, 0.0, 1000.0, 493, 40103.0
+Hops-a-Daisy Generalized, 2, true, 1.0, 1.0, 20.0, 11, 46088.0
+Fenix, 2, false, 2.0, -1.0, 164.0, 82, 30625.0
+Chungcajon, 2, false, 2.0, -1.0, 248.0, 119, 35045.0
+Oware, 2, true, 1.0, 1.0, 93.0, 47, 54249.0
+Susan, 2, true, 1.0, 1.0, 33.0, 17, 31850.0
+Aj Sakakil, 6, true, 1.0, 1.0, 1917.0, 265, 54644.0
+Anti-Knight Sudoku, 1, false, 0.0, -1.0, 500.0, 500, -1132.0
+Lam Waladach, 2, false, 1.5, 0.0, 1000.0, 506, 52921.0
+Nei-Pat-Kono, 2, false, 2.0, -1.0, 76.0, 37, 55121.0
+Chandaraki, 2, true, 1.0, 1.0, 65.0, 33, 48355.0
+Shiva, 2, false, 2.0, -1.0, 104.0, 51, -74.0
+English Draughts, 2, true, 1.0, 1.0, 278.0, 140, 524.0
+Gygoreg, 2, true, 1.0, 1.0, 209.0, 105, 7103.0
+Diamond, 2, false, 2.0, -1.0, 12.0, 5, 56762.0
+Jumping Beans, 2, false, 2.0, -1.0, 89.0, 40, 43905.0
+Cascades, 2, false, 2.0, -1.0, 97.0, 52, 36435.0
+Veloop (Square), 2, true, 1.0, 1.0, 57.0, 29, 44945.0
+Damenspiel, 2, false, 2.0, -1.0, 113.0, 56, -1166.0
+Manu, 2, true, 1.0, 1.0, 289.0, 145, 33943.0
+Kioz, 2, true, 1.0, 1.0, 666.0, 349, 15414.0
+Flower Shop, 2, true, 1.0, 1.0, 59.0, 30, 44584.0
+LastEdge, 2, true, 1.0, 1.0, 19.0, 10, 54981.0
+Tama, 2, false, 2.0, -1.0, 146.0, 70, 57891.0
+Gifia, 2, false, 1.5, 0.0, 1000.0, 499, 48078.0
+Bechi, 2, false, 2.0, -1.0, 578.0, 288, -296.0
+N-Mesh, 2, true, 1.0, 1.0, 5.0, 3, 58471.0
+Gabata (Aksum), 2, false, 1.5, 0.0, 1000.0, 520, 54215.0
+Yonin Shogi, 4, false, 3.0, -0.33333333333333326, 313.0, 65, -596.0
+HexGo, 2, true, 1.0, 1.0, 49.0, 25, 47445.0
+Tic-Tac-Toe Misere, 2, false, 1.5, 0.0, 11.0, 6, 59836.0
+Ratti-Chitti-Bakri, 2, false, 1.5, 0.0, 1000.0, 499, 33477.0
+Ecosys, 2, true, 1.0, 1.0, 71.0, 36, 29690.0
+De Vasa Chess, 2, true, 1.0, 1.0, 59.0, 30, 46902.0
+El Zorro, 2, false, 2.0, -1.0, 130.0, 64, 58006.0
+Lombard Chess, 2, true, 1.0, 1.0, 601.0, 301, 35025.0
+Picaria, 2, true, 1.0, 1.0, 195.0, 98, 5080.0
+I, 2, true, 1.0, 1.0, 21.0, 11, 40124.0
+Kolica Atarakua, 2, true, 1.0, 1.0, 73.0, 37, 44584.0
+Ahtarah Guti, 2, true, 1.0, 1.0, 396.0, 199, 9662.0
+Dorvolz, 2, false, 1.5, 0.0, 291.0, 146, 29879.0
+Provincial, 2, true, 1.0, 1.0, 379.0, 190, -75.0
+Sig (Mzab), 2, false, 1.5, 0.0, 1000.0, 499, 34311.0
+Yucebao, 2, false, 1.5, 0.0, 1000.0, 491, -339.0
+Woli, 2, false, 2.0, -1.0, 119.0, 60, 55791.0
+Chaturanga (12x12), 2, true, 1.0, 1.0, 329.0, 165, 21844.0
+Kotu Baendum, 2, false, 2.0, -1.0, 331.0, 107, 43162.0
+Brain Coral, 2, true, 1.0, 1.0, 33.0, 17, 30468.0
+Rimau-Rimau (One Tiger), 2, true, 1.0, 1.0, 312.0, 158, 23756.0
+Spots, 2, true, 1.0, 1.0, 15.0, 8, 56446.0
+Hackenbush, 2, false, 2.0, -1.0, 9.0, 5, 59917.0
+Issiren, 2, false, 1.5, 0.0, 1000.0, 486, 37765.0
+Crossline, 2, true, 1.0, 1.0, 13.0, 7, 29003.0
+Dongjintian, 2, true, 1.0, 1.0, 44.0, 25, 26330.0
+Three Musketeers, 2, true, 1.0, 1.0, 39.0, 20, 51489.0
+Coc-Inbert, 2, false, 2.0, -1.0, 290.0, 146, -20.0
+Aqrad, 2, true, 1.0, 1.0, 82.0, 49, 31997.0
+Amazons, 2, false, 2.0, -1.0, 136.0, 67, 9268.0
+Tapata, 2, true, 1.0, 1.0, 65.0, 31, 41997.0
+Wouri, 2, false, 2.0, -1.0, 521.0, 263, 55615.0
+Felli, 2, false, 2.0, -1.0, 22.0, 10, 59590.0
+Gasetavl, 2, true, 1.0, 1.0, 75.0, 38, 59152.0
+El Mundo, 4, true, 1.0, 1.0, 740.0, 158, 14082.0
+Shatranj al-Husun, 2, true, 1.0, 1.0, 159.0, 80, 54887.0
+Tenjiku Shogi, 2, false, 2.0, -1.0, 684.0, 335, -95.0
+Gabata (Wuqro), 2, false, 2.0, -1.0, 317.0, 153, 44328.0
+Buudal, 2, true, 1.0, 1.0, 81.0, 41, 51060.0
+Tic-Tac-Toe, 2, false, 1.5, 0.0, 11.0, 6, 59950.0
+Nsumbi, 2, false, 2.0, -1.0, 333.0, 151, -770.0
+Chatrang, 4, true, 1.0, 1.0, 101.0, 25, 53009.0
+Jostle, 2, true, 1.0, 1.0, 33.0, 17, 29758.0
+Ntyenge, 2, true, 1.0, 1.0, 79.0, 40, 39676.0
+So Long Sucker, 4, true, 1.0, 1.0, 110.0, 32, 31523.0
+Khutka Boia, 2, true, 1.0, 1.0, 741.0, 380, 50864.0
+Bamboo, 2, false, 2.0, -1.0, 52.0, 25, 30500.0
+Lam Pusri, 2, false, 2.0, -1.0, 106.0, 50, 56946.0
+Persian Chess with a Queen, 2, true, 1.0, 1.0, 103.0, 52, 54335.0
+Dodo, 2, true, 1.0, 1.0, 99.0, 50, 31622.0
+Ketch-Dolt, 2, false, 2.0, -1.0, 17.0, 9, -260.0
+ArdRi, 2, true, 1.0, 1.0, 81.0, 41, 41010.0
+One-Eyed Go, 2, true, 1.0, 1.0, 315.0, 158, 31118.0
+Go, 2, true, 1.0, 1.0, 476.0, 237, 16713.0
+Flume, 2, false, 2.0, -1.0, 49.0, 24, 48498.0
+Netted, 2, true, 1.0, 1.0, 3.0, 2, 58830.0
+Ataxx, 2, true, 1.0, 1.0, 131.0, 66, 22030.0
+Setichch, 6, true, 1.0, 1.0, 863.0, 141, 14408.0
+Garanguet, 2, true, 1.0, 1.0, 430.0, 223, -281.0
+Natt Klab ash-Shawk, 2, false, 2.0, -1.0, 78.0, 38, 57641.0
+Takuzu, 1, false, 0.0, -1.0, 500.0, 500, -555.0
+Kaooa, 2, false, 2.0, -1.0, 16.0, 7, 33944.0
+Bao Kiswahili (East Africa), 2, true, 1.0, 1.0, 4.0, 4, 58500.0
+Redstone, 2, true, 1.0, 1.0, 342.0, 170, -573.0
+Six Men's Morris, 2, false, 2.0, -1.0, 24.0, 9, 54998.0
+Marelle Triple, 2, true, 1.0, 1.0, 57.0, 32, 22362.0
+Um el Tuweisat, 2, true, 1.0, 1.0, 53.0, 27, 22993.0
+Sig (Mauritania), 4, true, 1.0, 1.0, 1645.0, 422, 54061.0
+Alea Evangelii, 2, true, 1.0, 1.0, 73.0, 37, 48649.0
+Baqura, 2, true, 1.0, 1.0, 74.0, 36, 41432.0
+Shatranj (Iraq), 2, false, 2.0, -1.0, 16.0, 7, 55764.0
+Shatranj (12x12), 2, false, 1.5, 0.0, 1000.0, 499, -26.0
+Morpharaoh, 2, true, 1.0, 1.0, 27.0, 14, 34853.0
+Das Bohnenspiel, 2, true, 1.0, 1.0, 43.0, 22, 39819.0
+Gala (Buginese), 2, true, 1.0, 1.0, 578.0, 288, 39333.0
+Six Insect Game, 2, false, 2.0, -1.0, 72.0, 35, 56454.0
+Nim, 2, true, 1.0, 1.0, 28.0, 14, 53108.0
+Five Men's Morris, 2, false, 2.0, -1.0, 29.0, 12, 38523.0
+Quiela, 2, false, 1.5, 0.0, 1000.0, 499, -288.0
+Breakthrough Chess, 2, true, 1.0, 1.0, 35.0, 18, 51935.0
+Moxie, 2, true, 1.0, 1.0, 17.0, 9, 56305.0
+Conflagration and Keep-a-riding, 2, true, 1.0, 1.0, 40.0, 19, 49917.0
+Fallas, 2, false, 2.0, -1.0, 148.0, 74, -532.0
+EinStein Wurfelt Nicht, 2, true, 1.0, 1.0, 25.0, 13, 32113.0
+Bao, 2, true, 1.0, 1.0, 17.0, 10, 49267.0
+Lewthwaite's Game, 2, false, 2.0, -1.0, 20.0, 9, 59914.0
+Shobu, 2, false, 2.0, -1.0, 68.0, 33, 8361.0
+Unachess, 2, true, 1.0, 1.0, 79.0, 40, 46990.0
+Tsoro Yemutwelve, 2, true, 1.0, 1.0, 91.0, 48, 14403.0
+Ad elta stelpur, 2, true, 1.0, 1.0, 24.0, 14, 45943.0
+Zamma, 2, true, 1.0, 1.0, 228.0, 113, 37998.0
+Bouge Shodra, 2, false, 2.0, -1.0, 610.0, 304, -2.0
+Bombardment, 2, true, 1.0, 1.0, 41.0, 21, 41146.0
+Meusueb, 2, false, 1.5, 0.0, 279.0, 145, -102.0
+Omangunta Peeta, 2, false, 1.5, 0.0, 1000.0, 521, 53886.0
+Awangdu, 2, false, 2.0, -1.0, 202.0, 100, 8245.0
+Manifold, 2, false, 2.0, -1.0, 58.0, 27, 45656.0
+Qelat, 2, false, 1.5, 0.0, 1000.0, 473, 49210.0
+OddEvenTree, 2, true, 1.0, 1.0, 7.0, 4, 59915.0
+Tsukkalavde, 2, true, 1.0, 1.0, 243.0, 122, 20780.0
+Agilidade, 2, false, 1.5, 0.0, 16.0, 7, 55913.0
+Uturu Uturu Kaida, 7, false, 7.0, -1.0, 134.0, 22, 59997.0
+Diagonals (2002), 2, false, 2.0, -1.0, 56.0, 27, 36339.0
+Sarvatobhadra, 2, false, 2.0, -1.0, 27.0, 14, 54199.0
+Maharajah Chess, 2, true, 1.0, 1.0, 35.0, 18, 53047.0
+Tsaydithl, 2, true, 1.0, 1.0, 23.0, 12, 44819.0
+Pippinzip (Zipline variant), 2, true, 1.0, 1.0, 128.0, 80, -198.0
+Upper Hand, 2, true, 1.0, 1.0, 29.0, 15, 32370.0
+Social Distance Chess, 2, true, 1.0, 1.0, 43.0, 22, 53632.0
+Tugi-Epfe, 2, false, 2.0, -1.0, 18.0, 8, 59388.0
+Plakoto, 2, false, 2.0, -1.0, 131.0, 61, 53554.0
+Yavalax, 2, true, 1.0, 1.0, 44.0, 22, 17708.0
+All Queens Chess, 2, true, 1.0, 1.0, 13.0, 7, 37438.0
+Boukerourou, 2, false, 1.5, 0.0, 1000.0, 815, -478.0
+Fission, 2, false, 2.0, -1.0, 36.0, 17, 55982.0
+Rimoe, 2, true, 1.0, 1.0, 291.0, 146, 55375.0
+Asalto, 2, false, 2.0, -1.0, 15.0, 8, 5667.0
+Quantum Leap, 2, true, 1.0, 1.0, 33.0, 17, 51457.0
+Lines of Action, 2, false, 2.0, -1.0, 100.0, 49, 41781.0
+Dablot Prejjesne, 2, false, 1.5, 0.0, 1000.0, 498, 30642.0
+Isolo, 2, false, 2.0, -1.0, 195.0, 92, 34902.0
+Choko, 2, false, 2.0, -1.0, 138.0, 68, 54738.0
+Qelat (Beni Amir-Mensa), 2, false, 2.0, -1.0, 61.0, 31, 45977.0
+Main Tapak Empat, 2, true, 1.0, 1.0, 44.0, 21, 34568.0
+Katsela, 2, true, 1.0, 1.0, 7.0, 4, 59991.0
+Xiangqi, 2, true, 1.0, 1.0, 91.0, 46, 37471.0
+Yeung Luk Sz' Kon Tseung Kwan, 2, false, 1.5, 0.0, 1000.0, 499, 47985.0
+Contrare Puff, 2, true, 1.0, 1.0, 425.0, 209, -482.0
+Haretavl, 2, true, 1.0, 1.0, 18.0, 8, 58424.0
+Qatranj, 2, false, 2.0, -1.0, 106.0, 52, 48771.0
+Abalala'e, 2, true, 1.0, 1.0, 135.0, 87, 18438.0
+Unnee Tugalluulax, 2, true, 1.0, 1.0, 80.0, 39, 39949.0
+Co Chan Cho, 2, false, 1.5, 0.0, 1000.0, 499, 58247.0
+Lasca, 2, false, 2.0, -1.0, 54.0, 26, 53259.0
+Branching Coral, 2, true, 1.0, 1.0, 32.0, 15, 51978.0
+Patol, 2, false, 2.0, -1.0, 32.0, 15, 54770.0
+Symmetric Chess, 2, true, 1.0, 1.0, 95.0, 48, 35343.0
+Mulabalaba, 2, true, 1.0, 1.0, 117.0, 61, 39659.0
+Safe Passage, 2, false, 2.0, -1.0, 10.0, 4, 2061.0
+Quixo, 2, true, 1.0, 1.0, 50.0, 26, 46949.0
+Ngre E E, 2, false, 1.5, 0.0, 8.0, 3, 59946.0
+Chessence, 2, true, 1.0, 1.0, 33.0, 17, 52410.0
+Ashta-kashte, 2, true, 1.0, 1.0, 409.0, 203, 15956.0
+Tule Paid, 2, true, 1.0, 1.0, 67.0, 38, 43680.0
+Tennessee Waltz, 2, true, 1.0, 1.0, 25.0, 13, 53410.0
+Damas, 2, false, 2.0, -1.0, 49.0, 24, 57592.0
+Sujiken, 1, false, 0.0, -1.0, 500.0, 500, -1.0
+Ploy, 2, true, 1.0, 1.0, 11.0, 6, 54011.0
+Double Chess, 2, false, 1.5, 0.0, 1000.0, 499, -1262.0
+Challis Ghutia, 2, false, 1.5, 0.0, 1000.0, 496, -377.0
+Symbol S.2, 2, true, 1.0, 1.0, 15.0, 9, 55896.0
+Daramuti, 2, false, 1.5, 0.0, 1000.0, 398, 39647.0
+Korkserschach, 2, true, 1.0, 1.0, 227.0, 116, 30235.0
+Lielow, 2, true, 1.0, 1.0, 41.0, 21, 4201.0
+Lights Out, 1, false, 0.0, -1.0, 100.0, 100, -511.0
+Wrigglers, 2, true, 1.0, 1.0, 52.0, 25, 24810.0
+King And Courtesan, 2, true, 1.0, 1.0, 27.0, 14, 46245.0
+Tsoro (Baia), 2, false, 2.0, -1.0, 89.0, 41, 46706.0
+Achi, 2, true, 1.0, 1.0, 27.0, 16, 51442.0
+International Draughts, 2, false, 2.0, -1.0, 112.0, 55, 54126.0
+Ludus Latrunculorum, 2, false, 1.5, 0.0, 1000.0, 501, 43301.0
+Brusky Chess, 2, true, 1.0, 1.0, 130.0, 66, 25949.0
+Main Chator (Batak), 2, true, 1.0, 1.0, 107.0, 54, 53394.0
+Kanji Guti, 2, false, 1.5, 0.0, 261.0, 138, 21416.0
+Aj Sina'anil, 6, true, 1.0, 1.0, 1183.0, 205, 22082.0
+Laquet, 2, true, 1.0, 1.0, 195.0, 100, 6518.0
+Rab'e, 2, false, 1.5, 0.0, 1000.0, 516, -333.0
+Coyote, 2, false, 2.0, -1.0, 156.0, 77, 16080.0
+Dongjintian (Four Players), 4, false, 3.0, -0.33333333333333326, 1206.0, 355, -39.0
+Rio Kadalis, 2, true, 1.0, 1.0, 423.0, 209, 55357.0
+Ngulungu, 2, true, 1.0, 1.0, 18.0, 10, 59997.0
+Pentalpha, 1, true, 1.0, 1.0, 18.0, 18, 55051.0
+Dogtown Clans, 2, false, 2.0, -1.0, 44.0, 23, -382.0
+Leyla, 2, false, 2.0, -1.0, 107.0, 59, 58981.0
+Dodgem, 2, false, 2.0, -1.0, 48.0, 23, 57691.0
+Reach Chess, 2, true, 1.0, 1.0, 7.0, 4, 47858.0
+Weiqi, 2, true, 1.0, 1.0, 207.0, 104, 20706.0
+Scaffold, 2, true, 1.0, 1.0, 107.0, 50, 6822.0
+Len Doat, 2, true, 1.0, 1.0, 360.0, 188, 50633.0
+Fondji, 2, true, 1.0, 1.0, 95.0, 48, 38355.0
+Quendo, 4, true, 1.0, 1.0, 57.0, 25, 59994.0
+Pylos, 2, false, 2.0, -1.0, 40.0, 19, 54042.0
+Tasholiwe, 4, false, 2.0, 0.33333333333333337, 229.0, 53, 59976.0
+Musinaykahwhanmetowaywin, 2, true, 1.0, 1.0, 212.0, 107, 48008.0
+Traffic Lights, 2, true, 1.0, 1.0, 23.0, 12, 45743.0
+Lisolo, 2, false, 1.5, 0.0, 1000.0, 499, 19669.0
+The Babylonian, 2, true, 1.0, 1.0, 164.0, 87, 37835.0
+Wali, 2, true, 1.0, 1.0, 75.0, 44, 33592.0
+Shatr ikh Padan, 2, false, 1.5, 0.0, 1000.0, 499, 48022.0
+Sig (Western Sahara), 4, true, 1.0, 1.0, 365.0, 83, 39913.0
+Engijn Zirge, 2, true, 1.0, 1.0, 7.0, 4, 57756.0
+Broken Line, 2, true, 1.0, 1.0, 7.0, 4, 34888.0
+Uril, 2, false, 2.0, -1.0, 50.0, 24, 54552.0
+Acedrex de los Cuatros Tiempos, 4, false, 3.0, -0.33333333333333326, 2000.0, 58, 59114.0
+Aw-li On-nam Ot-tjin, 2, true, 1.0, 1.0, 44.0, 21, 40278.0
+Minefield, 2, true, 1.0, 1.0, 13.0, 7, 56442.0
+Oure Ngat, 2, false, 1.5, 0.0, 1000.0, 499, 58945.0
+Murus Gallicus, 2, true, 1.0, 1.0, 43.0, 22, 42789.0
+Kints, 2, false, 2.0, -1.0, 36.0, 17, 58929.0
+Portes, 2, true, 1.0, 1.0, 259.0, 137, -183.0
+Manzhouqi, 2, true, 1.0, 1.0, 3.0, 2, 59321.0
+Gabata (Oromo), 2, false, 1.5, 0.0, 1000.0, 510, 52380.0
+T'oki, 2, false, 2.0, -1.0, 134.0, 66, 51991.0
+Mangala (Bedouin), 2, true, 1.0, 1.0, 30.0, 22, 49430.0
+Abak, 2, false, 1.5, 0.0, 1000.0, 499, -218.0
+Goldilocks Stones, 2, true, 1.0, 1.0, 35.0, 18, 50975.0
+Spreta, 2, true, 1.0, 1.0, 57.0, 42, 14399.0
+58 Holes, 2, false, 2.0, -1.0, 157.0, 76, 27319.0
+BlooGo, 2, true, 1.0, 1.0, 55.0, 28, 45852.0
+Mangala (Suez), 2, true, 1.0, 1.0, 168.0, 78, 54986.0
+Thermenmuseum, 2, true, 1.0, 1.0, 8.0, 3, 59889.0
+Football Chess, 2, false, 2.0, -1.0, 226.0, 114, -228.0
+Esa Hex, 2, true, 1.0, 1.0, 25.0, 13, 32835.0
+Mysore Tiger Game (Three Tigers), 2, true, 1.0, 1.0, 136.0, 69, 25467.0
+Hex, 2, true, 1.0, 1.0, 29.0, 15, 37361.0
+Inkblots, 2, true, 1.0, 1.0, 16.0, 7, 30988.0
+Futoshiki, 1, false, 0.0, -1.0, 500.0, 500, -152.0
+Royal Game of Ur, 2, true, 1.0, 1.0, 113.0, 56, 38113.0
+Forge, 2, false, 2.0, -1.0, 100.0, 49, 39184.0
+Schachzabel, 2, false, 2.0, -1.0, 30.0, 14, 58107.0
+Shatranj al-Kabir, 2, false, 1.5, 0.0, 1000.0, 499, -99.0
+Hyvn aetter Hare, 2, false, 1.5, 0.0, 1000.0, 499, -68.0
+Andada, 2, false, 2.0, -1.0, 96.0, 47, 40658.0
+Halma, 2, false, 1.5, 0.0, 1000.0, 714, 42841.0
+Oriath, 1, true, 1.0, 1.0, 21.0, 21, 0.0
+Pente, 2, false, 2.0, -1.0, 78.0, 38, 34677.0
+Ghingskoot, 2, false, 2.0, -1.0, 38.0, 18, 58308.0
+Tapatan, 2, true, 1.0, 1.0, 7.0, 4, 59905.0
+Gabata (Adegrat), 2, false, 1.5, 0.0, 1000.0, 508, 50279.0
+Dris at-Talata, 2, true, 1.0, 1.0, 225.0, 113, 51887.0
+Gabata (Shoa I), 2, false, 2.0, -1.0, 597.0, 272, 56523.0
+Shui Yen Ho-Shang, 2, true, 1.0, 1.0, 504.0, 251, 53474.0
+Main Chator, 2, true, 1.0, 1.0, 41.0, 21, 56477.0
+Triodi (Chios), 2, false, 1.5, 0.0, 1000.0, 499, 46682.0
+Dra, 2, false, 2.0, -1.0, 73.0, 32, 33718.0
+Mysore Tiger Game, 2, false, 1.5, 0.0, 1000.0, 499, 53551.0
+Pente Grammai, 2, false, 2.0, -1.0, 56.0, 27, 57103.0
+Kensington, 2, false, 1.5, 0.0, 1000.0, 503, 47901.0
+Salta, 2, false, 1.5, 0.0, 1000.0, 659, 44310.0
+Nao Gutiya Baithaneka, 1, true, 1.0, 1.0, 18.0, 18, 56600.0
+Hnefatafl, 2, true, 1.0, 1.0, 25.0, 13, 54083.0
+Magic Hexagon, 1, false, 0.0, -1.0, 500.0, 500, -1.0
+Xonin Shatar (Complex), 2, false, 2.0, -1.0, 82.0, 37, 39261.0
+Wari, 2, true, 1.0, 1.0, 272.0, 135, -46.0
+Tablan, 2, false, 2.0, -1.0, 323.0, 165, 34972.0
+Ho-Bag Gonu, 2, true, 1.0, 1.0, 549.0, 275, -260.0
+Tayam Sonalu, 4, false, 2.0, 0.33333333333333337, 1416.0, 333, 48038.0
+Ja-Jeon-Geo-Gonu, 2, true, 1.0, 1.0, 9.0, 5, 22438.0
+Tides, 2, false, 2.0, -1.0, 81.0, 38, 57871.0
+Hufesay, 2, false, 1.5, 0.0, 1000.0, 500, 48180.0
+Caturvimsatikosthakatmiki Krida, 2, false, 2.0, -1.0, 26.0, 12, 53490.0
+Bis Gutiya, 2, true, 1.0, 1.0, 345.0, 173, 38683.0
+Gol Ekuish, 2, true, 1.0, 1.0, 755.0, 378, 20886.0
+Hindustani Chess, 2, false, 1.5, 0.0, 192.0, 95, 39084.0
+French Wari, 2, true, 1.0, 1.0, 45.0, 23, 36219.0
+MahbousehSubgame, 2, false, 2.0, -1.0, 212.0, 103, 8967.0
+Ngrin, 2, false, 1.5, 0.0, 11.0, 6, 59988.0
+Unnamed Dutch Draughts Game, 2, true, 1.0, 1.0, 101.0, 50, 42022.0
+Ko-app-paw-na, 2, false, 2.0, -1.0, 16.0, 7, 44933.0
+Seesaw, 2, false, 2.0, -1.0, 101.0, 50, 34741.0
+Demala Diviyan Keliya, 2, true, 1.0, 1.0, 99.0, 50, 31767.0
+Millieu, 2, true, 1.0, 1.0, 47.0, 24, 8529.0
+Monkey Queen, 2, true, 1.0, 1.0, 7.0, 4, 15355.0
+Andantino, 2, true, 1.0, 1.0, 11.0, 6, 47638.0
+Whyo, 2, false, 2.0, -1.0, 236.0, 117, 14811.0
+Krida Buddhibalasrita, 2, true, 1.0, 1.0, 439.0, 220, 3360.0
+Pagade Kayi Ata (Sixteen-handed), 16, false, 2.0, 0.8666666666666667, 8000.0, 281, 49228.0
+Oust, 2, true, 1.0, 1.0, 80.0, 51, 22865.0
+Kanguruh, 2, false, 2.0, -1.0, 128.0, 46, 56649.0
+Lelac, 2, true, 1.0, 1.0, 100.0, 47, 27634.0
+Hexshogi, 2, false, 1.5, 0.0, 1000.0, 496, -1029.0
+Quoridor, 2, false, 2.0, -1.0, 52.0, 25, 46572.0
+Gyre, 2, true, 1.0, 1.0, 127.0, 64, -1427.0
+Gurgaldaj, 2, true, 1.0, 1.0, 66.0, 35, 36742.0
+Sumi Naga Game (Hunt), 2, false, 2.0, -1.0, 184.0, 89, 14835.0
+Mini Wars, 2, false, 1.5, 0.0, 1000.0, 650, -197.0
+Awithlaknakwe, 4, false, 2.5, 0.0, 2000.0, 499, 52994.0
+Cannon, 2, true, 1.0, 1.0, 101.0, 51, 24775.0
+Guerrilla Checkers, 2, true, 1.0, 1.0, 19.0, 11, 30088.0
+Orissa Tiger Game (Four Tigers), 2, false, 2.0, -1.0, 189.0, 95, 11858.0
+Hermit, 2, true, 1.0, 1.0, 43.0, 22, 31256.0
+Dama (Italy), 2, false, 2.0, -1.0, 62.0, 30, 56915.0
+Sig (Tidikelt), 2, false, 1.5, 0.0, 1000.0, 499, 41781.0
+Havannah, 2, true, 1.0, 1.0, 21.0, 11, 45393.0
+Ashtapada, 2, true, 1.0, 1.0, 159.0, 83, 43809.0
+Ti, 2, false, 2.0, -1.0, 204.0, 101, 52883.0
+Breakthrough Checkers, 2, true, 1.0, 1.0, 31.0, 16, 32972.0
+Tsoro, 2, true, 1.0, 1.0, 120.0, 59, 18583.0
+Quantik, 2, true, 1.0, 1.0, 7.0, 4, 35155.0
+Los Palos, 4, false, 2.5, 0.0, 2000.0, 499, 59623.0
+Bizingo, 2, false, 1.5, 0.0, 1000.0, 499, 47482.0
+Faraday, 2, true, 1.0, 1.0, 99.0, 52, 35062.0
+Mogul Putt'han, 2, false, 2.0, -1.0, 134.0, 65, 53584.0
+Shuanglu, 2, true, 1.0, 1.0, 304.0, 155, 20305.0
+Bug, 2, false, 2.0, -1.0, 38.0, 16, 52988.0
+L Game, 2, true, 1.0, 1.0, 6.0, 4, 11022.0
+Saturankam, 4, false, 3.0, -0.33333333333333326, 484.0, 148, 38789.0
+Game of Solomon, 2, false, 1.5, 0.0, 34.0, 16, 54498.0
+Lamosh, 2, true, 1.0, 1.0, 602.0, 293, 53319.0
+Dama, 2, false, 2.0, -1.0, 114.0, 54, 44688.0
+Senet, 2, true, 1.0, 1.0, 248.0, 129, 19378.0
+Mlabalaba, 2, false, 2.0, -1.0, 65.0, 29, 47083.0
+Go with the Floe, 2, true, 1.0, 1.0, 43.0, 22, 30404.0
+MacBeth, 2, true, 1.0, 1.0, 79.0, 40, 30800.0
+Groups, 2, false, 2.0, -1.0, 108.0, 53, -79.0
+Kotu Ellima, 2, true, 1.0, 1.0, 419.0, 210, 39883.0
+Dama (Kenya), 2, false, 2.0, -1.0, 135.0, 64, 49747.0
+HeXentafl, 2, true, 1.0, 1.0, 17.0, 9, 38509.0
+Njombwa (Two Counters), 2, false, 2.0, -1.0, 153.0, 46, 56610.0
+Sam K'i, 2, false, 2.0, -1.0, 42.0, 19, 47729.0
+Jeu Militaire, 2, true, 1.0, 1.0, 163.0, 82, 59043.0
+Mweiso, 2, true, 1.0, 1.0, 54.0, 50, 20866.0
+Xanan Zirge, 2, false, 2.0, -1.0, 224.0, 99, 57402.0
+Lam Turki, 1, false, 0.0, -1.0, 18.0, 18, 55259.0
+Qi Guo Xiangxi, 7, true, 1.0, 1.0, 192.0, 33, 56432.0
+Rumi Shatranj, 2, true, 1.0, 1.0, 111.0, 56, 57303.0
+Kiz Tavlasi, 2, true, 1.0, 1.0, 72.0, 39, 16603.0
+Petol, 6, false, 4.0, -0.20000000000000018, 132.0, 21, 59998.0
+Neg Tugal Tuux, 2, false, 2.0, -1.0, 242.0, 120, -346.0
+Pasa, 2, true, 1.0, 1.0, 141.0, 71, 59998.0
+Ex Nihilo, 2, true, 1.0, 1.0, 17.0, 8, 28872.0
+Polypods, 2, false, 2.0, -1.0, 28.0, 13, 54400.0
+Shogi, 2, false, 2.0, -1.0, 380.0, 187, 7785.0
+Hus (Nama), 2, false, 2.0, -1.0, 229.0, 111, 55830.0
+Radran, 2, false, 1.5, 0.0, 34.0, 16, 41735.0
+Toguz Kumalak, 2, false, 2.0, -1.0, 133.0, 67, 35691.0
+Pentomino, 2, true, 1.0, 1.0, 9.0, 5, 30429.0
+Tic-Tac-Mo, 3, true, 1.0, 1.0, 8.0, 2, 49602.0
+Capture the Queen, 2, true, 1.0, 1.0, 3.0, 2, 48869.0
+Lontu-Holo, 2, true, 1.0, 1.0, 361.0, 193, 40345.0
+Mweso, 2, true, 1.0, 1.0, 99.0, 65, 33855.0
+English Wari (St. Lucia), 2, false, 2.0, -1.0, 245.0, 123, 33121.0
+GrandTrictracSubgame, 2, true, 1.0, 1.0, 91.0, 45, 39457.0
+Viking Chess, 2, false, 2.0, -1.0, 103.0, 50, 41355.0
+HexDame, 2, false, 2.0, -1.0, 88.0, 42, 50305.0
+Breakback, 2, false, 1.5, 0.0, 1000.0, 499, 53050.0
+Quinze Tablas, 2, true, 1.0, 1.0, 727.0, 304, 16089.0
+Set Dilth', 4, false, 2.0, 0.33333333333333337, 281.0, 69, 59990.0
+Atoll, 2, false, 1.5, 0.0, 106.0, 52, 13916.0
+Two-Colour, 2, true, 1.0, 1.0, 29.0, 15, 27326.0
+Had, 2, false, 2.0, -1.0, 274.0, 136, 57023.0
+Fettas, 2, true, 1.0, 1.0, 70.0, 40, 32235.0
+Pentago, 2, true, 1.0, 1.0, 18.0, 10, 14269.0
+Pallankuli, 2, false, 2.0, -1.0, 252.0, 134, 53989.0
+Niranchy, 2, false, 2.0, -1.0, 16.0, 7, 16225.0
+Surakarta, 2, true, 1.0, 1.0, 137.0, 69, 25951.0
+Mak Ruk, 2, false, 2.0, -1.0, 172.0, 85, 17068.0
+Odd, 2, true, 1.0, 1.0, 61.0, 31, 26874.0
+J'odu, 2, true, 1.0, 1.0, 91.0, 42, 40430.0
+Boxijn Barildaan, 2, false, 2.0, -1.0, 36.0, 17, -2806.0
+SpanRups, 1, false, 0.0, -1.0, 57.0, 57, -9590.0
+Shisen-Sho, 1, false, 0.0, -1.0, 7.0, 7, -10.0
+Knossos Game, 2, true, 1.0, 1.0, 88.0, 45, 47318.0
+Les Pendus, 2, true, 1.0, 1.0, 141.0, 71, 58342.0
+Trike, 2, false, 2.0, -1.0, 64.0, 32, 29381.0
+Pon Chochotl, 2, false, 2.0, -1.0, 44.0, 21, 32127.0
+Dala, 2, true, 1.0, 1.0, 64.0, 36, 11299.0
+Infuse, 2, true, 1.0, 1.0, 34.0, 16, 47787.0
+Shodra, 2, false, 1.5, 0.0, 1000.0, 499, 44481.0
+Sudoku X, 1, false, 0.0, -1.0, 500.0, 500, -1349.0
+Tabu Y, 2, true, 1.0, 1.0, 25.0, 13, 37838.0
+Knight's Tour, 1, false, 0.0, -1.0, 50.0, 50, -1.0
+Goats Wintering, 2, true, 1.0, 1.0, 42.0, 20, 35752.0
+Moo, 2, false, 2.0, -1.0, 176.0, 89, 41035.0
+Bara Guti (Bihar), 2, false, 2.0, -1.0, 48.0, 23, 57082.0
+N Puzzles, 1, false, 0.0, -1.0, 500.0, 500, 0.0
+Musoro Tsoro, 2, false, 2.0, -1.0, 71.0, 23, 46877.0
+Chaturaji, 4, true, 1.0, 1.0, 321.0, 81, 53325.0
+Verquere, 2, true, 1.0, 1.0, 275.0, 136, 14711.0
+Myles, 2, false, 2.0, -1.0, 87.0, 35, 17568.0
+Nchayo, 2, false, 2.0, -1.0, 42.0, 16, 40556.0
+Awithlaknan Mosona, 2, false, 2.0, -1.0, 46.0, 22, 58399.0
+Mwendo, 4, false, 2.0, 0.33333333333333337, 88.0, 33, 34536.0
+Shatranj Diwana Shah, 2, true, 1.0, 1.0, 85.0, 43, 42026.0
+Tank Tactics, 2, true, 1.0, 1.0, 21.0, 10, 19790.0
+Vela, 2, true, 1.0, 1.0, 40.0, 17, 51091.0
+King's Valley, 2, true, 1.0, 1.0, 7.0, 4, 48722.0
+McCooey Chess, 2, false, 2.0, -1.0, 56.0, 27, 49730.0
+Gobblet Gobblers, 2, false, 2.0, -1.0, 8.0, 3, 58000.0
+Muvalavala (Luena), 2, true, 1.0, 1.0, 72.0, 40, 32708.0
+Y, 2, false, 2.0, -1.0, 38.0, 18, 15295.0
+Aj Sayil, 6, true, 1.0, 1.0, 1497.0, 272, 51345.0
+Abrobad, 2, true, 1.0, 1.0, 13.0, 7, 40255.0
+Arimaa, 2, false, 2.0, -1.0, 168.0, 85, -371.0
+Ilpion, 2, true, 1.0, 1.0, 16.0, 7, 31497.0
+Chatur, 2, true, 1.0, 1.0, 263.0, 132, 13690.0
+Merimueng-rimueng-do, 2, true, 1.0, 1.0, 185.0, 93, 19010.0
+Gale, 2, false, 2.0, -1.0, 48.0, 23, 23604.0
+Buqruru, 2, false, 1.5, 0.0, 5.0, 3, 20529.0
+Awari, 2, true, 1.0, 1.0, 97.0, 49, 31553.0
+Trax, 2, true, 1.0, 1.0, 17.0, 9, 12046.0
+Omnidirectional Draughts, 2, true, 1.0, 1.0, 99.0, 52, 48765.0
+Shing Quon Tu, 16, false, 5.0, 0.4666666666666667, 3416.0, 66, 59991.0
+Greater Loss, 2, false, 2.0, -1.0, 15.0, 8, 59841.0
+Icosian, 1, false, 0.0, -1.0, 17.0, 17, -1.0
+Patok, 2, false, 2.0, -1.0, 842.0, 420, 13166.0
+Wore, 2, false, 2.0, -1.0, 50.0, 24, 32621.0
+Watershed, 2, true, 1.0, 1.0, 60.0, 29, 29434.0
+Kulaochal, 2, false, 2.0, -1.0, 9.0, 5, 34286.0
+Main Chongkak, 2, false, 2.0, -1.0, 502.0, 266, 53115.0
+Yavalade, 3, false, 2.0, 0.0, 32.0, 15, -5822.0
+Chameleon, 2, true, 1.0, 1.0, 95.0, 48, 16889.0
+FairKalah, 2, true, 1.0, 1.0, 27.0, 16, 33068.0
+Tobi Shogi, 2, true, 1.0, 1.0, 207.0, 104, 57548.0
+Challis Ghutia (Titagarh), 2, true, 1.0, 1.0, 865.0, 433, 38285.0
+Welschschach, 2, false, 1.5, 0.0, 1000.0, 499, 45967.0
+Chess Puzzle, 2, true, 1.0, 1.0, 1.0, 1, 59999.0
+Wa'ache Waledat, 2, false, 2.0, -1.0, 105.0, 49, 29588.0
+A K'aak'il, 6, false, 4.0, -0.20000000000000018, 759.0, 78, 56294.0
+Nao Guti, 2, true, 1.0, 1.0, 48.0, 28, 30389.0
+Samurai Sudoku, 1, false, 0.0, -1.0, 500.0, 500, -2427.0
+La Chascona, 2, true, 1.0, 1.0, 45.0, 25, 25133.0
+Todas Tablas, 2, false, 2.0, -1.0, 155.0, 76, 4646.0
+Papan Dakon, 2, false, 1.5, 0.0, 1000.0, 513, 52591.0
+Line and Cross, 2, true, 1.0, 1.0, 22.0, 10, 29152.0
+Lava, 2, false, 2.0, -1.0, 154.0, 76, 28634.0
+Luuth, 2, false, 2.0, -1.0, 36.0, 17, 50212.0
+Peralikatuma, 2, true, 1.0, 1.0, 298.0, 151, 45199.0
+Tic-Tac-Die, 2, false, 1.5, 0.0, 28.0, 21, 59998.0
+Windir, 2, true, 1.0, 1.0, 28.0, 13, 24822.0
+Nchuwa, 2, true, 1.0, 1.0, 54.0, 31, 44319.0
+Gamacha (Nobility), 2, false, 1.5, 0.0, 56.0, 35, 34893.0
+A Simple Game, 2, true, 1.0, 1.0, 33.0, 17, 55818.0
+2048, 1, false, 0.0, -1.0, 140.0, 140, -1944.0
+Dorvon Cag, 2, false, 2.0, -1.0, 6.0, 2, 59998.0
+Morabaraba, 2, true, 1.0, 1.0, 56.0, 31, 19342.0
+Barca, 2, true, 1.0, 1.0, 47.0, 24, 51674.0
+Yavalanchor, 2, true, 1.0, 1.0, 9.0, 5, 37635.0
+Theseus and the Minotaur, 1, false, 0.0, -1.0, 311.0, 311, 0.0
+Castello, 2, false, 1.5, 0.0, 1000.0, 491, 34145.0
+Alquerque de Tres, 2, false, 1.5, 0.0, 8.0, 3, 59970.0
+RootZone, 2, true, 1.0, 1.0, 45.0, 23, 23689.0
+Shataranja, 2, false, 2.0, -1.0, 414.0, 206, -249.0
+Es-Sig, 4, false, 3.0, -0.33333333333333326, 252.0, 59, 59390.0
+Wari (Alignment), 2, true, 1.0, 1.0, 83.0, 46, 29905.0
+Alitev, 2, false, 1.5, 0.0, 34.0, 16, 40631.0
+Pachisi, 4, true, 1.0, 1.0, 635.0, 161, 43245.0
+Nama, 8, false, 7.0, -0.7142857142857142, 416.0, 43, 59993.0
+Diviyan Keliya, 2, true, 1.0, 1.0, 267.0, 134, 44080.0
+I Pere, 2, true, 1.0, 1.0, 32.0, 15, 35000.0
+Dam Hariman, 2, true, 1.0, 1.0, 312.0, 156, 48236.0
+Mewegae, 2, false, 2.0, -1.0, 186.0, 66, 59179.0
+Kisolo (Lali), 2, false, 1.5, 0.0, 1000.0, 994, 30589.0
+Mity, 2, true, 1.0, 1.0, 61.0, 31, 28681.0
+Scachs, 2, false, 2.0, -1.0, 216.0, 107, 21564.0
+Foji, 2, true, 1.0, 1.0, 39.0, 17, 50736.0
+Horde Chess, 2, true, 1.0, 1.0, 68.0, 35, 47906.0
+Mysore Tiger Game (Two Tigers), 2, true, 1.0, 1.0, 313.0, 157, -148.0
+Shatranj ar-Rumiya, 2, false, 1.5, 0.0, 1000.0, 499, 36029.0
+Cittabhramanrpasya Khelanam, 2, true, 1.0, 1.0, 55.0, 28, 46824.0
+Altan Xaraacaj, 2, true, 1.0, 1.0, 33.0, 19, 22733.0
+Deka, 2, true, 1.0, 1.0, 43.0, 23, 36635.0
+Alquerque, 2, false, 2.0, -1.0, 62.0, 30, 57944.0
+Piprjall, 2, true, 1.0, 1.0, 462.0, 252, -209.0
+Knightthrough, 2, true, 1.0, 1.0, 9.0, 5, 48787.0
+Spartan Chess, 2, true, 1.0, 1.0, 34.0, 18, 55618.0
+Archimedes, 2, true, 1.0, 1.0, 36.0, 18, 20854.0
+Nine Holes, 2, true, 1.0, 1.0, 223.0, 112, 47738.0
+Tant Fant, 2, true, 1.0, 1.0, 255.0, 128, 56623.0
+Snort, 2, true, 1.0, 1.0, 45.0, 23, 28699.0
+Jeu de Renard (Two Foxes), 2, false, 1.5, 0.0, 1000.0, 499, 46418.0
+Lobudok, 2, true, 1.0, 1.0, 52.0, 29, 46782.0
+Alice Chess, 2, true, 1.0, 1.0, 37.0, 19, 53210.0
+Mughal Pathan, 2, true, 1.0, 1.0, 828.0, 413, 37178.0
+Um el-Bagara, 2, false, 2.0, -1.0, 38.0, 18, 49406.0
+Shafran Chess, 2, false, 1.5, 0.0, 399.0, 200, -376.0
+Pyrga, 2, true, 1.0, 1.0, 17.0, 9, 37493.0
+Romavoa, 2, false, 2.0, -1.0, 56.0, 27, 45751.0
+American Pool Checkers, 2, false, 2.0, -1.0, 58.0, 27, 58447.0
+Mao Naga Tiger Game, 2, false, 2.0, -1.0, 118.0, 58, 42537.0
+Waurie, 2, true, 1.0, 1.0, 105.0, 57, 27213.0
+Meurimueng-rimueng Peuet Ploh, 2, true, 1.0, 1.0, 904.0, 453, 28311.0
+Chonka, 2, false, 2.0, -1.0, 77.0, 35, 32608.0
+Kharberg, 2, false, 2.0, -1.0, 118.0, 58, 33726.0
+Amazon Chess, 2, false, 2.0, -1.0, 186.0, 92, -60.0
+Nard, 2, true, 1.0, 1.0, 326.0, 164, 26893.0
+Allemande, 2, false, 2.0, -1.0, 24.0, 11, -2004.0
+Pleasant Draughts, 2, false, 2.0, -1.0, 52.0, 25, 55812.0
+Owasokotz, 4, false, 2.0, 0.33333333333333337, 22.0, 4, 57603.0
+Breakthrough, 2, false, 2.0, -1.0, 84.0, 41, 13401.0
+Enindji, 2, false, 2.0, -1.0, 126.0, 62, 37236.0
+Tuz, 2, false, 1.5, 0.0, 1000.0, 478, 46622.0
+Chong (Sakhalin), 2, true, 1.0, 1.0, 64.0, 31, 44943.0
+Brazilian Draughts, 2, true, 1.0, 1.0, 273.0, 137, 45570.0
+Mylna, 2, true, 1.0, 1.0, 38.0, 22, 31884.0
+Trianon, 2, false, 2.0, -1.0, 17.0, 9, 47101.0
+Xarajlt, 2, true, 1.0, 1.0, 23.0, 12, 59632.0
+Pentalath, 2, true, 1.0, 1.0, 9.0, 5, 43196.0
+Yote, 2, false, 2.0, -1.0, 63.0, 29, 53393.0
+Doov, 2, false, 2.0, -1.0, 88.0, 43, 49519.0
+Gabata (Shoa and Adegrat), 2, false, 1.5, 0.0, 1000.0, 488, 55472.0
+Pereauni, 2, true, 1.0, 1.0, 27.0, 24, 27743.0
+Bargese, 2, true, 1.0, 1.0, 216.0, 114, 29089.0
+Fox and Geese, 2, true, 1.0, 1.0, 243.0, 122, 39759.0
+Magic Square, 1, false, 0.0, -1.0, 500.0, 500, -13746.0
+Sweep Burrow, 2, true, 1.0, 1.0, 59.0, 32, 25150.0
+Hoyito, 2, true, 1.0, 1.0, 46.0, 22, 37415.0
+CrossGeo, 2, true, 1.0, 1.0, 26.0, 12, 31924.0
+Onek Rong, 2, true, 1.0, 1.0, 25.0, 13, 34494.0
+Minishogi, 2, false, 2.0, -1.0, 80.0, 39, 1210.0
+Short Assize, 2, true, 1.0, 1.0, 311.0, 156, 13943.0
+Bao Kiswahili (DR Congo), 2, false, 2.0, -1.0, 40.0, 21, -6043.0
+La'b Akila, 2, true, 1.0, 1.0, 43.0, 22, 43270.0
+Kara, 2, true, 1.0, 1.0, 66.0, 32, 38131.0
+Dam (Singapore), 2, false, 2.0, -1.0, 162.0, 80, 53045.0
+The Concentration Game, 2, true, 1.0, 1.0, 129.0, 65, 35678.0
+Nsolo, 2, false, 2.0, -1.0, 279.0, 86, -648.0
+OffShore, 2, false, 2.0, -1.0, 28.0, 13, 31528.0
+Cavity, 2, false, 2.0, -1.0, 133.0, 67, 30084.0
+Sher Bakar, 2, false, 2.0, -1.0, 22.0, 1, 57197.0
+La Liebre Perseguida, 2, true, 1.0, 1.0, 7.0, 4, 59670.0
+Adidada, 2, true, 1.0, 1.0, 72.0, 35, 33215.0
+TacTix, 2, true, 1.0, 1.0, 23.0, 11, -4120.0
+Tables Rabbatuees, 2, false, 2.0, -1.0, 86.0, 39, 8791.0
+Santorini, 2, true, 1.0, 1.0, 53.0, 27, -590.0
+T'mbl, 2, true, 1.0, 1.0, 197.0, 99, 57136.0
+Ofanfelling, 2, false, 2.0, -1.0, 60.0, 25, 49161.0
+Let's Catch the Lion, 2, true, 1.0, 1.0, 13.0, 7, 43896.0
+Awagagae, 2, false, 2.0, -1.0, 316.0, 160, 45721.0
+Wellisch Chess, 3, false, 2.0, 0.0, 1419.0, 475, -100.0
+Chiana wa Kunja, 2, false, 2.0, -1.0, 169.0, 82, 59993.0
+J'erin, 2, false, 1.5, 0.0, 1000.0, 966, 58655.0
+Omny, 2, true, 1.0, 1.0, 123.0, 62, -1818.0
+Janggi, 2, true, 1.0, 1.0, 11.0, 6, 57430.0
+Adi, 2, false, 1.5, 0.0, 1000.0, 629, 56386.0
+Yavalath, 2, false, 2.0, -1.0, 38.0, 18, -6422.0
+Medio Emperador, 2, true, 1.0, 1.0, 414.0, 208, -67.0
+Cram, 2, true, 1.0, 1.0, 17.0, 9, 29193.0
+Um el-Bil, 2, false, 2.0, -1.0, 80.0, 39, 37134.0
+Tugul Shodra, 2, true, 1.0, 1.0, 9.0, 5, 59994.0
+Resolve, 2, true, 1.0, 1.0, 72.0, 37, 23147.0
+Chaturanga (Kridakausalya 14x14), 2, false, 1.5, 0.0, 1000.0, 499, -79.0
+Ngolo, 2, true, 1.0, 1.0, 288.0, 143, 56459.0
+Duene, 2, false, 1.5, 0.0, 37.0, 22, 37993.0
+Uxrijn Ever, 2, false, 2.0, -1.0, 191.0, 96, -660.0
+Lange Puff, 2, true, 1.0, 1.0, 362.0, 194, -423.0
+BoxOff, 1, false, 0.0, -1.0, 19.0, 19, -32.0
+Sijat El Taba, 2, true, 1.0, 1.0, 336.0, 162, -644.0
+Clobber, 2, false, 2.0, -1.0, 74.0, 36, 27951.0
+Kawasukuts, 2, true, 1.0, 1.0, 13.0, 7, 49726.0
+Poprad Game, 2, false, 1.5, 0.0, 1000.0, 499, 44228.0
+Unfair, 2, true, 1.0, 1.0, 8.0, 4, 34055.0
+Unlur, 2, false, 2.0, -1.0, 41.0, 20, 39710.0
+Main Chator (Selangor), 2, false, 2.0, -1.0, 42.0, 20, 50310.0
+Sim, 2, false, 2.0, -1.0, 15.0, 8, 52511.0
+Bolotudu, 2, true, 1.0, 1.0, 76.0, 41, 11707.0
+Long Assize, 2, false, 2.0, -1.0, 38.0, 18, 52963.0
+Shatranj at-Tamma, 2, true, 1.0, 1.0, 411.0, 206, 51250.0
+Parsi Chess, 2, true, 1.0, 1.0, 115.0, 58, 45880.0
+Shogun, 2, true, 1.0, 1.0, 33.0, 17, 14726.0
+Astralesce and Constellation, 2, true, 1.0, 1.0, 14.0, 6, 31429.0
+Andot, 2, false, 1.5, 0.0, 61.0, 31, 54934.0
+Brandub, 2, true, 1.0, 1.0, 21.0, 11, 38826.0
+Saxun, 2, true, 1.0, 1.0, 83.0, 42, 55734.0
+Ethiopian Capture Game, 2, false, 2.0, -1.0, 14.0, 6, 59607.0
+Rimau-Rimau (Two Tigers), 2, true, 1.0, 1.0, 345.0, 174, 25283.0
+Official Football Chess, 2, false, 1.5, 0.0, 297.0, 148, -451.0
+Sonka, 2, false, 1.5, 0.0, 1000.0, 476, 53871.0
+Maak Yek, 2, false, 1.5, 0.0, 1000.0, 499, -74.0
+O-Pat-Kono, 2, false, 1.5, 0.0, 1000.0, 499, 36030.0
+Veloop (Hex), 2, true, 1.0, 1.0, 23.0, 12, 33179.0
+Bashni, 2, true, 1.0, 1.0, 318.0, 160, 26488.0
+Diagonal Draughts, 2, false, 2.0, -1.0, 182.0, 90, 53350.0
+Fart (7x7), 2, false, 2.0, -1.0, 136.0, 67, 55704.0
+HexTrike, 2, true, 1.0, 1.0, 85.0, 43, 31507.0
+Gonnect, 2, false, 2.0, -1.0, 174.0, 86, 26585.0
+Deleb, 4, false, 2.5, 0.0, 2000.0, 512, 49517.0
+Ludus Anglicorum, 2, true, 1.0, 1.0, 318.0, 159, -240.0
+Pareia de Entrada, 2, false, 2.0, -1.0, 349.0, 170, -52.0
+Hasami Shogi, 2, true, 1.0, 1.0, 63.0, 32, 55203.0
+Mawryngkneng Solitaire Game, 1, true, 1.0, 1.0, 451.0, 451, 0.0
+Tourne-Case, 2, false, 2.0, -1.0, 136.0, 67, 40211.0
+Kharebga (7x7), 2, true, 1.0, 1.0, 529.0, 265, 10098.0
+Bao Ki Arabu (Zanzibar 1), 2, true, 1.0, 1.0, 127.0, 63, 40730.0
+DuploHex, 2, false, 2.0, -1.0, 37.0, 18, -2804.0
+Khrour, 2, true, 1.0, 1.0, 599.0, 300, 58071.0
+Double-Move Situ, 2, true, 1.0, 1.0, 18.0, 9, 3577.0
+Siga (Sri Lanka), 2, true, 1.0, 1.0, 49.0, 28, 38915.0
+Tamman, 4, false, 3.0, -0.33333333333333326, 581.0, 159, 28147.0
+Peg Solitaire, 1, false, 0.0, -1.0, 24.0, 24, 0.0
+Pretwa, 2, true, 1.0, 1.0, 54.0, 28, 52849.0
+Spava, 2, false, 2.0, -1.0, 21.0, 11, 49328.0
+El-Mthaltha, 2, true, 1.0, 1.0, 11.0, 6, 59740.0
+Jeu du Renard et de la Poule, 2, true, 1.0, 1.0, 77.0, 39, 27793.0
+Bajr, 2, false, 1.5, 0.0, 1000.0, 499, -5.0
+Gurvan Xudag, 2, false, 2.0, -1.0, 895.0, 448, -6.0
+Konane, 2, true, 1.0, 1.0, 90.0, 45, 24981.0
+Asi Keliya, 4, true, 1.0, 1.0, 657.0, 171, 55819.0
+Kassle, 2, true, 1.0, 1.0, 9.0, 5, 48947.0
+Sahkku, 2, true, 1.0, 1.0, 398.0, 194, -250.0
+Dragonchess, 2, false, 2.0, -1.0, 218.0, 108, 32805.0
+Kyoto Shogi, 2, true, 1.0, 1.0, 12.0, 7, 46058.0
+Boolik, 6, false, 4.0, -0.20000000000000018, 476.0, 83, 59973.0
+Wolf and Sheep, 2, false, 2.0, -1.0, 34.0, 16, 33781.0
+Paumecary, 2, true, 1.0, 1.0, 159.0, 78, 24299.0
+Leyla Gobale (Somaliland), 2, false, 2.0, -1.0, 53.0, 28, 29895.0
+1D Chess, 2, true, 1.0, 1.0, 9.0, 5, 26606.0
+Paradis, 8, true, 1.0, 1.0, 489.0, 50, 59993.0
+Pam Pait, 2, false, 2.0, -1.0, 166.0, 82, 49121.0
+O An Quan, 2, false, 2.0, -1.0, 468.0, 229, 37560.0
+Game of Dwarfs, 2, false, 2.0, -1.0, 12.0, 5, 59851.0
+Plotto, 2, false, 2.0, -1.0, 6.0, 2, 30000.0
+Squava, 2, true, 1.0, 1.0, 13.0, 7, 24716.0
+Starchess, 2, true, 1.0, 1.0, 35.0, 18, 45124.0
+T'uk T'uk, 2, false, 1.5, 0.0, 1000.0, 499, 48008.0
+Chuka, 1, true, 1.0, 1.0, 10.0, 10, 59995.0
+Twelve Men's Morris, 2, true, 1.0, 1.0, 76.0, 41, 22054.0
+Hus (Damara), 2, false, 1.5, 0.0, 1000.0, 508, 48515.0
+Gyan Chaupar, 4, true, 1.0, 1.0, 135.0, 12, 59994.0
+Mig Mang, 2, true, 1.0, 1.0, 357.0, 179, 29958.0
+Boseog Gonu, 2, true, 1.0, 1.0, 37.0, 19, 57968.0
+Baralie, 2, true, 1.0, 1.0, 129.0, 66, 227.0
+Ludus Lombardorum, 2, true, 1.0, 1.0, 194.0, 98, -439.0

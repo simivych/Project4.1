@@ -1,73 +1,73 @@
 ,Cluster,RulesetId,Name,Distance
-195,0,1323, Shisen-Sho,Shisen-Sho
-858,0,695, SpanRups,SpanRups
-763,0,1624, Labirintus,Labirintus
-419,0,1664, Pentomino,Pentomino
-484,1,322, Makonn,Makonn
-99,1,265, Choro (Lango),Choro (Lango)
-127,1,1774, Duidoku,Duidoku
-591,1,257, Spreta,Spreta
-190,1,448, Pentalath,Pentalath
-248,1,1545, Tenjiku Shogi,Tenjiku Shogi
-824,1,1971, Scaffold,Scaffold
-118,1,772, Weiqi,Weiqi
-496,1,373, Tablut,Tablut
-1017,1,408, Ploy,Ploy
-1043,1,1031, One-Eyed Go,One-Eyed Go
-587,1,1768, Fractal,Fractal
-280,1,400, Cross,Cross
-75,2,315, Shatranj Diwana Shah,Shatranj Diwana Shah
-880,2,1356, Nzengue (Small),Nzengue (Small)
-483,2,579, Brandub,Brandub
-859,2,1762, Epoxy,Epoxy
-1079,2,428, Wore,Wore
-774,2,339, Abalala'e,Abalala'e
-211,2,1669, Make Muster,Make Muster
-300,2,1200, Uril,Uril
-744,2,639, Santorini,Santorini
-20,2,1824, TacTix,TacTix
-517,2,461, Loop Chess,Loop Chess
-679,2,1620, Four-Player Chess,Four-Player Chess
-965,2,680, Line and Cross,Line and Cross
-1052,2,460, Horde Chess,Horde Chess
-249,2,1317, Greatest Loss,Greatest Loss
-928,2,1665, FairKalah,FairKalah
-832,2,284, Mangala (Turkey),Mangala (Turkey)
-5,2,1451, Cittabhramanrpasya Khelanam,Cittabhramanrpasya Khelanam
-28,2,1197, Paradis,Paradis
-931,2,175, Fevga,Fevga
-768,2,1316, Greater,Greater
-97,2,1213, Callanish,Callanish
-630,2,414, Press Ups,Press Ups
-1030,2,1463, Shataranja,Shataranja
-983,2,1534, Agilidade,Agilidade
-1033,2,44, Chess,Chess
-609,2,853, Starchess,Starchess
-876,2,614, Wagner,Wagner
-590,2,425, Foji,Foji
-969,2,1160, King's Valley,King's Valley
-509,2,286, Pic,Pic
-743,3,1452, Tai Shogi,Tai Shogi
-723,4,156, Terhuchu,Terhuchu
-634,4,1573, Kharebga (5x5),Kharebga (5x5)
-153,4,642, Aj Sayil,Aj Sayil
-265,4,1929, Co Chan Cho,Co Chan Cho
-586,4,1942, El Perro,El Perro
-47,4,1140, Pulijudamu,Pulijudamu
-288,4,1083, Hund efter Hare (Vendsyssel),Hund efter Hare (Vendsyssel)
-1031,4,384, Dra,Dra
-184,4,1050, Main Dam,Main Dam
-535,4,905, Mughal Pathan,Mughal Pathan
-531,4,789, Shah,Shah
-401,4,171, Yeung Luk Sz' Kon Tseung Kwan,Yeung Luk Sz' Kon Tseung Kwan
-860,4,721, Musinaykahwhanmetowaywin,Musinaykahwhanmetowaywin
-697,4,39, Diviyan Keliya,Diviyan Keliya
-477,4,1024, Xonin Shatar (Simple),Xonin Shatar (Simple)
-801,4,35, 20 Squares,20 Squares
-745,4,403, Groups,Groups
-519,4,1270, Cage,Cage
-981,4,149, Nard,Nard
-308,4,806, Rimoe,Rimoe
-724,4,162, Pretwa,Pretwa
-123,4,756, Daldos,Daldos
-822,4,1078, Contrare Puff,Contrare Puff
+195,0,1323,Shisen-Sho,Shisen-Sho
+858,0,695,SpanRups,SpanRups
+763,0,1624,Labirintus,Labirintus
+419,0,1664,Pentomino,Pentomino
+484,1,322,Makonn,Makonn
+99,1,265,Choro (Lango),Choro (Lango)
+127,1,1774,Duidoku,Duidoku
+591,1,257,Spreta,Spreta
+190,1,448,Pentalath,Pentalath
+248,1,1545,Tenjiku Shogi,Tenjiku Shogi
+824,1,1971,Scaffold,Scaffold
+118,1,772,Weiqi,Weiqi
+496,1,373,Tablut,Tablut
+1017,1,408,Ploy,Ploy
+1043,1,1031,One-Eyed Go,One-Eyed Go
+587,1,1768,Fractal,Fractal
+280,1,400,Cross,Cross
+75,2,315,Shatranj Diwana Shah,Shatranj Diwana Shah
+880,2,1356,Nzengue (Small),Nzengue (Small)
+483,2,579,Brandub,Brandub
+859,2,1762,Epoxy,Epoxy
+1079,2,428,Wore,Wore
+774,2,339,Abalala'e,Abalala'e
+211,2,1669,Make Muster,Make Muster
+300,2,1200,Uril,Uril
+744,2,639,Santorini,Santorini
+20,2,1824,TacTix,TacTix
+517,2,461,Loop Chess,Loop Chess
+679,2,1620,Four-Player Chess,Four-Player Chess
+965,2,680,Line and Cross,Line and Cross
+1052,2,460,Horde Chess,Horde Chess
+249,2,1317,Greatest Loss,Greatest Loss
+928,2,1665,FairKalah,FairKalah
+832,2,284,Mangala (Turkey),Mangala (Turkey)
+5,2,1451,Cittabhramanrpasya Khelanam,Cittabhramanrpasya Khelanam
+28,2,1197,Paradis,Paradis
+931,2,175,Fevga,Fevga
+768,2,1316,Greater,Greater
+97,2,1213,Callanish,Callanish
+630,2,414,Press Ups,Press Ups
+1030,2,1463,Shataranja,Shataranja
+983,2,1534,Agilidade,Agilidade
+1033,2,44,Chess,Chess
+609,2,853,Starchess,Starchess
+876,2,614,Wagner,Wagner
+590,2,425,Foji,Foji
+969,2,1160,King's Valley,King's Valley
+509,2,286,Pic,Pic
+743,3,1452,Tai Shogi,Tai Shogi
+723,4,156,Terhuchu,Terhuchu
+634,4,1573,Kharebga (5x5),Kharebga (5x5)
+153,4,642,Aj Sayil,Aj Sayil
+265,4,1929,Co Chan Cho,Co Chan Cho
+586,4,1942,El Perro,El Perro
+47,4,1140,Pulijudamu,Pulijudamu
+288,4,1083,Hund efter Hare (Vendsyssel),Hund efter Hare (Vendsyssel)
+1031,4,384,Dra,Dra
+184,4,1050,Main Dam,Main Dam
+535,4,905,Mughal Pathan,Mughal Pathan
+531,4,789,Shah,Shah
+401,4,171,Yeung Luk Sz' Kon Tseung Kwan,Yeung Luk Sz' Kon Tseung Kwan
+860,4,721,Musinaykahwhanmetowaywin,Musinaykahwhanmetowaywin
+697,4,39,Diviyan Keliya,Diviyan Keliya
+477,4,1024,Xonin Shatar (Simple),Xonin Shatar (Simple)
+801,4,35,20 Squares,20 Squares
+745,4,403,Groups,Groups
+519,4,1270,Cage,Cage
+981,4,149,Nard,Nard
+308,4,806,Rimoe,Rimoe
+724,4,162,Pretwa,Pretwa
+123,4,756,Daldos,Daldos
+822,4,1078,Contrare Puff,Contrare Puff
