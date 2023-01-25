@@ -31,7 +31,7 @@ public class ValidateSubset {
     static ArrayList<Double> subset12 = new ArrayList<>();
 
     static String[] results = new String[]{"results/resultsAlphaBeta.txt", "results/resultsUCT.txt", "results/resultsPNMCTS.txt",
-            "results/resultsGRAVE.txt", "results/resultsPortMLTime.txt"};
+            "results/resultsGRAVE.txt", "results/resultsFinalAgent.txt"};
 
     static String[] subsets = new String[]{"subsets/Birch/subset_5_filtered.csv","subsets/Birch/subset_5.csv",
             "subsets/Birch/subset_5_filtered_PCA.csv","subsets/Birch/subset_5_PCA.csv", "subsets/K_means/subset_5.csv",
@@ -263,8 +263,7 @@ public class ValidateSubset {
 
             }
         }catch(Exception e){
-            e.printStackTrace();
-        }
+            e.printStackTrace();        }
         return totalScore/numGames;
     }
 
